@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-22 15:51:52 Vilnius",
+  "generated_at_vilnius": "2026-09-22 16:25:23 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-22",
   "brief_path": "/workspace/brief-2026-09-22",
   "edition": "Tuesday standing 2026-09-22",
@@ -548,5 +548,281 @@
     "Fed_net": "Matched Fed net still 5.7495T (Wed 09-16 H.4.1 unchanged); daily TGA 2026-09-18 $985.932B",
     "Equities": "SPX Yahoo ~7764.7; VIX ~14.82",
     "qualitative": "Large BTC rebound since Fri while matched weekly Fed net still Contracting (same Wed print). Qualitative only; no coefficients."
-  }
+  },
+  "daily_summary": {
+    "regime": "Constructive",
+    "one_line": "Cautious → Constructive — weekend squeeze + +$999M Mon ETF flipped spot demand while matched Fed net stays Contracting at $5.7495T (same Wed 09-16 print).",
+    "brief_date": "2026-09-22",
+    "session": "U.S. PRE-OPEN (Vilnius afternoon)",
+    "btc": 86039.805,
+    "eth": 2743.705,
+    "btc_since_brief_pct": 10.21,
+    "eth_since_brief_pct": 9.529,
+    "fed_net_T": 5.7495,
+    "fed_net_date": "2026-09-16",
+    "etf_btc_latest_m": 999.0,
+    "etf_btc_latest_date": "21 Sep 2026",
+    "rsdh_alloc_line": "BTC:5% SOL:95%",
+    "rsdh_macro": "BULL",
+    "rsdh_final_x": 1.39,
+    "rsdh_date": "2026-09-22"
+  },
+  "rsdh": {
+    "available": true,
+    "source": "/workspace/investorius/dashboard/rsdh_latest.json",
+    "note": null,
+    "meta": {
+      "schema": "investorius.rsdh_dashboard_snapshot.v1",
+      "updated_at_utc": "2026-09-22T13:02:22Z",
+      "source": "RSDH daily bar-close check-in",
+      "chart_url": "https://www.tradingview.com/chart/CiYlQE0T/",
+      "script": "RSDH v11.5",
+      "performance_window_start": "2026-08-01"
+    },
+    "current": {
+      "date": "2026-09-22",
+      "bar_time": "2026-09-22T00:00:00Z",
+      "run_time_utc": "2026-09-22T00:38:00Z",
+      "btc_price": 86596.12,
+      "macro": "BULL",
+      "macro_score": 361,
+      "fast_score": 99,
+      "sma_position": "up",
+      "crypto_cash_split": {
+        "crypto": 100,
+        "cash": 0
+      },
+      "satellite_asset": "SOLUSD",
+      "satellite_weight_pct": 95.0,
+      "satellite_peak_overlay": {
+        "base_pct": 150,
+        "peak_pct": 95,
+        "state": "peak_active",
+        "label": "PEAK 95% hold≥50",
+        "hold_floor_pct": 50
+      },
+      "btc_core_weight_pct": 5.0,
+      "top5": [
+        "BTC",
+        "ETH",
+        "BNB",
+        "XRP",
+        "SOL"
+      ],
+      "core_rows": {
+        "BTCUSD": {
+          "role": "BTC anchor",
+          "own": 361,
+          "vs_btc": 0,
+          "wt": 5,
+          "contrib_pp": 4.7
+        },
+        "ETHUSD": {
+          "role": "watch",
+          "own": 311,
+          "vs_btc": 257,
+          "wt": 0,
+          "contrib_pp": 0
+        },
+        "BNBUSD": {
+          "role": "watch",
+          "own": 215,
+          "vs_btc": -39,
+          "wt": 0,
+          "contrib_pp": 0
+        },
+        "XRPUSD": {
+          "role": "watch",
+          "own": 299,
+          "vs_btc": 163,
+          "wt": 0,
+          "contrib_pp": 0
+        },
+        "SOLUSD": {
+          "role": "satellite PEAK",
+          "own": 351,
+          "vs_btc": 359,
+          "wt": 95,
+          "contrib_pp": 30.1
+        }
+      },
+      "wildcard_asset": null,
+      "wildcard_cap_pct": null,
+      "wildcard_decision": null,
+      "wildcard_confirm": null,
+      "strat_final_x": 1.39,
+      "btc_final_x": 1.36,
+      "performance": {
+        "cagr_strat": 1002.7,
+        "cagr_btc": 862.1,
+        "max_dd_strat": 10.5,
+        "max_dd_btc": 6.9,
+        "sharpe_strat": 4.88,
+        "sharpe_btc": 5.25,
+        "sortino_strat": 10.39,
+        "sortino_btc": 13.75,
+        "calmar_strat": 95.27,
+        "calmar_btc": 124.91,
+        "omega_strat": 2.22,
+        "omega_btc": 2.47,
+        "net_x": 1.38,
+        "drag_pct": 0.3,
+        "turnover": 1.6,
+        "fees_pct": -0.3,
+        "mean_exposure_pct": 86,
+        "two_asset_pct": 97,
+        "rotations": 1,
+        "rebalances": 12,
+        "source_final_x": "RSDH table with Start date verified 2026-08-01"
+      },
+      "in_market_pct": 70.0,
+      "display_allocation": {
+        "BTCUSD": 5.0,
+        "ETHUSD": 0.0,
+        "BNBUSD": 0.0,
+        "XRPUSD": 0.0,
+        "SOLUSD": 95.0,
+        "CASH": 0.0
+      },
+      "display_allocation_sum": 100.0,
+      "mechanics": {
+        "loop_span": 361,
+        "n_slow": 1.0,
+        "expected_crypto_tier_pct": 100,
+        "threshold_100_approx": 239,
+        "points_to_100_tier": 0,
+        "core_sleeve_sum": 100,
+        "start_date_verified": "2026-08-01",
+        "prior_day": "2026-09-21",
+        "btc_pct_change_vs_prior_log": 5.98,
+        "flags": [
+          "btc_big_up_day_81710_to_86596_pct_plus_5.98",
+          "slow_319_to_361_at_loop_ceiling",
+          "fast_79_to_99",
+          "crypto_cash_flat_100_0",
+          "allocation_flat_SOL95_BTC5_CASH0",
+          "peak_still_PEAK_95_hold_ge50",
+          "top5_unchanged_BTC_ETH_BNB_XRP_SOL",
+          "soft_peak_correct_peak_on_Slow_in_100_tier",
+          "no_wildcard_on_chart",
+          "final_x_1.30_to_1.39_btc_1.28_to_1.36",
+          "maxdd_flat_10.5",
+          "rotations_1_rebalances_12_unchanged",
+          "cagr_jump_600.2_to_1002.7_btc_521.1_to_862.1_short_window_plus_rally",
+          "in_market_69_to_70_do_not_day_diff_as_signal"
+        ],
+        "inputs": {
+          "leaderConfirm": 2,
+          "minBtcAnchor": 10,
+          "weekly_increase_gate": false,
+          "build": "v11.5",
+          "peak_turbo": true,
+          "peak_weight": 95,
+          "peak_confirm": 2,
+          "peak_exit": 50
+        }
+      },
+      "notes": "Post bar-close. BTC 81709.61→86596.12 (+5.98%). RSDH v11.5 Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 319→361 at loop ceiling; Fast 79→99; crypto/cash 100/0. Display SOL 95 / BTC 5 / CASH 0; SOL satellite PEAK 95% hold≥50 (unchanged). Soft-peak OK. No Wildcard. Deploy-window Final× 1.39/1.36 Start 2026-08-01 verified; CAGR 1002.7/862.1 MaxDD 10.5/6.9 Sharpe 4.88/5.25 Sortino 10.39/13.75 Calmar 95.27/124.91 rotations 1 rebalances 12 turnover 1.6× Net× 1.38 drag 0.3%."
+    },
+    "prior_date": "2026-09-21"
+  },
+  "key_changes_brief": [
+    {
+      "label": "BTC since prior brief",
+      "detail": "78069 → 86039.805 (+10.21%)",
+      "kind": "up"
+    },
+    {
+      "label": "ETH since prior brief",
+      "detail": "2505 → 2743.705 (+9.53%)",
+      "kind": "up"
+    },
+    {
+      "label": "Regime",
+      "detail": "Cautious → Constructive",
+      "kind": "up"
+    },
+    {
+      "label": "Fed net vs prior brief",
+      "detail": "5.7495T → 5.7495T (Δ 0.0T) · Matched weekly Fed net unchanged (same Wed 09-16 H.4.1); daily TGA moved",
+      "kind": "neutral"
+    },
+    {
+      "label": "Daily TGA",
+      "detail": "991.708B (2026-09-16) → 985.932B (2026-09-18) (Δ -5.776B)",
+      "kind": "up"
+    },
+    {
+      "label": "Stablecoins",
+      "detail": "309.38B → 311.79B (Δ +2.41B)",
+      "kind": "up"
+    },
+    {
+      "label": "BTC ETF latest",
+      "detail": "+999.0M · 21 Sep 2026 · since-after +999.0M",
+      "kind": "up"
+    },
+    {
+      "label": "7D probs vs prior brief",
+      "detail": "Bull 20→35 · Bear 40→25",
+      "kind": "neutral"
+    }
+  ],
+  "key_changes_rsdh": [
+    {
+      "label": "BTC (RSDH)",
+      "detail": "81,709.61 → 86,596.12 (+5.98%)",
+      "kind": "up"
+    },
+    {
+      "label": "Slow score",
+      "detail": "319 → 361",
+      "kind": "up"
+    },
+    {
+      "label": "Fast score",
+      "detail": "79 → 99",
+      "kind": "up"
+    },
+    {
+      "label": "Allocation",
+      "detail": "Unchanged · BTC:5% SOL:95%",
+      "kind": "neutral"
+    },
+    {
+      "label": "Strat Final×",
+      "detail": "1.3 → 1.39",
+      "kind": "up"
+    },
+    {
+      "label": "BTC Final×",
+      "detail": "1.28 → 1.36",
+      "kind": "up"
+    },
+    {
+      "label": "CAGR strat",
+      "detail": "600.2 → 1002.7",
+      "kind": "up"
+    },
+    {
+      "label": "Sharpe strat",
+      "detail": "4.17 → 4.88",
+      "kind": "up"
+    },
+    {
+      "label": "Net×",
+      "detail": "1.29 → 1.38",
+      "kind": "up"
+    },
+    {
+      "label": "Peak overlay",
+      "detail": "PEAK 95% hold≥50",
+      "kind": "neutral"
+    },
+    {
+      "label": "Mechanics flags",
+      "detail": "btc_big_up_day_81710_to_86596_pct_plus_5.98; slow_319_to_361_at_loop_ceiling; fast_79_to_99; crypto_cash_flat_100_0; allocation_flat_SOL95_BTC5_CASH0; peak_still_PEAK_95_hold_ge50; top5_unchanged_BTC_ETH_BNB_XRP_SOL; soft_peak_correct_peak_on_Slow_in_100_tier",
+      "kind": "neutral"
+    }
+  ]
 }
