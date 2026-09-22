@@ -1,0 +1,63 @@
+{
+  "schema": "market_watcher.story_confluence.v1",
+  "as_of_brief": "2026-09-22",
+  "built_at_vilnius": "2026-09-22 18:54:46 Vilnius (UTC+3)",
+  "main_story": "Aligned risk-on tape: Constructive regime, Trending up structure, Leveraged Rally futures, and RSDH BULL — large BTC ETF inflow (+999M) — with structural caveats still open.",
+  "aligned": [
+    {
+      "label": "Regime Constructive",
+      "tone": "pos"
+    },
+    {
+      "label": "Structure Trending up",
+      "tone": "pos"
+    },
+    {
+      "label": "Leveraged Rally · OI +4.7% · px +12.1%",
+      "tone": "gold"
+    },
+    {
+      "label": "RSDH BULL · SOL95/BTC5 · Final× 1.39 vs BTC 1.36",
+      "tone": "lavender"
+    },
+    {
+      "label": "BTC ETF +999M · BH breadth 7/17 bullish · 30d momentum rising",
+      "tone": "pos"
+    }
+  ],
+  "diverging": [
+    {
+      "id": "liquidity_contracting",
+      "label": "Liquidity still Contracting",
+      "detail": "Fed net $5.7495T, Wed 09-16 while spot/structure are risk-on"
+    },
+    {
+      "id": "bh_cycle_lag",
+      "label": "BH Cycle still Bearish (32)",
+      "detail": "Cycle lag · valuation still bearish while breadth 7/17 bullish + price trending up"
+    },
+    {
+      "id": "rsdh_sol_vs_btc_tape",
+      "label": "RSDH satellite SOL 95%",
+      "detail": "Display weights SOL-heavy while spot/ETF narrative is BTC-led"
+    }
+  ],
+  "inputs": {
+    "regime": "Constructive",
+    "structure": "Trending up",
+    "futures_quadrant": "Leveraged Rally",
+    "oi_chg_7d_pct": 4.697,
+    "price_chg_7d_pct": 12.08,
+    "liquidity": "Contracting",
+    "fed_net_T": 5.7495,
+    "fed_net_date": "2026-09-16",
+    "bh_cycle": 32,
+    "bh_phase": "Bearish",
+    "bh_breadth": "7/17 bullish",
+    "rsdh_macro": "BULL",
+    "rsdh_alloc": "SOL:95.0% BTC:5.0%",
+    "rsdh_final_x": 1.39,
+    "btc_final_x": 1.36,
+    "etf_btc_latest_m": 999.0
+  }
+}
