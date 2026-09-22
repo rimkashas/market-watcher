@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-22 16:25:23 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-09-22 18:03:46 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-22",
   "brief_path": "/workspace/brief-2026-09-22",
   "edition": "Tuesday standing 2026-09-22",
@@ -744,7 +744,7 @@
     },
     {
       "label": "Fed net vs prior brief",
-      "detail": "5.7495T → 5.7495T (Δ 0.0T) · Matched weekly Fed net unchanged (same Wed 09-16 H.4.1); daily TGA moved",
+      "detail": "5.7495T → 5.7495T (Δ 0.0T)",
       "kind": "neutral"
     },
     {
@@ -800,29 +800,18 @@
       "kind": "up"
     },
     {
-      "label": "CAGR strat",
-      "detail": "600.2 → 1002.7",
-      "kind": "up"
-    },
-    {
       "label": "Sharpe strat",
       "detail": "4.17 → 4.88",
       "kind": "up"
-    },
-    {
-      "label": "Net×",
-      "detail": "1.29 → 1.38",
-      "kind": "up"
-    },
-    {
-      "label": "Peak overlay",
-      "detail": "PEAK 95% hold≥50",
-      "kind": "neutral"
-    },
-    {
-      "label": "Mechanics flags",
-      "detail": "btc_big_up_day_81710_to_86596_pct_plus_5.98; slow_319_to_361_at_loop_ceiling; fast_79_to_99; crypto_cash_flat_100_0; allocation_flat_SOL95_BTC5_CASH0; peak_still_PEAK_95_hold_ge50; top5_unchanged_BTC_ETH_BNB_XRP_SOL; soft_peak_correct_peak_on_Slow_in_100_tier",
-      "kind": "neutral"
     }
-  ]
+  ],
+  "equity_curve": {
+    "start": "2026-08-01",
+    "n_points": 16,
+    "first_point": "2026-09-07",
+    "last_point": "2026-09-22",
+    "label": "Start 2026-08-01 · series from first logged day",
+    "source": "/workspace/investorius/dashboard/rsdh_equity_curve.json",
+    "schema": "investorius.rsdh_equity_curve.v1"
+  }
 }
