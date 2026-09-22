@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-22 18:19:01 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-09-22 18:31:40 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-22",
   "brief_path": "/workspace/brief-2026-09-22",
   "edition": "Tuesday standing 2026-09-22",
@@ -431,25 +431,67 @@
       "Valuation Models": {
         "score": 30,
         "phase": "Bearish",
-        "streak_days": 4
+        "streak_days": 4,
+        "page_date": "2026-09-21",
+        "members": 5
       },
       "MVRV Family": {
         "score": 31,
         "phase": "Bearish",
-        "streak_days": 6
+        "streak_days": 6,
+        "page_date": "2026-09-21",
+        "members": 4
       },
       "Holder Behavior": {
         "score": 50,
         "phase": "Bullish",
-        "streak_days": 1
+        "streak_days": 1,
+        "page_date": "2026-09-21",
+        "members": 5
       },
       "Profit & Loss": {
         "score": 42,
         "phase": "Bearish",
-        "streak_days": 34
+        "streak_days": 34,
+        "page_date": "2026-09-21",
+        "members": 5
       }
     },
-    "summary_excerpt": "# BlockHorizon deep extract — Tue 2026-09-22\n\n**Freshness:** **Delayed / latest available**. Signal Explorer/category pages show **Sep 21, 2026**; chart panels show **Updated Sep 21, 2026**. Reads were made on Sep 22. The site header showed **Log in**, but public dashboard/signals/chart data loaded; Alerts remained gated."
+    "source_path": "/workspace/brief-2026-09-22/blockhorizon/kpis.json",
+    "edition": "Tuesday 2026-09-22",
+    "source": "https://charts.blockhorizon.io",
+    "nupl": 0.3837,
+    "mvrv_z": 1.114,
+    "realized_price_usd": 53359,
+    "wma200_usd": 65847,
+    "pi_111_usd": 67942,
+    "pi_350x2_usd": 157959,
+    "category_pills": {
+      "Valuation": {
+        "score": 30,
+        "phase": "Bearish",
+        "streak_days": 4,
+        "full": "Valuation Models"
+      },
+      "MVRV": {
+        "score": 31,
+        "phase": "Bearish",
+        "streak_days": 6,
+        "full": "MVRV Family"
+      },
+      "Holder": {
+        "score": 50,
+        "phase": "Bullish",
+        "streak_days": 1,
+        "full": "Holder Behavior"
+      },
+      "P&L": {
+        "score": 42,
+        "phase": "Bearish",
+        "streak_days": 34,
+        "full": "Profit & Loss"
+      }
+    }
   },
   "hard_gaps": [
     "CoinGecko markets/global: HTTP 429 — used Coinbase/OKX/Kraken/Yahoo + CoinMarketCap global",
@@ -813,5 +855,40 @@
     "label": "Start 2026-08-01 · series from first logged day",
     "source": "/workspace/investorius/dashboard/rsdh_equity_curve.json",
     "schema": "investorius.rsdh_equity_curve.v1"
+  },
+  "crypto_news": {
+    "updated_at": "2026-09-22 18:30:28 Vilnius (UTC+3)",
+    "stories": [
+      {
+        "headline": "Bitcoin recovers near $86,000 as falling oil supports risk appetite",
+        "blurb": "WTI slipped below $90 on Hormuz de-escalation talk; Monday’s ~$1B spot ETF haul still frames demand.",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite"
+      },
+      {
+        "headline": "US spot Bitcoin ETFs draw ~$999M as BTC briefly tops $87K",
+        "blurb": "Largest daily BTC ETF inflow of 2026; IBIT led, while Ether ETFs added ~$270M the same session.",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025"
+      },
+      {
+        "headline": "Binance buys $100M Circle stake in five-year USDC promotion deal",
+        "blurb": "Private placement closed Sept 17; Circle will pay monthly incentives tied to USDC held via its wallet infra.",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal"
+      },
+      {
+        "headline": "Bitcoin clears its 50-week average for the first time in 45 weeks",
+        "blurb": "Galaxy flagged the weekly reclaim as a historic signal that the bear phase may have ended if price holds.",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs"
+      },
+      {
+        "headline": "ZetaChain votes to shut its L1 and migrate ZETA to Solana",
+        "blurb": "Proposal 68 passed ~99.4%; a second vote is still required before migration and L1 wind-down.",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/this-blockchain-just-voted-to-shut-itself-down-for-a-solana-powered-ai-pivot/"
+      }
+    ]
   }
 }
