@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-22 18:31:40 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-09-22 18:43:30 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-22",
   "brief_path": "/workspace/brief-2026-09-22",
   "edition": "Tuesday standing 2026-09-22",
@@ -491,7 +491,11 @@
         "streak_days": 34,
         "full": "Profit & Loss"
       }
-    }
+    },
+    "sth_zone_usd": "$62,000–$65,000",
+    "lth_zone_usd": "$84,000–$87,000",
+    "sth_supply_btc": 3595119,
+    "lth_supply_btc": 16492556
   },
   "hard_gaps": [
     "CoinGecko markets/global: HTTP 429 — used Coinbase/OKX/Kraken/Yahoo + CoinMarketCap global",
@@ -890,5 +894,170 @@
         "url": "https://cryptoslate.com/this-blockchain-just-voted-to-shut-itself-down-for-a-solana-powered-ai-pivot/"
       }
     ]
+  },
+  "checkonchain": {
+    "scatter": {
+      "schema": "market_watcher.futures_oi_scatter.v1",
+      "fetched_at_vilnius": "2026-09-22 18:43:31 Vilnius (UTC+3)",
+      "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
+      "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
+      "trace": "Today",
+      "oi_chg_7d_frac": 0.04697045623362763,
+      "price_chg_7d_frac": 0.12080000000000003,
+      "oi_chg_7d_pct": 4.697,
+      "price_chg_7d_pct": 12.08,
+      "quadrant": "Leveraged Rally",
+      "quadrants": [
+        "Spot Rally",
+        "Leveraged Rally",
+        "Deleveraging Sell-Off",
+        "Leveraged Sell-Off"
+      ],
+      "note": "x=7d OI change (fraction), y=7d price change (fraction)."
+    },
+    "funding": {
+      "schema": "market_watcher.checkonchain.funding.v1",
+      "fetched_at_vilnius": "2026-09-22 18:43:31 Vilnius (UTC+3)",
+      "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
+      "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
+      "as_of": "2026-09-22",
+      "series": {
+        "Funding Rate (+ve)": {
+          "last": 0.08431768986560381,
+          "n": 2367,
+          "as_of": "2026-09-22"
+        },
+        "Funding Rate (-ve)": {
+          "last": 0.0,
+          "n": 2367,
+          "as_of": "2026-09-22"
+        },
+        "Adj-FR (+ve)": {
+          "last": 0.021448887068315214,
+          "n": 2367,
+          "as_of": "2026-09-22"
+        },
+        "Adj-FR (-ve)": {
+          "last": 0.0,
+          "n": 2367,
+          "as_of": "2026-09-22"
+        }
+      },
+      "available": true,
+      "funding_ann_pct": 8.4318,
+      "funding_side": "positive",
+      "adj_funding_ann_pct": 2.1449
+    },
+    "futures_oi": {
+      "schema": "market_watcher.checkonchain.futures_oi.v1",
+      "fetched_at_vilnius": "2026-09-22 18:43:32 Vilnius (UTC+3)",
+      "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
+      "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
+      "as_of": "2026-09-22",
+      "series": {
+        "Aggregate Total": {
+          "last": 61720349402.308975,
+          "n": 2393,
+          "as_of": "2026-09-22"
+        },
+        "Binance": {
+          "last": 12575982505.00449,
+          "n": 2393,
+          "as_of": "2026-09-22"
+        },
+        "CME": {
+          "last": 10116302580.03,
+          "n": 2393,
+          "as_of": "2026-09-22"
+        },
+        "Bybit": {
+          "last": 5848723566.64,
+          "n": 2393,
+          "as_of": "2026-09-22"
+        },
+        "Price": {
+          "last": 86000.0,
+          "n": 2393,
+          "as_of": "2026-09-22"
+        }
+      },
+      "available": true,
+      "aggregate_oi_usd": 61720349402.308975,
+      "aggregate_oi_b": 61.72
+    },
+    "mvrv": {
+      "schema": "market_watcher.checkonchain.mvrv.v1",
+      "fetched_at_vilnius": "2026-09-22 18:43:32 Vilnius (UTC+3)",
+      "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
+      "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
+      "as_of": "2026-09-22",
+      "series": {
+        "MVRV": {
+          "last": 1.6122,
+          "n": 6474,
+          "as_of": "2026-09-22"
+        },
+        "Realised Price": {
+          "last": 53376.09,
+          "n": 6474,
+          "as_of": "2026-09-22"
+        },
+        "Price": {
+          "last": 86055.21,
+          "n": 6474,
+          "as_of": "2026-09-22"
+        }
+      },
+      "available": true,
+      "mvrv": 1.6122,
+      "realized_price_usd": 53376.09
+    },
+    "sopr": {
+      "schema": "market_watcher.checkonchain.sopr.v1",
+      "fetched_at_vilnius": "2026-09-22 18:43:32 Vilnius (UTC+3)",
+      "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
+      "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
+      "as_of": "2026-09-22",
+      "series": {
+        "Spent Output Profit Ratio (SOPR)": {
+          "last": 1.0445531079902577,
+          "n": 5562,
+          "as_of": "2026-09-22"
+        },
+        "SOPR 7D-EMA": {
+          "last": 1.0151371783092553,
+          "n": 5562,
+          "as_of": "2026-09-22"
+        },
+        "Price": {
+          "last": 86055.21,
+          "n": 5562,
+          "as_of": "2026-09-22"
+        }
+      },
+      "available": true,
+      "sopr": 1.044553,
+      "sopr_7d_ema": 1.015137
+    }
+  },
+  "market_structure": {
+    "schema": "market_watcher.market_structure.v1",
+    "label": "Trending up",
+    "why": "BTC 5d +12.5% & 7d +13.7% same-sign and |7d|≳5%; 1m +10.6%; ETH 7d +14.3%; breadth 7/17 bullish.",
+    "inputs": {
+      "BTC_5d_pct": 12.536,
+      "BTC_7d_pct": 13.713,
+      "BTC_1m_pct": 10.58,
+      "ETH_7d_pct": 14.272,
+      "breadth": "7/17 bullish"
+    },
+    "labels": [
+      "Trending up",
+      "Trending down",
+      "Mean reverting",
+      "Neutral"
+    ],
+    "as_of_brief": "2026-09-22",
+    "built_at_vilnius": "2026-09-22 18:43:32 Vilnius (UTC+3)"
   }
 }
