@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-22 19:03:08 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-09-22 19:03:44 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-22",
   "brief_path": "/workspace/brief-2026-09-22",
   "edition": "Tuesday standing 2026-09-22",
@@ -84,12 +84,22 @@
     "7d": {
       "Base": 40,
       "Bull": 35,
-      "Bear": 25
+      "Bear": 25,
+      "btc_targets": {
+        "Base": "$82–88k",
+        "Bull": ">$85k",
+        "Bear": "fail $82k"
+      }
     },
     "1m": {
       "Base": 40,
       "Bull": 30,
-      "Bear": 30
+      "Bear": 30,
+      "btc_targets": {
+        "Base": "$78–92k",
+        "Bull": ">$92k",
+        "Bear": "high-$70ks"
+      }
     }
   },
   "bottom_line": [
@@ -898,7 +908,7 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-09-22 19:03:08 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-22 19:03:44 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
@@ -917,7 +927,7 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-09-22 19:03:09 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-22 19:03:44 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "as_of": "2026-09-22",
@@ -950,7 +960,7 @@
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-09-22 19:03:09 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "as_of": "2026-09-22",
@@ -987,7 +997,7 @@
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-09-22 19:03:09 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "as_of": "2026-09-22",
@@ -1014,7 +1024,7 @@
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-09-22 19:03:10 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "as_of": "2026-09-22",
@@ -1058,12 +1068,12 @@
       "Neutral"
     ],
     "as_of_brief": "2026-09-22",
-    "built_at_vilnius": "2026-09-22 19:03:10 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v1",
     "as_of_brief": "2026-09-22",
-    "built_at_vilnius": "2026-09-22 19:03:10 Vilnius (UTC+3)",
+    "built_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)",
     "main_story": "Aligned risk-on tape: Constructive regime, Trending up structure, Leveraged Rally futures, and RSDH BULL — large BTC ETF inflow (+999M) — with structural caveats still open.",
     "aligned": [
       {
