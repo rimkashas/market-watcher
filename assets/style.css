@@ -787,3 +787,27 @@ footer.foot code{color:var(--muted);font-family:var(--mono);font-size:.72rem}
 @media (max-width:640px){
   .cf-chip{border-radius:12px;max-width:100%}
 }
+
+
+.prob-card .bar-row {
+  display: grid;
+  grid-template-columns: 48px minmax(78px, 0.85fr) 1fr 42px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 0.82rem;
+}
+.prob-card .scen { font-weight: 600; color: var(--muted, #8fa3b8); }
+.prob-card .btc-tgt {
+  font-family: var(--mono, ui-monospace, monospace);
+  font-weight: 650;
+  color: var(--text, #e7eef7);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.prob-card .btc-tgt.na { color: var(--dim, #6b7f94); font-weight: 500; }
+.prob-card .pct {
+  font-family: var(--mono, ui-monospace, monospace);
+  text-align: right;
+  color: var(--muted, #8fa3b8);
+}
