@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-09-22 18:30:28 Vilnius (UTC+3)",
+  "updated_at": "2026-09-23 04:31:08 Vilnius (UTC+3)",
   "stories": [
     {
-      "headline": "Bitcoin recovers near $86,000 as falling oil supports risk appetite",
-      "blurb": "WTI slipped below $90 on Hormuz de-escalation talk; Monday’s ~$1B spot ETF haul still frames demand.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite"
+      "headline": "U.S. spot Bitcoin ETFs take ~$999M as BTC holds above $86K",
+      "blurb": "Monday\u2019s haul was the strongest 2026 session; IBIT/ARKB/FBTC led, and Farside also shows +$364M on 22 Sep after the spike.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378921/bitcoin-etfs-take-nearly-1b-in-a-day-as-average-holder-returns-to-profit"
     },
     {
-      "headline": "US spot Bitcoin ETFs draw ~$999M as BTC briefly tops $87K",
-      "blurb": "Largest daily BTC ETF inflow of 2026; IBIT led, while Ether ETFs added ~$270M the same session.",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025"
+      "headline": "Short squeeze liquidates ~$650M as crypto open interest still rises",
+      "blurb": "CoinGlass-linked reports put ~$648M of shorts in a ~$747M liquidation burst while aggregate OI rose ~7.6%, leaving leverage rebuilt long.",
+      "source": "ForexLive / CoinGlass",
+      "url": "https://www.swingfish.trade/blog/market-news/crypto-open-interest-jumped-as-650m-of-shorts-were-squeezed-where-the-data-comes-from-438599/"
     },
     {
-      "headline": "Binance buys $100M Circle stake in five-year USDC promotion deal",
-      "blurb": "Private placement closed Sept 17; Circle will pay monthly incentives tied to USDC held via its wallet infra.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal"
+      "headline": "BitMEX set to shut permanently on 23 Sep 2026",
+      "blurb": "Exchange winds down after 11 years and heavy U.S. penalties; remaining positions face force-close around the 04:00 UTC deadline.",
+      "source": "XBTFX / BitMEX",
+      "url": "https://xbtfx.com/blog/clarity-act-hits-its-deadline-week/"
     },
     {
-      "headline": "Bitcoin clears its 50-week average for the first time in 45 weeks",
-      "blurb": "Galaxy flagged the weekly reclaim as a historic signal that the bear phase may have ended if price holds.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs"
+      "headline": "Solana spot ETFs extend a 12-week inflow streak (~$1.4B cumulative)",
+      "blurb": "Week ending Sep 18 added ~$60.7M; SOL products kept drawing while BTC ETFs had just posted their quietest week earlier in September.",
+      "source": "Solana Compass",
+      "url": "https://solanacompass.com/news/us-spot-solana-etfs-log-12-consecutive-weeks-of-net-inflows-accumulating-14b"
     },
     {
-      "headline": "ZetaChain votes to shut its L1 and migrate ZETA to Solana",
-      "blurb": "Proposal 68 passed ~99.4%; a second vote is still required before migration and L1 wind-down.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/this-blockchain-just-voted-to-shut-itself-down-for-a-solana-powered-ai-pivot/"
+      "headline": "Ether and Solana ETFs also join the Monday flow surge",
+      "blurb": "Alongside BTC\u2019s ~$999M, spot Ether ETFs added ~$270M and Solana products ~$26M on Sep 21 per flow trackers.",
+      "source": "CryptoTimes",
+      "url": "https://www.cryptotimes.io/2026/09/22/bitcoin-etfs-draw-nearly-1-billion-as-rally-pushes-btc-above-86k/"
     }
   ]
 }

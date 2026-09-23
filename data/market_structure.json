@@ -1,12 +1,12 @@
 {
   "schema": "market_watcher.market_structure.v1",
   "label": "Trending up",
-  "why": "BTC 5d +12.5% & 7d +13.7% same-sign and |7d|≳5%; 1m +10.6%; ETH 7d +14.3%; breadth 7/17 bullish.",
+  "why": "BTC 5d +7.1% & 7d +13.8% same-sign and |7d|≳5%; 1m +9.7%; ETH 7d +14.5%; breadth 7/17 bullish.",
   "inputs": {
-    "BTC_5d_pct": 12.536,
-    "BTC_7d_pct": 13.713,
-    "BTC_1m_pct": 10.58,
-    "ETH_7d_pct": 14.272,
+    "BTC_5d_pct": 7.087,
+    "BTC_7d_pct": 13.769,
+    "BTC_1m_pct": 9.714,
+    "ETH_7d_pct": 14.499,
     "breadth": "7/17 bullish"
   },
   "labels": [
@@ -15,6 +15,6 @@
     "Mean reverting",
     "Neutral"
   ],
-  "as_of_brief": "2026-09-22",
-  "built_at_vilnius": "2026-09-22 19:03:45 Vilnius (UTC+3)"
+  "as_of_brief": "2026-09-23",
+  "built_at_vilnius": "2026-09-23 04:32:07 Vilnius (UTC+3)"
 }
