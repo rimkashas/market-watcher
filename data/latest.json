@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-09-23 07:41:51 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-09-23 07:46:49 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-09-23",
   "brief_path": "/workspace/brief-2026-09-23",
   "edition": "Daily refresh 2026-09-23",
@@ -1031,7 +1031,7 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-09-23 07:41:52 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-23 07:46:50 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
@@ -1050,7 +1050,7 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-09-23 07:41:52 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-23 07:46:50 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "as_of": "2026-09-23",
@@ -1082,7 +1082,7 @@
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-09-23 07:41:52 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-23 07:46:50 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "as_of": "2026-09-23",
@@ -1119,7 +1119,7 @@
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-09-23 07:41:52 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-23 07:46:50 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "as_of": "2026-09-22",
@@ -1146,7 +1146,7 @@
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-09-23 07:41:53 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-09-23 07:46:51 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "as_of": "2026-09-22",
@@ -1190,12 +1190,12 @@
       "Neutral"
     ],
     "as_of_brief": "2026-09-23",
-    "built_at_vilnius": "2026-09-23 07:41:53 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-09-23 07:46:51 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v1",
     "as_of_brief": "2026-09-23",
-    "built_at_vilnius": "2026-09-23 07:41:53 Vilnius (UTC+3)",
+    "built_at_vilnius": "2026-09-23 07:46:51 Vilnius (UTC+3)",
     "main_story": "Risk-on tape aligned — Constructive, with caveats still open.",
     "aligned": [
       {
