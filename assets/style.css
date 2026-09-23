@@ -117,8 +117,8 @@ header.top{
 }
 .hero-regime{margin-left:auto}
 .headline{
-  font-size:1.28rem;font-weight:560;margin:0 0 20px;line-height:1.4;
-  letter-spacing:-0.015em;color:var(--text);max-width:58em;
+  font-size:1.35rem;font-weight:600;margin:0 0 18px;line-height:1.35;
+  letter-spacing:-0.02em;color:var(--text);max-width:36em;
 }
 .hero-metrics{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:10px;
@@ -493,6 +493,7 @@ footer.foot code{color:var(--muted);font-family:var(--mono);font-size:.72rem}
 .news-head a:hover{color:var(--accent)}
 .news-blurb{
   margin-top:5px;color:var(--muted);font-size:.82rem;line-height:1.45;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
 }
 .news-src{
   margin-top:6px;font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;
@@ -706,17 +707,7 @@ footer.foot code{color:var(--muted);font-family:var(--mono);font-size:.72rem}
 }
 
 
-.oc-comment {
-  margin: 0 0 14px;
-  padding: 12px 14px;
-  border-radius: 10px;
-  border: 1px solid rgba(167, 139, 250, 0.28);
-  background: linear-gradient(135deg, rgba(167, 139, 250, 0.10), rgba(45, 212, 191, 0.06));
-  color: var(--text, #e7eef7);
-  font-size: 0.92rem;
-  line-height: 1.45;
-  font-weight: 450;
-}
+.oc-comment { display:none; }
 
 /* ── Story confluence band ── */
 .story-confluence{
@@ -810,4 +801,85 @@ footer.foot code{color:var(--muted);font-family:var(--mono);font-size:.72rem}
   font-family: var(--mono, ui-monospace, monospace);
   text-align: right;
   color: var(--muted, #8fa3b8);
+}
+
+
+/* ── Scannable meta / read chips (dashboard densification) ── */
+.meta-row{
+  display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;
+}
+.meta-chip{
+  display:inline-flex;flex-direction:column;gap:2px;
+  padding:7px 11px;border-radius:10px;
+  background:rgba(0,0,0,0.28);border:1px solid var(--border);
+  min-width:72px;
+}
+.meta-chip em{
+  font-style:normal;font-size:.62rem;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--dim);
+}
+.meta-chip strong{
+  font-family:var(--mono);font-size:.82rem;font-weight:650;
+  color:var(--text-soft);font-variant-numeric:tabular-nums;
+}
+.meta-chip.link{
+  justify-content:center;align-items:center;
+  color:var(--accent);text-decoration:none;font-size:.75rem;font-weight:600;
+}
+.meta-chip.link:hover{border-color:var(--accent);color:var(--text)}
+
+.oc-read-row{
+  display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;
+}
+.oc-read-chip{
+  display:inline-flex;flex-direction:column;gap:2px;
+  padding:8px 12px;border-radius:12px;
+  border:1px solid var(--border-lume);background:rgba(0,0,0,0.28);
+  font-size:.78rem;line-height:1.25;
+}
+.oc-read-label{font-weight:600;color:var(--text-soft)}
+.oc-read-detail{
+  font-size:.68rem;font-weight:450;color:var(--muted);
+  font-family:var(--mono);
+}
+.oc-read-chip.constructive,.oc-read-chip.pos{
+  background:var(--pos-dim);border-color:var(--pos-border);
+}
+.oc-read-chip.constructive .oc-read-label,.oc-read-chip.pos .oc-read-label{color:var(--pos)}
+.oc-read-chip.risk-off,.oc-read-chip.neg{
+  background:var(--neg-dim);border-color:var(--neg-border);
+}
+.oc-read-chip.risk-off .oc-read-label,.oc-read-chip.neg .oc-read-label{color:var(--neg)}
+.oc-read-chip.cautious,.oc-read-chip.watch{
+  background:rgba(251,191,36,0.08);border-color:rgba(251,191,36,0.35);
+}
+.oc-read-chip.cautious .oc-read-label{color:#FCD34D}
+.oc-read-chip.neutral{
+  background:rgba(255,255,255,0.03);
+}
+
+.sb-read{display:flex;flex-direction:column;gap:4px}
+.sb-badge{
+  display:inline-flex;align-self:flex-start;
+  padding:3px 9px;border-radius:999px;
+  font-size:.72rem;font-weight:650;letter-spacing:0.01em;
+  border:1px solid var(--border);background:rgba(255,255,255,0.03);color:var(--text-soft);
+}
+.sb-badge.pos{background:var(--pos-dim);border-color:var(--pos-border);color:var(--pos)}
+.sb-badge.neg{background:var(--neg-dim);border-color:var(--neg-border);color:var(--neg)}
+.sb-badge.watch{background:rgba(251,191,36,0.1);border-color:rgba(251,191,36,0.35);color:#FCD34D}
+.sb-badge.neutral{color:var(--muted)}
+.sb-sub{
+  font-size:.7rem;color:var(--dim);font-family:var(--mono);
+  font-variant-numeric:tabular-nums;
+}
+.sb-delta{font-size:.8rem;font-weight:560;color:var(--text-soft)}
+
+.cf-main{
+  margin:0 0 14px;font-size:.98rem;font-weight:540;line-height:1.4;
+  color:var(--text);letter-spacing:-0.01em;max-width:40em;
+}
+.hero-kicker,.hero-kicker{
+  font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--accent);
 }
