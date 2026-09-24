@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-09-23 04:31:08 Vilnius (UTC+3)",
+  "updated_at": "2026-09-24 04:28:13 Vilnius (UTC+3)",
   "stories": [
     {
-      "headline": "U.S. spot Bitcoin ETFs take ~$999M as BTC holds above $86K",
-      "blurb": "Monday\u2019s haul was the strongest 2026 session; IBIT/ARKB/FBTC led, and Farside also shows +$364M on 22 Sep after the spike.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/378921/bitcoin-etfs-take-nearly-1b-in-a-day-as-average-holder-returns-to-profit"
+      "headline": "U.S. spot Bitcoin ETFs log ~$999M Monday \u2014 biggest day since Oct 2025",
+      "blurb": "Farside/flow trackers put Monday near $1B; Tuesday followed with ~$715M as the week\u2019s haul topped ~$1.7B.",
+      "source": "The Coin Republic / CryptoSlate",
+      "url": "https://www.thecoinrepublic.com/2026/09/23/bitcoin-etf-inflows-hit-999m-in-biggest-day-since-october-2025/"
     },
     {
-      "headline": "Short squeeze liquidates ~$650M as crypto open interest still rises",
-      "blurb": "CoinGlass-linked reports put ~$648M of shorts in a ~$747M liquidation burst while aggregate OI rose ~7.6%, leaving leverage rebuilt long.",
-      "source": "ForexLive / CoinGlass",
-      "url": "https://www.swingfish.trade/blog/market-news/crypto-open-interest-jumped-as-650m-of-shorts-were-squeezed-where-the-data-comes-from-438599/"
+      "headline": "BTC slips back under $85k as short-term holders send ~47.6k BTC to exchanges",
+      "blurb": "CryptoSlate/CryptoQuant: profit-taking into the rebound is offsetting fresh ETF demand after the push toward $87\u201388k.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoin-etfs-just-erased-a-5-7-billion-hole-but-profit-taking-is-swallowing-the-new-demand/"
     },
     {
-      "headline": "BitMEX set to shut permanently on 23 Sep 2026",
-      "blurb": "Exchange winds down after 11 years and heavy U.S. penalties; remaining positions face force-close around the 04:00 UTC deadline.",
-      "source": "XBTFX / BitMEX",
-      "url": "https://xbtfx.com/blog/clarity-act-hits-its-deadline-week/"
+      "headline": "2026 BTC ETF YTD flows flip back to net positive after mid-year hole",
+      "blurb": "Bloomberg\u2019s Balchunas track: multi-billion recovery since mid-July erased the earlier 2026 deficit; annual tally back in the black.",
+      "source": "U.Today / Bloomberg ETF",
+      "url": "https://u.today/bitcoin-etf-inflows-suddenly-turn-positive-for-2026"
     },
     {
-      "headline": "Solana spot ETFs extend a 12-week inflow streak (~$1.4B cumulative)",
-      "blurb": "Week ending Sep 18 added ~$60.7M; SOL products kept drawing while BTC ETFs had just posted their quietest week earlier in September.",
-      "source": "Solana Compass",
-      "url": "https://solanacompass.com/news/us-spot-solana-etfs-log-12-consecutive-weeks-of-net-inflows-accumulating-14b"
+      "headline": "Farside: Wed 23 Sep BTC ETF flows cool to +$32.4M after the surge",
+      "blurb": "After Mon/Tue megadays, Wednesday\u2019s print was a small net inflow; ETH ETFs +$2.5M the same session (our Farside parse).",
+      "source": "Farside (local parse)",
+      "url": "https://farside.co.uk/btc/"
     },
     {
-      "headline": "Ether and Solana ETFs also join the Monday flow surge",
-      "blurb": "Alongside BTC\u2019s ~$999M, spot Ether ETFs added ~$270M and Solana products ~$26M on Sep 21 per flow trackers.",
-      "source": "CryptoTimes",
-      "url": "https://www.cryptotimes.io/2026/09/22/bitcoin-etfs-draw-nearly-1-billion-as-rally-pushes-btc-above-86k/"
+      "headline": "Glassnode: sell-side risk cools; ~$86k still cited as ETF cost-basis zone",
+      "blurb": "SSR reset lower in September while ~$86k remains a watched overhead supply/breakeven reference for spot ETF holders.",
+      "source": "Glassnode / AINewsCrypto",
+      "url": "https://www.ainewscrypto.com/news/glassnode-bitcoin-sell-side-risk-ratio-drops-to-7-as-august-profit-taking-fades"
     }
   ]
 }

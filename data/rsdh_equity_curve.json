@@ -1,15 +1,15 @@
 {
   "schema": "investorius.rsdh_equity_curve.v1",
   "start": "2026-08-01",
-  "updated_at_utc": "2026-09-23T00:34:05Z",
+  "updated_at_utc": "2026-09-24T00:31:37Z",
   "chart_url": "https://www.tradingview.com/chart/CiYlQE0T/",
   "script": "RSDH v11.5",
   "coverage": {
     "mode": "daily_checkin_snapshots",
-    "note": "Points are end-of-day Final\u00d7 from Investorius check-ins with Start 2026-08-01 deploy window. Not a full TradingView bar-by-bar export; denser history before first Start-verified check-in is not available from logs. Appended/updated after each daily bar-close check-in.",
+    "note": "Points are end-of-day Final× from Investorius check-ins with Start 2026-08-01 deploy window. Not a full TradingView bar-by-bar export; denser history before first Start-verified check-in is not available from logs. Appended/updated after each daily bar-close check-in.",
     "first_point": "2026-09-07",
-    "last_point": "2026-09-23",
-    "n_points": 17,
+    "last_point": "2026-09-24",
+    "n_points": 18,
     "requested_start": "2026-08-01",
     "gap_before_first_point": true
   },
@@ -98,6 +98,11 @@
       "date": "2026-09-23",
       "strat_final_x": 1.36,
       "btc_final_x": 1.37
+    },
+    {
+      "date": "2026-09-24",
+      "strat_final_x": 1.32,
+      "btc_final_x": 1.34
     }
   ]
 }
