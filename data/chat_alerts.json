@@ -1,5 +1,7 @@
 {
   "alerts": [
-    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented — chart shows logged points only."
+    "RSDH equity series starts 2026-09-07 (Aug gap not invented)",
+    "Structure Neutral (BTC 7d +4.7% <5%) vs prior Trending up",
+    "H.4.1 updated Wed 09-23: Fed net $5.7999T (+$50.5B 1w) \u2014 Liquidity Expanding"
   ]
 }

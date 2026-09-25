@@ -1,35 +1,42 @@
 {
-  "updated_at": "2026-09-24 04:28:13 Vilnius (UTC+3)",
-  "stories": [
+  "schema": "market_watcher.crypto_news.v1",
+  "as_of_brief": "2026-09-25",
+  "built_at_vilnius": "2026-09-25 04:11:45 Vilnius (UTC+3)",
+  "items": [
     {
-      "headline": "U.S. spot Bitcoin ETFs log ~$999M Monday \u2014 biggest day since Oct 2025",
-      "blurb": "Farside/flow trackers put Monday near $1B; Tuesday followed with ~$715M as the week\u2019s haul topped ~$1.7B.",
-      "source": "The Coin Republic / CryptoSlate",
-      "url": "https://www.thecoinrepublic.com/2026/09/23/bitcoin-etf-inflows-hit-999m-in-biggest-day-since-october-2025/"
+      "title": "Bitcoin steadies near $84k after bond yields hit a 2007 high",
+      "url": "https://www.coindesk.com/markets/2026/09/24/bitcoin-steadies-near-usd84-000-after-bond-yields-hit-a-2007-high",
+      "source": "CoinDesk",
+      "take": "BTC dipped toward ~$83.3k as 10Y yields spiked to 2007 highs, then found dip buyers; USD bid, equities soft.",
+      "why_matters": "Macro/liquidity: higher yields + MOVE spike tighten financial conditions even when weekly Fed net expands."
     },
     {
-      "headline": "BTC slips back under $85k as short-term holders send ~47.6k BTC to exchanges",
-      "blurb": "CryptoSlate/CryptoQuant: profit-taking into the rebound is offsetting fresh ETF demand after the push toward $87\u201388k.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitcoin-etfs-just-erased-a-5-7-billion-hole-but-profit-taking-is-swallowing-the-new-demand/"
+      "title": "Bitcoin breakout cools as Fed rate-hike bets climb",
+      "url": "https://decrypt.co/379189/bitcoins-breakout-cools-fed-rate-hike-bets-climb",
+      "source": "Decrypt",
+      "take": "BTC slipped back under $85k from ~$87.4k high; CME FedWatch ~75% October hike odds; SOL/BNB held up better.",
+      "why_matters": "Regime: hike repricing can cut risk appetite and leverage even while RSDH stays BULL/SOL-heavy."
     },
     {
-      "headline": "2026 BTC ETF YTD flows flip back to net positive after mid-year hole",
-      "blurb": "Bloomberg\u2019s Balchunas track: multi-billion recovery since mid-July erased the earlier 2026 deficit; annual tally back in the black.",
-      "source": "U.Today / Bloomberg ETF",
-      "url": "https://u.today/bitcoin-etf-inflows-suddenly-turn-positive-for-2026"
+      "title": "Bitcoin's ~$16B quarterly options settlement arrives with a call-heavy book",
+      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
+      "source": "CoinDesk",
+      "take": "Deribit Friday Sep 25 expiry ~$15.9B BTC + $2.1B ETH options; call-heavy (P/C 0.69); dealer gamma hedging may fade post-settle.",
+      "why_matters": "Positioning/vol: large expiry can reset short-term ranges and unwind rally-supporting hedge flows today."
     },
     {
-      "headline": "Farside: Wed 23 Sep BTC ETF flows cool to +$32.4M after the surge",
-      "blurb": "After Mon/Tue megadays, Wednesday\u2019s print was a small net inflow; ETH ETFs +$2.5M the same session (our Farside parse).",
-      "source": "Farside (local parse)",
-      "url": "https://farside.co.uk/btc/"
+      "title": "Fed moves on proposals to implement GENIUS Act for stablecoins",
+      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+      "source": "CoinDesk",
+      "take": "Fed proposed rules to implement last year's GENIUS Act, including stablecoin yield-program governance.",
+      "why_matters": "Liquidity plumbing: clearer stablecoin rules can affect onshore USD crypto liquidity channels over time."
     },
     {
-      "headline": "Glassnode: sell-side risk cools; ~$86k still cited as ETF cost-basis zone",
-      "blurb": "SSR reset lower in September while ~$86k remains a watched overhead supply/breakeven reference for spot ETF holders.",
-      "source": "Glassnode / AINewsCrypto",
-      "url": "https://www.ainewscrypto.com/news/glassnode-bitcoin-sell-side-risk-ratio-drops-to-7-as-august-profit-taking-fades"
+      "title": "Bitcoin Magazine: traders brace for ~$15B options expiry",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-traders-await-15-billion-expiry",
+      "source": "Bitcoin Magazine",
+      "take": "Quarterly BTC options expiry Friday with bullish call stacks at $85k/$90k/$100k; spot near $84–85k into settle.",
+      "why_matters": "Confirms expiry as today's key derivatives event for short-horizon BTC path around Base band."
     }
   ]
 }

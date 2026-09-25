@@ -1,15 +1,7 @@
 {
   "schema": "market_watcher.outlook_btc_targets.v1",
   "ranges": {
-    "7d": {
-      "Base": "$82\u201388k",
-      "Bull": ">$85k",
-      "Bear": "fail $82k"
-    },
-    "1m": {
-      "Base": "$78\u201392k",
-      "Bull": ">$92k",
-      "Bear": "high-$70ks"
-    }
+    "7d": {},
+    "1m": {}
   }
 }

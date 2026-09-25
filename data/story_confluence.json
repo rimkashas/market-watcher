@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v1",
-  "as_of_brief": "2026-09-24",
-  "built_at_vilnius": "2026-09-24 04:28:18 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-25",
+  "built_at_vilnius": "2026-09-25 04:12:17 Vilnius (UTC+3)",
   "main_story": "Risk-on tape aligned — Constructive, with caveats still open.",
   "aligned": [
     {
@@ -9,17 +9,17 @@
       "tone": "pos"
     },
     {
-      "label": "Structure Trending up",
-      "tone": "pos"
+      "label": "Structure Neutral",
+      "tone": "gold"
     },
     {
       "label": "Leveraged Rally",
-      "detail": "OI +0.4% · px +9.8%",
+      "detail": "OI +1.0% · px +9.5%",
       "tone": "gold"
     },
     {
       "label": "RSDH BULL",
-      "detail": "SOL 95% / BTC 5% · Final× 1.32 vs BTC 1.34",
+      "detail": "SOL 95% / BTC 5% · Final× 1.34 vs BTC 1.33",
       "tone": "lavender"
     },
     {
@@ -30,14 +30,9 @@
   ],
   "diverging": [
     {
-      "id": "liquidity_contracting",
-      "label": "Liquidity still Contracting",
-      "detail": "Fed net $5.7495T, Wed 09-16 while spot/structure are risk-on"
-    },
-    {
       "id": "bh_cycle_lag",
       "label": "BH Cycle still Bearish (31)",
-      "detail": "Cycle lag · valuation still bearish while breadth 5/17 bullish + price trending up"
+      "detail": "Cycle lag · valuation still bearish while breadth 5/17 bullish + structure Neutral (digesting)"
     },
     {
       "id": "rsdh_sol_vs_btc_tape",
@@ -47,20 +42,20 @@
   ],
   "inputs": {
     "regime": "Constructive",
-    "structure": "Trending up",
+    "structure": "Neutral",
     "futures_quadrant": "Leveraged Rally",
-    "oi_chg_7d_pct": 0.4156,
-    "price_chg_7d_pct": 9.7797,
-    "liquidity": "Contracting",
-    "fed_net_T": 5.7495,
-    "fed_net_date": "2026-09-16",
+    "oi_chg_7d_pct": 0.9683,
+    "price_chg_7d_pct": 9.478,
+    "liquidity": "Expanding",
+    "fed_net_T": 5.7999,
+    "fed_net_date": "2026-09-23",
     "bh_cycle": 31,
     "bh_phase": "Bearish",
     "bh_breadth": "5/17 bullish",
     "rsdh_macro": "BULL",
     "rsdh_alloc": "SOL:95.0% BTC:5.0%",
-    "rsdh_final_x": 1.32,
-    "btc_final_x": 1.34,
-    "etf_btc_latest_m": 32.4
+    "rsdh_final_x": 1.34,
+    "btc_final_x": 1.33,
+    "etf_btc_latest_m": 28.1
   }
 }
