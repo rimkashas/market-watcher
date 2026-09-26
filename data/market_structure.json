@@ -1,12 +1,12 @@
 {
   "schema": "market_watcher.market_structure.v1",
-  "label": "Neutral",
-  "why": "No strong trend rule hit.",
+  "label": "Mean reverting",
+  "why": "5d and 7d moves oppose.",
   "inputs": {
-    "BTC_5d_pct": 4.357,
-    "BTC_7d_pct": 4.668,
-    "BTC_1m_pct": 7.15,
-    "ETH_7d_pct": 3.182,
+    "BTC_5d_pct": -3.037,
+    "BTC_7d_pct": 3.372,
+    "BTC_1m_pct": 4.63,
+    "ETH_7d_pct": 2.258,
     "breadth": "5/17 bullish"
   },
   "labels": [
@@ -15,6 +15,6 @@
     "Mean reverting",
     "Neutral"
   ],
-  "as_of_brief": "2026-09-25",
-  "built_at_vilnius": "2026-09-25 04:12:17 Vilnius (UTC+3)"
+  "as_of_brief": "2026-09-26",
+  "built_at_vilnius": "2026-09-26 04:07:32 Vilnius (UTC+3)"
 }

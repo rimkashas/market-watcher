@@ -1,42 +1,42 @@
 {
   "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-09-25",
-  "built_at_vilnius": "2026-09-25 04:11:45 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-26",
+  "built_at_vilnius": "2026-09-26 04:06:25 Vilnius (UTC+3)",
   "items": [
     {
-      "title": "Bitcoin steadies near $84k after bond yields hit a 2007 high",
-      "url": "https://www.coindesk.com/markets/2026/09/24/bitcoin-steadies-near-usd84-000-after-bond-yields-hit-a-2007-high",
-      "source": "CoinDesk",
-      "take": "BTC dipped toward ~$83.3k as 10Y yields spiked to 2007 highs, then found dip buyers; USD bid, equities soft.",
-      "why_matters": "Macro/liquidity: higher yields + MOVE spike tighten financial conditions even when weekly Fed net expands."
+      "title": "Bitcoin holds near $84k as traders slash $1.7B of leverage",
+      "url": "https://cryptoslate.com/bitcoin-survives-a-5-2-treasury-shock-as-traders-slash-1-7-billion-in-leverage/",
+      "source": "CryptoSlate",
+      "take": "Selected-exchange BTC OI fell ~$1.7B (\u221214.3%) Sep 22\u219225 while spot only ~\u22122.3% from ~$86k; CheckOnChain 7d OI also negative \u2192 Spot Rally.",
+      "why_matters": "Cause\u2192transmission: yield shock + post-expiry deleveraging cut leverage risk; potential impact is calmer tape but thinner fuel for continuation."
     },
     {
-      "title": "Bitcoin breakout cools as Fed rate-hike bets climb",
-      "url": "https://decrypt.co/379189/bitcoins-breakout-cools-fed-rate-hike-bets-climb",
-      "source": "Decrypt",
-      "take": "BTC slipped back under $85k from ~$87.4k high; CME FedWatch ~75% October hike odds; SOL/BNB held up better.",
-      "why_matters": "Regime: hike repricing can cut risk appetite and leverage even while RSDH stays BULL/SOL-heavy."
+      "title": "10Y Treasury near 5.2% keeps financial conditions tight",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-near-84k-macro-pressures-weigh-sentiment/",
+      "source": "Bitcoin.com News",
+      "take": "BTC consolidated ~$84\u201385k Friday after ~$87k weekly high; rising U.S. yields and hawkish Fed speak cited as main drag alongside oil.",
+      "why_matters": "Macro: higher yields raise opportunity cost even while weekly Fed net stays Expanding \u2014 a key confluence tension."
     },
     {
-      "title": "Bitcoin's ~$16B quarterly options settlement arrives with a call-heavy book",
-      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-      "source": "CoinDesk",
-      "take": "Deribit Friday Sep 25 expiry ~$15.9B BTC + $2.1B ETH options; call-heavy (P/C 0.69); dealer gamma hedging may fade post-settle.",
-      "why_matters": "Positioning/vol: large expiry can reset short-term ranges and unwind rally-supporting hedge flows today."
+      "title": "US spot Bitcoin ETF YTD inflows turn positive after six-day streak",
+      "url": "https://coinmarketcap.com/academy/article/bitcoin-etf-inflows-turn-positive-2026",
+      "source": "CoinMarketCap Academy",
+      "take": "Farside: YTD spot BTC ETF flows flipped positive (~$0.9B) after a ~$2.8B six-session streak; daily pace cooled into Sep 24\u201325.",
+      "why_matters": "Flow channel: institutional spot demand still constructive into Q4 even as daily prints fade from the Sep 21 spike."
     },
     {
-      "title": "Fed moves on proposals to implement GENIUS Act for stablecoins",
-      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
-      "source": "CoinDesk",
-      "take": "Fed proposed rules to implement last year's GENIUS Act, including stablecoin yield-program governance.",
-      "why_matters": "Liquidity plumbing: clearer stablecoin rules can affect onshore USD crypto liquidity channels over time."
+      "title": "Post-expiry tape: ~$16B BTC options settle, altcoin ETFs broaden",
+      "url": "https://www.interactivecrypto.com/altcoin-strength-tests-bitcoin-s-role-as-etf-flows-expand-across-crypto",
+      "source": "Interactive Crypto",
+      "take": "Deribit quarterly expiry Friday coincided with ~$400M liquidations and OI washout; XRP/SOL products shared part of recent crypto-ETF flows.",
+      "why_matters": "Positioning reset + SOL-heavy RSDH display: satellite risk stays elevated while BTC tape digests expiry."
     },
     {
-      "title": "Bitcoin Magazine: traders brace for ~$15B options expiry",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-traders-await-15-billion-expiry",
-      "source": "Bitcoin Magazine",
-      "take": "Quarterly BTC options expiry Friday with bullish call stacks at $85k/$90k/$100k; spot near $84–85k into settle.",
-      "why_matters": "Confirms expiry as today's key derivatives event for short-horizon BTC path around Base band."
+      "title": "October Fed hike odds still elevated near ~75%",
+      "url": "https://www.digitaltoday.co.kr/en/view/107441/bitcoin-edges-lower-as-odds-of-october-fed-rate-hike-jump-to-75-percent",
+      "source": "Digital Today",
+      "take": "CME FedWatch cited ~75% October hike / ~59% December as of Fri; official CME page not parseable this run \u2014 treat as news-sourced, not live tool scrape.",
+      "why_matters": "Policy path: hike repricing can keep risk premia firm into PCE (Sep 30) and Oct FOMC."
     }
   ]
 }
