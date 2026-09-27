@@ -3,10 +3,10 @@
   "label": "Mean reverting",
   "why": "5d and 7d moves oppose.",
   "inputs": {
-    "BTC_5d_pct": -3.037,
-    "BTC_7d_pct": 3.372,
-    "BTC_1m_pct": 4.63,
-    "ETH_7d_pct": 2.258,
+    "BTC_5d_pct": -2.099,
+    "BTC_7d_pct": 3.97,
+    "BTC_1m_pct": 8.395,
+    "ETH_7d_pct": 1.951,
     "breadth": "5/17 bullish"
   },
   "labels": [
@@ -15,6 +15,6 @@
     "Mean reverting",
     "Neutral"
   ],
-  "as_of_brief": "2026-09-26",
-  "built_at_vilnius": "2026-09-26 04:07:32 Vilnius (UTC+3)"
+  "as_of_brief": "2026-09-27",
+  "built_at_vilnius": "2026-09-27 04:16:45 Vilnius (UTC+3)"
 }

@@ -1,8 +1,8 @@
 {
   "alerts": [
     "RSDH equity series starts 2026-09-07 (Aug gap not invented)",
-    "Structure Mean reverting (BTC 5d -3.0% / 7d +3.4%) vs prior Neutral",
-    "Futures Spot Rally (OI -5.3% / px +3.7%) vs prior Leveraged Rally",
-    "Daily TGA updated 09-24 ~$924.6B (weekly H.4.1 still Wed 09-23 Expanding)"
+    "BH page rolled to Sep 26 (still Cycle 31 Bearish / 5/17); 30d momentum cooled 17/17 \u2192 15/17 rising",
+    "Farside Fri 25 Sep BTC ETF revised to +$134.5m (was +$37.5m in Sat brief)",
+    "Structure/futures unchanged vs Sat: Mean reverting + Spot Rally (OI \u22125.9%/px +3.7%)"
   ]
 }

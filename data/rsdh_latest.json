@@ -1,19 +1,19 @@
 {
   "schema": "investorius.rsdh_dashboard_snapshot.v1",
-  "updated_at_utc": "2026-09-26T00:17:30Z",
+  "updated_at_utc": "2026-09-27T00:20:07Z",
   "source": "RSDH daily bar-close check-in",
   "chart_url": "https://www.tradingview.com/chart/CiYlQE0T/",
   "script": "RSDH v11.5",
   "performance_window_start": "2026-08-01",
   "snapshot": {
-    "date": "2026-09-26",
-    "bar_time": "2026-09-26T00:00:00Z",
-    "run_time_utc": "2026-09-26T00:17:30Z",
-    "btc_price": 84070.52,
-    "btc_price_live_shown": 84057.5,
+    "date": "2026-09-27",
+    "bar_time": "2026-09-27T00:00:00Z",
+    "run_time_utc": "2026-09-27T00:20:07Z",
+    "btc_price": 84431.97,
+    "btc_price_live_shown": 84284.07,
     "macro": "BULL",
-    "macro_score": 357,
-    "fast_score": 69,
+    "macro_score": 359,
+    "fast_score": 67,
     "sma_position": "up",
     "crypto_cash_split": {
       "crypto": 100,
@@ -39,66 +39,71 @@
     "core_rows": {
       "BTCUSD": {
         "role": "BTC anchor",
-        "own": 357,
+        "own": 359,
         "vs_btc": 0,
-        "wt": 5
+        "wt": 5,
+        "contrib_pp": 4.2
       },
       "ETHUSD": {
         "role": "watch",
-        "own": 297,
+        "own": 313,
         "vs_btc": 277,
-        "wt": 0
+        "wt": 0,
+        "contrib_pp": 0.0
       },
       "BNBUSD": {
         "role": "watch",
-        "own": 217,
-        "vs_btc": -17,
-        "wt": 0
+        "own": 219,
+        "vs_btc": -89,
+        "wt": 0,
+        "contrib_pp": 0.0
       },
       "XRPUSD": {
         "role": "watch",
-        "own": 339,
-        "vs_btc": 267,
-        "wt": 0
+        "own": 317,
+        "vs_btc": 225,
+        "wt": 0,
+        "contrib_pp": 0.0
       },
       "SOLUSD": {
         "role": "satellite PEAK",
         "own": 361,
         "vs_btc": 361,
-        "wt": 95
+        "wt": 95,
+        "contrib_pp": 30.6
       }
     },
     "wildcard_asset": null,
     "wildcard_cap_pct": null,
     "wildcard_decision": null,
     "wildcard_confirm": null,
-    "strat_final_x": 1.4,
-    "btc_final_x": 1.32,
+    "strat_final_x": 1.39,
+    "btc_final_x": 1.33,
     "performance": {
-      "cagr_strat": 863.4,
-      "cagr_btc": 566.0,
+      "cagr_strat": 791.3,
+      "cagr_btc": 562.0,
       "max_dd_strat": 9.6,
       "max_dd_btc": 6.9,
-      "sharpe_strat": 4.84,
-      "sharpe_btc": 4.51,
-      "sortino_strat": 10.02,
-      "sortino_btc": 11.39,
-      "calmar_strat": 90.36,
-      "calmar_btc": 82.01,
-      "omega_strat": 2.17,
-      "omega_btc": 2.18,
+      "sharpe_strat": 4.71,
+      "sharpe_btc": 4.54,
+      "sortino_strat": 9.75,
+      "sortino_btc": 11.45,
+      "calmar_strat": 82.82,
+      "calmar_btc": 81.44,
+      "omega_strat": 2.13,
+      "omega_btc": 2.2,
       "net_x": 1.39,
       "drag_pct": 0.3,
       "turnover": 1.3,
       "fees_pct": -0.3,
       "mean_exposure_pct": 85,
-      "two_asset_pct": 97,
+      "two_asset_pct": 98,
       "rotations": 1,
       "rebalances": 8,
-      "rotations_per_yr": 6.8,
+      "rotations_per_yr": 6.6,
       "source_final_x": "RSDH table with Start date verified 2026-08-01"
     },
-    "in_market_pct": 72.0,
+    "in_market_pct": 73.0,
     "display_allocation": {
       "BTCUSD": 5.0,
       "ETHUSD": 0.0,
@@ -110,35 +115,36 @@
     "display_allocation_sum": 100.0,
     "mechanics": {
       "loop_span": 361,
-      "n_slow": 0.98892,
+      "n_slow": 0.99446,
       "expected_crypto_tier_pct": 100,
       "threshold_100_approx": 239,
       "points_to_100_tier": 0,
       "core_sleeve_sum": 100,
       "start_date_verified": "2026-08-01",
       "start_date_drift_corrected": false,
-      "prior_day": "2026-09-25",
-      "btc_pct_change_vs_prior_log": -0.66,
+      "prior_day": "2026-09-26",
+      "btc_pct_change_vs_prior_log": 0.43,
       "flags": [
-        "btc_down_day_84630_to_84071_pct_minus_0_66",
-        "slow_359_to_357_still_above_239",
-        "fast_71_to_69",
+        "btc_up_day_84071_to_84432_pct_plus_0_43",
+        "slow_357_to_359_still_above_239",
+        "fast_69_to_67",
         "crypto_cash_flat_100_0",
         "allocation_flat_SOL95_BTC5_CASH0",
         "peak_still_PEAK_95_hold_ge50",
         "top5_unchanged_BTC_ETH_BNB_XRP_SOL",
         "soft_peak_correct_peak_on_Slow_in_100_tier",
         "no_wildcard_on_chart",
-        "final_x_1.34_to_1.40_btc_1.33_to_1.32_strat_lead_widens",
+        "final_x_1.40_to_1.39_btc_1.32_to_1.33_strat_lead_narrows",
         "maxdd_flat_9.6",
         "rotations_1_rebalances_8_unchanged",
         "weekly_gate_still_enabled_intentional",
-        "in_market_72_flat_do_not_day_diff_as_signal",
+        "in_market_72_to_73_do_not_day_diff_as_signal",
         "start_date_verified_2026-08-01_no_drift",
         "visible_script_title_RSDH_peak85bt",
-        "xrp_own_313_to_339_closing_on_sol_own_but_vsbtc_267_vs_361",
-        "sol_own_353_to_361_at_ceiling",
-        "final_x_jump_larger_than_btc_price_alone_sol_sleeve_driving"
+        "xrp_own_339_to_317_retreated_still_watch_behind_sol",
+        "sol_own_361_vsbtc_361_still_ceiling",
+        "eth_own_297_to_313_still_watch",
+        "bnb_vsbtc_minus17_to_minus89_worse"
       ],
       "inputs": {
         "leaderConfirm": 2,
@@ -153,6 +159,6 @@
         "peak_exit": 50
       }
     },
-    "notes": "Post bar-close. BTC 84629.71→84070.52 (-0.66%). RSDH v11.5 Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 359→357 still ≥239; Fast 71→69; crypto/cash 100/0. Display SOL 95 / BTC 5 / CASH 0; SOL satellite PEAK 95% hold≥50 (unchanged). Soft-peak OK. No Wildcard. Start 2026-08-01 verified (no drift). Deploy-window Final× 1.40/1.32 (strat lead widens vs prior 1.34/1.33); CAGR 863.4/566 MaxDD 9.6/6.9 Sharpe 4.84/4.51 Sortino 10.02/11.39 Calmar 90.36/82.01 Omega 2.17/2.18 rotations 1 rebalances 8 turnover 1.3× Net× 1.39 drag 0.3% in-market 72% cash 28% mean_exp 85%. Counters stable so Final× jump looks real (SOL sleeve), not recalc artifact. Weekly gate ENABLED intentional. XRP own 313→339 still watch behind SOL 361/361."
+    "notes": "Post bar-close. BTC 84070.52→84431.97 (+0.43%). RSDH v11.5 Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 357→359 still ≥239; Fast 69→67; crypto/cash 100/0. Display SOL 95 / BTC 5 / CASH 0; SOL satellite PEAK 95% hold≥50 (unchanged). Soft-peak OK. No Wildcard. Start 2026-08-01 verified (no drift). Deploy-window Final× 1.39/1.33 (strat lead narrows vs prior 1.40/1.32); CAGR 791.3/562 MaxDD 9.6/6.9 Sharpe 4.71/4.54 Sortino 9.75/11.45 Calmar 82.82/81.44 Omega 2.13/2.20 rotations 1 rebalances 8 turnover 1.3× Net× 1.39 drag 0.3% in-market 73% cash 27% mean_exp 85%. Counters stable so Final× move looks real, not recalc artifact. Weekly gate ENABLED intentional. XRP own 339→317 retreated; SOL still 361/361."
   }
 }
