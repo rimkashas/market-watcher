@@ -1,27 +1,27 @@
 {
   "schema": "market_watcher.checkonchain.mvrv.v1",
-  "fetched_at_vilnius": "2026-09-28 04:08:38 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-09-28 10:45:12 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
-  "as_of": "2026-09-27",
+  "as_of": "2026-09-28",
   "series": {
     "MVRV": {
-      "last": 1.573566,
-      "n": 6479,
-      "as_of": "2026-09-27"
+      "last": 1.553536,
+      "n": 6480,
+      "as_of": "2026-09-28"
     },
     "Realised Price": {
-      "last": 53522.46,
-      "n": 6479,
-      "as_of": "2026-09-27"
+      "last": 53530.21,
+      "n": 6480,
+      "as_of": "2026-09-28"
     },
     "Price": {
-      "last": 84221.15,
-      "n": 6479,
-      "as_of": "2026-09-27"
+      "last": 83161.13,
+      "n": 6480,
+      "as_of": "2026-09-28"
     }
   },
   "available": true,
-  "mvrv": 1.5736,
-  "realized_price_usd": 53522.46
+  "mvrv": 1.5535,
+  "realized_price_usd": 53530.21
 }

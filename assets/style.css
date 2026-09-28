@@ -896,3 +896,32 @@ footer.foot code{color:var(--muted);font-family:var(--mono);font-size:.72rem}
   font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
   color:var(--accent);
 }
+
+/* ── Story-first signal layer (2026-09-28) ── */
+.hero-story{list-style:none;margin:0 0 18px;padding:0;display:flex;flex-direction:column;gap:7px;max-width:52em}
+.hero-story li{display:flex;gap:10px;align-items:flex-start;font-size:.93rem;line-height:1.45;color:var(--text-soft)}
+.hero-story .st-dot{flex:0 0 auto;font-size:.7rem;line-height:1.9}
+.hero-note{margin:12px 0 0;font-size:.7rem;color:var(--dim)}
+.hm .val.word{font-family:var(--font);font-size:1.05rem;font-weight:650;letter-spacing:-0.01em}
+.hm .val.pos{color:var(--pos)}.hm .val.neg{color:var(--neg)}
+.hm .chg,.struct-col .chg{font-size:.72rem;color:var(--muted);margin-top:5px;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.hm .mean,.mean{font-size:.74rem;color:var(--text-soft);margin-top:6px;line-height:1.4}
+.hm.sig-pos{border-left:2px solid var(--pos-border)}
+.hm.sig-neg{border-left:2px solid var(--neg-border)}
+.hm.sig-watch{border-left:2px solid rgba(251,191,36,0.32)}
+.sig{display:inline-flex;align-items:center;gap:5px;margin-top:8px;padding:2px 9px;border-radius:999px;
+  font-size:.7rem;font-weight:600;letter-spacing:.01em;border:1px solid var(--border);white-space:nowrap}
+.sig.sm{margin-top:0;font-size:.66rem;padding:1px 7px}
+.sig.pos{color:var(--pos);background:var(--pos-dim);border-color:var(--pos-border)}
+.sig.neg{color:var(--neg);background:var(--neg-dim);border-color:var(--neg-border)}
+.sig.watch{color:var(--warn);background:var(--warn-dim);border-color:rgba(251,191,36,0.28)}
+.sig.neutral{color:var(--muted);background:rgba(255,255,255,0.03)}
+td .sig{margin-top:0}
+.sig-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.sec-story{margin:0 0 14px;font-size:.9rem;line-height:1.45;color:var(--text-soft);max-width:54em}
+.mean-cell{font-size:.78rem;color:var(--text-soft);line-height:1.4}
+.table-note{margin:8px 0 0;font-size:.7rem;color:var(--dim)}
+.news-blurb .why{display:inline-block;margin-right:6px;font-size:.64rem;font-weight:650;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--accent)}
+.oc-pills-lbl{font-size:.68rem;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-right:6px;align-self:center}
+.oc-cycle .value,.oc-breadth .value{font-size:1.15rem}

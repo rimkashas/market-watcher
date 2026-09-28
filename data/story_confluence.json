@@ -1,61 +1,65 @@
 {
-  "schema": "market_watcher.story_confluence.v1",
+  "schema": "market_watcher.story_confluence.v2",
   "as_of_brief": "2026-09-28",
-  "built_at_vilnius": "2026-09-28 04:08:38 Vilnius (UTC+3)",
-  "main_story": "Risk-on tape aligned — Constructive, with caveats still open.",
+  "built_at_vilnius": "2026-09-28 10:45:12 Vilnius (UTC+3)",
+  "main_story": "Constructive: more signals support risk than oppose it (6 vs 5) — but the watch list isn't empty.",
   "aligned": [
     {
-      "label": "Regime Constructive",
+      "label": "Fed liquidity ↑ improving",
+      "detail": "Fed balance sheet net of TGA/RRP rose this week; flat over 4 weeks.",
       "tone": "pos"
     },
     {
-      "label": "Structure Neutral",
+      "label": "Treasury cash draining",
+      "detail": "Adds liquidity · WoW, 4w flat",
       "tone": "pos"
     },
     {
-      "label": "Spot Rally",
-      "detail": "OI -6.1% · px +3.9%",
-      "tone": "gold"
+      "label": "ETF inflows",
+      "detail": "+$2.39B week 21–25 Sep",
+      "tone": "pos"
     },
     {
-      "label": "RSDH BULL",
-      "detail": "SOL 95% / BTC 5% · Final× 1.4 vs BTC 1.33",
+      "label": "Stablecoins edging up",
+      "detail": "Mild support",
+      "tone": "pos"
+    },
+    {
+      "label": "RSDH BULL · Outperforming BTC",
+      "detail": "Beat BTC by 3.6 pp this week (Final× basis).",
       "tone": "lavender"
     },
     {
-      "label": "BH breadth 5/17 bullish",
-      "detail": "30d momentum rising",
+      "label": "On-chain momentum rising",
+      "detail": "30d signals improving — early recovery",
       "tone": "pos"
     }
   ],
   "diverging": [
     {
-      "id": "bh_cycle_lag",
-      "label": "BH Cycle still Bearish (31)",
-      "detail": "Cycle lag · valuation still bearish while breadth 5/17 bullish + price trending up"
+      "label": "Leverage flush",
+      "detail": "Futures OI -8.9% WoW: longs being cleared out; can reset positioning.",
+      "tone": "watch"
     },
     {
-      "id": "rsdh_sol_vs_btc_tape",
-      "label": "RSDH satellite SOL 95%",
-      "detail": "Display weights SOL-heavy while spot/ETF narrative is BTC-led"
+      "label": "On-chain Cycle 31 · Bearish · breadth 5/17 weak",
+      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (17/17 rising).",
+      "tone": "neg"
+    },
+    {
+      "label": "USD & yields: headwind",
+      "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.",
+      "tone": "neg"
+    },
+    {
+      "label": "BTC consolidating",
+      "detail": "Pullback this week inside a monthly uptrend.",
+      "tone": "watch"
+    },
+    {
+      "label": "RSDH concentrated in SOL",
+      "detail": "Model weights SOL-heavy while ETF flows are BTC-led",
+      "tone": "watch"
     }
-  ],
-  "inputs": {
-    "regime": "Constructive",
-    "structure": "Neutral",
-    "futures_quadrant": "Spot Rally",
-    "oi_chg_7d_pct": -6.1322,
-    "price_chg_7d_pct": 3.8988,
-    "liquidity": "Expanding",
-    "fed_net_T": 5.7999,
-    "fed_net_date": "2026-09-23",
-    "bh_cycle": 31,
-    "bh_phase": "Bearish",
-    "bh_breadth": "5/17 bullish",
-    "rsdh_macro": "BULL",
-    "rsdh_alloc": "SOL:95.0% BTC:5.0%",
-    "rsdh_final_x": 1.4,
-    "btc_final_x": 1.33,
-    "etf_btc_latest_m": 134.5
-  }
+  ]
 }

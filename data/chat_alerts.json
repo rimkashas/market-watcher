@@ -1,10 +1,5 @@
 {
   "alerts": [
-    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented \u2014 chart shows logged points only.",
-    "RSDH equity series starts 2026-09-07 (Aug gap not invented)",
-    "Structure Sun\u2192Mon: Mean reverting \u2192 Neutral (BTC 5d \u22120.4%/7d \u22123.0%; |7d|<5% rule)",
-    "Futures still Spot Rally; OI deepened \u22125.87% \u2192 \u22126.13% (CoC px +3.9% vs Yahoo 7d \u22123.0% \u2014 dual print)",
-    "BH page rolled to Sep 27 (still Cycle 31 Bearish / 5/17); 30d momentum recovered 15/17 \u2192 17/17 rising",
-    "Weekend lag: Farside ETF still Fri 25 Sep; daily TGA still 09-24; H.4.1 next ~Wed 09-30"
+    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented — chart shows logged points only."
   ]
 }
