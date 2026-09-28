@@ -1,30 +1,30 @@
 {
   "schema": "market_watcher.story_confluence.v1",
-  "as_of_brief": "2026-09-27",
-  "built_at_vilnius": "2026-09-27 04:16:29 Vilnius (UTC+3)",
-  "main_story": "Risk-on tape aligned \u2014 Constructive, with caveats still open.",
+  "as_of_brief": "2026-09-28",
+  "built_at_vilnius": "2026-09-28 04:08:38 Vilnius (UTC+3)",
+  "main_story": "Risk-on tape aligned — Constructive, with caveats still open.",
   "aligned": [
     {
       "label": "Regime Constructive",
       "tone": "pos"
     },
     {
-      "label": "Structure Mean reverting",
+      "label": "Structure Neutral",
       "tone": "pos"
     },
     {
       "label": "Spot Rally",
-      "detail": "OI -5.9% \u00b7 px +3.7%",
+      "detail": "OI -6.1% · px +3.9%",
       "tone": "gold"
     },
     {
       "label": "RSDH BULL",
-      "detail": "SOL 95% / BTC 5% \u00b7 Final\u00d7 1.39 vs BTC 1.33",
+      "detail": "SOL 95% / BTC 5% · Final× 1.4 vs BTC 1.33",
       "tone": "lavender"
     },
     {
-      "label": "Liquidity Expanding",
-      "detail": "Fed net $5.7999T Wed 09-23",
+      "label": "BH breadth 5/17 bullish",
+      "detail": "30d momentum rising",
       "tone": "pos"
     }
   ],
@@ -32,25 +32,20 @@
     {
       "id": "bh_cycle_lag",
       "label": "BH Cycle still Bearish (31)",
-      "detail": "Cycle lag \u00b7 valuation still bearish while breadth 5/17 bullish; 30d momentum cooled to 15/17 rising"
+      "detail": "Cycle lag · valuation still bearish while breadth 5/17 bullish + price trending up"
     },
     {
       "id": "rsdh_sol_vs_btc_tape",
       "label": "RSDH satellite SOL 95%",
-      "detail": "Display weights SOL-heavy while spot/ETF narrative is still BTC-led (SOL ETF record day is supporting tape)"
-    },
-    {
-      "id": "yields_vs_liq",
-      "label": "10Y >5% vs Liquidity Expanding",
-      "detail": "Weekly Fed net Expanding but elevated yields keep financial conditions tight"
+      "detail": "Display weights SOL-heavy while spot/ETF narrative is BTC-led"
     }
   ],
   "inputs": {
     "regime": "Constructive",
-    "structure": "Mean reverting",
+    "structure": "Neutral",
     "futures_quadrant": "Spot Rally",
-    "oi_chg_7d_pct": -5.8677,
-    "price_chg_7d_pct": 3.7442,
+    "oi_chg_7d_pct": -6.1322,
+    "price_chg_7d_pct": 3.8988,
     "liquidity": "Expanding",
     "fed_net_T": 5.7999,
     "fed_net_date": "2026-09-23",
@@ -59,7 +54,7 @@
     "bh_breadth": "5/17 bullish",
     "rsdh_macro": "BULL",
     "rsdh_alloc": "SOL:95.0% BTC:5.0%",
-    "rsdh_final_x": 1.39,
+    "rsdh_final_x": 1.4,
     "btc_final_x": 1.33,
     "etf_btc_latest_m": 134.5
   }

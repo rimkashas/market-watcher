@@ -1,42 +1,42 @@
 {
   "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-09-27",
-  "built_at_vilnius": "2026-09-27 04:16:29 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-28",
+  "built_at_vilnius": "2026-09-28 04:08:37 Vilnius (UTC+3)",
   "items": [
     {
-      "title": "Spot BTC ETFs log ~$2.4B week; Friday still +$134.5m",
-      "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
-      "source": "Decrypt",
-      "take": "Seven-session inflow streak ~$3B; Farside Fri 25 Sep +$134.5m (revised vs earlier cooler print). YTD flows back green.",
-      "why_matters": "Flow channel: institutional spot demand still constructive into the weekend even as daily pace cooled from the Sep 21 ~$1B spike."
-    },
-    {
-      "title": "Bitcoin consolidates near $84k after $87k weekly high",
-      "url": "https://walletinvestor.com/news/crypto-news/bitcoin-slips-to-84000-after-eight-month-high-as-spot-etfs-pull-in-2-39-billion/",
-      "source": "WalletInvestor",
-      "take": "BTC near ~$84k Sat/Sun after ~4% pullback from ~$87.3k eight-month high; CheckOnChain still Spot Rally (7d OI \u22125.9%, px +3.7%).",
-      "why_matters": "Price digesting with OI down \u2192 spot-led bounce, not fresh leverage \u2014 fits Mean reverting structure."
-    },
-    {
-      "title": "10Y Treasury stays elevated above 5% into weekend",
-      "url": "https://www.interactivecrypto.com/bitcoin-etf-inflows-surge-but-altcoin-strength-tests-market-leadership",
-      "source": "Interactive Crypto",
-      "take": "U.S. 10Y still >5.1% (Treasury XML 5.17% as of Sep 25); strong data + hike odds keep opportunity cost high vs crypto.",
-      "why_matters": "Macro tension: weekly Fed net still Expanding at $5.7999T while yields stay tight \u2014 key confluence watch."
-    },
-    {
-      "title": "US spot Solana ETFs print record daily inflow (~$80\u201387m)",
+      "title": "Bitcoin ETFs turn 2026 flows green with ~$2.4B weekly inflow",
       "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
       "source": "The Block",
-      "take": "SOL ETFs ~$86.7m Fri record / ~$188m week; Bitwise BSOL led. Aligns with RSDH SOL 95% satellite peak display.",
-      "why_matters": "Satellite risk: SOL-heavy RSDH stays elevated while BTC tape digests \u2014 alt ETF bid is a real flow, not invented."
+      "take": "Largest weekly spot BTC ETF intake since Oct; Decrypt/The Block both flag YTD flows back green. Farside still shows Fri 25 Sep +$134.5m (no newer Mon session yet).",
+      "why_matters": "Flow channel remains constructive into the Mon morning refresh even as spot tape softens on Yahoo 5d/7d."
     },
     {
-      "title": "PCE (Sep 30) next macro checkpoint after Sep 16 hike",
-      "url": "https://beincrypto.com/bitcoin-etfs-record-inflows-real-demand/",
-      "source": "BeInCrypto",
-      "take": "Aug PCE due Wed Sep 30; Fed already at 3.75\u20134.00% after Sep 16 +25 bp. CME FedWatch page still not parseable this run.",
-      "why_matters": "Policy path: inflation print can reprice Oct FOMC odds and keep risk premia firm into Q4."
+      "title": "BTC softens toward ~$84k as weekend tape digests $87k spike",
+      "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+      "source": "Decrypt",
+      "take": "Coinbase ~$84,108; Yahoo 5d -0.41% / 7d -2.96% \u2192 structure Neutral (|7d|<5%). CheckOnChain futures still Spot Rally (7d OI -6.13%, px 3.9%).",
+      "why_matters": "Structure cooled from Sun Mean reverting to Neutral; OI still contracting on CoC \u2014 spot-led, not fresh leverage."
+    },
+    {
+      "title": "10Y Treasury still above 5% into the Monday open",
+      "url": "https://www.coindesk.com/",
+      "source": "Macro (Treasury/Yahoo)",
+      "take": "Treasury XML US10Y 5.17% / US2Y 4.81% as of Sep 25; Yahoo TNX ~5.184; DXY ~101.035.",
+      "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding (Fed net still $5.7999T Wed 09-23)."
+    },
+    {
+      "title": "Circle/Binance stablecoin deal headlines; stables flat ~$311.6B",
+      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+      "source": "CoinDesk",
+      "take": "Industry news on Circle/Binance; DefiLlama aggregate stables ~$311.59B (7d +0.51%) \u2014 flat vs Sun.",
+      "why_matters": "Stablecoin float not expanding into the soft tape; dry powder unchanged, not a fresh bid signal."
+    },
+    {
+      "title": "PCE (Wed Sep 30) next macro checkpoint; H.4.1 next weekly ~Wed 09-30",
+      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm",
+      "source": "Fed / calendar",
+      "take": "Weekend lag: daily TGA still 2026-09-24 ~$924.6B; matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding. Next weekly H.4.1 ~Wed 09-30 alongside Aug PCE.",
+      "why_matters": "Liquidity print unchanged into Mon; watch Wed for both TGA/WALCL refresh and PCE \u2014 dual macro catalysts."
     }
   ]
 }
