@@ -1,42 +1,42 @@
 {
   "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-09-28",
-  "built_at_vilnius": "2026-09-28 04:08:37 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-29",
+  "built_at_vilnius": "2026-09-29 04:14:47 Vilnius (UTC+3)",
   "items": [
     {
-      "title": "Bitcoin ETFs turn 2026 flows green with ~$2.4B weekly inflow",
-      "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
-      "source": "The Block",
-      "take": "Largest weekly spot BTC ETF intake since Oct; Decrypt/The Block both flag YTD flows back green. Farside still shows Fri 25 Sep +$134.5m (no newer Mon session yet).",
-      "why_matters": "Flow channel remains constructive into the Mon morning refresh even as spot tape softens on Yahoo 5d/7d."
+      "title": "BTC softens toward ~$83k; futures flip to Deleveraging Sell-Off",
+      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
+      "source": "CheckOnChain",
+      "take": "CoC Today: 7d OI -10.55% / 7d px -3.76% \u2192 Deleveraging Sell-Off (was Spot Rally Mon). Yahoo 5d -1.63% / 7d -3.68% \u2192 Neutral.",
+      "why_matters": "Material futures-regime flip: leverage leaving as price softens \u2014 not a spot-led squeeze."
     },
     {
-      "title": "BTC softens toward ~$84k as weekend tape digests $87k spike",
-      "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+      "title": "BTC ETF session 28 Sep 2026: -23.8m (Farside)",
+      "url": "https://farside.co.uk/btc/",
+      "source": "Farside",
+      "take": "Mon session print -23.8m after Fri +$134.5m; sum since after 09-23 still +$301.4m.",
+      "why_matters": "Flow channel cooled on the Mon print while weekly Fed liquidity print still Expanding."
+    },
+    {
+      "title": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
+      "url": "https://decrypt.co/379465/strive-buys-94-5-million-in-bitcoin-pushing-holdings-past-27000-btc",
       "source": "Decrypt",
-      "take": "Coinbase ~$84,108; Yahoo 5d -0.41% / 7d -2.96% \u2192 structure Neutral (|7d|<5%). CheckOnChain futures still Spot Rally (7d OI -6.13%, px 3.9%).",
-      "why_matters": "Structure cooled from Sun Mean reverting to Neutral; OI still contracting on CoC \u2014 spot-led, not fresh leverage."
+      "take": "Corporate treasury bid printed into soft tape (spot ~$83,010); CoC still Deleveraging Sell-Off.",
+      "why_matters": "Spot-side accumulation headline vs futures deleveraging \u2014 constructive divergence, not a tape break."
     },
     {
-      "title": "10Y Treasury still above 5% into the Monday open",
-      "url": "https://www.coindesk.com/",
-      "source": "Macro (Treasury/Yahoo)",
-      "take": "Treasury XML US10Y 5.17% / US2Y 4.81% as of Sep 25; Yahoo TNX ~5.184; DXY ~101.035.",
-      "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding (Fed net still $5.7999T Wed 09-23)."
+      "title": "10Y Treasury 5.24% (as of 2026-09-28) into Tue refresh",
+      "url": "https://home.treasury.gov/",
+      "source": "Macro (Treasury)",
+      "take": "US10Y 5.24% / US2Y 4.92% (Treasury XML 2026-09-28); Yahoo DXY ~101.223.",
+      "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding backdrop."
     },
     {
-      "title": "Circle/Binance stablecoin deal headlines; stables flat ~$311.6B",
-      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
-      "source": "CoinDesk",
-      "take": "Industry news on Circle/Binance; DefiLlama aggregate stables ~$311.59B (7d +0.51%) \u2014 flat vs Sun.",
-      "why_matters": "Stablecoin float not expanding into the soft tape; dry powder unchanged, not a fresh bid signal."
-    },
-    {
-      "title": "PCE (Wed Sep 30) next macro checkpoint; H.4.1 next weekly ~Wed 09-30",
+      "title": "PCE + H.4.1 next weekly checkpoint Wed Sep 30",
       "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm",
       "source": "Fed / calendar",
-      "take": "Weekend lag: daily TGA still 2026-09-24 ~$924.6B; matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding. Next weekly H.4.1 ~Wed 09-30 alongside Aug PCE.",
-      "why_matters": "Liquidity print unchanged into Mon; watch Wed for both TGA/WALCL refresh and PCE \u2014 dual macro catalysts."
+      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-25 ~$945.3B. Next weekly ~Wed 09-30.",
+      "why_matters": "Dual macro catalysts Wed \u2014 WALCL/TGA refresh and Aug PCE \u2014 into soft tape."
     }
   ]
 }

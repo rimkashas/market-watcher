@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-09-28",
-  "built_at_vilnius": "2026-09-28 10:45:12 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-29",
+  "built_at_vilnius": "2026-09-29 04:16:50 Vilnius (UTC+3)",
   "main_story": "Constructive: more signals support risk than oppose it (6 vs 5) — but the watch list isn't empty.",
   "aligned": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "label": "ETF inflows",
-      "detail": "+$2.39B week 21–25 Sep",
+      "detail": "+$1.36B week 22–28 Sep",
       "tone": "pos"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "label": "RSDH BULL · Outperforming BTC",
-      "detail": "Beat BTC by 3.6 pp this week (Final× basis).",
+      "detail": "Beat BTC by 1.6 pp this week (Final× basis).",
       "tone": "lavender"
     },
     {
@@ -38,18 +38,18 @@
   "diverging": [
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -8.9% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -10.5% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
       "label": "On-chain Cycle 31 · Bearish · breadth 5/17 weak",
-      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (17/17 rising).",
+      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (16/17 rising).",
       "tone": "neg"
     },
     {
-      "label": "USD & yields: headwind",
-      "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.",
-      "tone": "neg"
+      "label": "USD & yields: mixed",
+      "detail": "Dollar and yields sent mixed signals this week; equities flat, volatility calm.",
+      "tone": "watch"
     },
     {
       "label": "BTC consolidating",
