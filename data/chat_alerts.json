@@ -1,5 +1,11 @@
 {
   "alerts": [
-    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented — chart shows logged points only."
+    "RSDH equity series starts 2026-09-07 (Aug gap not invented)",
+    "BH Cycle Index 31\u219233 Bearish; breadth 5/17\u21925/16; 30d mom 16/17\u219215/16; SIP 33\u219238 (page 2026-09-29)",
+    "Futures still Deleveraging Sell-Off; 7d OI deepened \u221210.55%\u2192-13.65% (px \u22123.76%\u2192-3.03%)",
+    "Daily TGA refreshed 09-25\u21922026-09-28 (~$959.6B); H.4.1 still Wed 09-23 $5.7999T Expanding (Wed 09-30 weekly not yet published morning Vilnius)",
+    "Farside Tue BTC ETF session +$33.2m (after Mon \u2212$23.8m); structure still Neutral",
+    "RSDH: btc_final_x 1.31\u21921.32; macro_score 357\u2192359; allocation still SOL95/BTC5/CASH0",
+    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented \u2014 chart shows logged points only."
   ]
 }

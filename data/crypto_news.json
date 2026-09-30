@@ -1,42 +1,42 @@
 {
   "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-09-29",
-  "built_at_vilnius": "2026-09-29 04:14:47 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-30",
+  "built_at_vilnius": "2026-09-30 04:14:05 Vilnius (UTC+3)",
   "items": [
     {
-      "title": "BTC softens toward ~$83k; futures flip to Deleveraging Sell-Off",
+      "title": "Futures still Deleveraging Sell-Off; OI wash deepens",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source": "CheckOnChain",
-      "take": "CoC Today: 7d OI -10.55% / 7d px -3.76% \u2192 Deleveraging Sell-Off (was Spot Rally Mon). Yahoo 5d -1.63% / 7d -3.68% \u2192 Neutral.",
-      "why_matters": "Material futures-regime flip: leverage leaving as price softens \u2014 not a spot-led squeeze."
+      "take": "CoC Today: 7d OI -13.65% / 7d px -3.03% \u2192 Deleveraging Sell-Off (was OI \u221210.55%/px \u22123.76% Tue). Yahoo 5d -0.77% / 7d -1.18% \u2192 Neutral.",
+      "why_matters": "OI wash deepened while price draw cooled \u2014 leverage still leaving, tape not trending."
     },
     {
-      "title": "BTC ETF session 28 Sep 2026: -23.8m (Farside)",
+      "title": "BH Cycle Index ticks up to 33 (still Bearish); breadth 5/16",
+      "url": "https://charts.blockhorizon.io/signals",
+      "source": "BlockHorizon",
+      "take": "Live Signal Explorer page 2026-09-29: Cycle 33 Bearish (was 31); consensus 5/16 bullish (was 5/17); 30d mom 15/16 rising; SIP signal 38 (was 33).",
+      "why_matters": "Cycle print slightly less extreme but still Bearish \u2014 keeps tension vs RSDH BULL allocation."
+    },
+    {
+      "title": "BTC ETF session 29 Sep 2026: +33.2m (Farside)",
       "url": "https://farside.co.uk/btc/",
       "source": "Farside",
-      "take": "Mon session print -23.8m after Fri +$134.5m; sum since after 09-23 still +$301.4m.",
-      "why_matters": "Flow channel cooled on the Mon print while weekly Fed liquidity print still Expanding."
+      "take": "Tue session print +$33.2m after Mon \u2212$23.8m; sum since after 09-23 now +$389.4m.",
+      "why_matters": "Flow channel flipped back to a modest inflow day while futures stay in Deleveraging Sell-Off."
     },
     {
-      "title": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
-      "url": "https://decrypt.co/379465/strive-buys-94-5-million-in-bitcoin-pushing-holdings-past-27000-btc",
-      "source": "Decrypt",
-      "take": "Corporate treasury bid printed into soft tape (spot ~$83,010); CoC still Deleveraging Sell-Off.",
-      "why_matters": "Spot-side accumulation headline vs futures deleveraging \u2014 constructive divergence, not a tape break."
-    },
-    {
-      "title": "10Y Treasury 5.24% (as of 2026-09-28) into Tue refresh",
+      "title": "10Y Treasury 5.26% / DXY ~101.39 into Wed refresh",
       "url": "https://home.treasury.gov/",
       "source": "Macro (Treasury)",
-      "take": "US10Y 5.24% / US2Y 4.92% (Treasury XML 2026-09-28); Yahoo DXY ~101.223.",
+      "take": "US10Y 5.26% / US2Y 4.89% (Treasury 2026-09-29); Yahoo DXY ~101.39; VIX ~16.04.",
       "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding backdrop."
     },
     {
-      "title": "PCE + H.4.1 next weekly checkpoint Wed Sep 30",
+      "title": "H.4.1 Wed Sep 30 weekly not yet on Fed site at morning Vilnius",
       "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm",
-      "source": "Fed / calendar",
-      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-25 ~$945.3B. Next weekly ~Wed 09-30.",
-      "why_matters": "Dual macro catalysts Wed \u2014 WALCL/TGA refresh and Aug PCE \u2014 into soft tape."
+      "source": "Fed / FiscalData",
+      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-28 ~$959.6B (was 09-25 ~$945.3B). Watching for today's weekly print.",
+      "why_matters": "Liquidity impulse still Expanding on last matched Wed; TGA drifted higher into the week."
     }
   ]
 }

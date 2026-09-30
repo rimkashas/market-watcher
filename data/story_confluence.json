@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-09-29",
-  "built_at_vilnius": "2026-09-29 04:16:50 Vilnius (UTC+3)",
+  "as_of_brief": "2026-09-30",
+  "built_at_vilnius": "2026-09-30 04:14:16 Vilnius (UTC+3)",
   "main_story": "Constructive: more signals support risk than oppose it (6 vs 5) — but the watch list isn't empty.",
   "aligned": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "label": "ETF inflows",
-      "detail": "+$1.36B week 22–28 Sep",
+      "detail": "+$736M week 23–29 Sep",
       "tone": "pos"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "label": "RSDH BULL · Outperforming BTC",
-      "detail": "Beat BTC by 1.6 pp this week (Final× basis).",
+      "detail": "Beat BTC by 3.8 pp this week (Final× basis).",
       "tone": "lavender"
     },
     {
@@ -38,12 +38,12 @@
   "diverging": [
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -10.5% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -13.7% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
-      "label": "On-chain Cycle 31 · Bearish · breadth 5/17 weak",
-      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (16/17 rising).",
+      "label": "On-chain Cycle 33 · Bearish · breadth 5/16 weak",
+      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (15/16 rising).",
       "tone": "neg"
     },
     {
