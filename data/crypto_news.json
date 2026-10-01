@@ -1,42 +1,42 @@
 {
   "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-09-30",
-  "built_at_vilnius": "2026-09-30 04:14:05 Vilnius (UTC+3)",
+  "as_of_brief": "2026-10-01",
+  "built_at_vilnius": "2026-10-01 04:10:18 Vilnius (UTC+3)",
   "items": [
     {
-      "title": "Futures still Deleveraging Sell-Off; OI wash deepens",
+      "title": "Futures still Deleveraging Sell-Off; OI wash eases",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source": "CheckOnChain",
-      "take": "CoC Today: 7d OI -13.65% / 7d px -3.03% \u2192 Deleveraging Sell-Off (was OI \u221210.55%/px \u22123.76% Tue). Yahoo 5d -0.77% / 7d -1.18% \u2192 Neutral.",
-      "why_matters": "OI wash deepened while price draw cooled \u2014 leverage still leaving, tape not trending."
+      "take": "CoC Today: 7d OI -8.73% / 7d px -0.99% \u2192 Deleveraging Sell-Off (was OI \u221213.65%/px \u22123.03% Wed). Yahoo 5d -1.04% / 7d -1.01% \u2192 Neutral.",
+      "why_matters": "Leverage wash cooled vs Wed but still OI\u2193/px soft \u2014 not a fresh levered bid."
     },
     {
-      "title": "BH Cycle Index ticks up to 33 (still Bearish); breadth 5/16",
+      "title": "BH Cycle still 33 Bearish / 5/16; page date Sep 29",
       "url": "https://charts.blockhorizon.io/signals",
       "source": "BlockHorizon",
-      "take": "Live Signal Explorer page 2026-09-29: Cycle 33 Bearish (was 31); consensus 5/16 bullish (was 5/17); 30d mom 15/16 rising; SIP signal 38 (was 33).",
-      "why_matters": "Cycle print slightly less extreme but still Bearish \u2014 keeps tension vs RSDH BULL allocation."
+      "take": "Live Signal Explorer scrape 2026-10-01: Cycle 33 Bearish; consensus 5/16; 30d mom 15/16 rising; SIP 38 \u2014 page header still Sep 29 (no overnight page flip).",
+      "why_matters": "Bearish cycle print unchanged \u2014 keeps tension vs RSDH BULL / SOL-heavy display."
     },
     {
-      "title": "BTC ETF session 29 Sep 2026: +33.2m (Farside)",
+      "title": "BTC ETF session 30 Sep 2026: -125.6m (Farside)",
       "url": "https://farside.co.uk/btc/",
       "source": "Farside",
-      "take": "Tue session print +$33.2m after Mon \u2212$23.8m; sum since after 09-23 now +$389.4m.",
-      "why_matters": "Flow channel flipped back to a modest inflow day while futures stay in Deleveraging Sell-Off."
+      "take": "Wed session print -125.6m after Tue +$33.2m; sum since after 09-23 now +$296.8m.",
+      "why_matters": "Flow channel flipped to an outflow day while futures stay in Deleveraging Sell-Off."
     },
     {
-      "title": "10Y Treasury 5.26% / DXY ~101.39 into Wed refresh",
+      "title": "10Y Treasury 5.29% / DXY ~101.48 into Thu refresh",
       "url": "https://home.treasury.gov/",
       "source": "Macro (Treasury)",
-      "take": "US10Y 5.26% / US2Y 4.89% (Treasury 2026-09-29); Yahoo DXY ~101.39; VIX ~16.04.",
+      "take": "US10Y 5.29% / US2Y 4.88% (Treasury 2026-09-30); Yahoo DXY ~101.48; VIX ~16.34.",
       "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding backdrop."
     },
     {
-      "title": "H.4.1 Wed Sep 30 weekly not yet on Fed site at morning Vilnius",
+      "title": "H.4.1 Wed Sep 30 weekly still not on Fed site (Thu morning)",
       "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm",
       "source": "Fed / FiscalData",
-      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-28 ~$959.6B (was 09-25 ~$945.3B). Watching for today's weekly print.",
-      "why_matters": "Liquidity impulse still Expanding on last matched Wed; TGA drifted higher into the week."
+      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-29 ~$936.6B (was 09-28 ~$959.6B).",
+      "why_matters": "Liquidity impulse still Expanding on last matched Wed; TGA eased off the prior daily high."
     }
   ]
 }

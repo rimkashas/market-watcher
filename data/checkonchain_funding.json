@@ -1,33 +1,33 @@
 {
   "schema": "market_watcher.checkonchain.funding.v1",
-  "fetched_at_vilnius": "2026-09-30 04:14:15 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-01 04:10:51 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "series": {
     "Funding Rate (+ve)": {
-      "last": 0.0674519091187854,
-      "n": 2375,
-      "as_of": "2026-09-30"
+      "last": 0.062487498309392694,
+      "n": 2376,
+      "as_of": "2026-10-01"
     },
     "Funding Rate (-ve)": {
       "last": 0.0,
-      "n": 2375,
-      "as_of": "2026-09-30"
+      "n": 2376,
+      "as_of": "2026-10-01"
     },
     "Adj-FR (+ve)": {
-      "last": 0.004954904067240182,
-      "n": 2375,
-      "as_of": "2026-09-30"
+      "last": 5.577130063619262e-06,
+      "n": 2376,
+      "as_of": "2026-10-01"
     },
     "Adj-FR (-ve)": {
       "last": 0.0,
-      "n": 2375,
-      "as_of": "2026-09-30"
+      "n": 2376,
+      "as_of": "2026-10-01"
     }
   },
   "available": true,
-  "funding_ann_pct": 6.7452,
+  "funding_ann_pct": 6.2487,
   "funding_side": "positive",
-  "adj_funding_ann_pct": 0.4955
+  "adj_funding_ann_pct": 0.0006
 }

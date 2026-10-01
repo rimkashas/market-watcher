@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-09-30",
-  "built_at_vilnius": "2026-09-30 04:14:16 Vilnius (UTC+3)",
+  "as_of_brief": "2026-10-01",
+  "built_at_vilnius": "2026-10-01 04:10:52 Vilnius (UTC+3)",
   "main_story": "Constructive: more signals support risk than oppose it (6 vs 5) — but the watch list isn't empty.",
   "aligned": [
     {
@@ -16,12 +16,12 @@
     },
     {
       "label": "ETF inflows",
-      "detail": "+$736M week 23–29 Sep",
+      "detail": "+$297M week 24–30 Sep",
       "tone": "pos"
     },
     {
-      "label": "Stablecoins edging up",
-      "detail": "Mild support",
+      "label": "Stablecoins expanding",
+      "detail": "Fresh dry powder",
       "tone": "pos"
     },
     {
@@ -38,7 +38,7 @@
   "diverging": [
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -13.7% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -8.7% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
@@ -47,9 +47,9 @@
       "tone": "neg"
     },
     {
-      "label": "USD & yields: mixed",
-      "detail": "Dollar and yields sent mixed signals this week; equities flat, volatility calm.",
-      "tone": "watch"
+      "label": "USD & yields: headwind",
+      "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities soft, volatility calm.",
+      "tone": "neg"
     },
     {
       "label": "BTC consolidating",

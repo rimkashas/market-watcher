@@ -1,0 +1,26 @@
+{
+  "schema": "market_watcher.outlook_btc_targets.v1",
+  "as_of_brief": "2026-10-01",
+  "bands_kept": true,
+  "probs_7d": {
+    "Base": 45,
+    "Bull": 25,
+    "Bear": 30
+  },
+  "probs_1m": {
+    "Base": 45,
+    "Bull": 25,
+    "Bear": 30
+  },
+  "bands_7d": {
+    "Base": "$82\u201388k",
+    "Bull": ">$85k",
+    "Bear": "Fail $82k"
+  },
+  "bands_1m": {
+    "Base": "$78\u201392k",
+    "Bull": ">$92k",
+    "Bear": "high-$70ks"
+  },
+  "reason": "BTC ~$83.5k still inside Base $82\u201388k; structure Neutral (Yahoo 5d -1.0% / 7d -1.0%, |7d|<5%) + futures still Deleveraging Sell-Off (OI -8.73% / px -0.99%) \u2014 not a hard band break. Probs kept Base45/Bull25/Bear30."
+}
