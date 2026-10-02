@@ -1,42 +1,35 @@
 {
-  "schema": "market_watcher.crypto_news.v1",
-  "as_of_brief": "2026-10-01",
-  "built_at_vilnius": "2026-10-01 04:10:18 Vilnius (UTC+3)",
-  "items": [
+  "updated_at": "2026-10-02 04:18:46 Vilnius (UTC+3)",
+  "stories": [
     {
-      "title": "Futures still Deleveraging Sell-Off; OI wash eases",
-      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
+      "headline": "Futures flip to Spot Rally (OI wash + price up)",
+      "blurb": "CoC Today: 7d OI -5.95% / 7d px +0.47% \u2192 Spot Rally (was Deleveraging Sell-Off OI \u22128.73%/px \u22120.99%). Yahoo 5d +0.22% / 7d +0.72% \u2192 Neutral. \u2014 Leverage still washing but spot bid returned \u2014 healthier than levered chase.",
       "source": "CheckOnChain",
-      "take": "CoC Today: 7d OI -8.73% / 7d px -0.99% \u2192 Deleveraging Sell-Off (was OI \u221213.65%/px \u22123.03% Wed). Yahoo 5d -1.04% / 7d -1.01% \u2192 Neutral.",
-      "why_matters": "Leverage wash cooled vs Wed but still OI\u2193/px soft \u2014 not a fresh levered bid."
+      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "title": "BH Cycle still 33 Bearish / 5/16; page date Sep 29",
-      "url": "https://charts.blockhorizon.io/signals",
+      "headline": "BH Cycle 34 Bearish / 6/16; page date Oct 1",
+      "blurb": "Live Signal Explorer scrape 2026-10-02: Cycle 34 Bearish (was 33); consensus 6/16 (was 5/16); 30d mom 16/16 rising; SIP 55 Bullish \u2014 page header advanced to Oct 1. \u2014 Breadth/SIP improve inside a still-Bearish cycle \u2014 tension vs RSDH BULL remains.",
       "source": "BlockHorizon",
-      "take": "Live Signal Explorer scrape 2026-10-01: Cycle 33 Bearish; consensus 5/16; 30d mom 15/16 rising; SIP 38 \u2014 page header still Sep 29 (no overnight page flip).",
-      "why_matters": "Bearish cycle print unchanged \u2014 keeps tension vs RSDH BULL / SOL-heavy display."
+      "url": "https://charts.blockhorizon.io/signals"
     },
     {
-      "title": "BTC ETF session 30 Sep 2026: -125.6m (Farside)",
-      "url": "https://farside.co.uk/btc/",
+      "headline": "BTC ETF session 01 Oct 2026: -92.9m (Farside)",
+      "blurb": "Thu session print -92.9m after Wed \u2212125.6m; sum since after 09-23 now +$180.8m. \u2014 Second outflow day while futures flipped to Spot Rally \u2014 flow channel still soft.",
       "source": "Farside",
-      "take": "Wed session print -125.6m after Tue +$33.2m; sum since after 09-23 now +$296.8m.",
-      "why_matters": "Flow channel flipped to an outflow day while futures stay in Deleveraging Sell-Off."
+      "url": "https://farside.co.uk/btc/"
     },
     {
-      "title": "10Y Treasury 5.29% / DXY ~101.48 into Thu refresh",
-      "url": "https://home.treasury.gov/",
+      "headline": "10Y Treasury 5.24% / DXY ~102.094 into Fri refresh",
+      "blurb": "US10Y 5.24% / US2Y 4.78% (Treasury 2026-10-01); Yahoo DXY ~102.094; VIX ~16.39. \u2014 Elevated yields keep opportunity cost high vs new Contracting liquidity backdrop.",
       "source": "Macro (Treasury)",
-      "take": "US10Y 5.29% / US2Y 4.88% (Treasury 2026-09-30); Yahoo DXY ~101.48; VIX ~16.34.",
-      "why_matters": "Elevated yields keep opportunity cost high vs Liquidity Expanding backdrop."
+      "url": "https://home.treasury.gov/"
     },
     {
-      "title": "H.4.1 Wed Sep 30 weekly still not on Fed site (Thu morning)",
-      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm",
-      "source": "Fed / FiscalData",
-      "take": "Matched H.4.1 still Wed 09-23 Fed net $5.7999T Expanding; daily TGA refreshed to 2026-09-29 ~$936.6B (was 09-28 ~$959.6B).",
-      "why_matters": "Liquidity impulse still Expanding on last matched Wed; TGA eased off the prior daily high."
+      "headline": "H.4.1 Wed Sep 30 live: Fed net Contracting",
+      "blurb": "Matched H.4.1 Wed 09-30 Fed net Contracting (\u03941w \u2212$42B vs Wed 09-23 Expanding print); daily TGA 2026-09-30 rebuilt. \u2014 Liquidity impulse flipped \u2014 first weekly tighten after the Expanding stretch.",
+      "source": "Fed H.4.1 / FiscalData",
+      "url": "https://www.federalreserve.gov/releases/h41/current/"
     }
   ]
 }

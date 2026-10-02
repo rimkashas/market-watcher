@@ -1,11 +1,12 @@
 {
   "alerts": [
-    "RSDH equity series starts 2026-09-07 (Aug gap not invented)",
-    "BH live scrape OK but page date still 2026-09-29 (Cycle 33 Bearish / 5/16 / 30d mom 15/16 / SIP 38 \u2014 unchanged vs Wed brief)",
-    "Futures still Deleveraging Sell-Off; 7d OI eased \u221213.65%\u2192-8.73% (px \u22123.03%\u2192-0.99%)",
-    "Daily TGA refreshed 09-28\u21922026-09-29 (~$936.6B); H.4.1 still Wed 09-23 $5.7999T Expanding (Wed 09-30 weekly still not published Thu morning Vilnius)",
-    "Farside Wed BTC ETF session -125.6m (after Tue +$33.2m); structure still Neutral",
-    "RSDH: strat_final_x 1.36\u21921.35; btc_final_x still 1.32; allocation still SOL95/BTC5/CASH0 macro BULL",
-    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented \u2014 chart shows logged points only."
+    "RSDH lag: snapshot.date still 2026-10-01 on 2026-10-02 run (no report-2026-10-02 / no Oct-2 daily_log bar; file mtime is sync only \u2014 not invented fresher)",
+    "RSDH equity series starts 2026-09-07 (window Start 2026-08-01); Aug gap days not invented \u2014 chart shows logged points only.",
+    "H.4.1 refreshed: Wed 09-30 Fed net $5.7578T Contracting (\u03941w \u221242.1B vs Wed 09-23 $5.7999T Expanding) \u2014 release Thu 10-01",
+    "Daily TGA refreshed \u21922026-09-30 ~$984.0B (was 09-29 ~$936.6B)",
+    "Futures flipped Deleveraging Sell-Off \u2192 Spot Rally (7d OI \u22125.95% / px +0.47%); wash continued but price flipped up",
+    "BH live: page date Sep 29\u2192Oct 1; Cycle 33\u219234 Bearish; breadth 5/16\u21926/16; 30d mom 15/16\u219216/16; SIP 38\u219255 Bullish",
+    "Farside Thu BTC ETF session \u221292.9m (01 Oct; after Wed \u2212125.6m); structure still Neutral",
+    "RSDH allocation still SOL95/BTC5/CASH0 macro BULL; strat_final_x 1.35 / btc_final_x 1.32 (lagged bar)"
   ]
 }
