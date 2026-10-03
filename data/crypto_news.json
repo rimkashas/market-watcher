@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-02 04:18:46 Vilnius (UTC+3)",
+  "updated_at": "2026-10-03 04:05:53 Vilnius (UTC+3)",
   "stories": [
     {
-      "headline": "Futures flip to Spot Rally (OI wash + price up)",
-      "blurb": "CoC Today: 7d OI -5.95% / 7d px +0.47% \u2192 Spot Rally (was Deleveraging Sell-Off OI \u22128.73%/px \u22120.99%). Yahoo 5d +0.22% / 7d +0.72% \u2192 Neutral. \u2014 Leverage still washing but spot bid returned \u2014 healthier than levered chase.",
+      "headline": "RSDH fresh Oct-3 bar: still SOL95 / BULL, Final\u00d7 1.36",
+      "blurb": "Investorius bar 2026-10-03 present (no lag). Macro BULL, SOL 95% / BTC 5% / CASH 0%, strat Final\u00d7 1.36 vs BTC 1.33 (bar ~$84.5k). \u2014 Model stays risk-on on a current print.",
+      "source": "Investorius / RSDH",
+      "url": "https://rimkashas.github.io/market-watcher/"
+    },
+    {
+      "headline": "Futures still Spot Rally; OI wash easing",
+      "blurb": "CoC Today: 7d OI -2.51% / 7d px +0.49% \u2192 Spot Rally (wash shallower than prior ~\u22126% OI). Yahoo 5d +1.3% / 7d +0.3% \u2192 Neutral. \u2014 Spot bid holding while leverage keeps bleeding gently.",
       "source": "CheckOnChain",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "headline": "BH Cycle 34 Bearish / 6/16; page date Oct 1",
-      "blurb": "Live Signal Explorer scrape 2026-10-02: Cycle 34 Bearish (was 33); consensus 6/16 (was 5/16); 30d mom 16/16 rising; SIP 55 Bullish \u2014 page header advanced to Oct 1. \u2014 Breadth/SIP improve inside a still-Bearish cycle \u2014 tension vs RSDH BULL remains.",
-      "source": "BlockHorizon",
-      "url": "https://charts.blockhorizon.io/signals"
-    },
-    {
-      "headline": "BTC ETF session 01 Oct 2026: -92.9m (Farside)",
-      "blurb": "Thu session print -92.9m after Wed \u2212125.6m; sum since after 09-23 now +$180.8m. \u2014 Second outflow day while futures flipped to Spot Rally \u2014 flow channel still soft.",
+      "headline": "Fri BTC ETF session flipped to +$31.7m",
+      "blurb": "Farside: 02 Oct BTC ETF total +31.7m after Thu 01 Oct \u221292.9m. Visible-window flows still net constructive since mid-Sep. \u2014 One session does not erase the prior outflow string, but the sign flipped.",
       "source": "Farside",
       "url": "https://farside.co.uk/btc/"
     },
     {
-      "headline": "10Y Treasury 5.24% / DXY ~102.094 into Fri refresh",
-      "blurb": "US10Y 5.24% / US2Y 4.78% (Treasury 2026-10-01); Yahoo DXY ~102.094; VIX ~16.39. \u2014 Elevated yields keep opportunity cost high vs new Contracting liquidity backdrop.",
-      "source": "Macro (Treasury)",
-      "url": "https://home.treasury.gov/"
+      "headline": "Daily TGA stepped down into Oct (liquidity drain)",
+      "blurb": "FiscalData TGA closing ~$893.7B on 2026-10-01 (was ~$984.0B on 09-30). Weekly Fed H.4.1 still Wed 09-30 Contracting \u2014 no newer Wednesday print yet. \u2014 Direction: liquidity still deteriorating on the weekly lens.",
+      "source": "FiscalData / Fed H.4.1",
+      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
     },
     {
-      "headline": "H.4.1 Wed Sep 30 live: Fed net Contracting",
-      "blurb": "Matched H.4.1 Wed 09-30 Fed net Contracting (\u03941w \u2212$42B vs Wed 09-23 Expanding print); daily TGA 2026-09-30 rebuilt. \u2014 Liquidity impulse flipped \u2014 first weekly tighten after the Expanding stretch.",
-      "source": "Fed H.4.1 / FiscalData",
-      "url": "https://www.federalreserve.gov/releases/h41/current/"
+      "headline": "BH Cycle 34 Bearish / 6/16 (carry-over Oct 1 page)",
+      "blurb": "SHORT edition: BlockHorizon not re-scraped. Last live Signal Explorer (page 2026-10-01): Cycle 34 Bearish, breadth 6/16, 30d mom 16/16 rising, SIP 55. \u2014 Breadth constructive inside a still-Bearish cycle label.",
+      "source": "BlockHorizon (as-of 2026-10-01)",
+      "url": "https://charts.blockhorizon.io/signals"
     }
   ]
 }
