@@ -1,8 +1,9 @@
 {
   "schema": "market_watcher.futures_oi_scatter.v1",
-  "fetched_at_vilnius": "2026-10-04 04:10:07 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-04 04:07:46 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
+  "parsed_from": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
   "trace": "Today",
   "oi_chg_7d_frac": -0.0335841423756012,
   "price_chg_7d_frac": 0.003989790102346858,
@@ -15,5 +16,5 @@
     "Deleveraging Sell-Off",
     "Leveraged Sell-Off"
   ],
-  "note": "x=7d OI change (fraction), y=7d price change (fraction)."
+  "note": "x=7d OI change (fraction), y=7d price change (fraction) from CheckOnChain scatter."
 }
