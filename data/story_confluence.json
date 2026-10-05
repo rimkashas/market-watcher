@@ -1,8 +1,8 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-04",
-  "built_at_vilnius": "2026-10-04 04:10:08 Vilnius (UTC+3)",
-  "main_story": "Constructive: caution signals outnumber supports (7 vs 4).",
+  "as_of_brief": "2026-10-05",
+  "built_at_vilnius": "2026-10-05 04:04:59 Vilnius (UTC+3)",
+  "main_story": "Constructive: caution signals outnumber supports (6 vs 4).",
   "aligned": [
     {
       "label": "ETF inflows",
@@ -11,12 +11,12 @@
     },
     {
       "label": "Healthy · spot-led",
-      "detail": "Futures OI -3.4% WoW: leverage is leaving; price action is spot-driven.",
+      "detail": "Futures OI -1.6% WoW: leverage is leaving; price action is spot-driven.",
       "tone": "gold"
     },
     {
-      "label": "Stablecoins expanding",
-      "detail": "Fresh dry powder",
+      "label": "Stablecoins edging up",
+      "detail": "Mild support",
       "tone": "pos"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 3.6 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 5.0 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
@@ -50,11 +50,6 @@
       "label": "USD & yields: headwind",
       "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities flat, volatility calm.",
       "tone": "neg"
-    },
-    {
-      "label": "BTC range-bound",
-      "detail": "Small moves on both weekly and monthly view.",
-      "tone": "neutral"
     },
     {
       "label": "RSDH concentrated in SOL",

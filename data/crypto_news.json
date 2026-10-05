@@ -1,33 +1,38 @@
 {
-  "updated_at": "2026-10-04 04:09:52 Vilnius (UTC+3)",
+  "updated_at": "2026-10-05 04:04:29 Vilnius (UTC+3)",
   "stories": [
     {
-      "headline": "RSDH fresh Oct-4 bar: still SOL95 / BULL, Final\u00d7 1.36",
-      "blurb": "Investorius bar 2026-10-04 present (no lag). Macro BULL, SOL 95% / BTC 5% / CASH 0%, strat Final\u00d7 1.36 vs BTC 1.35 (bar ~$84.7k). \u2014 Model stays risk-on on a current print.",
-      "source": "Investorius / RSDH",
-      "url": "https://rimkashas.github.io/market-watcher/"
+      "headline": "BTC pushes higher into the mid-$86ks",
+      "blurb": "Up ~3.6% week-over-week and ~8.4% month-over-month — still a modest move, so the structure read stays Neutral.",
+      "why_matters": "The 7-day bull trigger ($85k) is now in play, so the 7D outlook tilts slightly toward Bull.",
+      "source": "Coinbase / Yahoo",
+      "url": "https://www.coinbase.com/price/bitcoin"
     },
     {
-      "headline": "Futures still Spot Rally; OI wash a touch deeper",
-      "blurb": "CoC Today: 7d OI -3.36% / 7d px +0.40% \u2192 Spot Rally. Yahoo 5d +1.4% / 7d +0.4% \u2192 Neutral. \u2014 Spot bid holding while leverage keeps bleeding.",
+      "headline": "The move is spot-led: leverage keeps leaving",
+      "blurb": "CheckOnChain: futures open interest down ~1.6% WoW while price rose ~2.3% (Spot Rally quadrant).",
+      "why_matters": "Rallies without leverage chasing are sturdier and less prone to sharp liquidation flushes.",
       "source": "CheckOnChain",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "headline": "Weekly Fed liquidity still Contracting into the weekend",
-      "blurb": "H.4.1 latest remains Wed 09-30 (release Thu 10-01); no newer weekly print yet. Daily TGA still as-of 10-01 ~$893.7B (FiscalData weekend lag). \u2014 Liquidity direction still deteriorating.",
+      "headline": "RSDH stays SOL-heavy BULL, but its edge over BTC is gone",
+      "blurb": "Fresh Oct-5 bar: SOL 95% / BTC 5% / cash 0%, macro BULL; Final× now level with buy-and-hold BTC.",
+      "why_matters": "BTC led this week's move, so the SOL tilt stopped adding value — watch whether SOL catches up.",
+      "source": "Investorius / RSDH",
+      "url": "https://rimkashas.github.io/market-watcher/"
+    },
+    {
+      "headline": "Fed liquidity still deteriorating until Thursday's print",
+      "blurb": "Latest weekly H.4.1 is Wed 09-30 (Contracting); next release Thu 10-08. Daily Treasury cash data still as-of Oct 1.",
+      "why_matters": "The rally is running against a liquidity headwind — a second contracting week would raise the bar for follow-through.",
       "source": "Fed H.4.1 / FiscalData",
       "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
     },
     {
-      "headline": "Fri BTC ETF inflow still the latest print (+31.7m)",
-      "blurb": "Farside through 02 Oct: last session +$31.7m after Thu washout. Weekend \u2014 no Sat/Sun ETF flows. \u2014 Spot demand via ETFs last confirmed Friday.",
-      "source": "Farside",
-      "url": "https://farside.co.uk/btc/"
-    },
-    {
-      "headline": "BH cycle still Bearish 34 / 6/16 (SHORT carry-over)",
-      "blurb": "Signal Explorer page Oct 1 (scraped Oct 2): Cycle Index 34 Bearish, breadth 6/16 bullish, 30d momentum 16/16 rising, SIP 55. \u2014 Cycle breadth still lean-bearish; not re-scraped on Sunday SHORT.",
+      "headline": "On-chain cycle still Bearish (carry-over from Oct 1)",
+      "blurb": "BlockHorizon Cycle 34 Bearish with weak breadth (6/16), though 30-day momentum is rising across signals; not re-scraped on Monday's short edition.",
+      "why_matters": "On-chain hasn't confirmed the price push yet; Tuesday's deep edition re-checks it.",
       "source": "BlockHorizon",
       "url": "https://charts.blockhorizon.io/signals"
     }
