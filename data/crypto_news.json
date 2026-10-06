@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-05 04:04:29 Vilnius (UTC+3)",
+  "updated_at": "2026-10-06 04:08:41 Vilnius (UTC+3)",
   "stories": [
     {
-      "headline": "BTC pushes higher into the mid-$86ks",
-      "blurb": "Up ~3.6% week-over-week and ~8.4% month-over-month — still a modest move, so the structure read stays Neutral.",
-      "why_matters": "The 7-day bull trigger ($85k) is now in play, so the 7D outlook tilts slightly toward Bull.",
-      "source": "Coinbase / Yahoo",
-      "url": "https://www.coinbase.com/price/bitcoin"
+      "headline": "BTC's second push toward $87k stalls under the late-September high",
+      "blurb": "Bitcoin nearly reached $87k on Sunday, within ~$500 of its eight-month high near $87.4k, then slipped back under $86k.",
+      "why_matters": "The 7-day bull case now needs a daily close above ~$87.4k; repeated stalls there keep the range intact.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses"
     },
     {
-      "headline": "The move is spot-led: leverage keeps leaving",
-      "blurb": "CheckOnChain: futures open interest down ~1.6% WoW while price rose ~2.3% (Spot Rally quadrant).",
-      "why_matters": "Rallies without leverage chasing are sturdier and less prone to sharp liquidation flushes.",
-      "source": "CheckOnChain",
-      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
+      "headline": "Weak jobs report eased hike bets, but yields climbed right back",
+      "blurb": "September payrolls came in far below expectations, yet the 10-year yield rose back above 5.3% on Monday as markets look to next week's CPI.",
+      "why_matters": "Rising long yields and a firmer dollar are the main macro headwind capping crypto's upside.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/05/live-updates-bitcoin-above-usd86-000-as-traders-price-out-an-october-fed-hike"
     },
     {
-      "headline": "RSDH stays SOL-heavy BULL, but its edge over BTC is gone",
-      "blurb": "Fresh Oct-5 bar: SOL 95% / BTC 5% / cash 0%, macro BULL; Final× now level with buy-and-hold BTC.",
-      "why_matters": "BTC led this week's move, so the SOL tilt stopped adding value — watch whether SOL catches up.",
-      "source": "Investorius / RSDH",
-      "url": "https://rimkashas.github.io/market-watcher/"
+      "headline": "Spot ETFs log a third positive week, then a Monday outflow",
+      "blurb": "US spot BTC ETFs took net inflows for the week to Oct 2 (led by IBIT); Farside shows Monday Oct 5 back in outflow.",
+      "why_matters": "Institutional demand is supportive but not accelerating — flows are mixed rather than a fresh tailwind.",
+      "source": "Crypto Briefing / Farside",
+      "url": "https://cryptobriefing.com/spot-bitcoin-etfs-241m-inflows-third-week/"
     },
     {
-      "headline": "Fed liquidity still deteriorating until Thursday's print",
-      "blurb": "Latest weekly H.4.1 is Wed 09-30 (Contracting); next release Thu 10-08. Daily Treasury cash data still as-of Oct 1.",
-      "why_matters": "The rally is running against a liquidity headwind — a second contracting week would raise the bar for follow-through.",
-      "source": "Fed H.4.1 / FiscalData",
-      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
-    },
-    {
-      "headline": "On-chain cycle still Bearish (carry-over from Oct 1)",
-      "blurb": "BlockHorizon Cycle 34 Bearish with weak breadth (6/16), though 30-day momentum is rising across signals; not re-scraped on Monday's short edition.",
-      "why_matters": "On-chain hasn't confirmed the price push yet; Tuesday's deep edition re-checks it.",
+      "headline": "On-chain profitability turns up: two BlockHorizon signals flip Bullish",
+      "blurb": "Supply in Profit and long-term-holder NUPL flipped Bullish on Oct 5, and all 16 signals are rising over 30 days, but the Cycle Index is still Bearish at 6/16.",
+      "why_matters": "On-chain is starting to back the price move; a breadth push past half the signals would be the confirmation to watch.",
       "source": "BlockHorizon",
       "url": "https://charts.blockhorizon.io/signals"
+    },
+    {
+      "headline": "Fed liquidity still draining until Thursday's print",
+      "blurb": "The latest weekly Fed balance-sheet print (Wed 09-30) showed liquidity contracting; the Treasury's cash pile has fallen since, which eases the drain.",
+      "why_matters": "If Thursday's release confirms the turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
+      "source": "Fed H.4.1 / FiscalData",
+      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
     }
   ]
 }
