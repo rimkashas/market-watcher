@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-06 04:08:41 Vilnius (UTC+3)",
-  "stories": [
+  "updated_at": "2026-10-07 04:15 Vilnius (UTC+3)",
+  "items": [
     {
-      "headline": "BTC's second push toward $87k stalls under the late-September high",
-      "blurb": "Bitcoin nearly reached $87k on Sunday, within ~$500 of its eight-month high near $87.4k, then slipped back under $86k.",
-      "why_matters": "The 7-day bull case now needs a daily close above ~$87.4k; repeated stalls there keep the range intact.",
+      "headline": "Bitcoin turned back at the $87k wall for the third time since late September",
+      "blurb": "Sellers rejected another move above $87k and BTC slipped back to the mid-$85ks; analysts note price is squeezing into the apex of a triangle.",
+      "why_matters": "A daily close above the ~$87.4–87.7k highs is still the bull trigger; a tightening range with leverage rebuilding raises the odds of a sharp move either way.",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses"
+      "url": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records"
     },
     {
-      "headline": "Weak jobs report eased hike bets, but yields climbed right back",
-      "blurb": "September payrolls came in far below expectations, yet the 10-year yield rose back above 5.3% on Monday as markets look to next week's CPI.",
-      "why_matters": "Rising long yields and a firmer dollar are the main macro headwind capping crypto's upside.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/05/live-updates-bitcoin-above-usd86-000-as-traders-price-out-an-october-fed-hike"
+      "headline": "Spot ETF buying cools sharply as funds hover near holders' breakeven",
+      "blurb": "Bitfinex analysts say weekly spot BTC ETF inflows fell about 90% in the week to Oct 2, and expect an $84k–$87.7k range while spot demand stays soft.",
+      "why_matters": "Flows are still net positive but too thin to break the range; ETF holders' average cost near $84k is the support line to watch.",
+      "source": "crypto.news / Bitfinex",
+      "url": "https://crypto.news/bitcoin-90k-push-stalls-as-etf-buying-slows/"
     },
     {
-      "headline": "Spot ETFs log a third positive week, then a Monday outflow",
-      "blurb": "US spot BTC ETFs took net inflows for the week to Oct 2 (led by IBIT); Farside shows Monday Oct 5 back in outflow.",
-      "why_matters": "Institutional demand is supportive but not accelerating — flows are mixed rather than a fresh tailwind.",
-      "source": "Crypto Briefing / Farside",
-      "url": "https://cryptobriefing.com/spot-bitcoin-etfs-241m-inflows-third-week/"
+      "headline": "CFTC proposes crypto rules days after an SEC custody proposal",
+      "blurb": "Bitcoin twice popped above $86k on the CFTC news before fading back into its range.",
+      "why_matters": "Regulatory clarity is a slow-burn tailwind for institutional access, but it hasn't been enough on its own to break resistance.",
+      "source": "Bitcoin.com News",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-october-gains-two-surges-above-86k/"
     },
     {
-      "headline": "On-chain profitability turns up: two BlockHorizon signals flip Bullish",
-      "blurb": "Supply in Profit and long-term-holder NUPL flipped Bullish on Oct 5, and all 16 signals are rising over 30 days, but the Cycle Index is still Bearish at 6/16.",
-      "why_matters": "On-chain is starting to back the price move; a breadth push past half the signals would be the confirmation to watch.",
-      "source": "BlockHorizon",
-      "url": "https://charts.blockhorizon.io/signals"
+      "headline": "Fed minutes due today, September CPI next week",
+      "blurb": "Minutes of the September hike meeting land on Oct 7; CPI follows on Oct 14, ahead of the Oct 27–28 FOMC.",
+      "why_matters": "With the 10-year yield near multi-decade highs, any hawkish signal on further hikes is the main macro risk to crypto's range.",
+      "source": "The Crypto Times",
+      "url": "https://www.cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes/"
     },
     {
-      "headline": "Fed liquidity still draining until Thursday's print",
-      "blurb": "The latest weekly Fed balance-sheet print (Wed 09-30) showed liquidity contracting; the Treasury's cash pile has fallen since, which eases the drain.",
-      "why_matters": "If Thursday's release confirms the turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
+      "headline": "Weekly Fed liquidity read still the Wed 09-30 print until Thursday",
+      "blurb": "The latest weekly Fed balance-sheet observation showed net liquidity falling; the next release is Thu Oct 8.",
+      "why_matters": "If Thursday's release confirms a turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
       "source": "Fed H.4.1 / FiscalData",
-      "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
+      "url": "https://www.federalreserve.gov/releases/h41/"
     }
   ]
 }

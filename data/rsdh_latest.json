@@ -1,19 +1,19 @@
 {
   "schema": "investorius.rsdh_dashboard_snapshot.v1",
-  "updated_at_utc": "2026-10-06T00:16:26Z",
+  "updated_at_utc": "2026-10-07T00:10:35Z",
   "source": "RSDH daily bar-close check-in",
   "chart_url": "https://www.tradingview.com/chart/CiYlQE0T/",
   "script": "RSDH v12.0",
   "performance_window_start": "2026-08-01",
   "snapshot": {
-    "date": "2026-10-06",
-    "bar_time": "2026-10-06T00:00:00Z",
-    "run_time_utc": "2026-10-06T00:16:26Z",
-    "btc_price": 85753.62,
-    "btc_price_live_shown": 85845.15,
+    "date": "2026-10-07",
+    "bar_time": "2026-10-07T00:00:00Z",
+    "run_time_utc": "2026-10-07T00:10:35Z",
+    "btc_price": 85543.78,
+    "btc_price_live_shown": 85502.19,
     "macro": "BULL",
     "macro_score": 361,
-    "fast_score": 61,
+    "fast_score": 57,
     "sma_position": "up",
     "crypto_cash_split": {
       "crypto": 100,
@@ -42,26 +42,26 @@
         "own": 361,
         "vs_btc": 0,
         "wt": 5,
-        "contrib_pp": 3.9
+        "contrib_pp": 3.8
       },
       "ETHUSD": {
         "role": "watch",
         "own": 353,
-        "vs_btc": 283,
+        "vs_btc": 279,
         "wt": 0,
         "contrib_pp": 0.0
       },
       "BNBUSD": {
         "role": "watch",
-        "own": 281,
-        "vs_btc": -21,
+        "own": 275,
+        "vs_btc": -75,
         "wt": 0,
         "contrib_pp": 0.0
       },
       "XRPUSD": {
         "role": "watch",
-        "own": 347,
-        "vs_btc": 177,
+        "own": 343,
+        "vs_btc": 169,
         "wt": 0,
         "contrib_pp": 0.0
       },
@@ -70,7 +70,7 @@
         "own": 361,
         "vs_btc": 361,
         "wt": 95,
-        "contrib_pp": 29.7
+        "contrib_pp": 29.6
       }
     },
     "wildcard_asset": null,
@@ -78,20 +78,20 @@
     "wildcard_decision": null,
     "wildcard_confirm": null,
     "strat_final_x": 1.37,
-    "btc_final_x": 1.37,
+    "btc_final_x": 1.36,
     "performance": {
-      "cagr_strat": 493.3,
-      "cagr_btc": 477.1,
+      "cagr_strat": 475.3,
+      "cagr_btc": 454.4,
       "max_dd_strat": 9.3,
       "max_dd_btc": 6.9,
-      "sharpe_strat": 4.23,
-      "sharpe_btc": 4.48,
-      "sortino_strat": 8.7,
-      "sortino_btc": 11.23,
-      "calmar_strat": 53.3,
-      "calmar_btc": 69.13,
+      "sharpe_strat": 4.19,
+      "sharpe_btc": 4.41,
+      "sortino_strat": 8.61,
+      "sortino_btc": 11.05,
+      "calmar_strat": 51.37,
+      "calmar_btc": 65.84,
       "omega_strat": 2.01,
-      "omega_btc": 2.19,
+      "omega_btc": 2.17,
       "net_x": 1.37,
       "drag_pct": 0.0,
       "turnover": 1.7,
@@ -100,10 +100,10 @@
       "two_asset_pct": 98,
       "rotations": 1,
       "rebalances": 11,
-      "rotations_per_yr": 5.6,
+      "rotations_per_yr": 5.5,
       "source_final_x": "RSDH table with Start date verified 2026-08-01"
     },
-    "in_market_pct": 75.0,
+    "in_market_pct": 76.0,
     "display_allocation": {
       "BTCUSD": 5.0,
       "ETHUSD": 0.0,
@@ -122,35 +122,34 @@
       "core_sleeve_sum": 100,
       "start_date_verified": "2026-08-01",
       "start_date_drift_corrected": false,
-      "prior_day": "2026-10-05",
-      "btc_pct_change_vs_prior_log": -0.88,
-      "tv_completed_bar_label": "2026-10-05",
+      "prior_day": "2026-10-06",
+      "btc_pct_change_vs_prior_log": -0.24,
+      "tv_completed_bar_label": "2026-10-06",
       "flags": [
-        "btc_down_day_86518_to_85754_pct_-0.88",
-        "mon_05_close_derived_from_today_change_plus91.53_not_hovered",
+        "btc_down_day_85754_to_85544_pct_-0.24",
+        "tue_06_close_hovered_85543.78",
         "slow_361_flat_still_above_239",
-        "fast_61_flat",
+        "fast_61_to_57",
         "crypto_cash_flat_100_0",
         "allocation_flat_SOL95_BTC5_CASH0",
         "peak_still_PEAK_95_hold_ge50_dyn_ivol_p1_5",
         "top5_unchanged_BTC_ETH_BNB_XRP_SOL",
         "soft_peak_correct_armed_BTC_gt_SMA",
         "no_wildcard_on_chart",
-        "final_x_strat_1.38_to_1.37_btc_1.38_to_1.37_still_tied",
+        "final_x_strat_1.37_flat_btc_1.37_to_1.36_strat_leads_by_0.01",
         "maxdd_flat_9.3_6.9",
         "rotations_1_rebalances_11_flat",
         "turnover_1.7_fees_0_drag_0",
         "weekly_gate_still_enabled_intentional",
         "start_date_verified_2026-08-01_no_drift",
         "visible_script_title_RSDH_v12_0",
-        "eth_own_357_to_353_vsbtc_271_to_283_still_watch",
-        "bnb_own_283_to_281_vsbtc_minus9_to_minus21",
-        "xrp_own_351_to_347_vsbtc_173_to_177_still_watch",
-        "sol_own_361_vsbtc_361_ceiling_contrib_30.3_to_29.7",
+        "eth_own_353_flat_vsbtc_283_to_279_still_watch",
+        "bnb_own_281_to_275_vsbtc_minus21_to_minus75_weakening",
+        "xrp_own_347_to_343_vsbtc_177_to_169_still_watch",
+        "sol_own_361_vsbtc_361_ceiling_contrib_29.7_to_29.6",
         "no_selected_at_0_anomaly",
-        "sharpe_strat_still_below_btc_4.23_vs_4.48",
-        "dyn_p_vol_band_read_from_legend_1.5_60_5",
-        "inputs_verified_leaderConfirm_2_minBtc_10_peak_95_confirm_2_exit_50_gate_enabled_fee_0"
+        "sharpe_strat_still_below_btc_4.19_vs_4.41",
+        "inputs_verified_leaderConfirm_2_minBtc_10_peak_95_confirm_2_exit_50_gate_enabled_fee_0_dynamic_p1.5_vol60_band5"
       ],
       "inputs": {
         "leaderConfirm": 2,
@@ -168,9 +167,9 @@
         "dyn_vol_lookback": 60,
         "dyn_no_trade_band_pct": 5,
         "fee_pct_default": 0,
-        "inputs_status_string": "verified via settings.png / settings-peak.png / settings-gate.png; dyn p/vol/band from chart legend 'Dynamic inv-vol x strength 1.5 60 5' (2026-10-06)"
+        "inputs_status_string": "verified via settings.png / settings-peak.png (gate shares screen, settings-gate.png) / settings-dyn.png (2026-10-07)"
       }
     },
-    "notes": "Post bar-close. BTC 86517.75→~85753.62 (-0.88%; Mon 05 close derived from today's +91.53 change; live ~85845.15). Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 361/Fast 61 flat; crypto/cash 100/0. SOL 95 / BTC 5 / CASH 0; SOL satellite dyn ivol p1.5 / PEAK 95% hold≥50. Soft-peak OK. No Wildcard. Start 2026-08-01 verified. Inputs unchanged. Deploy-window Final× 1.37/1.37 (both −0.01, still tied); CAGR 493.3/477.1 MaxDD 9.3/6.9 Sharpe 4.23/4.48 Sortino 8.7/11.23 Calmar 53.3/69.13 Omega 2.01/2.19 rot 1 reb 11 turnover 1.7× Net× 1.37 drag 0% mean_exp 88%. BNB vsBTC −9→−21; ETH vsBTC 283; XRP 177; SOL 361/361 contrib 29.7. No selected-at-0."
+    "notes": "Post bar-close. BTC 85753.62→85543.78 (-0.24%; Tue 06 close hovered; live ~85502). Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 361 flat; Fast 61→57; crypto/cash 100/0. SOL 95 / BTC 5 / CASH 0; dyn ivol p1.5 / PEAK 95% hold≥50. Soft-peak OK. No Wildcard. Start 2026-08-01 verified. Inputs unchanged. Final× 1.37/1.36 (strat flat, BTC −0.01; strat back ahead by 0.01); CAGR 475.3/454.4 MaxDD 9.3/6.9 Sharpe 4.19/4.41 Sortino 8.61/11.05 Calmar 51.37/65.84 Omega 2.01/2.17 rot 1 reb 11 turnover 1.7× Net× 1.37 drag 0%. BNB vsBTC −21→−75; ETH 353/279; XRP 343/169; SOL 361/361 contrib 29.6. No selected-at-0."
   }
 }

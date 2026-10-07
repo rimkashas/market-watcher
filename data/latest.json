@@ -1,15 +1,15 @@
 {
-  "generated_at_vilnius": "2026-10-06 04:09:59 Vilnius (UTC+3)",
-  "brief_folder": "brief-2026-10-06",
-  "brief_path": "/workspace/brief-2026-10-06",
-  "edition": "Daily refresh 2026-10-06 (DEEP Tuesday)",
-  "brief_date": "2026-10-06",
+  "generated_at_vilnius": "2026-10-07 04:11:31 Vilnius (UTC+3)",
+  "brief_folder": "brief-2026-10-07",
+  "brief_path": "/workspace/brief-2026-10-07",
+  "edition": "Daily refresh 2026-10-07 (SHORT Wednesday)",
+  "brief_date": "2026-10-07",
   "timezone": "Europe/Vilnius",
-  "updated_vilnius": "2026-10-06 04:05:09 Vilnius (UTC+3)",
-  "cutoff_utc": "2026-10-06 01:05:09 UTC",
+  "updated_vilnius": "2026-10-07 04:08:40 Vilnius (UTC+3)",
+  "cutoff_utc": "2026-10-07 01:08:40 UTC",
   "session_context": "Daily post-RSDH refresh (Vilnius morning)",
   "overall_regime": "Constructive",
-  "one_line_regime": "Constructive — spot-led BTC push (+2.9% WoW) is stalling under the late-Sept high while rates climb; weekly Fed liquidity still deteriorating; on-chain profitability improving but cycle still Bearish; RSDH BULL, SOL-heavy.",
+  "one_line_regime": "Constructive — BTC holds its monthly gains but keeps stalling under the late-Sept high as leverage rebuilds; weekly Fed liquidity still deteriorating (Wed 09-30 print); on-chain cycle Bearish (BH page Oct 5); RSDH BULL, SOL-heavy, narrowly back ahead of BTC.",
   "combined_note": "Spot buyers carried BTC higher this week without leverage, and on-chain profitability is turning up — but the push is stalling under the late-September high while yields and the dollar climb and weekly Fed liquidity is still draining. Thursday's Fed print and next week's CPI decide whether the ceiling breaks.",
   "scoreboard": [
     {
@@ -46,54 +46,54 @@
   "scorecard": [
     {
       "dimension": "Liquidity",
-      "now": "Contracting",
-      "vs": "Deteriorating on the latest weekly Fed print (Wed 09-30); next print Thu 10-08"
+      "now": "Contracting (Wed 09-30 print)",
+      "vs": "Weekly Fed observation Wed 09-30; next release Thu 10-08"
     },
     {
       "dimension": "Liquidity momentum",
       "now": "Stabilizing",
-      "vs": "Treasury cash pile drawn down since Sep 30 (eases the drain) — watch Thursday's print to confirm"
+      "vs": "Treasury cash lower WoW eases the drain — Thursday's print to confirm"
     },
     {
       "dimension": "Risk appetite",
       "now": "Firm",
-      "vs": "Nasdaq at records, VIX lower WoW; crypto bid but capped"
+      "vs": "Equities near records, VIX calm"
     },
     {
       "dimension": "Crypto trend",
       "now": "Neutral (up-tilt)",
-      "vs": "BTC +2.9% WoW / +7.1% MoM — below the 5% weekly bar for a trend"
+      "vs": "Monthly gains intact; weekly move below the trend bar; capped under late-Sept high"
     },
     {
-      "dimension": "Positioning",
-      "now": "Balanced",
-      "vs": "Spot-led: futures OI still easing WoW while price rose; funding near flat"
+      "dimension": "Crypto positioning",
+      "now": "Leverage-led",
+      "vs": "CheckOnChain flipped Spot Rally → Leveraged Rally WoW"
     },
     {
       "dimension": "Leverage",
-      "now": "Low",
-      "vs": "Second straight week of falling OI into a rally"
+      "now": "Building",
+      "vs": "Futures OI rising WoW into resistance; funding still calm"
     },
     {
       "dimension": "USD pressure",
       "now": "Restrictive",
-      "vs": "Dollar firmer WoW and 10Y yield up ~11% MoM to multi-decade highs"
+      "vs": "Dollar steady WoW but 10Y yields higher MoM near multi-decade highs"
     },
     {
       "dimension": "On-chain cycle (BH)",
-      "now": "34 Bearish · 6/16",
-      "vs": "Unchanged vs Oct 1; profit signals flipped Bullish Oct 5"
+      "now": "34 Bearish · 6/16 (Oct 5)",
+      "vs": "Carry-over from deep read (BH page Oct 5)"
     },
     {
       "dimension": "RSDH",
       "now": "BULL · SOL95/BTC5",
-      "vs": "Final× level with BTC (lead of +0.05 a week ago is gone)"
+      "vs": "Narrowly ahead of BTC since window start; trailed BTC this week"
     }
   ],
   "probs": {
     "7d": {
-      "Base": 45,
-      "Bull": 30,
+      "Base": 50,
+      "Bull": 25,
       "Bear": 25,
       "btc_targets": {
         "Base": "$82–88k",
@@ -124,48 +124,48 @@
     "status": "Live",
     "freshness": "Live",
     "source": "Coinbase primary; OKX/Kraken/Yahoo x-check; CoinGecko/CMC global",
-    "BTC_usd": 86042.885,
-    "ETH_usd": 2717.74,
-    "ETH_BTC": 0.03158587720530291,
-    "BTC_24h_pct": -0.552,
-    "BTC_5d_pct": 1.37,
-    "BTC_7d_pct": 2.862,
-    "BTC_1m_pct": 7.051,
-    "ETH_24h_pct": -0.237,
-    "ETH_5d_pct": 0.48,
-    "ETH_7d_pct": 1.562,
-    "ETH_1m_pct": 8.112,
-    "global_mcap_usd": 2924047645810.445,
-    "btc_dominance_pct": 58.988145391895,
-    "eth_dominance_pct": 11.337145891856,
-    "global_mcap_24h_pct": -0.58563,
-    "as_of": "2026-10-06 01:05:09 UTC",
+    "BTC_usd": 85439.505,
+    "ETH_usd": 2693.165,
+    "ETH_BTC": 0.031521308556270305,
+    "BTC_24h_pct": -0.67,
+    "BTC_5d_pct": 1.164,
+    "BTC_7d_pct": 2.306,
+    "BTC_1m_pct": 8.045,
+    "ETH_24h_pct": -0.92,
+    "ETH_5d_pct": 0.974,
+    "ETH_7d_pct": 0.39,
+    "ETH_1m_pct": 8.157,
+    "global_mcap_usd": 2911144817374.0386,
+    "btc_dominance_pct": 59.0425883437,
+    "eth_dominance_pct": 11.311819431909,
+    "global_mcap_24h_pct": -0.507123,
+    "as_of": "2026-10-07 01:08:40 UTC",
     "crosscheck": {
-      "coinbase_BTC": 86042.885,
-      "coinbase_ETH": 2717.74,
+      "coinbase_BTC": 85439.505,
+      "coinbase_ETH": 2693.165,
       "coinbase_time": null,
-      "okx_BTC_USDT": 86011.9,
-      "okx_ETH_USDT": 2717.4,
-      "kraken_BTC": 86008.7,
-      "kraken_ETH": 2717.36,
-      "yahoo_BTC": 86015.29,
-      "yahoo_ETH": 2718.53,
-      "blockchain_info_BTC": 85838.87
+      "okx_BTC_USDT": 85489.3,
+      "okx_ETH_USDT": 2694.19,
+      "kraken_BTC": 85475.5,
+      "kraken_ETH": 2693.23,
+      "yahoo_BTC": 85480.91,
+      "yahoo_ETH": 2694.15,
+      "blockchain_info_BTC": 85523.19
     },
     "since_last_brief": {
-      "BTC_prior": 86524.485,
-      "ETH_prior": 2724.625,
-      "BTC_delta_usd": -481.6,
-      "ETH_delta_usd": -6.89,
-      "BTC_pct": -0.557,
-      "ETH_pct": -0.253
+      "BTC_prior": 86042.885,
+      "ETH_prior": 2717.74,
+      "BTC_delta_usd": -603.38,
+      "ETH_delta_usd": -24.57,
+      "BTC_pct": -0.701,
+      "ETH_pct": -0.904
     }
   },
   "fed_liquidity": {
     "status": "Latest available (H.4.1 Wed 2026-09-30; release 2026-10-01)",
     "freshness": "Latest available",
     "source": "Fed H.4.1 2026-10-01 (Wed 2026-09-30 observation); FiscalData operating_cash_balance daily TGA",
-    "observation_note": "Wed 2026-09-30 print (release Thu 2026-10-01) — Fed net $5.7578T Contracting (Δ1w −$42.1B vs Wed 09-23 $5.7999T)",
+    "observation_note": "Weekly observation Wed 2026-09-30 (release Thu 2026-10-01); next release Thu 2026-10-08 — Contracting (Δ1w −$42.1B vs Wed 09-23)",
     "matched_weekly": {
       "date": "2026-09-30",
       "WALCL_B": 6743.031,
@@ -178,11 +178,16 @@
     "delta_4w_B": -42.04,
     "delta_3m_B": -166.141,
     "daily_TGA": {
-      "date": "2026-10-02",
-      "TGA_M": 871181.0,
-      "TGA_B": 871.181
+      "date": "2026-10-05",
+      "TGA_M": 883335.0,
+      "TGA_B": 883.335
     },
     "tga_daily_head": [
+      {
+        "date": "2026-10-05",
+        "TGA_M": 883335.0,
+        "TGA_B": 883.335
+      },
       {
         "date": "2026-10-02",
         "TGA_M": 871181.0,
@@ -202,17 +207,12 @@
         "date": "2026-09-29",
         "TGA_M": 936600.0,
         "TGA_B": 936.6
-      },
-      {
-        "date": "2026-09-28",
-        "TGA_M": 959572.0,
-        "TGA_B": 959.572
       }
     ],
     "rrp_wed_H41_Others_B": 1.2,
     "rrp_daily": {
-      "date": "2026-10-02",
-      "RRP_B": 1.501,
+      "date": "2026-10-06",
+      "RRP_B": 0.414,
       "freshness": "Live FRED RRPONTSYD (daily)"
     },
     "since_last_brief": {
@@ -220,155 +220,155 @@
       "prior_fed_net_date": "2026-09-30",
       "new_fed_net_T": 5.7578,
       "delta_T": 0.0,
-      "note": "Matched weekly Fed net UNCHANGED vs Mon brief: Wed 09-30 H.4.1 $5.7578T (Liquidity Contracting; Δ1w −$42.1B vs Wed 09-23 $5.7999T); daily TGA still 2026-10-01 (FiscalData has no newer print yet; Tuesday pre-US-open)",
-      "daily_TGA_prior_B": 893.699,
-      "daily_TGA_prior_date": "2026-10-01",
-      "daily_TGA_latest_B": 871.181,
-      "daily_TGA_latest_date": "2026-10-02",
-      "daily_TGA_delta_B": -22.518
+      "note": "Weekly Fed observation still Wed 09-30 H.4.1 (release Thu 10-01; next release Thu 2026-10-08) — Contracting; daily TGA via FiscalData (see daily_TGA_latest_date)",
+      "daily_TGA_prior_B": 871.181,
+      "daily_TGA_prior_date": "2026-10-02",
+      "daily_TGA_latest_B": 883.335,
+      "daily_TGA_latest_date": "2026-10-05",
+      "daily_TGA_delta_B": 12.154
     },
     "liquidity_impulse": "Contracting",
-    "liquidity_impulse_note": "Matched Fed net $5.7578T Contracting (1w -42.1B vs Wed 09-23); daily TGA $871.181B on 2026-10-02"
+    "liquidity_impulse_note": "Matched Fed net $5.7578T Contracting (1w -42.1B vs Wed 09-23); daily TGA $883.335B on 2026-10-05"
   },
   "macro": {
     "status": "Live/Delayed (Yahoo + Treasury XML; FRED DFII10 Latest available)",
     "freshness": "Live/Delayed",
     "source": "Yahoo Finance + U.S. Treasury yield curve XML",
     "DXY": {
-      "price": 102.15,
+      "price": 101.955,
       "prev_chart_close": 100.85,
-      "n": 65,
-      "chg_5d_pct": 0.69,
-      "chg_1m_pct": 3.015,
-      "market_time_unix": 1791248052,
+      "n": 67,
+      "chg_5d_pct": -0.142,
+      "chg_1m_pct": 2.819,
+      "market_time_unix": 1791334650,
       "currency": "USD",
       "symbol": "DX-Y.NYB",
-      "last_hist_close": 102.1500015258789,
-      "last_hist_date": "2026-10-06"
+      "last_hist_close": 101.95500183105469,
+      "last_hist_date": "2026-10-07"
     },
     "US10Y_TNX": {
-      "price": 5.311,
-      "prev_chart_close": 4.485,
-      "n": 65,
-      "chg_5d_pct": 0.34,
-      "chg_1m_pct": 11.016,
-      "market_time_unix": 1791226791,
+      "price": 5.269,
+      "prev_chart_close": 4.479,
+      "n": 66,
+      "chg_5d_pct": 0.611,
+      "chg_1m_pct": 10.138,
+      "market_time_unix": 1791313194,
       "currency": "USD",
       "symbol": "^TNX",
-      "last_hist_close": 5.310999870300293,
-      "last_hist_date": "2026-10-05"
+      "last_hist_close": 5.269000053405762,
+      "last_hist_date": "2026-10-06"
     },
     "US2Y_treasury": {
-      "value": 4.84,
-      "as_of": "2026-10-05",
+      "value": 4.79,
+      "as_of": "2026-10-06",
       "freshness": "Latest available",
       "source": "Treasury.gov"
     },
     "US10Y_treasury": {
-      "value": 5.31,
-      "as_of": "2026-10-05",
+      "value": 5.27,
+      "as_of": "2026-10-06",
       "freshness": "Latest available",
       "source": "Treasury.gov"
     },
-    "spread_2s10s_pp": 0.47,
+    "spread_2s10s_pp": 0.48,
     "DFII10": {
-      "date": "2026-10-01",
-      "value": 2.88,
+      "date": "2026-10-05",
+      "value": 2.95,
       "freshness": "Latest available (FRED DFII10)"
     },
     "VIX": {
-      "price": 15.52,
+      "price": 15.01,
       "prev_chart_close": 15.57,
-      "n": 66,
-      "chg_5d_pct": -5.018,
-      "chg_1m_pct": 6.813,
-      "market_time_unix": 1791231301,
+      "n": 67,
+      "chg_5d_pct": -8.42,
+      "chg_1m_pct": 3.304,
+      "market_time_unix": 1791317701,
       "currency": "USD",
       "symbol": "^VIX",
-      "last_hist_close": 15.520000457763672,
-      "last_hist_date": "2026-10-05"
+      "last_hist_close": 15.010000228881836,
+      "last_hist_date": "2026-10-06"
     },
     "SPX": {
-      "price": 7773.95,
-      "prev_chart_close": 7483.24,
+      "price": 7818.93,
+      "prev_chart_close": 7537.43,
       "n": 65,
-      "chg_5d_pct": 1.6,
-      "chg_1m_pct": 0.717,
-      "market_time_unix": 1791233310,
+      "chg_5d_pct": 1.989,
+      "chg_1m_pct": 1.3,
+      "market_time_unix": 1791319207,
       "currency": "USD",
       "symbol": "^GSPC",
-      "last_hist_close": 7773.9501953125,
-      "last_hist_date": "2026-10-05"
+      "last_hist_close": 7818.93017578125,
+      "last_hist_date": "2026-10-06"
     },
     "NASDAQ": {
-      "price": 27477.31,
-      "prev_chart_close": 25832.67,
+      "price": 27599.887,
+      "prev_chart_close": 26121.16,
       "n": 65,
-      "chg_5d_pct": 2.294,
-      "chg_1m_pct": 3.661,
-      "market_time_unix": 1791234959,
+      "chg_5d_pct": 2.71,
+      "chg_1m_pct": 4.123,
+      "market_time_unix": 1791325893,
       "currency": "USD",
       "symbol": "^IXIC",
-      "last_hist_close": 27477.310546875,
-      "last_hist_date": "2026-10-05"
+      "last_hist_close": 27599.88671875,
+      "last_hist_date": "2026-10-06"
     },
     "Gold": {
-      "price": 4173.2,
+      "price": 4183.2,
       "prev_chart_close": 4167.5,
-      "n": 65,
-      "chg_5d_pct": -0.322,
-      "chg_1m_pct": -6.777,
-      "market_time_unix": 1791248048,
+      "n": 66,
+      "chg_5d_pct": -0.455,
+      "chg_1m_pct": -6.554,
+      "market_time_unix": 1791334642,
       "currency": "USD",
       "symbol": "GC=F",
-      "last_hist_close": 4173.2001953125,
-      "last_hist_date": "2026-10-06"
+      "last_hist_close": 4183.2001953125,
+      "last_hist_date": "2026-10-07"
     },
     "Oil": {
-      "price": 89.28,
+      "price": 90.04,
       "prev_chart_close": 68.55,
-      "n": 65,
-      "chg_5d_pct": -1.261,
-      "chg_1m_pct": -2.405,
-      "market_time_unix": 1791248052,
+      "n": 66,
+      "chg_5d_pct": -3.047,
+      "chg_1m_pct": -1.574,
+      "market_time_unix": 1791334650,
       "currency": "USD",
       "symbol": "CL=F",
-      "last_hist_close": 89.27999877929688,
-      "last_hist_date": "2026-10-06"
+      "last_hist_close": 90.04000091552734,
+      "last_hist_date": "2026-10-07"
     },
     "US13W_IRX_note": "Yahoo ^IRX is 13-week bill yield, not 2Y",
     "US2Y_yahoo_2YYF": {
       "price": 4.422,
       "prev_chart_close": 3.896,
       "n": 64,
-      "chg_5d_pct": 3.0,
-      "chg_1m_pct": 10.357,
+      "chg_5d_pct": -5.056,
+      "chg_1m_pct": 10.429,
       "market_time_unix": 1790102734,
       "currency": "USD",
       "symbol": "2YY=F",
-      "last_hist_close": 4.635000228881836,
-      "last_hist_date": "2026-10-02"
+      "last_hist_close": 4.638000011444092,
+      "last_hist_date": "2026-10-05"
     }
   },
   "stablecoins": {
     "status": "Live",
     "freshness": "Live",
     "source": "DefiLlama",
-    "total_usd": 312216069374.53,
-    "total_B": 312.22,
-    "as_of": "2026-10-05",
-    "chg_7d_pct": 0.24,
-    "chg_30d_pct": 1.085,
-    "USDT": 184171481005.6006,
-    "USDC": 74337623097.83078,
+    "total_usd": 312670377396.35,
+    "total_B": 312.67,
+    "as_of": "2026-10-06",
+    "chg_7d_pct": 0.453,
+    "chg_30d_pct": 1.211,
+    "USDT": 184186753760.628,
+    "USDC": 74310458793.32669,
     "since_last_brief": {
-      "prior_B": 311.97,
-      "latest_B": 312.22,
-      "delta_B": 0.25
+      "prior_B": 312.22,
+      "latest_B": 312.67,
+      "delta_B": 0.45
     }
   },
   "etf_flows": {
-    "status": "Latest available (Farside; through 05 Oct 2026)",
+    "status": "Latest available (Farside; through 06 Oct 2026)",
     "unit": "US$m",
     "sources": [
       "https://farside.co.uk/btc/",
@@ -378,9 +378,10 @@
     "BTC": {
       "latest_daily": {
         "date_str": "05 Oct 2026",
-        "total_m": -159.7
+        "total_m": -89.8,
+        "partial": false
       },
-      "sum_since_after_2026-09-23": 406.6,
+      "sum_since_after_2026-09-23": 476.5,
       "days_since_after_2026-09-23": [
         [
           "24 Sep 2026",
@@ -412,10 +413,10 @@
         ],
         [
           "05 Oct 2026",
-          -159.7
+          -89.8
         ]
       ],
-      "sum_since_incl_2026-09-23": 753.5,
+      "sum_since_incl_2026-09-23": 823.4,
       "days_since_incl_2026-09-23": [
         [
           "23 Sep 2026",
@@ -451,46 +452,57 @@
         ],
         [
           "05 Oct 2026",
-          -159.7
+          -89.8
         ]
       ],
-      "sum_last_5_sessions": 50.4,
+      "sum_last_5_sessions": 120.3,
       "last_5_sessions": [
         {
           "date_str": "29 Sep 2026",
-          "total_m": 66.2
+          "total_m": 66.2,
+          "partial": false
         },
         {
           "date_str": "30 Sep 2026",
-          "total_m": -148.7
+          "total_m": -148.7,
+          "partial": false
         },
         {
           "date_str": "01 Oct 2026",
-          "total_m": 102.7
+          "total_m": 102.7,
+          "partial": false
         },
         {
           "date_str": "02 Oct 2026",
-          "total_m": 189.9
+          "total_m": 189.9,
+          "partial": false
         },
         {
           "date_str": "05 Oct 2026",
-          "total_m": -159.7
+          "total_m": -89.8,
+          "partial": false
         }
       ],
-      "sum_visible_window": 3059.7,
-      "sessions_in_window": 13,
-      "window_from": "17 Sep 2026",
+      "sum_visible_window": 2970.1,
+      "sessions_in_window": 12,
+      "window_from": "18 Sep 2026",
       "window_to": "05 Oct 2026",
-      "approx_20d": 3059.7,
-      "latest_m": -159.7,
+      "approx_20d": 2970.1,
+      "partial_latest_excluded": {
+        "date_str": "06 Oct 2026",
+        "total_m": -3.2,
+        "partial": true
+      },
+      "latest_m": -89.8,
       "latest_date": "05 Oct 2026"
     },
     "ETH": {
       "latest_daily": {
         "date_str": "05 Oct 2026",
-        "total_m": -18.9
+        "total_m": -50.8,
+        "partial": false
       },
-      "sum_since_after_2026-09-23": -3.9,
+      "sum_since_after_2026-09-23": -35.8,
       "days_since_after_2026-09-23": [
         [
           "24 Sep 2026",
@@ -522,10 +534,10 @@
         ],
         [
           "05 Oct 2026",
-          -18.9
+          -50.8
         ]
       ],
-      "sum_since_incl_2026-09-23": 100.6,
+      "sum_since_incl_2026-09-23": 68.7,
       "days_since_incl_2026-09-23": [
         [
           "23 Sep 2026",
@@ -561,59 +573,69 @@
         ],
         [
           "05 Oct 2026",
-          -18.9
+          -50.8
         ]
       ],
-      "sum_last_5_sessions": -174.1,
+      "sum_last_5_sessions": -206.0,
       "last_5_sessions": [
         {
           "date_str": "29 Sep 2026",
-          "total_m": -2.8
+          "total_m": -2.8,
+          "partial": false
         },
         {
           "date_str": "30 Sep 2026",
-          "total_m": -59.6
+          "total_m": -59.6,
+          "partial": false
         },
         {
           "date_str": "01 Oct 2026",
-          "total_m": -55.4
+          "total_m": -55.4,
+          "partial": false
         },
         {
           "date_str": "02 Oct 2026",
-          "total_m": -37.4
+          "total_m": -37.4,
+          "partial": false
         },
         {
           "date_str": "05 Oct 2026",
-          "total_m": -18.9
+          "total_m": -50.8,
+          "partial": false
         }
       ],
-      "sum_visible_window": 637.2,
-      "sessions_in_window": 13,
-      "window_from": "17 Sep 2026",
+      "sum_visible_window": 644.6,
+      "sessions_in_window": 12,
+      "window_from": "18 Sep 2026",
       "window_to": "05 Oct 2026",
-      "approx_20d": 637.2
+      "approx_20d": 644.6,
+      "partial_latest_excluded": {
+        "date_str": "06 Oct 2026",
+        "total_m": 0.0,
+        "partial": true
+      }
     }
   },
   "derivatives": {
     "status": "Live (OKX); liquidations Unavailable; Binance Unavailable ({'status': 'Unavailable', 'error': 'HTTPError: HTTP Error 451: ', 'url': 'https:)",
     "okx": {
       "BTC": {
-        "funding_rate": 3.9077116735e-06,
-        "funding_ann_pct_approx": 0.428,
-        "funding_time_ms": "1791273600000",
-        "oi_usd": 2456216103.1600585,
-        "oi_btc": 28567.528500000095,
-        "mark": 85988.9,
-        "index": 86025.9
+        "funding_rate": 4.41528745084e-05,
+        "funding_ann_pct_approx": 4.835,
+        "funding_time_ms": "1791360000000",
+        "oi_usd": 2610952489.3231707,
+        "oi_btc": 30557.148400000122,
+        "mark": 85452.8,
+        "index": 85496.5
       },
       "ETH": {
-        "funding_rate": 6.82690586629e-05,
-        "funding_ann_pct_approx": 7.475,
-        "funding_time_ms": "1791273600000",
-        "oi_usd": 1613431075.5011232,
-        "oi_eth": 593758.2160000012,
-        "mark": 2717.26,
-        "index": 2718.46
+        "funding_rate": 0.0001,
+        "funding_ann_pct_approx": 10.95,
+        "funding_time_ms": "1791360000000",
+        "oi_usd": 1650100567.7610037,
+        "oi_eth": 612611.8200000013,
+        "mark": 2693.89,
+        "index": 2694.84
       }
     },
     "binance": {
@@ -758,11 +780,18 @@
   "data_notes_excerpt": "# DATA_NOTES — Tuesday standing 2026-09-22\n\nCutoff: **2026-09-22 14:29:15 Vilnius (UTC+3)** / 2026-09-22 11:29:15 UTC (U.S. PRE-OPEN). Compare vs Fri 2026-09-18 STATE.\n\n## Source quirks\n- **CoinGecko**: 429 — spot from **Coinbase** (primary USD `data.amount`), OKX/Kraken/Yahoo cross-check; global mcap/BTC.D from **CoinMarketCap** data-api.\n- **FRED** `fredgraph.csv`: timed out — **no live FRED pull**. Weekly WALCL/TGA/ON RRP from **Fed H.4.1** Wednesday levels (still release 2026-09-17 / observation Wed 2026-09-16). Next weekly typically Thu 2026-09-24 for Wed 09-23. Daily RRPONTSYD after 2026-09-14 **Unavailable**.\n- **FiscalData**: `dts_table_1` filter URL returned Not Found; used **`operating_cash_balance`** endpoint. Closing Balance available (e.g. 2026-09-18 Closing $985.932B).\n- **CME FedWatch**: unavailable this run — no fresh October odds (Fri Estimated not refreshed).\n- **Binance** fapi / **BOJ** / **PBOC** / **ECB WFS**: Unavailable or empty.\n- **Farside**: HTML tables parsed (visible ~2-week window); through **21 Sep 2026**.\n- **DFII10**: Delayed — prior FRED CSV (not refreshed).",
   "history": [
     {
+      "date": "2026-10-07",
+      "folder": "brief-2026-10-07",
+      "has_datapack": true,
+      "has_brief": true,
+      "is_current": true
+    },
+    {
       "date": "2026-10-06",
       "folder": "brief-2026-10-06",
       "has_datapack": true,
       "has_brief": true,
-      "is_current": true
+      "is_current": false
     },
     {
       "date": "2026-10-05",
@@ -900,9 +929,9 @@
   ],
   "live_overlay": null,
   "prior_state_ref": {
-    "brief": "Mon 2026-10-05",
-    "BTC": 86524.485,
-    "ETH": 2724.625,
+    "brief": "Tue 2026-10-06",
+    "BTC": 86042.885,
+    "ETH": 2717.74,
     "regime": "Constructive",
     "liquidity": "Contracting",
     "momentum": "Stabilizing",
@@ -913,15 +942,15 @@
     "RRP_Wed_B": 1.2,
     "delta_1w_B": -42.141,
     "delta_4w_B": -42.04,
-    "daily_TGA_B": 893.699,
-    "daily_TGA_date": "2026-10-01",
-    "stables_B": 311.97,
-    "stables_7d": 0.609,
-    "stables_30d": 1.068,
-    "ETF_BTC_latest_m": 31.7,
-    "ETF_BTC_latest_date": "2026-10-02",
-    "ETF_BTC_since_after_0923_m": 408.1,
-    "ETF_BTC_5d_m": null,
+    "daily_TGA_B": 871.181,
+    "daily_TGA_date": "2026-10-02",
+    "stables_B": 312.22,
+    "stables_7d": 0.24,
+    "stables_30d": 1.085,
+    "ETF_BTC_latest_m": -159.7,
+    "ETF_BTC_latest_date": "2026-10-05",
+    "ETF_BTC_since_after_0923_m": 406.6,
+    "ETF_BTC_5d_m": 50.4,
     "probs_7d": {
       "Base": 45,
       "Bull": 30,
@@ -934,32 +963,32 @@
     }
   },
   "cross_asset": {
-    "since": "Mon 2026-10-05",
-    "BTC": "~-0.56% to ~$86,043 (vs Mon datapack ~$86,524)",
-    "DXY": "Yahoo ~102.15",
-    "Fed_net": "Matched Fed net 5.7578T (Wed 09-30 H.4.1; Δ1w -42.1B); daily TGA 2026-10-02 $871.181B",
-    "Equities": "SPX Yahoo ~7773.95; VIX ~15.52",
-    "qualitative": "Spot into Tuesday; futures Spot Rally (OI down, px up); weekly Fed net still Contracting at $5.7578T (Wed 09-30 H.4.1; no newer print). Qualitative only; no coefficients."
+    "since": "Tue 2026-10-06",
+    "BTC": "~-0.70% to ~$85,440 (vs Tue datapack ~$86,043)",
+    "DXY": "Yahoo ~101.955",
+    "Fed_net": "Matched Fed net 5.7578T (Wed 09-30 H.4.1; Δ1w -42.1B); daily TGA 2026-10-05 $883.335B",
+    "Equities": "SPX Yahoo ~7818.93; VIX ~15.01",
+    "qualitative": "Spot slightly softer; futures read from CheckOnChain; weekly Fed liquidity still Contracting on the Wed 09-30 H.4.1 observation (next release Thu 10-08). Qualitative only; no coefficients."
   },
   "daily_summary": {
     "regime": "Constructive",
-    "one_line": "Constructive — spot-led BTC push (+2.9% WoW) is stalling under the late-Sept high while rates climb; weekly Fed liquidity still deteriorating; on-chain profitability improving but cycle still Bearish; RSDH BULL, SOL-heavy.",
-    "brief_date": "2026-10-06",
+    "one_line": "Constructive — BTC holds its monthly gains but keeps stalling under the late-Sept high as leverage rebuilds; weekly Fed liquidity still deteriorating (Wed 09-30 print); on-chain cycle Bearish (BH page Oct 5); RSDH BULL, SOL-heavy, narrowly back ahead of BTC.",
+    "brief_date": "2026-10-07",
     "session": "Daily post-RSDH refresh (Vilnius morning)",
-    "btc": 86042.885,
-    "eth": 2717.74,
-    "btc_wow_pct": 2.862,
-    "btc_mom_pct": 7.051,
-    "eth_wow_pct": 1.562,
-    "eth_mom_pct": 8.112,
+    "btc": 85439.505,
+    "eth": 2693.165,
+    "btc_wow_pct": 2.306,
+    "btc_mom_pct": 8.045,
+    "eth_wow_pct": 0.39,
+    "eth_mom_pct": 8.157,
     "fed_net_T": 5.7578,
     "fed_net_date": "2026-09-30",
-    "etf_btc_latest_m": -159.7,
+    "etf_btc_latest_m": -89.8,
     "etf_btc_latest_date": "05 Oct 2026",
     "rsdh_alloc_line": "BTC:5% SOL:95%",
     "rsdh_macro": "BULL",
     "rsdh_final_x": 1.37,
-    "rsdh_date": "2026-10-06"
+    "rsdh_date": "2026-10-07"
   },
   "rsdh": {
     "available": true,
@@ -967,21 +996,21 @@
     "note": null,
     "meta": {
       "schema": "investorius.rsdh_dashboard_snapshot.v1",
-      "updated_at_utc": "2026-10-06T00:16:26Z",
+      "updated_at_utc": "2026-10-07T00:10:35Z",
       "source": "RSDH daily bar-close check-in",
       "chart_url": "https://www.tradingview.com/chart/CiYlQE0T/",
       "script": "RSDH v12.0",
       "performance_window_start": "2026-08-01"
     },
     "current": {
-      "date": "2026-10-06",
-      "bar_time": "2026-10-06T00:00:00Z",
-      "run_time_utc": "2026-10-06T00:16:26Z",
-      "btc_price": 85753.62,
-      "btc_price_live_shown": 85845.15,
+      "date": "2026-10-07",
+      "bar_time": "2026-10-07T00:00:00Z",
+      "run_time_utc": "2026-10-07T00:10:35Z",
+      "btc_price": 85543.78,
+      "btc_price_live_shown": 85502.19,
       "macro": "BULL",
       "macro_score": 361,
-      "fast_score": 61,
+      "fast_score": 57,
       "sma_position": "up",
       "crypto_cash_split": {
         "crypto": 100,
@@ -1010,26 +1039,26 @@
           "own": 361,
           "vs_btc": 0,
           "wt": 5,
-          "contrib_pp": 3.9
+          "contrib_pp": 3.8
         },
         "ETHUSD": {
           "role": "watch",
           "own": 353,
-          "vs_btc": 283,
+          "vs_btc": 279,
           "wt": 0,
           "contrib_pp": 0.0
         },
         "BNBUSD": {
           "role": "watch",
-          "own": 281,
-          "vs_btc": -21,
+          "own": 275,
+          "vs_btc": -75,
           "wt": 0,
           "contrib_pp": 0.0
         },
         "XRPUSD": {
           "role": "watch",
-          "own": 347,
-          "vs_btc": 177,
+          "own": 343,
+          "vs_btc": 169,
           "wt": 0,
           "contrib_pp": 0.0
         },
@@ -1038,7 +1067,7 @@
           "own": 361,
           "vs_btc": 361,
           "wt": 95,
-          "contrib_pp": 29.7
+          "contrib_pp": 29.6
         }
       },
       "wildcard_asset": null,
@@ -1046,20 +1075,20 @@
       "wildcard_decision": null,
       "wildcard_confirm": null,
       "strat_final_x": 1.37,
-      "btc_final_x": 1.37,
+      "btc_final_x": 1.36,
       "performance": {
-        "cagr_strat": 493.3,
-        "cagr_btc": 477.1,
+        "cagr_strat": 475.3,
+        "cagr_btc": 454.4,
         "max_dd_strat": 9.3,
         "max_dd_btc": 6.9,
-        "sharpe_strat": 4.23,
-        "sharpe_btc": 4.48,
-        "sortino_strat": 8.7,
-        "sortino_btc": 11.23,
-        "calmar_strat": 53.3,
-        "calmar_btc": 69.13,
+        "sharpe_strat": 4.19,
+        "sharpe_btc": 4.41,
+        "sortino_strat": 8.61,
+        "sortino_btc": 11.05,
+        "calmar_strat": 51.37,
+        "calmar_btc": 65.84,
         "omega_strat": 2.01,
-        "omega_btc": 2.19,
+        "omega_btc": 2.17,
         "net_x": 1.37,
         "drag_pct": 0.0,
         "turnover": 1.7,
@@ -1068,10 +1097,10 @@
         "two_asset_pct": 98,
         "rotations": 1,
         "rebalances": 11,
-        "rotations_per_yr": 5.6,
+        "rotations_per_yr": 5.5,
         "source_final_x": "RSDH table with Start date verified 2026-08-01"
       },
-      "in_market_pct": 75.0,
+      "in_market_pct": 76.0,
       "display_allocation": {
         "BTCUSD": 5.0,
         "ETHUSD": 0.0,
@@ -1090,35 +1119,34 @@
         "core_sleeve_sum": 100,
         "start_date_verified": "2026-08-01",
         "start_date_drift_corrected": false,
-        "prior_day": "2026-10-05",
-        "btc_pct_change_vs_prior_log": -0.88,
-        "tv_completed_bar_label": "2026-10-05",
+        "prior_day": "2026-10-06",
+        "btc_pct_change_vs_prior_log": -0.24,
+        "tv_completed_bar_label": "2026-10-06",
         "flags": [
-          "btc_down_day_86518_to_85754_pct_-0.88",
-          "mon_05_close_derived_from_today_change_plus91.53_not_hovered",
+          "btc_down_day_85754_to_85544_pct_-0.24",
+          "tue_06_close_hovered_85543.78",
           "slow_361_flat_still_above_239",
-          "fast_61_flat",
+          "fast_61_to_57",
           "crypto_cash_flat_100_0",
           "allocation_flat_SOL95_BTC5_CASH0",
           "peak_still_PEAK_95_hold_ge50_dyn_ivol_p1_5",
           "top5_unchanged_BTC_ETH_BNB_XRP_SOL",
           "soft_peak_correct_armed_BTC_gt_SMA",
           "no_wildcard_on_chart",
-          "final_x_strat_1.38_to_1.37_btc_1.38_to_1.37_still_tied",
+          "final_x_strat_1.37_flat_btc_1.37_to_1.36_strat_leads_by_0.01",
           "maxdd_flat_9.3_6.9",
           "rotations_1_rebalances_11_flat",
           "turnover_1.7_fees_0_drag_0",
           "weekly_gate_still_enabled_intentional",
           "start_date_verified_2026-08-01_no_drift",
           "visible_script_title_RSDH_v12_0",
-          "eth_own_357_to_353_vsbtc_271_to_283_still_watch",
-          "bnb_own_283_to_281_vsbtc_minus9_to_minus21",
-          "xrp_own_351_to_347_vsbtc_173_to_177_still_watch",
-          "sol_own_361_vsbtc_361_ceiling_contrib_30.3_to_29.7",
+          "eth_own_353_flat_vsbtc_283_to_279_still_watch",
+          "bnb_own_281_to_275_vsbtc_minus21_to_minus75_weakening",
+          "xrp_own_347_to_343_vsbtc_177_to_169_still_watch",
+          "sol_own_361_vsbtc_361_ceiling_contrib_29.7_to_29.6",
           "no_selected_at_0_anomaly",
-          "sharpe_strat_still_below_btc_4.23_vs_4.48",
-          "dyn_p_vol_band_read_from_legend_1.5_60_5",
-          "inputs_verified_leaderConfirm_2_minBtc_10_peak_95_confirm_2_exit_50_gate_enabled_fee_0"
+          "sharpe_strat_still_below_btc_4.19_vs_4.41",
+          "inputs_verified_leaderConfirm_2_minBtc_10_peak_95_confirm_2_exit_50_gate_enabled_fee_0_dynamic_p1.5_vol60_band5"
         ],
         "inputs": {
           "leaderConfirm": 2,
@@ -1136,29 +1164,29 @@
           "dyn_vol_lookback": 60,
           "dyn_no_trade_band_pct": 5,
           "fee_pct_default": 0,
-          "inputs_status_string": "verified via settings.png / settings-peak.png / settings-gate.png; dyn p/vol/band from chart legend 'Dynamic inv-vol x strength 1.5 60 5' (2026-10-06)"
+          "inputs_status_string": "verified via settings.png / settings-peak.png (gate shares screen, settings-gate.png) / settings-dyn.png (2026-10-07)"
         }
       },
-      "notes": "Post bar-close. BTC 86517.75→~85753.62 (-0.88%; Mon 05 close derived from today's +91.53 change; live ~85845.15). Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 361/Fast 61 flat; crypto/cash 100/0. SOL 95 / BTC 5 / CASH 0; SOL satellite dyn ivol p1.5 / PEAK 95% hold≥50. Soft-peak OK. No Wildcard. Start 2026-08-01 verified. Inputs unchanged. Deploy-window Final× 1.37/1.37 (both −0.01, still tied); CAGR 493.3/477.1 MaxDD 9.3/6.9 Sharpe 4.23/4.48 Sortino 8.7/11.23 Calmar 53.3/69.13 Omega 2.01/2.19 rot 1 reb 11 turnover 1.7× Net× 1.37 drag 0% mean_exp 88%. BNB vsBTC −9→−21; ETH vsBTC 283; XRP 177; SOL 361/361 contrib 29.7. No selected-at-0."
+      "notes": "Post bar-close. BTC 85753.62→85543.78 (-0.24%; Tue 06 close hovered; live ~85502). Top5 BTC/ETH/BNB/XRP/SOL (CMC unchanged). Slow 361 flat; Fast 61→57; crypto/cash 100/0. SOL 95 / BTC 5 / CASH 0; dyn ivol p1.5 / PEAK 95% hold≥50. Soft-peak OK. No Wildcard. Start 2026-08-01 verified. Inputs unchanged. Final× 1.37/1.36 (strat flat, BTC −0.01; strat back ahead by 0.01); CAGR 475.3/454.4 MaxDD 9.3/6.9 Sharpe 4.19/4.41 Sortino 8.61/11.05 Calmar 51.37/65.84 Omega 2.01/2.17 rot 1 reb 11 turnover 1.7× Net× 1.37 drag 0%. BNB vsBTC −21→−75; ETH 353/279; XRP 343/169; SOL 361/361 contrib 29.6. No selected-at-0."
     },
-    "prior_date": "2026-10-05"
+    "prior_date": "2026-10-06"
   },
   "key_changes_brief": [
     {
       "label": "BTC",
-      "detail": "+2.9% WoW · +7.1% MoM → Trending up",
+      "detail": "+2.3% WoW · +8.0% MoM → Trending up",
       "kind": "up",
       "arrow": "↑"
     },
     {
       "label": "ETH",
-      "detail": "+1.6% WoW · +8.1% MoM → Lagging BTC",
+      "detail": "+0.4% WoW · +8.2% MoM → Lagging BTC",
       "kind": "warn",
       "arrow": "↑"
     },
     {
-      "label": "Fed liquidity",
-      "detail": "Deteriorating WoW · deteriorating over 4w → Draining liquidity",
+      "label": "Fed liquidity (weekly, obs Wed 09-30)",
+      "detail": "Deteriorating WoW · deteriorating over 4w → Draining liquidity · next Thu 10-08",
       "kind": "down",
       "arrow": "↓"
     },
@@ -1170,33 +1198,33 @@
     },
     {
       "label": "Stablecoins",
-      "detail": "+0.2% 7d · +1.1% 30d → Neutral",
-      "kind": "warn",
-      "arrow": "→"
+      "detail": "+0.5% 7d · +1.2% 30d → Mild support",
+      "kind": "up",
+      "arrow": "↑"
     },
     {
       "label": "BTC ETFs",
-      "detail": "+$50M week 29 Sep–5 Oct → Inflows",
+      "detail": "+$120M week 29 Sep–5 Oct → Inflows",
       "kind": "up",
       "arrow": "↑"
     },
     {
       "label": "Futures OI",
-      "detail": "-0.9% WoW → Healthy · spot-led",
-      "kind": "up",
-      "arrow": "↓"
+      "detail": "+3.7% WoW → Leverage building",
+      "kind": "warn",
+      "arrow": "↑"
     },
     {
       "label": "USD & yields",
-      "detail": "DXY +0.7% WoW · 10Y up WoW → Headwind",
-      "kind": "down",
-      "arrow": "↑"
+      "detail": "DXY -0.1% WoW · 10Y up WoW → Mixed",
+      "kind": "warn",
+      "arrow": "→"
     }
   ],
   "key_changes_rsdh": [
     {
       "label": "Edge vs BTC",
-      "detail": "-3.7 pp WoW → Lagging BTC",
+      "detail": "-2.2 pp WoW → Lagging BTC",
       "kind": "down"
     },
     {
@@ -1211,66 +1239,66 @@
     },
     {
       "label": "Since window start",
-      "detail": "1.37× vs BTC 1.37× → Behind BTC",
-      "kind": "down"
+      "detail": "1.37× vs BTC 1.36× → Ahead of BTC",
+      "kind": "up"
     }
   ],
   "equity_curve": {
     "start": "2026-08-01",
-    "n_points": 30,
+    "n_points": 31,
     "first_point": "2026-09-07",
-    "last_point": "2026-10-06",
+    "last_point": "2026-10-07",
     "label": "Start 2026-08-01 · series from first logged day",
     "source": "/workspace/investorius/dashboard/rsdh_equity_curve.json",
     "schema": "investorius.rsdh_equity_curve.v1"
   },
   "crypto_news": {
-    "updated_at": "2026-10-06 04:08:41 Vilnius (UTC+3)",
+    "updated_at": "2026-10-07 04:15 Vilnius (UTC+3)",
     "stories": [
       {
-        "headline": "BTC's second push toward $87k stalls under the late-September high",
-        "blurb": "Bitcoin nearly reached $87k on Sunday, within ~$500 of its eight-month high near $87.4k, then slipped back under $86k. — The 7-day bull case now needs a daily close above ~$87.4k; repeated stalls there keep the range intact.",
+        "headline": "Bitcoin turned back at the $87k wall for the third time since late September",
+        "blurb": "Sellers rejected another move above $87k and BTC slipped back to the mid-$85ks; analysts note price is squeezing into the apex of a triangle. — A daily close above the ~$87.4–87.7k highs is still the bull trigger; a tightening range with leverage rebuilding raises the odds of a sharp move either way.",
         "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses"
+        "url": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records"
       },
       {
-        "headline": "Weak jobs report eased hike bets, but yields climbed right back",
-        "blurb": "September payrolls came in far below expectations, yet the 10-year yield rose back above 5.3% on Monday as markets look to next week's CPI. — Rising long yields and a firmer dollar are the main macro headwind capping crypto's upside.",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/10/05/live-updates-bitcoin-above-usd86-000-as-traders-price-out-an-october-fed-hike"
+        "headline": "Spot ETF buying cools sharply as funds hover near holders' breakeven",
+        "blurb": "Bitfinex analysts say weekly spot BTC ETF inflows fell about 90% in the week to Oct 2, and expect an $84k–$87.7k range while spot demand stays soft. — Flows are still net positive but too thin to break the range; ETF holders' average cost near $84k is the support line to watch.",
+        "source": "crypto.news / Bitfinex",
+        "url": "https://crypto.news/bitcoin-90k-push-stalls-as-etf-buying-slows/"
       },
       {
-        "headline": "Spot ETFs log a third positive week, then a Monday outflow",
-        "blurb": "US spot BTC ETFs took net inflows for the week to Oct 2 (led by IBIT); Farside shows Monday Oct 5 back in outflow. — Institutional demand is supportive but not accelerating — flows are mixed rather than a fresh tailwind.",
-        "source": "Crypto Briefing / Farside",
-        "url": "https://cryptobriefing.com/spot-bitcoin-etfs-241m-inflows-third-week/"
+        "headline": "CFTC proposes crypto rules days after an SEC custody proposal",
+        "blurb": "Bitcoin twice popped above $86k on the CFTC news before fading back into its range. — Regulatory clarity is a slow-burn tailwind for institutional access, but it hasn't been enough on its own to break resistance.",
+        "source": "Bitcoin.com News",
+        "url": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-october-gains-two-surges-above-86k/"
       },
       {
-        "headline": "On-chain profitability turns up: two BlockHorizon signals flip Bullish",
-        "blurb": "Supply in Profit and long-term-holder NUPL flipped Bullish on Oct 5, and all 16 signals are rising over 30 days, but the Cycle Index is still Bearish at 6/16. — On-chain is starting to back the price move; a breadth push past half the signals would be the confirmation to watch.",
-        "source": "BlockHorizon",
-        "url": "https://charts.blockhorizon.io/signals"
+        "headline": "Fed minutes due today, September CPI next week",
+        "blurb": "Minutes of the September hike meeting land on Oct 7; CPI follows on Oct 14, ahead of the Oct 27–28 FOMC. — With the 10-year yield near multi-decade highs, any hawkish signal on further hikes is the main macro risk to crypto's range.",
+        "source": "The Crypto Times",
+        "url": "https://www.cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes/"
       },
       {
-        "headline": "Fed liquidity still draining until Thursday's print",
-        "blurb": "The latest weekly Fed balance-sheet print (Wed 09-30) showed liquidity contracting; the Treasury's cash pile has fallen since, which eases the drain. — If Thursday's release confirms the turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
+        "headline": "Weekly Fed liquidity read still the Wed 09-30 print until Thursday",
+        "blurb": "The latest weekly Fed balance-sheet observation showed net liquidity falling; the next release is Thu Oct 8. — If Thursday's release confirms a turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
         "source": "Fed H.4.1 / FiscalData",
-        "url": "https://www.federalreserve.gov/releases/h41/current/h41.htm"
+        "url": "https://www.federalreserve.gov/releases/h41/"
       }
     ]
   },
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-07 04:11:31 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
-      "oi_chg_7d_frac": -0.009111680683842336,
-      "price_chg_7d_frac": 0.02875496773517819,
-      "oi_chg_7d_pct": -0.9112,
-      "price_chg_7d_pct": 2.8755,
-      "quadrant": "Spot Rally",
+      "oi_chg_7d_frac": 0.03693360019699708,
+      "price_chg_7d_frac": 0.02202832246301819,
+      "oi_chg_7d_pct": 3.6934,
+      "price_chg_7d_pct": 2.2028,
+      "quadrant": "Leveraged Rally",
       "quadrants": [
         "Spot Rally",
         "Leveraged Rally",
@@ -1281,126 +1309,126 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-07 04:11:31 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "series": {
         "Funding Rate (+ve)": {
-          "last": 0.029386460831837047,
-          "n": 2380,
-          "as_of": "2026-10-05"
+          "last": 0.03666714291591852,
+          "n": 2381,
+          "as_of": "2026-10-06"
         },
         "Funding Rate (-ve)": {
           "last": 0.0,
-          "n": 2380,
-          "as_of": "2026-10-05"
+          "n": 2381,
+          "as_of": "2026-10-06"
         },
         "Adj-FR (+ve)": {
           "last": 0.0,
-          "n": 2380,
-          "as_of": "2026-10-05"
+          "n": 2381,
+          "as_of": "2026-10-06"
         },
         "Adj-FR (-ve)": {
-          "last": -0.03293485100845338,
-          "n": 2380,
-          "as_of": "2026-10-05"
+          "last": -0.025653780232600565,
+          "n": 2381,
+          "as_of": "2026-10-06"
         }
       },
       "available": true,
-      "funding_ann_pct": 2.9386,
+      "funding_ann_pct": 3.6667,
       "funding_side": "positive"
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-07 04:11:31 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "series": {
         "Aggregate Total": {
-          "last": 54898891716.424736,
-          "n": 2406,
-          "as_of": "2026-10-05"
+          "last": 55555845168.69804,
+          "n": 2407,
+          "as_of": "2026-10-06"
         },
         "Binance": {
-          "last": 11214659589.30543,
-          "n": 2406,
-          "as_of": "2026-10-05"
+          "last": 11262688028.91226,
+          "n": 2407,
+          "as_of": "2026-10-06"
         },
         "CME": {
-          "last": 9073730484.0,
-          "n": 2406,
-          "as_of": "2026-10-05"
+          "last": 9230443038.09,
+          "n": 2407,
+          "as_of": "2026-10-06"
         },
         "Bybit": {
-          "last": 5529847133.88,
-          "n": 2406,
-          "as_of": "2026-10-05"
+          "last": 5551420797.16,
+          "n": 2407,
+          "as_of": "2026-10-06"
         },
         "Price": {
-          "last": 85929.5,
-          "n": 2406,
-          "as_of": "2026-10-05"
+          "last": 85508.1,
+          "n": 2407,
+          "as_of": "2026-10-06"
         }
       },
       "available": true,
-      "aggregate_oi_usd": 54898891716.424736,
-      "aggregate_oi_b": 54.899
+      "aggregate_oi_usd": 55555845168.69804,
+      "aggregate_oi_b": 55.556
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-07 04:11:31 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "series": {
         "MVRV": {
-          "last": 1.600873,
-          "n": 6487,
-          "as_of": "2026-10-05"
+          "last": 1.58629,
+          "n": 6488,
+          "as_of": "2026-10-06"
         },
         "Realised Price": {
-          "last": 53732.3,
-          "n": 6487,
-          "as_of": "2026-10-05"
+          "last": 53751.22,
+          "n": 6488,
+          "as_of": "2026-10-06"
         },
         "Price": {
-          "last": 86020.94,
-          "n": 6487,
-          "as_of": "2026-10-05"
+          "last": 85265.03,
+          "n": 6488,
+          "as_of": "2026-10-06"
         }
       },
       "available": true,
-      "mvrv": 1.6009,
-      "realized_price_usd": 53732.3
+      "mvrv": 1.5863,
+      "realized_price_usd": 53751.22
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "series": {
         "Spent Output Profit Ratio (SOPR)": {
-          "last": 1.0262598,
-          "n": 5575,
-          "as_of": "2026-10-05"
+          "last": 1.0119236,
+          "n": 5576,
+          "as_of": "2026-10-06"
         },
         "SOPR 7D-EMA": {
-          "last": 1.0155656841349376,
-          "n": 5575,
-          "as_of": "2026-10-05"
+          "last": 1.0151913939305703,
+          "n": 5576,
+          "as_of": "2026-10-06"
         },
         "Price": {
-          "last": 86020.94,
-          "n": 5575,
-          "as_of": "2026-10-05"
+          "last": 85265.03,
+          "n": 5576,
+          "as_of": "2026-10-06"
         }
       },
       "available": true,
-      "sopr": 1.02626,
-      "sopr_7d_ema": 1.015566
+      "sopr": 1.011924,
+      "sopr_7d_ema": 1.015191
     }
   },
   "market_structure": {
@@ -1408,10 +1436,10 @@
     "label": "Neutral",
     "why": "Small 5d/7d moves.",
     "inputs": {
-      "BTC_5d_pct": 1.37,
-      "BTC_7d_pct": 2.862,
-      "BTC_1m_pct": 7.051,
-      "ETH_7d_pct": 1.562,
+      "BTC_5d_pct": 1.164,
+      "BTC_7d_pct": 2.306,
+      "BTC_1m_pct": 8.045,
+      "ETH_7d_pct": 0.39,
       "breadth": "6/16 bullish"
     },
     "labels": [
@@ -1420,14 +1448,14 @@
       "Mean reverting",
       "Neutral"
     ],
-    "as_of_brief": "2026-10-06",
-    "built_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)"
+    "as_of_brief": "2026-10-07",
+    "built_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v2",
-    "as_of_brief": "2026-10-06",
-    "built_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
-    "main_story": "Constructive: caution signals outnumber supports (5 vs 4).",
+    "as_of_brief": "2026-10-07",
+    "built_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)",
+    "main_story": "Constructive: caution signals outnumber supports (6 vs 4).",
     "aligned": [
       {
         "label": "Treasury cash falling",
@@ -1436,13 +1464,13 @@
       },
       {
         "label": "ETF inflows",
-        "detail": "+$50M week 29 Sep–5 Oct",
+        "detail": "+$120M week 29 Sep–5 Oct",
         "tone": "pos"
       },
       {
-        "label": "Healthy · spot-led",
-        "detail": "Futures OI -0.9% WoW: leverage is leaving; price action is spot-driven.",
-        "tone": "gold"
+        "label": "Stablecoins edging up",
+        "detail": "Mild support",
+        "tone": "pos"
       },
       {
         "label": "On-chain momentum rising",
@@ -1452,13 +1480,18 @@
     ],
     "diverging": [
       {
-        "label": "Fed liquidity ↓ deteriorating",
-        "detail": "Net Fed liquidity fell this week; down over 4 weeks.",
+        "label": "Fed liquidity ↓ deteriorating · Wed 09-30",
+        "detail": "Net Fed liquidity fell in the weekly print (Wed 09-30); down over 4 weeks.",
         "tone": "neg"
       },
       {
+        "label": "Leverage building",
+        "detail": "Futures OI +3.7% WoW: rally fuelled by new leverage — squeeze risk rises.",
+        "tone": "watch"
+      },
+      {
         "label": "RSDH BULL · Lagging BTC",
-        "detail": "Trailed BTC by 3.7 pp this week (Final× basis).",
+        "detail": "Trailed BTC by 2.2 pp this week (Final× basis).",
         "tone": "neg"
       },
       {
@@ -1467,9 +1500,9 @@
         "tone": "neg"
       },
       {
-        "label": "USD & yields: headwind",
-        "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.",
-        "tone": "neg"
+        "label": "USD & yields: mixed",
+        "detail": "Dollar and yields sent mixed signals this week; equities firm, volatility calm.",
+        "tone": "watch"
       },
       {
         "label": "RSDH concentrated in SOL",
@@ -1478,8 +1511,8 @@
       }
     ]
   },
-  "fetched_at_utc": "2026-10-06 01:05:09 UTC",
-  "fetched_at_vilnius": "2026-10-06 04:05:09 Vilnius (UTC+3)",
+  "fetched_at_utc": "2026-10-07 01:08:40 UTC",
+  "fetched_at_vilnius": "2026-10-07 04:08:40 Vilnius (UTC+3)",
   "other_central_banks": {
     "ECB": {
       "status": "Unavailable",
@@ -1495,20 +1528,20 @@
   },
   "story_metrics": {
     "btc": {
-      "price": 86042.885,
-      "wow": 2.862,
-      "mom": 7.051,
+      "price": 85439.505,
+      "wow": 2.306,
+      "mom": 8.045,
       "signal": "Trending up",
       "tone": "pos",
       "meaning": "Weekly gains extend the monthly advance."
     },
     "eth": {
-      "price": 2717.74,
-      "wow": 1.562,
-      "mom": 8.112,
+      "price": 2693.165,
+      "wow": 0.39,
+      "mom": 8.157,
       "signal": "Lagging BTC",
       "tone": "watch",
-      "meaning": "ETH behind BTC this week; ahead over 30d."
+      "meaning": "ETH behind BTC this week; in line over 30d."
     },
     "fed": {
       "dir": "down",
@@ -1517,9 +1550,11 @@
       "arrow": "↓",
       "tone": "neg",
       "signal": "Draining liquidity",
-      "meaning": "Net Fed liquidity fell this week; down over 4 weeks.",
+      "meaning": "Net Fed liquidity fell in the weekly print (Wed 09-30); down over 4 weeks.",
       "wow_word": "Deteriorating",
-      "mom_word": "Deteriorating"
+      "mom_word": "Deteriorating",
+      "obs": "Wed 09-30",
+      "next": "next Thu 10-08"
     },
     "tga": {
       "dir": "down",
@@ -1530,19 +1565,19 @@
       "signal": "Adds liquidity",
       "meaning": "Treasury spent down its cash this week → more dollars in markets; flat over 4 weeks.",
       "mom_word": "Flat",
-      "as_of": "2026-10-02"
+      "as_of": "2026-10-05"
     },
     "stables": {
-      "wow": 0.24,
-      "mom": 1.085,
-      "word": "Flat",
-      "arrow": "→",
-      "tone": "watch",
-      "signal": "Neutral",
-      "meaning": "Stablecoin supply +0.2% 7d · +1.1% 30d — buying power steady."
+      "wow": 0.453,
+      "mom": 1.211,
+      "word": "Edging up",
+      "arrow": "↑",
+      "tone": "pos",
+      "signal": "Mild support",
+      "meaning": "Stablecoin supply +0.5% 7d · +1.2% 30d — buying power growing."
     },
     "etf": {
-      "week_m": 50.400000000000034,
+      "week_m": 120.30000000000003,
       "span": "29 Sep–5 Oct",
       "signal": "Inflows",
       "tone": "pos",
@@ -1550,25 +1585,25 @@
       "fading": false
     },
     "futures": {
-      "quadrant": "Spot Rally",
-      "oi_wow": -0.9112,
-      "signal": "Healthy · spot-led",
-      "tone": "pos",
-      "meaning": "Futures OI -0.9% WoW: leverage is leaving; price action is spot-driven."
+      "quadrant": "Leveraged Rally",
+      "oi_wow": 3.6934,
+      "signal": "Leverage building",
+      "tone": "watch",
+      "meaning": "Futures OI +3.7% WoW: rally fuelled by new leverage — squeeze risk rises."
     },
     "funding": {
-      "val": 2.9386,
+      "val": 3.6667,
       "signal": "Calm",
       "tone": "pos",
       "meaning": "Normal, mild long bias — no froth."
     },
     "macro": {
-      "signal": "Headwind",
-      "tone": "neg",
-      "meaning": "Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.",
-      "dxy_wow": 0.69,
-      "tnx_wow": 0.34,
-      "spx_wow": 1.6
+      "signal": "Mixed",
+      "tone": "watch",
+      "meaning": "Dollar and yields sent mixed signals this week; equities firm, volatility calm.",
+      "dxy_wow": -0.142,
+      "tnx_wow": 0.611,
+      "spx_wow": 1.989
     },
     "bh": {
       "cycle": 34,
@@ -1586,14 +1621,20 @@
       "macro": "BULL",
       "alloc": "SOL 95% · BTC 5%",
       "strat_x": 1.37,
-      "btc_x": 1.37,
-      "edge_wow_pp": -3.676470588235292,
-      "wow_from": "2026-09-29",
+      "btc_x": 1.36,
+      "edge_wow_pp": -2.227508650519028,
+      "wow_from": "2026-09-30",
       "alloc_prev": "SOL 95% · BTC 5%",
       "macro_prev": "BULL",
       "signal": "Lagging BTC",
       "tone": "neg",
-      "meaning": "Trailed BTC by 3.7 pp this week (Final× basis)."
+      "meaning": "Trailed BTC by 2.2 pp this week (Final× basis)."
     }
-  }
+  },
+  "daily_headline": "Constructive — BTC is holding its monthly gains but keeps stalling under the late-September high, and this week the push switched from spot buyers to leverage.",
+  "daily_focus": {
+    "tone": "watch",
+    "text": "What changed: futures flipped from spot-led to leverage-led this week while price stalled — the 7-day outlook loses its upside tilt and is now balanced."
+  },
+  "scorecard_as_of": "Deep read 2026-10-06 · positioning rows refreshed 2026-10-07"
 }

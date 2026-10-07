@@ -1,8 +1,8 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-06",
-  "built_at_vilnius": "2026-10-06 04:10:00 Vilnius (UTC+3)",
-  "main_story": "Constructive: caution signals outnumber supports (5 vs 4).",
+  "as_of_brief": "2026-10-07",
+  "built_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)",
+  "main_story": "Constructive: caution signals outnumber supports (6 vs 4).",
   "aligned": [
     {
       "label": "Treasury cash falling",
@@ -11,13 +11,13 @@
     },
     {
       "label": "ETF inflows",
-      "detail": "+$50M week 29 Sep–5 Oct",
+      "detail": "+$120M week 29 Sep–5 Oct",
       "tone": "pos"
     },
     {
-      "label": "Healthy · spot-led",
-      "detail": "Futures OI -0.9% WoW: leverage is leaving; price action is spot-driven.",
-      "tone": "gold"
+      "label": "Stablecoins edging up",
+      "detail": "Mild support",
+      "tone": "pos"
     },
     {
       "label": "On-chain momentum rising",
@@ -27,13 +27,18 @@
   ],
   "diverging": [
     {
-      "label": "Fed liquidity ↓ deteriorating",
-      "detail": "Net Fed liquidity fell this week; down over 4 weeks.",
+      "label": "Fed liquidity ↓ deteriorating · Wed 09-30",
+      "detail": "Net Fed liquidity fell in the weekly print (Wed 09-30); down over 4 weeks.",
       "tone": "neg"
     },
     {
+      "label": "Leverage building",
+      "detail": "Futures OI +3.7% WoW: rally fuelled by new leverage — squeeze risk rises.",
+      "tone": "watch"
+    },
+    {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 3.7 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 2.2 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
@@ -42,9 +47,9 @@
       "tone": "neg"
     },
     {
-      "label": "USD & yields: headwind",
-      "detail": "Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.",
-      "tone": "neg"
+      "label": "USD & yields: mixed",
+      "detail": "Dollar and yields sent mixed signals this week; equities firm, volatility calm.",
+      "tone": "watch"
     },
     {
       "label": "RSDH concentrated in SOL",
