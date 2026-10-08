@@ -1,27 +1,27 @@
 {
   "schema": "market_watcher.checkonchain.sopr.v1",
-  "fetched_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-08 04:11:39 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "series": {
     "Spent Output Profit Ratio (SOPR)": {
-      "last": 1.0119236,
-      "n": 5576,
-      "as_of": "2026-10-06"
+      "last": 1.0165771,
+      "n": 5577,
+      "as_of": "2026-10-07"
     },
     "SOPR 7D-EMA": {
-      "last": 1.0151913939305703,
-      "n": 5576,
-      "as_of": "2026-10-06"
+      "last": 1.015269658751749,
+      "n": 5577,
+      "as_of": "2026-10-07"
     },
     "Price": {
-      "last": 85265.03,
-      "n": 5576,
-      "as_of": "2026-10-06"
+      "last": 83172.54,
+      "n": 5577,
+      "as_of": "2026-10-07"
     }
   },
   "available": true,
-  "sopr": 1.011924,
-  "sopr_7d_ema": 1.015191
+  "sopr": 1.016577,
+  "sopr_7d_ema": 1.01527
 }

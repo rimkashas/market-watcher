@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-07 04:15 Vilnius (UTC+3)",
+  "updated_at": "2026-10-08 04:20 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "Bitcoin turned back at the $87k wall for the third time since late September",
-      "blurb": "Sellers rejected another move above $87k and BTC slipped back to the mid-$85ks; analysts note price is squeezing into the apex of a triangle.",
-      "why_matters": "A daily close above the ~$87.4–87.7k highs is still the bull trigger; a tightening range with leverage rebuilding raises the odds of a sharp move either way.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records"
+      "headline": "Bitcoin slides back to the $83k range floor as a long flush hits",
+      "blurb": "After a third rejection near $87k, BTC dropped to an intraday low around $82.8k on Oct 7; roughly half a billion dollars of mostly long positions were liquidated.",
+      "why_matters": "The ~$83k floor of the post-Sept-21 range is now the line; analysts flag buy orders near $81k, and losing that opens room toward the high-$70ks.",
+      "source": "CoinMarketCap / Decrypt",
+      "url": "https://coinmarketcap.com/academy/article/bitcoin-price-drops-oil-yields-longs-flushed"
     },
     {
-      "headline": "Spot ETF buying cools sharply as funds hover near holders' breakeven",
-      "blurb": "Bitfinex analysts say weekly spot BTC ETF inflows fell about 90% in the week to Oct 2, and expect an $84k–$87.7k range while spot demand stays soft.",
-      "why_matters": "Flows are still net positive but too thin to break the range; ETF holders' average cost near $84k is the support line to watch.",
-      "source": "crypto.news / Bitfinex",
-      "url": "https://crypto.news/bitcoin-90k-push-stalls-as-etf-buying-slows/"
+      "headline": "Oil tops $101 on Hormuz tanker attacks, pushing yields and the dollar up",
+      "blurb": "Brent climbed above $101, the 30-year Treasury yield hit its highest since 2002 and the dollar index touched its highest since March 2025.",
+      "why_matters": "The energy-driven drop in yields that helped BTC rally in late September has reversed — macro is a headwind again.",
+      "source": "Decrypt / Economic Times",
+      "url": "https://decrypt.co/380290/bitcoin-dips-oil-shock-rattles-markets-what-happens-next"
     },
     {
-      "headline": "CFTC proposes crypto rules days after an SEC custody proposal",
-      "blurb": "Bitcoin twice popped above $86k on the CFTC news before fading back into its range.",
-      "why_matters": "Regulatory clarity is a slow-burn tailwind for institutional access, but it hasn't been enough on its own to break resistance.",
-      "source": "Bitcoin.com News",
-      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-october-gains-two-surges-above-86k/"
+      "headline": "Fed minutes: most officials see another hike by year-end, no rush for October",
+      "blurb": "Minutes of the Sept 15–16 meeting show a unanimous hike and most participants expecting one more increase by year-end, with timing left to the data.",
+      "why_matters": "Rate path stays restrictive; September CPI on Oct 14 and the Oct 27–28 FOMC are the next swing events for crypto's range.",
+      "source": "Federal Reserve / etf.net",
+      "url": "https://etf.net/news/fed-minutes-back-a-year-end-rate-increase-and-leave-october-or-december-open-2026-10-07"
     },
     {
-      "headline": "Fed minutes due today, September CPI next week",
-      "blurb": "Minutes of the September hike meeting land on Oct 7; CPI follows on Oct 14, ahead of the Oct 27–28 FOMC.",
-      "why_matters": "With the 10-year yield near multi-decade highs, any hawkish signal on further hikes is the main macro risk to crypto's range.",
-      "source": "The Crypto Times",
-      "url": "https://www.cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes/"
+      "headline": "Bitcoin ETFs back to inflows on IBIT while ether funds bleed for a sixth day",
+      "blurb": "Spot BTC ETFs took in about $119M on Oct 6, almost all via BlackRock's IBIT; ether ETFs lost about $202M, a sixth straight outflow.",
+      "why_matters": "Institutional demand is narrowing to BTC — a soft spot for altcoins, which matters for a SOL-heavy model.",
+      "source": "Bitcoin.com News / Farside",
+      "url": "https://news.bitcoin.com/bitcoin-etf/blackrock-pulls-122m-into-bitcoin-etfs-as-ether-loses-202m/"
     },
     {
-      "headline": "Weekly Fed liquidity read still the Wed 09-30 print until Thursday",
-      "blurb": "The latest weekly Fed balance-sheet observation showed net liquidity falling; the next release is Thu Oct 8.",
-      "why_matters": "If Thursday's release confirms a turn, the main structural headwind fades; a second contracting week keeps the 1-month outlook cautious.",
-      "source": "Fed H.4.1 / FiscalData",
-      "url": "https://www.federalreserve.gov/releases/h41/"
+      "headline": "Glassnode: the rally leaned on derivatives, with thin spot volume",
+      "blurb": "Glassnode found the late-September advance rested more on derivatives bets than new buyers, with spot volume among the thinnest since early 2024.",
+      "why_matters": "Leverage-led moves unwind fast; until spot demand returns, rallies into $87k stay fragile and dips can cascade.",
+      "source": "CoinMarketCap (citing Glassnode)",
+      "url": "https://coinmarketcap.com/academy/article/bitcoin-price-drops-oil-yields-longs-flushed"
     }
   ]
 }

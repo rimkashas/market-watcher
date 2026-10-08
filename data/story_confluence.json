@@ -1,8 +1,8 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-07",
-  "built_at_vilnius": "2026-10-07 04:11:32 Vilnius (UTC+3)",
-  "main_story": "Constructive: caution signals outnumber supports (6 vs 4).",
+  "as_of_brief": "2026-10-08",
+  "built_at_vilnius": "2026-10-08 04:11:39 Vilnius (UTC+3)",
+  "main_story": "Cautious: caution signals outnumber supports (7 vs 4).",
   "aligned": [
     {
       "label": "Treasury cash falling",
@@ -11,7 +11,7 @@
     },
     {
       "label": "ETF inflows",
-      "detail": "+$120M week 29 Sep–5 Oct",
+      "detail": "+$173M week 30 Sep–6 Oct",
       "tone": "pos"
     },
     {
@@ -32,13 +32,13 @@
       "tone": "neg"
     },
     {
-      "label": "Leverage building",
-      "detail": "Futures OI +3.7% WoW: rally fuelled by new leverage — squeeze risk rises.",
-      "tone": "watch"
+      "label": "Shorts pressing",
+      "detail": "Futures OI +3.5% WoW: new leverage behind the decline.",
+      "tone": "neg"
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 2.2 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 3.0 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
@@ -49,6 +49,11 @@
     {
       "label": "USD & yields: mixed",
       "detail": "Dollar and yields sent mixed signals this week; equities firm, volatility calm.",
+      "tone": "watch"
+    },
+    {
+      "label": "BTC consolidating",
+      "detail": "Pullback this week inside a monthly uptrend.",
       "tone": "watch"
     },
     {
