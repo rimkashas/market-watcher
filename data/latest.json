@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-10-09 08:39:44 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-10-09 10:23:54 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-10-09",
   "brief_path": "/workspace/brief-2026-10-09",
   "edition": "Daily refresh 2026-10-09 (DEEP Friday)",
@@ -9,7 +9,7 @@
   "cutoff_utc": "2026-10-09 05:38:24 UTC",
   "session_context": "Daily post-RSDH refresh (Vilnius morning)",
   "overall_regime": "Cautious",
-  "one_line_regime": "Cautious — BTC broke below the ~$83k range floor to ~$82k as spot ETFs saw their heaviest outflows since June; futures leverage is now being flushed rather than added, and weekly Fed liquidity turned up on a Treasury cash drawdown, but on-chain cycle stays Bearish (BH page Oct 5) and the SOL-heavy RSDH has fallen behind BTC.",
+  "one_line_regime": "Cautious — BTC broke below the ~$83k range floor to ~$82k as spot ETFs saw their heaviest outflows since June; futures leverage is now being flushed rather than added, and weekly Fed liquidity turned up on a Treasury cash drawdown, but the on-chain cycle slipped deeper into Bearish with narrower breadth (BH page Oct 8) and the SOL-heavy RSDH has fallen behind BTC.",
   "combined_note": "This week's slide was driven by ETF investors heading for the exit while oil and long yields spiked — not by a fresh leverage build. Futures leverage is now being cleared and weekly Fed liquidity improved on a Treasury cash drawdown, which cushions the downside, but demand needs to return before the $83–87k range can be reclaimed.",
   "scoreboard": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "lens": "BH cycle",
-      "read": "34 Bearish · 6/16",
-      "delta": "Carry-over (page Oct 5)"
+      "read": "32 Bearish · 4/16",
+      "delta": "Deeper into Bearish, breadth narrower; 30d momentum still up"
     },
     {
       "lens": "ETF",
@@ -86,8 +86,8 @@
     },
     {
       "dimension": "On-chain cycle (BH)",
-      "now": "34 Bearish · 6/16 (Oct 5)",
-      "vs": "Carry-over from Oct 6 deep read (BH page Oct 5) — public pages not readable without a browser"
+      "now": "32 Bearish · 4/16 (Oct 8)",
+      "vs": "Cycle slipped deeper into Bearish and breadth narrowed with the price drop; 30d momentum still leans up (11/16 rising)"
     },
     {
       "dimension": "RSDH",
@@ -719,96 +719,110 @@
     "freshness": "Unavailable (no refresh vs Mon Estimated)"
   },
   "blockhorizon": {
+    "previous_read": {
+      "page_date": "2026-10-05",
+      "cycle_index": 34,
+      "consensus_bullish": 6,
+      "consensus_total": 16,
+      "source": "/workspace/brief-2026-10-06/blockhorizon/kpis.json",
+      "btc_card_price_usd": 85756
+    },
+    "signal_highlights": [
+      {
+        "label": "Supply in Profit signal",
+        "value": "30 · −25 7d",
+        "signal": "Bearish",
+        "tone": "neg",
+        "meaning": "Biggest 7d drop of the 16 — the price slide pushed many coins back toward their cost."
+      },
+      {
+        "label": "NUPL LTS signal",
+        "value": "50 · flipped Oct 8",
+        "signal": "Bullish",
+        "tone": "pos",
+        "meaning": "Long-term holders' profit gauge just crossed into Bullish — they are not under stress."
+      }
+    ],
     "available": true,
-    "freshness": "Live (Signal Explorer page date Oct 5; charts updated Oct 5)",
-    "page_data_date": "2026-10-05",
-    "cycle_index": 34,
+    "source_path": "/workspace/brief-2026-10-09/blockhorizon/kpis.json",
+    "freshness": "Live (Signal Explorer page date Oct 8)",
+    "page_data_date": "2026-10-08",
+    "edition": "DEEP Friday 2026-10-09 — live browser read of public Signal Explorer (logged out; public data)",
+    "source": "https://charts.blockhorizon.io/signals",
+    "cycle_index": 32,
     "cycle_phase": "Bearish",
-    "breadth": "6/16 bullish",
-    "consensus_bullish": 6,
+    "breadth": "4/16 bullish",
+    "consensus_bullish": 4,
     "consensus_total": 16,
     "supply_in_profit_percent": null,
     "cycle_spectrum": {
       "Bottom": 4,
-      "Bearish": 6,
-      "Bullish": 6,
+      "Bearish": 8,
+      "Bullish": 4,
       "Top": 0
     },
     "momentum_30d": {
-      "rising": 16,
-      "flat": 0,
-      "falling": 0
+      "rising": 11,
+      "flat": 4,
+      "falling": 1
     },
-    "btc_card_price_usd": 85756,
-    "categories": {
-      "Valuation Models": {
-        "score": 32,
-        "phase": "Bearish",
-        "streak_days": null,
-        "page_date": "2026-10-05",
-        "members": 4
-      },
-      "MVRV Family": {
-        "score": 27,
-        "phase": "Bearish",
-        "streak_days": null,
-        "page_date": "2026-10-05",
-        "members": 3
-      },
-      "Holder Behavior": {
-        "score": 49,
-        "phase": "Bearish",
-        "streak_days": null,
-        "page_date": "2026-10-05",
-        "members": 5
-      },
-      "Profit & Loss": {
-        "score": 41,
-        "phase": "Bearish",
-        "streak_days": null,
-        "page_date": "2026-10-05",
-        "members": 5
-      }
-    },
-    "source_path": "/workspace/brief-2026-10-06/blockhorizon/kpis.json",
-    "edition": "DEEP Tuesday 2026-10-06 — box-browser pass (logged OUT; public data)",
-    "source": "https://charts.blockhorizon.io/signals",
-    "nupl": 0.3733,
-    "mvrv_z": 1.07,
-    "realized_price_usd": 53746,
-    "wma200_usd": 66527,
-    "pi_111_usd": 70613,
-    "pi_350x2_usd": 155670,
+    "btc_card_price_usd": 81676,
     "category_pills": {
       "Valuation": {
-        "score": 32,
+        "score": 29,
         "phase": "Bearish",
         "streak_days": null,
         "full": "Valuation Models"
       },
       "MVRV": {
-        "score": 27,
+        "score": 25,
         "phase": "Bearish",
         "streak_days": null,
         "full": "MVRV Family"
       },
       "Holder": {
-        "score": 49,
+        "score": 45,
         "phase": "Bearish",
         "streak_days": null,
         "full": "Holder Behavior"
       },
       "P&L": {
-        "score": 41,
+        "score": 38,
         "phase": "Bearish",
         "streak_days": null,
         "full": "Profit & Loss"
       }
     },
-    "sth_zone_usd": "$62,000–$65,000",
-    "lth_zone_usd": "$84,000–$87,000",
-    "sth_supply_btc": 3595119,
-    "lth_supply_btc": 16492556
+    "categories": {
+      "Valuation Models": {
+        "score": 29,
+        "phase": "Bearish",
+        "streak_days": null,
+        "page_date": "2026-10-08",
+        "members": 4
+      },
+      "MVRV Family": {
+        "score": 25,
+        "phase": "Bearish",
+        "streak_days": null,
+        "page_date": "2026-10-08",
+        "members": 3
+      },
+      "Holder Behavior": {
+        "score": 45,
+        "phase": "Bearish",
+        "streak_days": null,
+        "page_date": "2026-10-08",
+        "members": 5
+      },
+      "Profit & Loss": {
+        "score": 38,
+        "phase": "Bearish",
+        "streak_days": null,
+        "page_date": "2026-10-08",
+        "members": 5
+      }
+    }
   },
   "hard_gaps": [
     "Weekly WALCL/TGA/RRP now from H.4.1 Wed 2026-10-07 (release 2026-10-08). Daily RRPONTSYD/TGA refreshed via FRED/FiscalData.",
@@ -1028,7 +1042,7 @@
   },
   "daily_summary": {
     "regime": "Cautious",
-    "one_line": "Cautious — BTC broke below the ~$83k range floor to ~$82k as spot ETFs saw their heaviest outflows since June; futures leverage is now being flushed rather than added, and weekly Fed liquidity turned up on a Treasury cash drawdown, but on-chain cycle stays Bearish (BH page Oct 5) and the SOL-heavy RSDH has fallen behind BTC.",
+    "one_line": "Cautious — BTC broke below the ~$83k range floor to ~$82k as spot ETFs saw their heaviest outflows since June; futures leverage is now being flushed rather than added, and weekly Fed liquidity turned up on a Treasury cash drawdown, but the on-chain cycle slipped deeper into Bearish with narrower breadth (BH page Oct 8) and the SOL-heavy RSDH has fallen behind BTC.",
     "brief_date": "2026-10-09",
     "session": "Daily post-RSDH refresh (Vilnius morning)",
     "btc": 82506.785,
@@ -1340,7 +1354,7 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-10-09 08:39:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
@@ -1359,7 +1373,7 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-10-09 08:39:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "as_of": "2026-10-09",
@@ -1392,7 +1406,7 @@
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-10-09 08:39:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "as_of": "2026-10-09",
@@ -1429,7 +1443,7 @@
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-10-09 08:39:45 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "as_of": "2026-10-09",
@@ -1456,7 +1470,7 @@
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-10-09 08:39:45 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "as_of": "2026-10-09",
@@ -1491,7 +1505,7 @@
       "BTC_7d_pct": -2.35,
       "BTC_1m_pct": 5.433,
       "ETH_7d_pct": -6.438,
-      "breadth": "6/16 bullish"
+      "breadth": "4/16 bullish"
     },
     "labels": [
       "Trending up",
@@ -1500,12 +1514,12 @@
       "Neutral"
     ],
     "as_of_brief": "2026-10-09",
-    "built_at_vilnius": "2026-10-09 08:39:45 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v2",
     "as_of_brief": "2026-10-09",
-    "built_at_vilnius": "2026-10-09 08:39:45 Vilnius (UTC+3)",
+    "built_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
     "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
     "aligned": [
       {
@@ -1541,8 +1555,8 @@
         "tone": "neg"
       },
       {
-        "label": "On-chain Cycle 34 · Bearish · breadth 6/16 weak",
-        "detail": "On-chain cycle not yet supportive; 30d momentum turning up (16/16 rising).",
+        "label": "On-chain Cycle 32 · Bearish · breadth 4/16 weak",
+        "detail": "Cycle slipped deeper into Bearish and breadth narrowed with the price drop, but 30d momentum still leans up (11/16 rising).",
         "tone": "neg"
       },
       {
@@ -1652,16 +1666,17 @@
       "spx_wow": 0.552
     },
     "bh": {
-      "cycle": 34,
+      "cycle": 32,
       "phase": "Bearish",
-      "bull": 6,
+      "bull": 4,
       "total": 16,
       "breadth_word": "weak",
-      "breadth_line": "breadth 6/16 weak",
+      "breadth_line": "breadth 4/16 weak",
       "tone": "neg",
+      "mom_up": true,
       "signal": "Bearish",
-      "meaning": "On-chain cycle not yet supportive; 30d momentum turning up (16/16 rising).",
-      "line": "Cycle 34 · Bearish · breadth 6/16 weak"
+      "meaning": "Cycle slipped deeper into Bearish and breadth narrowed with the price drop, but 30d momentum still leans up (11/16 rising).",
+      "line": "Cycle 32 · Bearish · breadth 4/16 weak"
     },
     "rsdh": {
       "macro": "BULL",
@@ -1682,6 +1697,6 @@
     "tone": "neg",
     "text": "What changed: ETF selling, not leverage, drove this week's slide — futures moved from a Leveraged Sell-Off to a Deleveraging Sell-Off, which clears fuel for forced selling. The one bright spot is weekly Fed liquidity turning up as the Treasury spent down its cash. Reclaiming ~$83k is the tell; ~$80k is the line below."
   },
-  "scorecard_as_of": "Deep read 2026-10-09 · BlockHorizon row carried over from page Oct 5 (no logged-in browser)",
+  "scorecard_as_of": "Deep read 2026-10-09 · BlockHorizon page Oct 8",
   "probs_note": "Why it held: 7D ranges re-centred lower after the break of $83k; odds unchanged because heavy ETF selling is offset by a cleaner, deleveraged futures market and a better weekly Fed liquidity print."
 }
