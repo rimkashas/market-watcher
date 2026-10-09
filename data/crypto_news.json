@@ -1,40 +1,33 @@
 {
-  "updated_at": "2026-10-08 04:20 Vilnius (UTC+3)",
+  "updated_at": "2026-10-09 08:45 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "Bitcoin slides back to the $83k range floor as a long flush hits",
-      "blurb": "After a third rejection near $87k, BTC dropped to an intraday low around $82.8k on Oct 7; roughly half a billion dollars of mostly long positions were liquidated.",
-      "why_matters": "The ~$83k floor of the post-Sept-21 range is now the line; analysts flag buy orders near $81k, and losing that opens room toward the high-$70ks.",
-      "source": "CoinMarketCap / Decrypt",
-      "url": "https://coinmarketcap.com/academy/article/bitcoin-price-drops-oil-yields-longs-flushed"
+      "headline": "Bitcoin ETFs post their biggest daily outflow since June",
+      "blurb": "US spot bitcoin ETFs lost about $485M on Oct 7, led by IBIT, FBTC and ARKB, wiping out October's early inflows; another outflow followed on Oct 8.",
+      "why_matters": "This week's slide was driven by institutional selling rather than leverage — demand has to return before the $83–87k range can be reclaimed.",
+      "source": "CoinDesk / Decrypt (Farside data)",
+      "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red"
     },
     {
-      "headline": "Oil tops $101 on Hormuz tanker attacks, pushing yields and the dollar up",
-      "blurb": "Brent climbed above $101, the 30-year Treasury yield hit its highest since 2002 and the dollar index touched its highest since March 2025.",
-      "why_matters": "The energy-driven drop in yields that helped BTC rally in late September has reversed — macro is a headwind again.",
-      "source": "Decrypt / Economic Times",
-      "url": "https://decrypt.co/380290/bitcoin-dips-oil-shock-rattles-markets-what-happens-next"
+      "headline": "Bitcoin rebounds to $82k after Trump rules out Iran strikes",
+      "blurb": "Selling ran out near $80.3k late Thursday; BTC recovered to about $82k after Trump said the US would not strike Iran before the Nov 3 midterms, easing oil fears.",
+      "why_matters": "Analysts flag ~$81k as support and ~$83.3k / $85.5k as levels to reclaim; a break below ~$80.3k raises downside risk.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes"
     },
     {
-      "headline": "Fed minutes: most officials see another hike by year-end, no rush for October",
-      "blurb": "Minutes of the Sept 15–16 meeting show a unanimous hike and most participants expecting one more increase by year-end, with timing left to the data.",
-      "why_matters": "Rate path stays restrictive; September CPI on Oct 14 and the Oct 27–28 FOMC are the next swing events for crypto's range.",
-      "source": "Federal Reserve / etf.net",
-      "url": "https://etf.net/news/fed-minutes-back-a-year-end-rate-increase-and-leave-october-or-december-open-2026-10-07"
+      "headline": "Oil near $100 and 30-year yields at a 2002 high weigh on risk",
+      "blurb": "Daily ship attacks around the Strait of Hormuz kept Brent near $100 and pushed the 30-year Treasury yield to about 5.7% midweek, while most Fed officials still expect another hike this year.",
+      "why_matters": "Macro is the main headwind for crypto right now; September CPI on Oct 14 and the Oct 27–28 FOMC are the next swing events.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red"
     },
     {
-      "headline": "Bitcoin ETFs back to inflows on IBIT while ether funds bleed for a sixth day",
-      "blurb": "Spot BTC ETFs took in about $119M on Oct 6, almost all via BlackRock's IBIT; ether ETFs lost about $202M, a sixth straight outflow.",
-      "why_matters": "Institutional demand is narrowing to BTC — a soft spot for altcoins, which matters for a SOL-heavy model.",
-      "source": "Bitcoin.com News / Farside",
-      "url": "https://news.bitcoin.com/bitcoin-etf/blackrock-pulls-122m-into-bitcoin-etfs-as-ether-loses-202m/"
-    },
-    {
-      "headline": "Glassnode: the rally leaned on derivatives, with thin spot volume",
-      "blurb": "Glassnode found the late-September advance rested more on derivatives bets than new buyers, with spot volume among the thinnest since early 2024.",
-      "why_matters": "Leverage-led moves unwind fast; until spot demand returns, rallies into $87k stay fragile and dips can cascade.",
-      "source": "CoinMarketCap (citing Glassnode)",
-      "url": "https://coinmarketcap.com/academy/article/bitcoin-price-drops-oil-yields-longs-flushed"
+      "headline": "Ether ETFs extend their outflow streak; SOL funds also see redemptions",
+      "blurb": "Ether ETFs shed about $161M on Oct 7, a seventh straight losing session, and solana ETFs also saw outflows as selling broadened across crypto funds.",
+      "why_matters": "Institutional demand for altcoins is weak — a soft spot for a SOL-heavy model.",
+      "source": "Bitcoin.com News",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-etfs-lose-487m-heaviest-daily-outflow-since-june/"
     }
   ]
 }

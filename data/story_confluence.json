@@ -1,22 +1,17 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-08",
-  "built_at_vilnius": "2026-10-08 04:11:39 Vilnius (UTC+3)",
-  "main_story": "Cautious: caution signals outnumber supports (7 vs 4).",
+  "as_of_brief": "2026-10-09",
+  "built_at_vilnius": "2026-10-09 08:39:45 Vilnius (UTC+3)",
+  "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
   "aligned": [
     {
+      "label": "Fed liquidity ↑ improving · Wed 10-07",
+      "detail": "Fed balance sheet net of TGA/RRP rose in the weekly print (Wed 10-07); down over 4 weeks.",
+      "tone": "pos"
+    },
+    {
       "label": "Treasury cash falling",
-      "detail": "Adds liquidity · WoW, 4w flat",
-      "tone": "pos"
-    },
-    {
-      "label": "ETF inflows",
-      "detail": "+$173M week 30 Sep–6 Oct",
-      "tone": "pos"
-    },
-    {
-      "label": "Stablecoins edging up",
-      "detail": "Mild support",
+      "detail": "Adds liquidity · WoW, 4w rebuilding",
       "tone": "pos"
     },
     {
@@ -27,23 +22,23 @@
   ],
   "diverging": [
     {
-      "label": "Fed liquidity ↓ deteriorating · Wed 09-30",
-      "detail": "Net Fed liquidity fell in the weekly print (Wed 09-30); down over 4 weeks.",
+      "label": "ETF outflows",
+      "detail": "−$510M week 2–8 Oct",
       "tone": "neg"
     },
     {
-      "label": "Shorts pressing",
-      "detail": "Futures OI +3.5% WoW: new leverage behind the decline.",
-      "tone": "neg"
+      "label": "Leverage flush",
+      "detail": "Futures OI -0.7% WoW: longs being cleared out; can reset positioning.",
+      "tone": "watch"
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 3.0 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 5.3 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
       "label": "On-chain Cycle 34 · Bearish · breadth 6/16 weak",
-      "detail": "On-chain hasn't confirmed the rally; 30d momentum turning up (16/16 rising).",
+      "detail": "On-chain cycle not yet supportive; 30d momentum turning up (16/16 rising).",
       "tone": "neg"
     },
     {
@@ -54,11 +49,6 @@
     {
       "label": "BTC consolidating",
       "detail": "Pullback this week inside a monthly uptrend.",
-      "tone": "watch"
-    },
-    {
-      "label": "RSDH concentrated in SOL",
-      "detail": "Model weights SOL-heavy while ETF flows are BTC-led",
       "tone": "watch"
     }
   ]
