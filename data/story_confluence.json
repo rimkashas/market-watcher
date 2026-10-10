@@ -1,17 +1,12 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-09",
-  "built_at_vilnius": "2026-10-09 10:23:55 Vilnius (UTC+3)",
-  "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
+  "as_of_brief": "2026-10-10",
+  "built_at_vilnius": "2026-10-10 04:13:36 Vilnius (UTC+3)",
+  "main_story": "Cautious: caution signals outnumber supports (7 vs 2).",
   "aligned": [
     {
       "label": "Fed liquidity ↑ improving · Wed 10-07",
       "detail": "Fed balance sheet net of TGA/RRP rose in the weekly print (Wed 10-07); down over 4 weeks.",
-      "tone": "pos"
-    },
-    {
-      "label": "Treasury cash falling",
-      "detail": "Adds liquidity · WoW, 4w rebuilding",
       "tone": "pos"
     },
     {
@@ -22,18 +17,23 @@
   ],
   "diverging": [
     {
+      "label": "Treasury cash flat",
+      "detail": "Neutral · WoW, 4w rebuilding",
+      "tone": "watch"
+    },
+    {
       "label": "ETF outflows",
       "detail": "−$510M week 2–8 Oct",
       "tone": "neg"
     },
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -0.7% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -2.7% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 5.3 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 8.1 pp this week (Final× basis).",
       "tone": "neg"
     },
     {

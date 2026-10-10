@@ -1,33 +1,40 @@
 {
-  "updated_at": "2026-10-09 08:45 Vilnius (UTC+3)",
+  "updated_at": "2026-10-10 04:13:00 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "Bitcoin ETFs post their biggest daily outflow since June",
-      "blurb": "US spot bitcoin ETFs lost about $485M on Oct 7, led by IBIT, FBTC and ARKB, wiping out October's early inflows; another outflow followed on Oct 8.",
-      "why_matters": "This week's slide was driven by institutional selling rather than leverage — demand has to return before the $83–87k range can be reclaimed.",
-      "source": "CoinDesk / Decrypt (Farside data)",
-      "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red"
+      "headline": "Spot bitcoin ETFs erase October's early gains after two heavy outflow days",
+      "blurb": "US spot bitcoin ETFs lost about $485M on Oct 7 and $244M on Oct 8 \u2014 the heaviest two-day stretch since June \u2014 turning October net negative. Friday's print looked near-flat (partial).",
+      "why_matters": "This week's BTC slide was driven by institutional redemptions, not leverage; demand has to stabilize before the old $83\u201387k range can be reclaimed.",
+      "source": "Farside / CoinDesk",
+      "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
     },
     {
-      "headline": "Bitcoin rebounds to $82k after Trump rules out Iran strikes",
-      "blurb": "Selling ran out near $80.3k late Thursday; BTC recovered to about $82k after Trump said the US would not strike Iran before the Nov 3 midterms, easing oil fears.",
-      "why_matters": "Analysts flag ~$81k as support and ~$83.3k / $85.5k as levels to reclaim; a break below ~$80.3k raises downside risk.",
-      "source": "CoinDesk",
+      "headline": "BTC holds the $80k area and settles near $82.5k into the weekend",
+      "blurb": "After breaking the post-Sept-21 ~$83k floor midweek and probing ~$80.3k Thursday, bitcoin recovered toward ~$82.5k as oil fears eased and Trump ruled out Iran strikes before the midterms.",
+      "why_matters": "Holding ~$80k kept the monthly uptrend intact; reclaiming ~$83k is the near-term tell, while failing $80k would open a deeper drawdown.",
+      "source": "CoinDesk / market data",
       "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes"
     },
     {
-      "headline": "Oil near $100 and 30-year yields at a 2002 high weigh on risk",
-      "blurb": "Daily ship attacks around the Strait of Hormuz kept Brent near $100 and pushed the 30-year Treasury yield to about 5.7% midweek, while most Fed officials still expect another hike this year.",
-      "why_matters": "Macro is the main headwind for crypto right now; September CPI on Oct 14 and the Oct 27–28 FOMC are the next swing events.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red"
+      "headline": "Macro calendar: September CPI on Oct 14, then the Oct 27\u201328 FOMC",
+      "blurb": "Markets head into next week watching Wednesday's inflation print and the late-October Fed meeting, after September's hike and hawkish minutes helped reset rate expectations.",
+      "why_matters": "A hot CPI could revive hike bets and keep pressure on risk assets; a cooler print would ease the liquidity headwind that weighed on ETF demand this week.",
+      "source": "BLS / Fed calendars",
+      "url": "https://fedratecalc.com/cpi-release-date/"
     },
     {
-      "headline": "Ether ETFs extend their outflow streak; SOL funds also see redemptions",
-      "blurb": "Ether ETFs shed about $161M on Oct 7, a seventh straight losing session, and solana ETFs also saw outflows as selling broadened across crypto funds.",
-      "why_matters": "Institutional demand for altcoins is weak — a soft spot for a SOL-heavy model.",
-      "source": "Bitcoin.com News",
-      "url": "https://news.bitcoin.com/market-updates/bitcoin-etfs-lose-487m-heaviest-daily-outflow-since-june/"
+      "headline": "Futures leverage keeps washing out as open interest falls with price",
+      "blurb": "CheckOnChain still shows a Deleveraging Sell-Off: seven-day futures OI down about 2.7% alongside a ~2.3% price drop, with funding mild and positive.",
+      "why_matters": "Leverage is being cleared rather than added \u2014 less fuel for forced selling than a leveraged washout, but also less dry powder for a fast squeeze.",
+      "source": "CheckOnChain",
+      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
+    },
+    {
+      "headline": "Thailand green-lights spot BTC and ETH ETFs for exchange listing from Oct 16",
+      "blurb": "Thailand's SEC issued rules allowing spot bitcoin and ether ETFs to list on the Stock Exchange of Thailand from October 16, with local custodians and no margin trading.",
+      "why_matters": "Another regulated on-ramp in Asia, but it is a medium-term access story \u2014 not a near-term offset to this week's US ETF outflows.",
+      "source": "X / Thailand SEC coverage",
+      "url": "https://x.com/i/trending/2108420359754330486"
     }
   ]
 }
