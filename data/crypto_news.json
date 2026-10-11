@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-10 04:13:00 Vilnius (UTC+3)",
+  "updated_at": "2026-10-11 04:13:28 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "Spot bitcoin ETFs erase October's early gains after two heavy outflow days",
-      "blurb": "US spot bitcoin ETFs lost about $485M on Oct 7 and $244M on Oct 8 \u2014 the heaviest two-day stretch since June \u2014 turning October net negative. Friday's print looked near-flat (partial).",
-      "why_matters": "This week's BTC slide was driven by institutional redemptions, not leverage; demand has to stabilize before the old $83\u201387k range can be reclaimed.",
-      "source": "Farside / CoinDesk",
+      "headline": "Friday's BTC ETF print flips to a small inflow after two heavy exit days",
+      "blurb": "US spot bitcoin ETFs completed Friday at about +$21M after losing ~$485M on Oct 7 and ~$244M on Oct 8 \u2014 the heaviest two-day stretch since June. October is still net negative.",
+      "why_matters": "The week was defined by institutional redemptions; Friday's small green print breaks the streak and makes Monday's flow the next tell before CPI.",
+      "source": "Farside / TFTC",
       "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
     },
     {
-      "headline": "BTC holds the $80k area and settles near $82.5k into the weekend",
-      "blurb": "After breaking the post-Sept-21 ~$83k floor midweek and probing ~$80.3k Thursday, bitcoin recovered toward ~$82.5k as oil fears eased and Trump ruled out Iran strikes before the midterms.",
-      "why_matters": "Holding ~$80k kept the monthly uptrend intact; reclaiming ~$83k is the near-term tell, while failing $80k would open a deeper drawdown.",
+      "headline": "BTC holds near $83k into Sunday after defending the $80k area",
+      "blurb": "After breaking the post-Sept-21 ~$83k floor midweek and probing ~$80k Thursday, bitcoin settled back near ~$82.9k over the weekend as oil fears eased.",
+      "why_matters": "Holding ~$80k kept the monthly uptrend intact; reclaiming and holding ~$83k into CPI week is the near-term tell.",
       "source": "CoinDesk / market data",
-      "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes"
+      "url": "https://www.coindesk.com/markets/"
     },
     {
       "headline": "Macro calendar: September CPI on Oct 14, then the Oct 27\u201328 FOMC",
-      "blurb": "Markets head into next week watching Wednesday's inflation print and the late-October Fed meeting, after September's hike and hawkish minutes helped reset rate expectations.",
+      "blurb": "Markets head into the week watching Wednesday's inflation print and the late-October Fed meeting, after September's hike and hawkish minutes helped reset rate expectations.",
       "why_matters": "A hot CPI could revive hike bets and keep pressure on risk assets; a cooler print would ease the liquidity headwind that weighed on ETF demand this week.",
       "source": "BLS / Fed calendars",
-      "url": "https://fedratecalc.com/cpi-release-date/"
+      "url": "https://www.bls.gov/cpi/"
     },
     {
-      "headline": "Futures leverage keeps washing out as open interest falls with price",
-      "blurb": "CheckOnChain still shows a Deleveraging Sell-Off: seven-day futures OI down about 2.7% alongside a ~2.3% price drop, with funding mild and positive.",
-      "why_matters": "Leverage is being cleared rather than added \u2014 less fuel for forced selling than a leveraged washout, but also less dry powder for a fast squeeze.",
+      "headline": "Futures leverage flush continues but is moderating",
+      "blurb": "CheckOnChain still shows a Deleveraging Sell-Off: seven-day futures OI down about 1.7% alongside a ~2.0% price drop, with funding mild and positive (~+2.6% ann.).",
+      "why_matters": "Leverage is still being cleared rather than added \u2014 less fuel for forced selling than a leveraged washout, but also less dry powder for a fast squeeze.",
       "source": "CheckOnChain",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "headline": "Thailand green-lights spot BTC and ETH ETFs for exchange listing from Oct 16",
-      "blurb": "Thailand's SEC issued rules allowing spot bitcoin and ether ETFs to list on the Stock Exchange of Thailand from October 16, with local custodians and no margin trading.",
-      "why_matters": "Another regulated on-ramp in Asia, but it is a medium-term access story \u2014 not a near-term offset to this week's US ETF outflows.",
-      "source": "X / Thailand SEC coverage",
-      "url": "https://x.com/i/trending/2108420359754330486"
+      "headline": "RSDH stays SOL-heavy BULL; trail vs BTC narrowed overnight",
+      "blurb": "Investorius RSDH remains SOL95/BTC5/CASH0 under a BULL macro with fast momentum still easing. Final\u00d7 1.25 vs BTC 1.32 \u2014 trail 0.07 after strat ticked up while BTC Final\u00d7 held.",
+      "why_matters": "The model is still fully invested and ahead of BTC MoM, but a rough week of SOL lag means it trails BTC on Final\u00d7 into CPI week.",
+      "source": "Investorius / RSDH",
+      "url": "https://rimkashas.github.io/market-watcher/"
     }
   ]
 }

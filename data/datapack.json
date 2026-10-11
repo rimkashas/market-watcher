@@ -1,16 +1,16 @@
 {
-  "edition": "Daily refresh 2026-10-10 (SHORT Saturday)",
-  "brief_date": "2026-10-10",
+  "edition": "Daily refresh 2026-10-11 (SHORT Sunday)",
+  "brief_date": "2026-10-11",
   "timezone": "Europe/Vilnius",
-  "updated_vilnius": "2026-10-10 04:11:46 Vilnius (UTC+3)",
-  "cutoff_utc": "2026-10-10 01:11:46 UTC",
-  "fetched_at_utc": "2026-10-10 01:11:46 UTC",
-  "fetched_at_vilnius": "2026-10-10 04:11:46 Vilnius (UTC+3)",
+  "updated_vilnius": "2026-10-11 04:12:22 Vilnius (UTC+3)",
+  "cutoff_utc": "2026-10-11 01:12:22 UTC",
+  "fetched_at_utc": "2026-10-11 01:12:22 UTC",
+  "fetched_at_vilnius": "2026-10-11 04:12:22 Vilnius (UTC+3)",
   "session_context": "Daily post-RSDH refresh (Vilnius morning)",
   "prior_state_ref": {
-    "brief": "Fri 2026-10-09",
-    "BTC": 82506.785,
-    "ETH": 2496.64,
+    "brief": "Sat 2026-10-10",
+    "BTC": 82569.195,
+    "ETH": 2488.67,
     "regime": "Cautious",
     "liquidity": "Expanding",
     "momentum": "Turning up",
@@ -21,11 +21,11 @@
     "RRP_Wed_B": 2.338,
     "delta_1w_B": 101.654,
     "delta_4w_B": -37.043,
-    "daily_TGA_B": 885.783,
-    "daily_TGA_date": "2026-10-07",
+    "daily_TGA_B": 887.469,
+    "daily_TGA_date": "2026-10-08",
     "stables_B": 311.59,
-    "stables_7d": 0.023,
-    "stables_30d": 0.819,
+    "stables_7d": 0.03,
+    "stables_30d": 0.826,
     "ETF_BTC_latest_m": -244.1,
     "ETF_BTC_latest_date": "2026-10-08",
     "ETF_BTC_since_after_0923_m": -133.7,
@@ -45,41 +45,41 @@
     "status": "Live",
     "freshness": "Live",
     "source": "Coinbase primary; OKX/Kraken/Yahoo x-check; CoinGecko/CMC global",
-    "BTC_usd": 82569.195,
-    "ETH_usd": 2488.67,
-    "ETH_BTC": 0.03014041737962929,
-    "BTC_24h_pct": 1.074,
-    "BTC_5d_pct": -3.752,
-    "BTC_7d_pct": -2.591,
-    "BTC_1m_pct": 7.835,
-    "ETH_24h_pct": 0.585,
-    "ETH_5d_pct": -8.214,
-    "ETH_7d_pct": -7.401,
-    "ETH_1m_pct": 2.103,
-    "global_mcap_usd": 2786506246569.3184,
-    "btc_dominance_pct": 59.506446990072,
-    "eth_dominance_pct": 10.903343000986,
-    "global_mcap_24h_pct": 0.801028,
-    "as_of": "2026-10-10 01:11:46 UTC",
+    "BTC_usd": 82899.495,
+    "ETH_usd": 2503.595,
+    "ETH_BTC": 0.030200364911752476,
+    "BTC_24h_pct": 0.41,
+    "BTC_5d_pct": -3.107,
+    "BTC_7d_pct": -4.141,
+    "BTC_1m_pct": 7.419,
+    "ETH_24h_pct": 0.61,
+    "ETH_5d_pct": -7.182,
+    "ETH_7d_pct": -8.169,
+    "ETH_1m_pct": -0.435,
+    "global_mcap_usd": 2800009038898.1177,
+    "btc_dominance_pct": 59.477727909586,
+    "eth_dominance_pct": 10.912510173608,
+    "global_mcap_24h_pct": 0.484578,
+    "as_of": "2026-10-11 01:12:22 UTC",
     "crosscheck": {
-      "coinbase_BTC": 82569.195,
-      "coinbase_ETH": 2488.67,
+      "coinbase_BTC": 82899.495,
+      "coinbase_ETH": 2503.595,
       "coinbase_time": null,
-      "okx_BTC_USDT": 82644.5,
-      "okx_ETH_USDT": 2490.86,
-      "kraken_BTC": 82563.8,
-      "kraken_ETH": 2488.28,
-      "yahoo_BTC": 82567.54,
-      "yahoo_ETH": 2488.36,
-      "blockchain_info_BTC": 82526.28
+      "okx_BTC_USDT": 82983.3,
+      "okx_ETH_USDT": 2506.19,
+      "kraken_BTC": 82909.1,
+      "kraken_ETH": 2503.64,
+      "yahoo_BTC": 82899.49,
+      "yahoo_ETH": 2503.79,
+      "blockchain_info_BTC": 82954.86
     },
     "since_last_brief": {
-      "BTC_prior": 82506.785,
-      "ETH_prior": 2496.64,
-      "BTC_delta_usd": 62.41,
-      "ETH_delta_usd": -7.97,
-      "BTC_pct": 0.076,
-      "ETH_pct": -0.319
+      "BTC_prior": 82569.195,
+      "ETH_prior": 2488.67,
+      "BTC_delta_usd": 330.3,
+      "ETH_delta_usd": 14.92,
+      "BTC_pct": 0.4,
+      "ETH_pct": 0.6
     }
   },
   "fed_liquidity": {
@@ -132,8 +132,8 @@
     ],
     "rrp_wed_H41_Others_B": 2.338,
     "rrp_daily": {
-      "date": "2026-10-07",
-      "RRP_B": 2.338,
+      "date": "2026-10-09",
+      "RRP_B": 0.3,
       "freshness": "Live FRED RRPONTSYD (daily)"
     },
     "since_last_brief": {
@@ -142,11 +142,11 @@
       "new_fed_net_T": 5.8594,
       "delta_T": 0.0,
       "note": "Weekly Fed observation now Wed 10-07 H.4.1 (release Thu 10-08; next release Thu 2026-10-15) \u2014 Expanding; daily TGA via FiscalData (see daily_TGA_latest_date)",
-      "daily_TGA_prior_B": 885.783,
-      "daily_TGA_prior_date": "2026-10-07",
+      "daily_TGA_prior_B": 887.469,
+      "daily_TGA_prior_date": "2026-10-08",
       "daily_TGA_latest_B": 887.469,
       "daily_TGA_latest_date": "2026-10-08",
-      "daily_TGA_delta_B": 1.686
+      "daily_TGA_delta_B": 0.0
     },
     "liquidity_impulse": "Expanding",
     "liquidity_impulse_note": "Matched Fed net $5.8594T Expanding (1w +101.7B vs Wed 09-30); daily TGA $887.469B on 2026-10-08"
@@ -158,13 +158,13 @@
     "DXY": {
       "price": 102.231,
       "prev_chart_close": 100.94,
-      "n": 66,
-      "chg_5d_pct": 0.295,
-      "chg_1m_pct": 3.504,
+      "n": 65,
+      "chg_5d_pct": 0.275,
+      "chg_1m_pct": 3.483,
       "market_time_unix": 1791579599,
       "currency": "USD",
       "symbol": "DX-Y.NYB",
-      "last_hist_close": 102.23100280761719,
+      "last_hist_close": 102.20999908447266,
       "last_hist_date": "2026-10-09"
     },
     "US10Y_TNX": {
@@ -193,8 +193,8 @@
     },
     "spread_2s10s_pp": 0.44,
     "DFII10": {
-      "date": "2026-10-06",
-      "value": 2.91,
+      "date": "2026-10-08",
+      "value": 2.87,
       "freshness": "Latest available (FRED DFII10)"
     },
     "VIX": {
@@ -234,58 +234,58 @@
       "last_hist_date": "2026-10-09"
     },
     "Gold": {
-      "price": 4220.3,
+      "price": 4216.3,
       "prev_chart_close": 4140.8,
-      "n": 66,
-      "chg_5d_pct": 1.393,
-      "chg_1m_pct": -5.389,
+      "n": 65,
+      "chg_5d_pct": 1.297,
+      "chg_1m_pct": -5.479,
       "market_time_unix": 1791579599,
       "currency": "USD",
       "symbol": "GC=F",
-      "last_hist_close": 4220.2998046875,
+      "last_hist_close": 4216.2998046875,
       "last_hist_date": "2026-10-09"
     },
     "Oil": {
-      "price": 91.66,
+      "price": 91.85,
       "prev_chart_close": 72.08,
-      "n": 66,
-      "chg_5d_pct": 0.604,
-      "chg_1m_pct": -4.571,
+      "n": 65,
+      "chg_5d_pct": 0.812,
+      "chg_1m_pct": -4.373,
       "market_time_unix": 1791579598,
       "currency": "USD",
       "symbol": "CL=F",
-      "last_hist_close": 91.66000366210938,
+      "last_hist_close": 91.8499984741211,
       "last_hist_date": "2026-10-09"
     },
     "US13W_IRX_note": "Yahoo ^IRX is 13-week bill yield, not 2Y",
     "US2Y_yahoo_2YYF": {
       "price": 4.422,
       "prev_chart_close": 3.939,
-      "n": 64,
-      "chg_5d_pct": 0.259,
-      "chg_1m_pct": 10.643,
+      "n": 63,
+      "chg_5d_pct": 0.803,
+      "chg_1m_pct": 11.119,
       "market_time_unix": 1790102734,
       "currency": "USD",
       "symbol": "2YY=F",
       "last_hist_close": 4.646999835968018,
-      "last_hist_date": "2026-10-08"
+      "last_hist_date": "2026-10-09"
     }
   },
   "stablecoins": {
     "status": "Live",
     "freshness": "Live",
     "source": "DefiLlama",
-    "total_usd": 311611497263.43,
-    "total_B": 311.61,
-    "as_of": "2026-10-09",
-    "chg_7d_pct": 0.03,
-    "chg_30d_pct": 0.826,
-    "USDT": 183217651403.94376,
-    "USDC": 72995554223.37599,
+    "total_usd": 310979311080.89,
+    "total_B": 310.98,
+    "as_of": "2026-10-10",
+    "chg_7d_pct": -0.293,
+    "chg_30d_pct": 0.671,
+    "USDT": 184164680637.20425,
+    "USDC": 73131382838.01682,
     "since_last_brief": {
       "prior_B": 311.59,
-      "latest_B": 311.61,
-      "delta_B": 0.02
+      "latest_B": 310.98,
+      "delta_B": -0.61
     }
   },
   "etf_flows": {
@@ -298,11 +298,11 @@
     "compare_note": "since_after_2026-09-23 = sessions dated after Wed brief",
     "BTC": {
       "latest_daily": {
-        "date_str": "08 Oct 2026",
-        "total_m": -244.1,
+        "date_str": "09 Oct 2026",
+        "total_m": 21.1,
         "partial": false
       },
-      "sum_since_after_2026-09-23": -133.7,
+      "sum_since_after_2026-09-23": -112.6,
       "days_since_after_2026-09-23": [
         [
           "24 Sep 2026",
@@ -347,9 +347,13 @@
         [
           "08 Oct 2026",
           -244.1
+        ],
+        [
+          "09 Oct 2026",
+          21.1
         ]
       ],
-      "sum_since_incl_2026-09-23": 213.2,
+      "sum_since_incl_2026-09-23": 234.3,
       "days_since_incl_2026-09-23": [
         [
           "23 Sep 2026",
@@ -398,15 +402,14 @@
         [
           "08 Oct 2026",
           -244.1
+        ],
+        [
+          "09 Oct 2026",
+          21.1
         ]
       ],
-      "sum_last_5_sessions": -510.1,
+      "sum_last_5_sessions": -678.9,
       "last_5_sessions": [
-        {
-          "date_str": "02 Oct 2026",
-          "total_m": 189.9,
-          "partial": false
-        },
         {
           "date_str": "05 Oct 2026",
           "total_m": -89.8,
@@ -426,26 +429,27 @@
           "date_str": "08 Oct 2026",
           "total_m": -244.1,
           "partial": false
+        },
+        {
+          "date_str": "09 Oct 2026",
+          "total_m": 21.1,
+          "partial": false
         }
       ],
-      "sum_visible_window": 1926.9,
+      "sum_visible_window": 949.0,
       "sessions_in_window": 14,
-      "window_from": "21 Sep 2026",
-      "window_to": "08 Oct 2026",
-      "approx_20d": 1926.9,
-      "partial_latest_excluded": {
-        "date_str": "09 Oct 2026",
-        "total_m": -3.6,
-        "partial": true
-      }
+      "window_from": "22 Sep 2026",
+      "window_to": "09 Oct 2026",
+      "approx_20d": 949.0,
+      "partial_latest_excluded": null
     },
     "ETH": {
       "latest_daily": {
-        "date_str": "08 Oct 2026",
-        "total_m": -72.5,
+        "date_str": "09 Oct 2026",
+        "total_m": -56.1,
         "partial": false
       },
-      "sum_since_after_2026-09-23": -471.1,
+      "sum_since_after_2026-09-23": -527.2,
       "days_since_after_2026-09-23": [
         [
           "24 Sep 2026",
@@ -490,9 +494,13 @@
         [
           "08 Oct 2026",
           -72.5
+        ],
+        [
+          "09 Oct 2026",
+          -56.1
         ]
       ],
-      "sum_since_incl_2026-09-23": -366.6,
+      "sum_since_incl_2026-09-23": -422.7,
       "days_since_incl_2026-09-23": [
         [
           "23 Sep 2026",
@@ -541,15 +549,14 @@
         [
           "08 Oct 2026",
           -72.5
+        ],
+        [
+          "09 Oct 2026",
+          -56.1
         ]
       ],
-      "sum_last_5_sessions": -523.5,
+      "sum_last_5_sessions": -542.2,
       "last_5_sessions": [
-        {
-          "date_str": "02 Oct 2026",
-          "total_m": -37.4,
-          "partial": false
-        },
         {
           "date_str": "05 Oct 2026",
           "total_m": -50.8,
@@ -569,40 +576,41 @@
           "date_str": "08 Oct 2026",
           "total_m": -72.5,
           "partial": false
+        },
+        {
+          "date_str": "09 Oct 2026",
+          "total_m": -56.1,
+          "partial": false
         }
       ],
-      "sum_visible_window": 65.6,
+      "sum_visible_window": -260.5,
       "sessions_in_window": 14,
-      "window_from": "21 Sep 2026",
-      "window_to": "08 Oct 2026",
-      "approx_20d": 65.6,
-      "partial_latest_excluded": {
-        "date_str": "09 Oct 2026",
-        "total_m": 0.0,
-        "partial": true
-      }
+      "window_from": "22 Sep 2026",
+      "window_to": "09 Oct 2026",
+      "approx_20d": -260.5,
+      "partial_latest_excluded": null
     }
   },
   "derivatives": {
     "status": "Live (OKX); liquidations Unavailable; Binance Live",
     "okx": {
       "BTC": {
-        "funding_rate": 7.0324710963e-06,
-        "funding_ann_pct_approx": 0.77,
-        "funding_time_ms": "1791619200000",
-        "oi_usd": 2468245497.981131,
-        "oi_btc": 29880.676800000132,
-        "mark": 82603.3,
-        "index": 82641.9
+        "funding_rate": -1.48119389102e-05,
+        "funding_ann_pct_approx": -1.622,
+        "funding_time_ms": "1791705600000",
+        "oi_usd": 2489710005.9316087,
+        "oi_btc": 30016.034600000105,
+        "mark": 82945.9,
+        "index": 82984.8
       },
       "ETH": {
-        "funding_rate": 2.57169223096e-05,
-        "funding_ann_pct_approx": 2.816,
-        "funding_time_ms": "1791619200000",
-        "oi_usd": 1487732749.5133655,
-        "oi_eth": 597574.2280000022,
-        "mark": 2489.67,
-        "index": 2490.77
+        "funding_rate": -5.241237682e-05,
+        "funding_ann_pct_approx": -5.739,
+        "funding_time_ms": "1791705600000",
+        "oi_usd": 1506168186.7619047,
+        "oi_eth": 601348.7660000019,
+        "mark": 2504.66,
+        "index": 2506.26
       }
     },
     "binance": {
@@ -655,7 +663,7 @@
   },
   "cross_asset": {
     "since": "Fri 2026-10-09",
-    "BTC": "~+0.08% to ~$82,569 (vs Fri datapack ~$82,507)",
+    "BTC": "~+0.40% to ~$82,899 (vs Fri datapack ~$82,569)",
     "DXY": "Yahoo ~102.231",
     "Fed_net": "Matched Fed net 5.8594T (Wed 10-07 H.4.1; \u03941w +101.7B); daily TGA 2026-10-08 $887.469B",
     "Equities": "SPX Yahoo ~7811.54; VIX ~14.84",
