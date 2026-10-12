@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-11",
-  "built_at_vilnius": "2026-10-11 04:13:33 Vilnius (UTC+3)",
+  "as_of_brief": "2026-10-12",
+  "built_at_vilnius": "2026-10-12 04:05:35 Vilnius (UTC+3)",
   "main_story": "Cautious: caution signals outnumber supports (7 vs 2).",
   "aligned": [
     {
@@ -28,12 +28,12 @@
     },
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -1.7% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -3.1% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 6.0 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 4.5 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
