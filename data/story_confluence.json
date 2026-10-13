@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-12",
-  "built_at_vilnius": "2026-10-12 04:05:35 Vilnius (UTC+3)",
+  "as_of_brief": "2026-10-13",
+  "built_at_vilnius": "2026-10-13 08:46:57 Vilnius (UTC+3)",
   "main_story": "Cautious: caution signals outnumber supports (7 vs 2).",
   "aligned": [
     {
@@ -23,17 +23,17 @@
     },
     {
       "label": "ETF outflows",
-      "detail": "−$679M week 5–9 Oct",
+      "detail": "−$654M week 6–12 Oct",
       "tone": "neg"
     },
     {
       "label": "Leverage flush",
-      "detail": "Futures OI -3.1% WoW: longs being cleared out; can reset positioning.",
+      "detail": "Futures OI -3.6% WoW: longs being cleared out; can reset positioning.",
       "tone": "watch"
     },
     {
       "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 4.5 pp this week (Final× basis).",
+      "detail": "Trailed BTC by 6.9 pp this week (Final× basis).",
       "tone": "neg"
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "label": "USD & yields: mixed",
-      "detail": "Dollar and yields sent mixed signals this week; equities firm, volatility calm.",
+      "detail": "Dollar and yields sent mixed signals this week; equities flat, volatility calm.",
       "tone": "watch"
     },
     {

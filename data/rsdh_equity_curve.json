@@ -6,7 +6,7 @@
   "script": "RSDH v12.0",
   "coverage": {
     "mode": "daily_checkin_snapshots",
-    "note": "Points are end-of-day Final× from Investorius check-ins with Start 2026-08-01 deploy window. Not a full TradingView bar-by-bar export; denser history before first Start-verified check-in is not available from logs. Appended/updated after each daily bar-close check-in.",
+    "note": "Points are end-of-day Final\u00d7 from Investorius check-ins with Start 2026-08-01 deploy window. Not a full TradingView bar-by-bar export; denser history before first Start-verified check-in is not available from logs. Appended/updated after each daily bar-close check-in.",
     "first_point": "2026-09-07",
     "last_point": "2026-10-12",
     "n_points": 36,
@@ -193,6 +193,11 @@
       "date": "2026-10-12",
       "strat_final_x": 1.27,
       "btc_final_x": 1.33
+    },
+    {
+      "date": "2026-10-13",
+      "strat_final_x": 1.21,
+      "btc_final_x": 1.3
     }
   ]
 }
