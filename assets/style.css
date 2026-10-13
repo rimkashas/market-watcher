@@ -925,3 +925,17 @@ td .sig{margin-top:0}
   text-transform:uppercase;color:var(--accent)}
 .oc-pills-lbl{font-size:.68rem;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-right:6px;align-self:center}
 .oc-cycle .value,.oc-breadth .value{font-size:1.15rem}
+
+/* Dual-source on-chain chips */
+.src-chip{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:.62rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;
+  padding:2px 7px;border-radius:999px;border:1px solid var(--border-lume);
+  color:var(--muted);background:var(--surface-2);margin-left:6px;vertical-align:middle;
+}
+.src-chip.agree{color:var(--pos);border-color:var(--pos-border);background:var(--pos-dim)}
+.src-chip.diverge{color:var(--warn);border-color:rgba(251,191,36,0.35);background:var(--warn-dim)}
+.src-chip.single{color:var(--muted);border-color:var(--border-strong);background:rgba(148,163,184,0.08)}
+.oc-legend{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 12px}
+.oc-legend .oc-leg{font-size:.7rem;color:var(--dim);margin-right:8px}
+.oc-metric-tile .lbl{display:flex;flex-wrap:wrap;align-items:center;gap:2px}

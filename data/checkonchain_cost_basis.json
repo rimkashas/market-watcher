@@ -1,0 +1,33 @@
+{
+  "schema": "market_watcher.checkonchain.cost_basis.v1",
+  "fetched_at_vilnius": "2026-10-13 09:19:23 Vilnius (UTC+3)",
+  "source_page": "https://charts.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
+  "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
+  "as_of": "2026-10-13",
+  "series": {
+    "STH Cost Basis": {
+      "last": 74308.61,
+      "n": 6490,
+      "as_of": "2026-10-13"
+    },
+    "LTH Cost Basis": {
+      "last": 49355.11,
+      "n": 6490,
+      "as_of": "2026-10-13"
+    },
+    "Realised Price": {
+      "last": 53833.4696362098,
+      "n": 6490,
+      "as_of": "2026-10-13"
+    },
+    "True Mean Price": {
+      "last": 77475.2,
+      "n": 6490,
+      "as_of": "2026-10-13"
+    }
+  },
+  "available": true,
+  "sth_cost_basis_usd": 74308.61,
+  "lth_cost_basis_usd": 49355.11,
+  "realized_price_usd": 53833.47
+}
