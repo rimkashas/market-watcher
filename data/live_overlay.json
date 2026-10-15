@@ -1,14 +1,14 @@
 {
   "status": "Live",
-  "fetched_at": "2026-10-14 04:13:11 Vilnius (UTC+3)",
+  "fetched_at": "2026-10-15 04:09:15 Vilnius (UTC+3)",
   "sources": [
     "Coinbase BTC-USD spot",
     "Coinbase ETH-USD spot",
     "DefiLlama stablecoins"
   ],
   "note": null,
-  "BTC_usd": 83295.015,
-  "ETH_usd": 2504.575,
-  "stables_total_B": 313.1,
-  "stables_as_of": "2026-10-14"
+  "BTC_usd": 81715.465,
+  "ETH_usd": 2419.07,
+  "stables_total_B": 306.87,
+  "stables_as_of": "2026-10-15"
 }

@@ -1,12 +1,12 @@
 {
   "schema": "market_watcher.market_structure.v1",
-  "label": "Mean reverting",
-  "why": "Choppy small 5d/7d moves.",
+  "label": "Neutral",
+  "why": "Small 5d/7d moves.",
   "inputs": {
-    "BTC_5d_pct": 0.803,
-    "BTC_7d_pct": -0.08,
-    "BTC_1m_pct": 6.456,
-    "ETH_7d_pct": -2.848,
+    "BTC_5d_pct": -1.542,
+    "BTC_7d_pct": -0.052,
+    "BTC_1m_pct": 7.964,
+    "ETH_7d_pct": -2.198,
     "breadth": "4/16 bullish"
   },
   "labels": [
@@ -15,6 +15,6 @@
     "Mean reverting",
     "Neutral"
   ],
-  "as_of_brief": "2026-10-14",
-  "built_at_vilnius": "2026-10-14 04:13:15 Vilnius (UTC+3)"
+  "as_of_brief": "2026-10-15",
+  "built_at_vilnius": "2026-10-15 04:09:41 Vilnius (UTC+3)"
 }

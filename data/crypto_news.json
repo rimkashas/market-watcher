@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-10-14 04:20:00 Vilnius (UTC+3)",
+  "updated_at": "2026-10-15 04:20:00 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "CPI day: September inflation lands today, the range's next trigger",
-      "blurb": "The US September CPI print is due today (Oct 14), with the Oct 27–28 FOMC next; September's hike and hawkish minutes already reset rate expectations.",
-      "why_matters": "A hot print could revive hike bets and pressure risk assets; a cooler one would ease the rates headwind that has weighed on ETF demand.",
-      "source": "BLS / Fed calendars",
+      "headline": "September CPI runs hot: 3.7% headline, 2.6% core",
+      "blurb": "US consumer prices rose 0.6% in September, lifting annual inflation to 3.7% from 3.4%, with gasoline driving much of the jump; core also beat forecasts.",
+      "why_matters": "A hotter print keeps a rate hike in play at the Oct 27–28 FOMC — higher-for-longer rates are the main macro headwind for crypto demand.",
+      "source": "BLS (via X news summaries)",
       "url": "https://www.bls.gov/cpi/"
     },
     {
-      "headline": "BTC flat on the week near $83k after another dip toward ~$81k was bought",
-      "blurb": "Bitcoin bounced Tuesday from the Monday-close low near $81–82k and sits around $83.2k — flat WoW and about +6.5% MoM.",
-      "why_matters": "Repeated defence of ~$80–81k keeps the monthly uptrend intact; a CPI-driven break of $80k or $86k decides the next leg.",
-      "source": "Coinbase / market data",
+      "headline": "Stocks have their worst day since July; BTC bends but holds ~$81.6k",
+      "blurb": "The S&P 500 fell about 1.1% and the Nasdaq about 1.9% on the CPI print, while bitcoin slipped roughly 2% on the day and is flat on the week, still up about 8% on the month.",
+      "why_matters": "Crypto holding its range while equities sold off is a sign of resilience; a daily close under ~$80k would break the range and flip the 7D view to Bear.",
+      "source": "Coinbase / Yahoo market data",
       "url": "https://www.coindesk.com/markets/"
     },
     {
-      "headline": "BTC ETF demand still soft: Monday outflow, Tuesday tentatively green",
-      "blurb": "US spot bitcoin ETFs completed Monday at about −$65M; Tuesday was tracking an inflow but the session was not complete at this rebuild. The last five complete sessions total about −$655M.",
-      "why_matters": "Institutional redemptions defined last week; a run of green sessions after CPI would be the clearest sign demand is returning.",
+      "headline": "BTC ETFs: Tuesday inflow breaks the run, Wednesday tracking red",
+      "blurb": "US spot bitcoin ETFs took in about $176M on Oct 13, led by Fidelity and BlackRock; Oct 14 was tracking an outflow but was not complete at this rebuild. The last five complete sessions are still net negative (about −$598M).",
+      "why_matters": "One green day isn't a trend — demand needs a run of inflows to support a push back toward $86k.",
       "source": "Farside",
       "url": "https://farside.co.uk/btc/"
     },
     {
-      "headline": "Futures still in a Deleveraging Sell-Off as of Oct 13",
-      "blurb": "CheckOnChain shows seven-day futures OI down about 3.1% alongside a ~2.5% price drop, with funding mild and positive.",
-      "why_matters": "Leverage is still being cleared rather than added — less fuel for forced selling, but also less dry powder for a fast squeeze.",
+      "headline": "Futures deleveraging is slowing, not reversing",
+      "blurb": "CheckOnChain still shows a Deleveraging Sell-Off as of Oct 14, but the seven-day drop in futures OI eased to about 1% against a ~2% price slip; funding stays mildly positive.",
+      "why_matters": "Most forced-selling fuel has been burned off, which helps a floor hold — but nobody is adding leverage yet to drive a rally.",
       "source": "CheckOnChain",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "headline": "RSDH stays SOL-heavy BULL; trail vs BTC widens to 0.10",
-      "blurb": "Investorius RSDH remains SOL95/BTC5/CASH0 under a BULL macro; slow score firmed to 351 while fast eased to 31. Final× 1.22 vs BTC 1.32 — a week ago the model was 1.37 vs BTC 1.36.",
-      "why_matters": "The model is fully invested and still slightly ahead of BTC on the month, but SOL's lag in the chop has cost it the weekly lead.",
+      "headline": "RSDH stays SOL-heavy BULL; trail vs BTC widens to 0.11",
+      "blurb": "Investorius RSDH remains SOL95/BTC5/CASH0 under a BULL macro; the fast score eased again to 29. Final× 1.19 vs BTC 1.30 — a week ago it was 1.32 vs 1.33.",
+      "why_matters": "The model is fully invested but SOL's lag in the chop has erased its monthly edge over BTC; a further fade in the fast score is the thing to watch for a de-risk.",
       "source": "Investorius / RSDH",
       "url": "https://rimkashas.github.io/market-watcher/"
     }
