@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-15 04:20:00 Vilnius (UTC+3)",
+  "updated_at": "2026-10-16 04:30:00 Vilnius (UTC+3)",
   "items": [
     {
-      "headline": "September CPI runs hot: 3.7% headline, 2.6% core",
-      "blurb": "US consumer prices rose 0.6% in September, lifting annual inflation to 3.7% from 3.4%, with gasoline driving much of the jump; core also beat forecasts.",
-      "why_matters": "A hotter print keeps a rate hike in play at the Oct 27–28 FOMC — higher-for-longer rates are the main macro headwind for crypto demand.",
-      "source": "BLS (via X news summaries)",
-      "url": "https://www.bls.gov/cpi/"
+      "headline": "Hot September PPI sends BTC under $80k for the first time in a month — then it's bought back",
+      "blurb": "Producer prices jumped 1.3% m/m and 6.3% y/y in September (core 5%), the second hot inflation report in two days. Bitcoin dipped to ~$79.7–79.8k, about $930M of crypto positions were liquidated (mostly longs), and price recovered to ~$82k within hours.",
+      "why_matters": "The $80k floor was tested and held on real buying — but a daily close below it would break the month-long range and flip the 7D view to Bear.",
+      "source": "FXStreet / CoinDesk",
+      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-rebounds-to-82-000-as-ppi-hits-63-nearly-1b-liquidated-202610151820"
     },
     {
-      "headline": "Stocks have their worst day since July; BTC bends but holds ~$81.6k",
-      "blurb": "The S&P 500 fell about 1.1% and the Nasdaq about 1.9% on the CPI print, while bitcoin slipped roughly 2% on the day and is flat on the week, still up about 8% on the month.",
-      "why_matters": "Crypto holding its range while equities sold off is a sign of resilience; a daily close under ~$80k would break the range and flip the 7D view to Bear.",
-      "source": "Coinbase / Yahoo market data",
-      "url": "https://www.coindesk.com/markets/"
+      "headline": "Bond rally pulls the dollar off its 18-month high; October hike odds cool to ~29%",
+      "blurb": "The 10-year Treasury yield fell back to ~5.09% from a 5.3%+ spike after CPI, as money left AI-heavy tech for bonds. Fed officials signalled they can wait, and CME FedWatch now shows ~29% odds of an Oct 27–28 hike, but ~88% for at least one hike by December. Chair Warsh speaks Friday in Bangkok.",
+      "why_matters": "Falling yields are what rescued crypto this week; a hawkish Warsh or another yield spike would remove that support quickly.",
+      "source": "Investopedia / CNBC (CME FedWatch)",
+      "url": "https://www.cnbc.com/2026/10/15/dollar-pulls-back-from-18-month-high-as-treasury-yields-fall-fed-hike-bets-ease.html"
     },
     {
-      "headline": "BTC ETFs: Tuesday inflow breaks the run, Wednesday tracking red",
-      "blurb": "US spot bitcoin ETFs took in about $176M on Oct 13, led by Fidelity and BlackRock; Oct 14 was tracking an outflow but was not complete at this rebuild. The last five complete sessions are still net negative (about −$598M).",
-      "why_matters": "One green day isn't a trend — demand needs a run of inflows to support a push back toward $86k.",
+      "headline": "BTC ETFs lose $261M on Wednesday; Ether ETFs bleed $130M",
+      "blurb": "US spot bitcoin ETFs swung from a $176M inflow on Tuesday to a $261M outflow on Wednesday, led by Fidelity's FBTC and BlackRock's IBIT; Thursday was tracking a small outflow but was incomplete at this rebuild. The last five complete sessions are net −$374M.",
+      "why_matters": "The bounce rests on lower yields, not fresh demand — ETF flows need to turn positive for a run at $86k.",
       "source": "Farside",
       "url": "https://farside.co.uk/btc/"
     },
     {
-      "headline": "Futures deleveraging is slowing, not reversing",
-      "blurb": "CheckOnChain still shows a Deleveraging Sell-Off as of Oct 14, but the seven-day drop in futures OI eased to about 1% against a ~2% price slip; funding stays mildly positive.",
-      "why_matters": "Most forced-selling fuel has been burned off, which helps a floor hold — but nobody is adding leverage yet to drive a rally.",
+      "headline": "Futures flip from a leverage flush to a spot-led bounce",
+      "blurb": "CheckOnChain's futures OI vs price scatter moved from Deleveraging Sell-Off to Spot Rally as of Oct 15: seven-day open interest is slightly lower while price is slightly higher, and funding stays mildly positive.",
+      "why_matters": "A rebound without new leverage is healthier and harder to liquidate — but it also means no squeeze fuel to push through resistance quickly.",
       "source": "CheckOnChain",
       "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
     },
     {
-      "headline": "RSDH stays SOL-heavy BULL; trail vs BTC widens to 0.11",
-      "blurb": "Investorius RSDH remains SOL95/BTC5/CASH0 under a BULL macro; the fast score eased again to 29. Final× 1.19 vs BTC 1.30 — a week ago it was 1.32 vs 1.33.",
-      "why_matters": "The model is fully invested but SOL's lag in the chop has erased its monthly edge over BTC; a further fade in the fast score is the thing to watch for a de-risk.",
-      "source": "Investorius / RSDH",
-      "url": "https://rimkashas.github.io/market-watcher/"
+      "headline": "EU puts USDC under direct EBA oversight; Thailand's crypto ETF rules take effect",
+      "blurb": "The European Banking Authority classified Circle's USDC as the first 'significant' e-money token under MiCA, with direct EBA supervision of reserves, liquidity and redemption plans from Nov 12. Thailand's SEC framework for BTC/ETH ETFs (80% minimum exposure, licensed custody, no margin) took effect Oct 16.",
+      "why_matters": "Regulated rails keep widening for stablecoins and ETFs — slow-burn structural demand rather than a near-term price driver.",
+      "source": "EBA / TokenPost",
+      "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
     }
   ]
 }

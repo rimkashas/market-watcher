@@ -1,21 +1,21 @@
 {
   "schema": "market_watcher.checkonchain.supply_profit.v1",
-  "fetched_at_vilnius": "2026-10-15 04:09:40 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-16 04:16:26 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "series": {
     "Percent Supply in Profit": {
-      "last": 0.6743773064673875,
-      "n": 5034,
-      "as_of": "2026-10-14"
+      "last": 0.6883300889093471,
+      "n": 5035,
+      "as_of": "2026-10-15"
     },
     "Price": {
-      "last": 81361.32,
-      "n": 6496,
-      "as_of": "2026-10-14"
+      "last": 82238.02,
+      "n": 6497,
+      "as_of": "2026-10-15"
     }
   },
   "available": true,
-  "supply_in_profit_pct": 67.44
+  "supply_in_profit_pct": 68.83
 }
