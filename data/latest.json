@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-10-16 04:16:23 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-10-16 04:22:05 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-10-16",
   "brief_path": "/workspace/brief-2026-10-16",
   "edition": "Daily refresh 2026-10-16 (DEEP Friday)",
@@ -86,8 +86,8 @@
     },
     {
       "dimension": "On-chain cycle",
-      "now": "32 Bearish · 4/16 (BH carried from Oct 12 read)",
-      "vs": "BH carried from Oct 12 read (live read failed Oct 16 — browser session logged out): cycle 32 Bearish / 4/16; 30d momentum broad (14 rising of 16). CheckOnChain live (10-15): price well above short-term holder cost, SOPR just under 1 — coins spent near break-even. See on-chain card."
+      "now": "32 Bearish · 4/16 (BlockHorizon · Oct 15)",
+      "vs": "BlockHorizon · Oct 15 live read: cycle still 32 Bearish / 4/16; 30d momentum broadened vs Oct 8 (rising 11→15, falling 1→0). CheckOnChain live (10-15): price well above short-term holder cost, SOPR just under 1 — coins spent near break-even. See on-chain card."
     },
     {
       "dimension": "RSDH",
@@ -774,41 +774,41 @@
     "signal_highlights": [
       {
         "label": "30d momentum",
-        "value": "14↑ · 2→ · 0↓",
+        "value": "15↑ · 1→ · 0↓",
         "signal": "Broadening",
         "tone": "pos",
-        "meaning": "Month-over-month recovery broadened vs Oct 8 (11 rising, 1 falling) — no signals falling now."
+        "meaning": "Month-over-month recovery broadened vs Oct 8 (11 rising, 1 falling) — 15 of 16 rising, none falling."
       },
       {
         "label": "Supply in Profit signal",
-        "value": "29 · −27 7d · +9 30d",
+        "value": "31 · +1 7d · +17 30d",
         "signal": "Bearish",
         "tone": "watch",
-        "meaning": "Still the softest 7d move, but the 30d lift is the largest of the board — wash then recovery."
+        "meaning": "Still Bearish on score, but the +17 30d lift is the largest on the board — month improving."
       },
       {
-        "label": "Thermocap / NUPL LTS",
-        "value": "Both flipped Bullish Oct 12",
+        "label": "UTXOs / Thermocap / NUPL LTS",
+        "value": "Bullish flips noted Oct 15 page",
         "signal": "Bullish",
         "tone": "pos",
-        "meaning": "Two valuation/holder gauges crossed into Bullish the same day — early confirmation, not a cycle flip."
+        "meaning": "Holder/valuation gauges in Bullish — early confirmation, not a cycle flip (still 32 Bearish / 4/16)."
       }
     ],
     "explorer_signals": [
       {
-        "signal": "UTXOs in Profit (%)",
-        "value": 56,
-        "d7": -7,
-        "d30": 6,
+        "signal": "NUPL (Net Unrealized Profit Loss)",
+        "value": 57,
+        "d7": 1,
+        "d30": 5,
         "d90": null,
         "d1y": null,
         "phase": "Bullish"
       },
       {
-        "signal": "NUPL (Net Unrealized Profit Loss)",
+        "signal": "UTXOs in Profit (%)",
         "value": 56,
-        "d7": -3,
-        "d30": 3,
+        "d7": 0,
+        "d30": 11,
         "d90": null,
         "d1y": null,
         "phase": "Bullish"
@@ -816,8 +816,8 @@
       {
         "signal": "Market Cap to Thermocap Ratio",
         "value": 52,
-        "d7": -3,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bullish"
@@ -825,17 +825,17 @@
       {
         "signal": "NUPL Long Term Supply (LTS)",
         "value": 50,
-        "d7": -2,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bullish"
       },
       {
         "signal": "NUPL Short Term Supply (STS)",
-        "value": 48,
-        "d7": -8,
-        "d30": 1,
+        "value": 49,
+        "d7": 1,
+        "d30": 6,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -843,8 +843,8 @@
       {
         "signal": "Realized Price - Short Term Supply (STS)",
         "value": 42,
-        "d7": -4,
-        "d30": 2,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -852,8 +852,8 @@
       {
         "signal": "Delta Price",
         "value": 35,
-        "d7": -3,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -861,8 +861,8 @@
       {
         "signal": "Realized Price",
         "value": 32,
-        "d7": -2,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -870,8 +870,17 @@
       {
         "signal": "MVRV (Market Value to Realized Value Ratio)",
         "value": 32,
-        "d7": -2,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
+        "d90": null,
+        "d1y": null,
+        "phase": "Bearish"
+      },
+      {
+        "signal": "Supply in Profit (%)",
+        "value": 31,
+        "d7": 1,
+        "d30": 17,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -879,8 +888,8 @@
       {
         "signal": "MVRV Short Term Supply (STS)",
         "value": 31,
-        "d7": -4,
-        "d30": 1,
+        "d7": 0,
+        "d30": 3,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -888,17 +897,8 @@
       {
         "signal": "Balanced Price",
         "value": 31,
-        "d7": -3,
-        "d30": 3,
-        "d90": null,
-        "d1y": null,
-        "phase": "Bearish"
-      },
-      {
-        "signal": "Supply in Profit (%)",
-        "value": 29,
-        "d7": -27,
-        "d30": 9,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bearish"
@@ -906,8 +906,8 @@
       {
         "signal": "MVRV Z-Score",
         "value": 19,
-        "d7": -2,
-        "d30": 3,
+        "d7": 0,
+        "d30": 4,
         "d90": null,
         "d1y": null,
         "phase": "Bottom"
@@ -915,8 +915,8 @@
       {
         "signal": "Top Price",
         "value": 18,
-        "d7": -1,
-        "d30": 0,
+        "d7": 0,
+        "d30": 1,
         "d90": null,
         "d1y": null,
         "phase": "Bottom"
@@ -933,7 +933,7 @@
       {
         "signal": "Realized Price - Long Term Supply (LTS)",
         "value": 8,
-        "d7": -1,
+        "d7": 0,
         "d30": 0,
         "d90": null,
         "d1y": null,
@@ -942,32 +942,38 @@
     ],
     "phase_flips": [
       {
-        "date": "2026-10-12",
+        "date": "2026-10-15",
         "signal": "Supply in Profit",
         "from": "Bottom",
         "to": "Bearish"
       },
       {
-        "date": "2026-10-12",
+        "date": "2026-10-15",
         "signal": "NUPL LTS",
         "from": "Bearish",
         "to": "Bullish"
       },
       {
-        "date": "2026-10-12",
+        "date": "2026-10-15",
         "signal": "Market Cap to Thermocap Ratio",
+        "from": "Bearish",
+        "to": "Bullish"
+      },
+      {
+        "date": "2026-10-15",
+        "signal": "UTXOs in Profit",
         "from": "Bearish",
         "to": "Bullish"
       }
     ],
-    "sip_signal": 29,
-    "label_short": "BlockHorizon · 10-12",
-    "bh_tag": "BlockHorizon · carried from Oct 12 read",
+    "sip_signal": 31,
+    "label_short": "BlockHorizon · 10-15",
+    "bh_tag": "BlockHorizon · Oct 15",
     "available": true,
-    "source_path": "/workspace/brief-2026-10-13/blockhorizon/kpis.json",
-    "freshness": "Carried from Oct 12 read (live read failed Oct 16 — session logged out)",
-    "page_data_date": "2026-10-12",
-    "edition": "DEEP Tuesday 2026-10-13 — live browser read of public Signal Explorer (page Oct 12; logged out; public data)",
+    "source_path": "/workspace/brief-2026-10-16/blockhorizon/kpis.json",
+    "freshness": "Live (Signal Explorer page date Oct 15)",
+    "page_data_date": "2026-10-15",
+    "edition": "DEEP Friday 2026-10-16 — live browser read of public Signal Explorer (page Oct 15; logged out; public data)",
     "source": "https://charts.blockhorizon.io/signals",
     "cycle_index": 32,
     "cycle_phase": "Bearish",
@@ -982,11 +988,11 @@
       "Top": 0
     },
     "momentum_30d": {
-      "rising": 14,
-      "flat": 2,
+      "rising": 15,
+      "flat": 1,
       "falling": 0
     },
-    "btc_card_price_usd": 81746,
+    "btc_card_price_usd": 82131,
     "category_pills": {
       "Valuation": {
         "score": 29,
@@ -1018,38 +1024,36 @@
         "score": 29,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-12",
+        "page_date": "2026-10-15",
         "members": 4,
-        "d30": "+3"
+        "d30": "+4"
       },
       "MVRV Family": {
         "score": 25,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-12",
+        "page_date": "2026-10-15",
         "members": 3,
-        "d30": "+1"
+        "d30": "+2"
       },
       "Holder Behavior": {
         "score": 45,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-12",
+        "page_date": "2026-10-15",
         "members": 5,
-        "d30": "+3"
+        "d30": "+5"
       },
       "Profit & Loss": {
         "score": 38,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-12",
+        "page_date": "2026-10-15",
         "members": 5,
-        "d30": "+3"
+        "d30": "+5"
       }
     },
-    "carried": true,
-    "carried_from": "2026-10-12",
-    "carry_note": "BlockHorizon carried from Oct 12 read — live read failed Oct 16 (browser session logged out)."
+    "carried": false
   },
   "hard_gaps": [
     "Weekly WALCL/TGA/RRP now from H.4.1 Wed 2026-10-14 (release 2026-10-15). Daily RRPONTSYD/TGA refreshed via FRED/FiscalData.",
@@ -1638,7 +1642,7 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:24 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:05 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
@@ -1657,7 +1661,7 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:24 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:06 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "as_of": "2026-10-15",
@@ -1689,7 +1693,7 @@
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:24 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:06 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "as_of": "2026-10-15",
@@ -1726,7 +1730,7 @@
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:25 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:07 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "as_of": "2026-10-15",
@@ -1755,7 +1759,7 @@
     },
     "mvrv_z": {
       "schema": "market_watcher.checkonchain.mvrv_z.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:25 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:07 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
       "as_of": "2026-10-15",
@@ -1781,7 +1785,7 @@
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:25 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:08 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "as_of": "2026-10-15",
@@ -1808,7 +1812,7 @@
     },
     "supply_profit": {
       "schema": "market_watcher.checkonchain.supply_profit.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:26 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:08 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
       "as_of": "2026-10-15",
@@ -1829,7 +1833,7 @@
     },
     "cost_basis": {
       "schema": "market_watcher.checkonchain.cost_basis.v1",
-      "fetched_at_vilnius": "2026-10-16 04:16:26 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-16 04:22:08 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
       "as_of": "2026-10-15",
@@ -1879,12 +1883,12 @@
       "Neutral"
     ],
     "as_of_brief": "2026-10-16",
-    "built_at_vilnius": "2026-10-16 04:16:26 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-10-16 04:22:08 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v2",
     "as_of_brief": "2026-10-16",
-    "built_at_vilnius": "2026-10-16 04:16:26 Vilnius (UTC+3)",
+    "built_at_vilnius": "2026-10-16 04:22:08 Vilnius (UTC+3)",
     "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
     "aligned": [
       {
@@ -1921,7 +1925,7 @@
       },
       {
         "label": "On-chain Cycle 32 · Bearish · breadth 4/16 weak",
-        "detail": "On-chain cycle not yet supportive; 30d momentum turning up (14/16 rising).",
+        "detail": "On-chain cycle not yet supportive; 30d momentum turning up (15/16 rising).",
         "tone": "neg"
       },
       {
@@ -2040,7 +2044,7 @@
       "tone": "neg",
       "mom_up": true,
       "signal": "Bearish",
-      "meaning": "On-chain cycle not yet supportive; 30d momentum turning up (14/16 rising).",
+      "meaning": "On-chain cycle not yet supportive; 30d momentum turning up (15/16 rising).",
       "line": "Cycle 32 · Bearish · breadth 4/16 weak"
     },
     "rsdh": {
@@ -2062,6 +2066,6 @@
     "tone": "watch",
     "text": "What changed this week: two hot inflation reports (CPI 3.7%, PPI 6.3%) briefly sent BTC under $80k for the first time in a month, then a bond rally pulled it back to ~$82k — flat WoW, still up ~8% MoM. Futures flipped from a leverage flush to a spot-led bounce, and the weekly Fed print edged better. ETF outflows are the weak link. ~$80k below and ~$84–86k above frame the range."
   },
-  "scorecard_as_of": "DEEP 2026-10-16 · BlockHorizon carried from Oct 12 read (live read failed 10-16) · CheckOnChain live (10-15) · H.4.1 Wed 10-14",
+  "scorecard_as_of": "DEEP 2026-10-16 · BlockHorizon · Oct 15 (live Signal Explorer) · CheckOnChain live (10-15) · H.4.1 Wed 10-14",
   "probs_note": "Why it shifted: the $80k floor was tested on hot PPI and bought within the hour, bond yields fell, October hike odds cooled and futures flipped to a spot-led bounce — so five points move from Bear to Base on the 7D view. 1M held: two hot inflation prints keep a December hike near-certain and ETF demand is still net negative into the Oct 27–28 FOMC."
 }
