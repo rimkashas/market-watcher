@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-16 04:30:00 Vilnius (UTC+3)",
-  "items": [
-    {
-      "headline": "Hot September PPI sends BTC under $80k for the first time in a month — then it's bought back",
-      "blurb": "Producer prices jumped 1.3% m/m and 6.3% y/y in September (core 5%), the second hot inflation report in two days. Bitcoin dipped to ~$79.7–79.8k, about $930M of crypto positions were liquidated (mostly longs), and price recovered to ~$82k within hours.",
-      "why_matters": "The $80k floor was tested and held on real buying — but a daily close below it would break the month-long range and flip the 7D view to Bear.",
-      "source": "FXStreet / CoinDesk",
-      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-rebounds-to-82-000-as-ppi-hits-63-nearly-1b-liquidated-202610151820"
-    },
-    {
-      "headline": "Bond rally pulls the dollar off its 18-month high; October hike odds cool to ~29%",
-      "blurb": "The 10-year Treasury yield fell back to ~5.09% from a 5.3%+ spike after CPI, as money left AI-heavy tech for bonds. Fed officials signalled they can wait, and CME FedWatch now shows ~29% odds of an Oct 27–28 hike, but ~88% for at least one hike by December. Chair Warsh speaks Friday in Bangkok.",
-      "why_matters": "Falling yields are what rescued crypto this week; a hawkish Warsh or another yield spike would remove that support quickly.",
-      "source": "Investopedia / CNBC (CME FedWatch)",
-      "url": "https://www.cnbc.com/2026/10/15/dollar-pulls-back-from-18-month-high-as-treasury-yields-fall-fed-hike-bets-ease.html"
-    },
-    {
-      "headline": "BTC ETFs lose $261M on Wednesday; Ether ETFs bleed $130M",
-      "blurb": "US spot bitcoin ETFs swung from a $176M inflow on Tuesday to a $261M outflow on Wednesday, led by Fidelity's FBTC and BlackRock's IBIT; Thursday was tracking a small outflow but was incomplete at this rebuild. The last five complete sessions are net −$374M.",
-      "why_matters": "The bounce rests on lower yields, not fresh demand — ETF flows need to turn positive for a run at $86k.",
-      "source": "Farside",
-      "url": "https://farside.co.uk/btc/"
-    },
-    {
-      "headline": "Futures flip from a leverage flush to a spot-led bounce",
-      "blurb": "CheckOnChain's futures OI vs price scatter moved from Deleveraging Sell-Off to Spot Rally as of Oct 15: seven-day open interest is slightly lower while price is slightly higher, and funding stays mildly positive.",
-      "why_matters": "A rebound without new leverage is healthier and harder to liquidate — but it also means no squeeze fuel to push through resistance quickly.",
-      "source": "CheckOnChain",
-      "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
-    },
-    {
-      "headline": "EU puts USDC under direct EBA oversight; Thailand's crypto ETF rules take effect",
-      "blurb": "The European Banking Authority classified Circle's USDC as the first 'significant' e-money token under MiCA, with direct EBA supervision of reserves, liquidity and redemption plans from Nov 12. Thailand's SEC framework for BTC/ETH ETFs (80% minimum exposure, licensed custody, no margin) took effect Oct 16.",
-      "why_matters": "Regulated rails keep widening for stablecoins and ETFs — slow-burn structural demand rather than a near-term price driver.",
-      "source": "EBA / TokenPost",
-      "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
-    }
-  ]
+ "updated_at": "2026-10-17 04:20:00 Vilnius (UTC+3)",
+ "items": [
+  {
+   "headline": "AI/tech rout gives the Nasdaq its worst week since June; VIX hits a four-month high",
+   "blurb": "The Nasdaq fell 2.1% on Friday and about 4.5% on the week as worries about returns on AI spending and debt-heavy data-center players (CoreWeave −12% on the day) spread. The S&P 500 lost 1.1% and closed below its 50-day average; the VIX closed near 20.",
+   "why_matters": "BTC has been trading with tech this month; a deeper equity sell-off is the most direct path to a second $80k test.",
+   "source": "CNBC / AP / WSJ",
+   "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+  },
+  {
+   "headline": "Oil breaks $100 on Middle East and Russia supply worries",
+   "blurb": "WTI settled up about 3.5% near $101 and Brent near $110 after reports of a possible problem near Saudi Arabia's East-West pipeline, a Russian refinery outage and rising U.S.–Iran tensions. Crude is up roughly 8% WoW.",
+   "why_matters": "Energy drove September's hot CPI; $100 oil keeps a December Fed hike in play and squeezes the case for lower yields that rescued crypto mid-week.",
+   "source": "CNBC / The Closing Print",
+   "url": "https://www.theclosingprint.net/2026/10/closing-macro-recap-2026-10-16/"
+  },
+  {
+   "headline": "Warsh gives no new signal; October hike odds keep cooling",
+   "blurb": "Fed Chair Kevin Warsh spoke at an IMF event in Bangkok without commenting on a year-end hike. CME FedWatch, as cited by CNBC, shows about an 82% chance the Fed holds at the Oct 27–28 meeting.",
+   "why_matters": "A quiet Fed removes one near-term shock; the risk now sits with oil and the next inflation data, not Fed-speak.",
+   "source": "CNBC (CME FedWatch)",
+   "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+  },
+  {
+   "headline": "Bitcoin ETF selling slows to about a quarter of last week's pace",
+   "blurb": "US spot bitcoin ETFs lost a net $146M Monday to Thursday, with Friday tracking a small outflow (IBIT still pending), after about $681M of outflows the week before. October is net negative by roughly $535M through Thursday. CoinShares counted $434M of weekly outflows across crypto funds.",
+   "why_matters": "Demand is still not buying the dip, but forced-feeling redemptions have eased — the floor is less fragile than a week ago.",
+   "source": "Farside / TokenPost / CoinShares",
+   "url": "https://farside.co.uk/btc/"
+  },
+  {
+   "headline": "Futures flip back to leverage building into weakness",
+   "blurb": "CheckOnChain's futures OI vs price scatter moved from Spot Rally to Leveraged Sell-Off as of Oct 16: seven-day open interest is up about 2.7% while price is down about 1%, with funding still positive.",
+   "why_matters": "New leverage on a falling price adds liquidation fuel — a break below $80k could move fast, and so could a short squeeze if $84k breaks.",
+   "source": "CheckOnChain",
+   "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
+  }
+ ]
 }
