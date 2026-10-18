@@ -1,39 +1,39 @@
 {
- "updated_at": "2026-10-17 04:20:00 Vilnius (UTC+3)",
+ "updated_at": "2026-10-18 04:20:00 Vilnius (UTC+3)",
  "items": [
   {
-   "headline": "AI/tech rout gives the Nasdaq its worst week since June; VIX hits a four-month high",
-   "blurb": "The Nasdaq fell 2.1% on Friday and about 4.5% on the week as worries about returns on AI spending and debt-heavy data-center players (CoreWeave −12% on the day) spread. The S&P 500 lost 1.1% and closed below its 50-day average; the VIX closed near 20.",
-   "why_matters": "BTC has been trading with tech this month; a deeper equity sell-off is the most direct path to a second $80k test.",
-   "source": "CNBC / AP / WSJ",
-   "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+   "headline": "Iran's Guards declare Hormuz 'closed' after reported tanker mine strikes",
+   "blurb": "On Saturday Iran's IRGC said two supertankers carrying about 2 million barrels each hit mines on an 'unauthorized' route; one caught fire. There is no independent confirmation, and the US says commercial shipping continues. UK maritime monitors logged a record weekly count of ship attacks near the strait.",
+   "why_matters": "Oil rose about 10% WoW into Friday; a fresh leg up on Monday would add to inflation and hike worries and test BTC's $80k floor alongside stocks.",
+   "source": "Euronews / Reuters / CBS News (wire & broadcast)",
+   "url": "https://www.euronews.com/2026/10/17/super-tanker-ablaze-after-striking-mine-in-strait-of-hormuz-irgc-says"
   },
   {
-   "headline": "Oil breaks $100 on Middle East and Russia supply worries",
-   "blurb": "WTI settled up about 3.5% near $101 and Brent near $110 after reports of a possible problem near Saudi Arabia's East-West pipeline, a Russian refinery outage and rising U.S.–Iran tensions. Crude is up roughly 8% WoW.",
-   "why_matters": "Energy drove September's hot CPI; $100 oil keeps a December Fed hike in play and squeezes the case for lower yields that rescued crypto mid-week.",
-   "source": "CNBC / The Closing Print",
-   "url": "https://www.theclosingprint.net/2026/10/closing-macro-recap-2026-10-16/"
+   "headline": "BTC holds ~$81k through a quiet weekend; month's gain fades to flat",
+   "blurb": "Bitcoin traded in a narrow band around $81.4k on Saturday and Sunday, above Thursday's ~$79.8k low. It is down about 2.6% WoW, and barely up MoM (under 1%) now that mid-September's lows have dropped out of the comparison.",
+   "why_matters": "Calm weekend trade plus rising leverage means the next move could be sharp; $80k below and ~$84k above are the levels to watch.",
+   "source": "Coinbase / Yahoo (market data)",
+   "url": "https://www.coinbase.com/price/bitcoin"
   },
   {
-   "headline": "Warsh gives no new signal; October hike odds keep cooling",
-   "blurb": "Fed Chair Kevin Warsh spoke at an IMF event in Bangkok without commenting on a year-end hike. CME FedWatch, as cited by CNBC, shows about an 82% chance the Fed holds at the Oct 27–28 meeting.",
-   "why_matters": "A quiet Fed removes one near-term shock; the risk now sits with oil and the next inflation data, not Fed-speak.",
-   "source": "CNBC (CME FedWatch)",
-   "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
-  },
-  {
-   "headline": "Bitcoin ETF selling slows to about a quarter of last week's pace",
-   "blurb": "US spot bitcoin ETFs lost a net $146M Monday to Thursday, with Friday tracking a small outflow (IBIT still pending), after about $681M of outflows the week before. October is net negative by roughly $535M through Thursday. CoinShares counted $434M of weekly outflows across crypto funds.",
-   "why_matters": "Demand is still not buying the dip, but forced-feeling redemptions have eased — the floor is less fragile than a week ago.",
-   "source": "Farside / TokenPost / CoinShares",
+   "headline": "Full-week ETF tally: outflows about a third of the prior week's",
+   "blurb": "With Friday's IBIT print in, US spot bitcoin ETFs lost about $228M over Oct 12–16 versus about $679M the week before; ether ETFs also lost less. CoinShares counted $434M of outflows across global crypto funds. No sessions over the weekend.",
+   "why_matters": "Demand is still not buying the dip, but selling pressure has eased — the floor looks less fragile than a week ago.",
+   "source": "Farside / CoinShares (fund-flow data)",
    "url": "https://farside.co.uk/btc/"
   },
   {
-   "headline": "Futures flip back to leverage building into weakness",
-   "blurb": "CheckOnChain's futures OI vs price scatter moved from Spot Rally to Leveraged Sell-Off as of Oct 16: seven-day open interest is up about 2.7% while price is down about 1%, with funding still positive.",
-   "why_matters": "New leverage on a falling price adds liquidation fuel — a break below $80k could move fast, and so could a short squeeze if $84k breaks.",
-   "source": "CheckOnChain",
+   "headline": "MSCI adopts screens that could drop crypto-treasury companies",
+   "blurb": "MSCI's new eligibility rules for companies without substantial operating assets take effect at the Nov 30 close, with a final list due Nov 11. Strategy and Metaplanet were among potential deletions in an earlier simulation; their status is unresolved.",
+   "why_matters": "Index removal could force passive selling of treasury-company shares — a slow-burn sentiment risk for BTC into November.",
+   "source": "crypto.news / The Block (crypto press)",
+   "url": "https://crypto.news/weekly-crypto-recap-bitcoin-ledger-msci-oct-17-2026/"
+  },
+  {
+   "headline": "Futures still leaning into weakness",
+   "blurb": "CheckOnChain's futures OI vs price scatter stayed in Leveraged Sell-Off as of Oct 17: seven-day open interest up about 3% while price is down about 2%, with funding positive.",
+   "why_matters": "New leverage on a falling price adds liquidation fuel below $80k — and short-squeeze fuel if $84k breaks.",
+   "source": "CheckOnChain (on-chain/derivatives data)",
    "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
   }
  ]
