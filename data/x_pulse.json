@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-19",
+  "label": "X · Oct 19",
+  "built_at_vilnius": "2026-10-19 11:41",
+  "stale": false,
+  "crowd": {
+    "lean": "cautious",
+    "class": "warn",
+    "bullish": 1,
+    "bearish": 2,
+    "neutral": 3,
+    "dashboard_regime": "Cautious",
+    "agree": true,
+    "line": "Analysts lean cautious: 1 bullish · 3 neutral · 2 bearish",
+    "vs_dashboard": "Agrees with the dashboard's Cautious regime"
+  },
+  "items": [
+    {
+      "id": "2111061955670888527",
+      "handle": "glassnode",
+      "name": "glassnode",
+      "url": "https://x.com/glassnode/status/2111061955670888527",
+      "takeaway": "Every burst of loss-selling since August landed at a local bottom; if the pattern holds, last week's selling just above $80k would mark the floor.",
+      "signal": "bullish",
+      "topic": "on-chain",
+      "thumb": "assets/x/2111061955670888527.jpg",
+      "posted": "Oct 16",
+      "created_at": "2026-10-16T11:49:26.000Z"
+    },
+    {
+      "id": "2112091279521898681",
+      "handle": "cryptoquant_com",
+      "name": "CryptoQuant.com",
+      "url": "https://x.com/cryptoquant_com/status/2112091279521898681",
+      "takeaway": "Only 4.4% of 6–12 month old coins that moved went to exchanges: people who bought high have mostly stopped selling, but new buyers haven't shown up yet.",
+      "signal": "neutral",
+      "topic": "on-chain",
+      "thumb": "assets/x/2112091279521898681.jpg",
+      "posted": "Oct 19",
+      "created_at": "2026-10-19T07:59:36.000Z"
+    },
+    {
+      "id": "2111725402498421088",
+      "handle": "Darkfost_Coc",
+      "name": "Darkfost",
+      "url": "https://x.com/Darkfost_Coc/status/2111725402498421088",
+      "takeaway": "After the rejection near $87,000, BTC fell back below the 30th percentile of its MVRV history: out of deep-value territory, but still what they call an accumulation zone.",
+      "signal": "neutral",
+      "topic": "on-chain",
+      "thumb": "assets/x/2111725402498421088.jpg",
+      "posted": "Oct 18",
+      "created_at": "2026-10-18T07:45:44.000Z"
+    },
+    {
+      "id": "2111717184611443157",
+      "handle": "AxelAdlerJr",
+      "name": "Axel 💎🙌 Adler Jr",
+      "url": "https://x.com/AxelAdlerJr/status/2111717184611443157",
+      "takeaway": "Spot BTC ETFs had a second straight week of net outflows; the 30-day total is still positive but shrinking, though the weekly outflow got smaller.",
+      "signal": "bearish",
+      "topic": "flows",
+      "thumb": "assets/x/2111717184611443157.jpg",
+      "posted": "Oct 18",
+      "created_at": "2026-10-18T07:13:05.000Z"
+    },
+    {
+      "id": "2111536099470475561",
+      "handle": "coinglass_com",
+      "name": "CoinGlass",
+      "url": "https://x.com/coinglass_com/status/2111536099470475561",
+      "takeaway": "The 48-hour liquidation heatmap shows the densest leverage clusters at $82.3K above and $80.6K below, flagged as price magnets either way.",
+      "signal": "neutral",
+      "topic": "derivatives",
+      "thumb": "assets/x/2111536099470475561.jpg",
+      "posted": "Oct 17",
+      "created_at": "2026-10-17T19:13:31.000Z"
+    },
+    {
+      "id": "2111810524220670378",
+      "handle": "ecoinometrics",
+      "name": "ecoinometrics",
+      "url": "https://x.com/ecoinometrics/status/2111810524220670378",
+      "takeaway": "Their score of Fed minutes reads firmly hawkish and has climbed since March; they see no quick return to easier policy and call that bad for Bitcoin.",
+      "signal": "bearish",
+      "topic": "macro",
+      "thumb": "assets/x/2111810524220670378.jpg",
+      "posted": "Oct 18",
+      "created_at": "2026-10-18T13:23:59.000Z"
+    }
+  ],
+  "problems": []
+}

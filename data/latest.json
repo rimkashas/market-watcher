@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-10-19",
   "brief_path": "/workspace/brief-2026-10-19",
   "edition": "Daily refresh 2026-10-19 (SHORT Monday)",
@@ -1588,8 +1588,8 @@
     },
     {
       "label": "Futures OI",
-      "detail": "+2.7% WoW → Shorts pressing",
-      "kind": "down",
+      "detail": "+1.8% WoW → Leverage building",
+      "kind": "warn",
       "arrow": "↑"
     },
     {
@@ -1668,15 +1668,15 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
-      "oi_chg_7d_frac": 0.02737898752845131,
-      "price_chg_7d_frac": -0.02458822795142579,
-      "oi_chg_7d_pct": 2.7379,
-      "price_chg_7d_pct": -2.4588,
-      "quadrant": "Leveraged Sell-Off",
+      "oi_chg_7d_frac": 0.017620093301151125,
+      "price_chg_7d_frac": 0.009999479634970018,
+      "oi_chg_7d_pct": 1.762,
+      "price_chg_7d_pct": 0.9999,
+      "quadrant": "Leveraged Rally",
       "quadrants": [
         "Spot Rally",
         "Leveraged Rally",
@@ -1687,209 +1687,209 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "Funding Rate (+ve)": {
-          "last": 0.06889975413645408,
-          "n": 2393,
-          "as_of": "2026-10-18"
+          "last": 0.07017698956822704,
+          "n": 2394,
+          "as_of": "2026-10-19"
         },
         "Funding Rate (-ve)": {
           "last": 0.0,
-          "n": 2393,
-          "as_of": "2026-10-18"
+          "n": 2394,
+          "as_of": "2026-10-19"
         },
         "Adj-FR (+ve)": {
-          "last": 0.006875465486526566,
-          "n": 2393,
-          "as_of": "2026-10-18"
+          "last": 0.008069366094117028,
+          "n": 2394,
+          "as_of": "2026-10-19"
         },
         "Adj-FR (-ve)": {
           "last": 0.0,
-          "n": 2393,
-          "as_of": "2026-10-18"
+          "n": 2394,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "funding_ann_pct": 6.89,
+      "funding_ann_pct": 7.0177,
       "funding_side": "positive",
-      "adj_funding_ann_pct": 0.6875
+      "adj_funding_ann_pct": 0.8069
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "Aggregate Total": {
-          "last": 52058963862.38179,
-          "n": 2419,
-          "as_of": "2026-10-18"
+          "last": 52736504213.81806,
+          "n": 2420,
+          "as_of": "2026-10-19"
         },
         "Binance": {
-          "last": 10851041119.70807,
-          "n": 2419,
-          "as_of": "2026-10-18"
+          "last": 11067692979.21316,
+          "n": 2420,
+          "as_of": "2026-10-19"
         },
         "CME": {
-          "last": 9170649944.28,
-          "n": 2419,
-          "as_of": "2026-10-18"
+          "last": 9276129480.96,
+          "n": 2420,
+          "as_of": "2026-10-19"
         },
         "Bybit": {
-          "last": 5571311564.99,
-          "n": 2419,
-          "as_of": "2026-10-18"
+          "last": 5523296395.48,
+          "n": 2420,
+          "as_of": "2026-10-19"
         },
         "Price": {
-          "last": 81713.9,
-          "n": 2419,
-          "as_of": "2026-10-18"
+          "last": 82634.3,
+          "n": 2420,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "aggregate_oi_usd": 52058963862.38179,
-      "aggregate_oi_b": 52.059
+      "aggregate_oi_usd": 52736504213.81806,
+      "aggregate_oi_b": 52.737
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "MVRV": {
-          "last": 1.509922,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 1.528107,
+          "n": 6501,
+          "as_of": "2026-10-19"
         },
         "Realised Price": {
-          "last": 53859.61,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 53863.94,
+          "n": 6501,
+          "as_of": "2026-10-19"
         },
         "Price": {
-          "last": 81323.81,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 82309.87,
+          "n": 6501,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "mvrv": 1.5099,
-      "nupl_from_mvrv": 0.3377,
-      "realized_price_usd": 53859.61,
-      "price_usd": 81323.81
+      "mvrv": 1.5281,
+      "nupl_from_mvrv": 0.3456,
+      "realized_price_usd": 53863.94,
+      "price_usd": 82309.87
     },
     "mvrv_z": {
       "schema": "market_watcher.checkonchain.mvrv_z.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "MVRV Z-Score": {
-          "last": -0.2613459599571183,
-          "n": 5038,
-          "as_of": "2026-10-18"
+          "last": -0.23009200393295098,
+          "n": 5039,
+          "as_of": "2026-10-19"
         },
         "Realised Price": {
-          "last": 53859.61,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 53863.94,
+          "n": 6501,
+          "as_of": "2026-10-19"
         },
         "Price": {
-          "last": 81323.81,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 82309.87,
+          "n": 6501,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "mvrv_z": -0.2613
+      "mvrv_z": -0.2301
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "Spent Output Profit Ratio (SOPR)": {
-          "last": 1.0043036,
-          "n": 5588,
-          "as_of": "2026-10-18"
+          "last": 1.009123,
+          "n": 5589,
+          "as_of": "2026-10-19"
         },
         "SOPR 7D-EMA": {
-          "last": 1.0075222520165017,
-          "n": 5588,
-          "as_of": "2026-10-18"
+          "last": 1.007918411139439,
+          "n": 5589,
+          "as_of": "2026-10-19"
         },
         "Price": {
-          "last": 81323.81,
-          "n": 5588,
-          "as_of": "2026-10-18"
+          "last": 82309.87,
+          "n": 5589,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "sopr": 1.004304,
-      "sopr_7d_ema": 1.007522
+      "sopr": 1.009123,
+      "sopr_7d_ema": 1.007918
     },
     "supply_profit": {
       "schema": "market_watcher.checkonchain.supply_profit.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "Percent Supply in Profit": {
-          "last": 0.67921853389964,
-          "n": 5038,
-          "as_of": "2026-10-18"
+          "last": 0.6955111359156144,
+          "n": 5039,
+          "as_of": "2026-10-19"
         },
         "Price": {
-          "last": 81323.81,
-          "n": 6500,
-          "as_of": "2026-10-18"
+          "last": 82309.87,
+          "n": 6501,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "supply_in_profit_pct": 67.92
+      "supply_in_profit_pct": 69.55
     },
     "cost_basis": {
       "schema": "market_watcher.checkonchain.cost_basis.v1",
-      "fetched_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "series": {
         "STH Cost Basis": {
-          "last": 74484.27,
-          "n": 6495,
-          "as_of": "2026-10-18"
+          "last": 74501.88,
+          "n": 6496,
+          "as_of": "2026-10-19"
         },
         "LTH Cost Basis": {
-          "last": 49286.55,
-          "n": 6495,
-          "as_of": "2026-10-18"
+          "last": 49286.4,
+          "n": 6496,
+          "as_of": "2026-10-19"
         },
         "Realised Price": {
-          "last": 53859.61551510606,
-          "n": 6495,
-          "as_of": "2026-10-18"
+          "last": 53863.94451358182,
+          "n": 6496,
+          "as_of": "2026-10-19"
         },
         "True Mean Price": {
-          "last": 77514.98,
-          "n": 6495,
-          "as_of": "2026-10-18"
+          "last": 77522.69,
+          "n": 6496,
+          "as_of": "2026-10-19"
         }
       },
       "available": true,
-      "sth_cost_basis_usd": 74484.27,
-      "lth_cost_basis_usd": 49286.55,
-      "realized_price_usd": 53859.62
+      "sth_cost_basis_usd": 74501.88,
+      "lth_cost_basis_usd": 49286.4,
+      "realized_price_usd": 53863.94
     }
   },
   "market_structure": {
@@ -1910,12 +1910,12 @@
       "Neutral"
     ],
     "as_of_brief": "2026-10-19",
-    "built_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v2",
     "as_of_brief": "2026-10-19",
-    "built_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)",
+    "built_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
     "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
     "aligned": [
       {
@@ -1946,9 +1946,9 @@
         "tone": "neg"
       },
       {
-        "label": "Shorts pressing",
-        "detail": "Futures OI +2.7% WoW: new leverage behind the decline.",
-        "tone": "neg"
+        "label": "Leverage building",
+        "detail": "Futures OI +1.8% WoW: rally fuelled by new leverage — squeeze risk rises.",
+        "tone": "watch"
       },
       {
         "label": "RSDH BULL · Lagging BTC",
@@ -2041,14 +2041,14 @@
       "fading": false
     },
     "futures": {
-      "quadrant": "Leveraged Sell-Off",
-      "oi_wow": 2.7379,
-      "signal": "Shorts pressing",
-      "tone": "neg",
-      "meaning": "Futures OI +2.7% WoW: new leverage behind the decline."
+      "quadrant": "Leveraged Rally",
+      "oi_wow": 1.762,
+      "signal": "Leverage building",
+      "tone": "watch",
+      "meaning": "Futures OI +1.8% WoW: rally fuelled by new leverage — squeeze risk rises."
     },
     "funding": {
-      "val": 6.89,
+      "val": 7.0177,
       "signal": "Calm",
       "tone": "pos",
       "meaning": "Normal, mild long bias — no froth."
@@ -2094,5 +2094,12 @@
     "text": "Monday lens: weekend Hormuz mine claims spilled into a fresh IRGC blast claim early Monday, but oil slipped on the open rather than breaking higher. BTC ~$82.4k is about +0.8% WoW / +1.4% MoM as the prior week's flush rolls out of the window. Futures still Leveraged Sell-Off (7d OI +2.7%, px −2.5%, as of CoC 10-18). Monday ETF print still pending after last week's −$228M BTC outflows. Estimated FedWatch now ~65% October hike (GMT Eight citing CME) vs ~18% on the 10-16 carry — the swing into next week's FOMC. ~$80k below and ~$84k above still frame the week."
   },
   "scorecard_as_of": "SHORT 2026-10-19 · BlockHorizon carried (Oct 15 page, read 10-16) · CheckOnChain live (10-18) · H.4.1 Wed 10-14 (carried; next 10-22) · ETFs through Fri 10-16 (Mon print pending) · FedWatch Estimated GMT Eight 10-19",
-  "probs_note": "Held: Monday open is calmer on oil and BTC WoW flipped positive as last week's losses rolled off, but Estimated FedWatch hike odds jumped sharply, leverage is still Leveraged Sell-Off, and Hormuz risk remains live — not enough to move either horizon after Saturday's shift. 1M held: the Oct 27–28 FOMC remains the swing event."
+  "probs_note": "Held: Monday open is calmer on oil and BTC WoW flipped positive as last week's losses rolled off, but Estimated FedWatch hike odds jumped sharply, leverage is still Leveraged Sell-Off, and Hormuz risk remains live — not enough to move either horizon after Saturday's shift. 1M held: the Oct 27–28 FOMC remains the swing event.",
+  "x_pulse": {
+    "date": "2026-10-19",
+    "label": "X · Oct 19",
+    "stale": false,
+    "lean": "cautious",
+    "n_items": 6
+  }
 }
