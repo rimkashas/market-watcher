@@ -1,40 +1,40 @@
 {
- "updated_at": "2026-10-18 04:20:00 Vilnius (UTC+3)",
- "items": [
-  {
-   "headline": "Iran's Guards declare Hormuz 'closed' after reported tanker mine strikes",
-   "blurb": "On Saturday Iran's IRGC said two supertankers carrying about 2 million barrels each hit mines on an 'unauthorized' route; one caught fire. There is no independent confirmation, and the US says commercial shipping continues. UK maritime monitors logged a record weekly count of ship attacks near the strait.",
-   "why_matters": "Oil rose about 10% WoW into Friday; a fresh leg up on Monday would add to inflation and hike worries and test BTC's $80k floor alongside stocks.",
-   "source": "Euronews / Reuters / CBS News (wire & broadcast)",
-   "url": "https://www.euronews.com/2026/10/17/super-tanker-ablaze-after-striking-mine-in-strait-of-hormuz-irgc-says"
-  },
-  {
-   "headline": "BTC holds ~$81k through a quiet weekend; month's gain fades to flat",
-   "blurb": "Bitcoin traded in a narrow band around $81.4k on Saturday and Sunday, above Thursday's ~$79.8k low. It is down about 2.6% WoW, and barely up MoM (under 1%) now that mid-September's lows have dropped out of the comparison.",
-   "why_matters": "Calm weekend trade plus rising leverage means the next move could be sharp; $80k below and ~$84k above are the levels to watch.",
-   "source": "Coinbase / Yahoo (market data)",
-   "url": "https://www.coinbase.com/price/bitcoin"
-  },
-  {
-   "headline": "Full-week ETF tally: outflows about a third of the prior week's",
-   "blurb": "With Friday's IBIT print in, US spot bitcoin ETFs lost about $228M over Oct 12–16 versus about $679M the week before; ether ETFs also lost less. CoinShares counted $434M of outflows across global crypto funds. No sessions over the weekend.",
-   "why_matters": "Demand is still not buying the dip, but selling pressure has eased — the floor looks less fragile than a week ago.",
-   "source": "Farside / CoinShares (fund-flow data)",
-   "url": "https://farside.co.uk/btc/"
-  },
-  {
-   "headline": "MSCI adopts screens that could drop crypto-treasury companies",
-   "blurb": "MSCI's new eligibility rules for companies without substantial operating assets take effect at the Nov 30 close, with a final list due Nov 11. Strategy and Metaplanet were among potential deletions in an earlier simulation; their status is unresolved.",
-   "why_matters": "Index removal could force passive selling of treasury-company shares — a slow-burn sentiment risk for BTC into November.",
-   "source": "crypto.news / The Block (crypto press)",
-   "url": "https://crypto.news/weekly-crypto-recap-bitcoin-ledger-msci-oct-17-2026/"
-  },
-  {
-   "headline": "Futures still leaning into weakness",
-   "blurb": "CheckOnChain's futures OI vs price scatter stayed in Leveraged Sell-Off as of Oct 17: seven-day open interest up about 3% while price is down about 2%, with funding positive.",
-   "why_matters": "New leverage on a falling price adds liquidation fuel below $80k — and short-squeeze fuel if $84k breaks.",
-   "source": "CheckOnChain (on-chain/derivatives data)",
-   "url": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html"
-  }
- ]
+  "updated_at": "2026-10-19 04:15:58 Vilnius (UTC+3)",
+  "items": [
+    {
+      "headline": "IRGC claims another tanker mine blast south of Hormuz on Monday",
+      "blurb": "Early Monday Iran's IRGC said a 'violating' oil tanker exploded after hitting a mine south of the Strait, with GPS/navigation off. Weekend claims of two mine-struck tankers still lack independent confirmation; the US says the strait remains open for commercial shipping.",
+      "why_matters": "Oil risk is still live into the week open \u2014 a fresh spike would feed inflation and hike fears just as BTC tests the upper half of its $80\u201386k range.",
+      "source": "Xinhua / IRGC Sepah News (state media)",
+      "url": "https://english.news.cn/20261019/6b4e05a1580a4af183318eeb0563ed2f/c.html"
+    },
+    {
+      "headline": "Oil slips on Monday open after Friday's spike; WTI still elevated WoW",
+      "blurb": "Reuters: Brent and WTI eased in early Asian trade after a Trump sanction waiver raised the chance of more Russian fuel supply. Our Yahoo print shows WTI near $97.6 on the Monday hist bar, still up about 3.6% over five sessions after last week's surge toward $100+.",
+      "why_matters": "Weekend Hormuz headlines did not force a fresh oil breakout on the open \u2014 inflation pressure is still high, but the immediate Monday spike risk cooled a notch.",
+      "source": "Reuters / Yahoo CL=F (datapack)",
+      "url": "https://au.investing.com/news/commodities-news/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies-4697138"
+    },
+    {
+      "headline": "Monday ETF print still pending; last week ended \u2212$228M BTC outflows",
+      "blurb": "Farside still ends at Fri 16 Oct (\u2212$82.4M that day). Full week Oct 12\u201316: bitcoin ETFs about \u2212$228M vs about \u2212$679M the week before; ether ETFs also lighter outflows. Monday's US session print lands after the close.",
+      "why_matters": "Week-open flows are the next tell after two outflow weeks \u2014 whether selling keeps slowing or re-accelerates into the Oct 27\u201328 FOMC.",
+      "source": "Farside Investors",
+      "url": "https://farside.co.uk/btc/"
+    },
+    {
+      "headline": "FedWatch hike odds jump into the Oct 27\u201328 FOMC (Estimated)",
+      "blurb": "GMT Eight, citing CME FedWatch on Monday, put a ~65% chance on a 25bp October hike vs ~35% hold \u2014 a sharp re-pricing from the ~18% hike odds carried from the 10-16 CNBC/CME read. CME's own page remains JS-only and was not parsed directly.",
+      "why_matters": "Higher near-term hike odds tighten the macro backdrop for risk assets into next week's FOMC; treat as Estimated until a major desk confirms.",
+      "source": "GMT Eight citing CME FedWatch",
+      "url": "https://www.gmt8press.com/flash/detail/1532255"
+    },
+    {
+      "headline": "BTC opens the week near $82.4k; WoW flips positive as prior losses roll off",
+      "blurb": "Coinbase/Yahoo show BTC around $82.4k early Monday \u2014 about +0.8% WoW and +1.4% MoM as last week's mid-week flush drops out of the seven-day window. Dominance near 60%. Nasdaq still \u22124.5% over five sessions from Friday's close.",
+      "why_matters": "A calmer week-open tape after Hormuz weekend risk, but AI/tech damage and rebuilding leverage mean $80k and ~$84k still frame the range.",
+      "source": "Coinbase / Yahoo (datapack)",
+      "url": "https://www.coinbase.com/price/bitcoin"
+    }
+  ]
 }

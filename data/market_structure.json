@@ -3,10 +3,10 @@
   "label": "Neutral",
   "why": "Small 5d/7d moves.",
   "inputs": {
-    "BTC_5d_pct": -1.955,
-    "BTC_7d_pct": -2.64,
-    "BTC_1m_pct": 0.703,
-    "ETH_7d_pct": -5.094,
+    "BTC_5d_pct": 1.01,
+    "BTC_7d_pct": 0.762,
+    "BTC_1m_pct": 1.418,
+    "ETH_7d_pct": -1.075,
     "breadth": "4/16 bullish"
   },
   "labels": [
@@ -15,6 +15,6 @@
     "Mean reverting",
     "Neutral"
   ],
-  "as_of_brief": "2026-10-18",
-  "built_at_vilnius": "2026-10-18 04:08:36 Vilnius (UTC+3)"
+  "as_of_brief": "2026-10-19",
+  "built_at_vilnius": "2026-10-19 04:16:33 Vilnius (UTC+3)"
 }

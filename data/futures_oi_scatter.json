@@ -1,13 +1,13 @@
 {
   "schema": "market_watcher.futures_oi_scatter.v1",
-  "fetched_at_vilnius": "2026-10-18 04:08:34 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-19 04:16:32 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
   "trace": "Today",
-  "oi_chg_7d_frac": 0.029674207558305812,
-  "price_chg_7d_frac": -0.02009607154452355,
-  "oi_chg_7d_pct": 2.9674,
-  "price_chg_7d_pct": -2.0096,
+  "oi_chg_7d_frac": 0.02737898752845131,
+  "price_chg_7d_frac": -0.02458822795142579,
+  "oi_chg_7d_pct": 2.7379,
+  "price_chg_7d_pct": -2.4588,
   "quadrant": "Leveraged Sell-Off",
   "quadrants": [
     "Spot Rally",

@@ -1,0 +1,75 @@
+{
+  "overall_regime": "Cautious",
+  "one_line_regime": "Cautious \u2014 Monday open near $82.4k with WoW flipped positive as last week's losses roll off, but Hormuz risk is still live, Fed hike odds jumped (Estimated), leverage remains in Leveraged Sell-Off, and RSDH stays SOL-heavy BULL with its fast score still easing.",
+  "daily_headline": "Cautious \u2014 BTC opens the week near $82.4k with a positive WoW print, yet oil/Hormuz and a jump in October hike odds keep the regime on watch.",
+  "daily_focus": {
+    "tone": "watch",
+    "text": "Monday lens: weekend Hormuz mine claims spilled into a fresh IRGC blast claim early Monday, but oil slipped on the open rather than breaking higher. BTC ~$82.4k is about +0.8% WoW / +1.4% MoM as the prior week's flush rolls out of the window. Futures still Leveraged Sell-Off (7d OI +2.7%, px \u22122.5%, as of CoC 10-18). Monday ETF print still pending after last week's \u2212$228M BTC outflows. Estimated FedWatch now ~65% October hike (GMT Eight citing CME) vs ~18% on the 10-16 carry \u2014 the swing into next week's FOMC. ~$80k below and ~$84k above still frame the week."
+  },
+  "probs": {
+    "7d": {
+      "Base": 50,
+      "Bull": 15,
+      "Bear": 35
+    },
+    "1m": {
+      "Base": 45,
+      "Bull": 15,
+      "Bear": 40
+    }
+  },
+  "scorecard_as_of": "SHORT 2026-10-19 \u00b7 BlockHorizon carried (Oct 15 page, read 10-16) \u00b7 CheckOnChain live (10-18) \u00b7 H.4.1 Wed 10-14 (carried; next 10-22) \u00b7 ETFs through Fri 10-16 (Mon print pending) \u00b7 FedWatch Estimated GMT Eight 10-19",
+  "scorecard": [
+    {
+      "dimension": "Liquidity",
+      "now": "Improving, marginally (Wed 10-14 print)",
+      "vs": "No new weekly Fed print until Thu 10-22 (carried). Mid-week Treasury cash rebuild (FiscalData 10-15) still a possible drag on Thursday's print; still clearly improving over 4 weeks"
+    },
+    {
+      "dimension": "Liquidity momentum",
+      "now": "Turning up (slow, at risk)",
+      "vs": "Two improving weekly prints in a row, the latest only barely; next print Thu 10-22"
+    },
+    {
+      "dimension": "Risk appetite",
+      "now": "Risk-off residual; Monday oil cooled a notch",
+      "vs": "Nasdaq \u22124.5% over five sessions (Fri 10-16 close), VIX ~20. Weekend Hormuz claims plus a fresh IRGC mine-blast claim Mon morning; oil slipped on the open (Yahoo WTI ~$97.6) after Friday's spike \u2014 still up ~3.6% over five sessions"
+    },
+    {
+      "dimension": "Crypto trend",
+      "now": "Range, mid-band",
+      "vs": "BTC about +0.8% WoW / +1.4% MoM as last week's flush rolls off; early Monday ~$82.4k inside $80\u201386k, above Thursday's ~$79.8k low"
+    },
+    {
+      "dimension": "Crypto positioning",
+      "now": "Leverage building into weakness",
+      "vs": "CheckOnChain still Leveraged Sell-Off (7d OI +2.7%, px \u22122.5%, as of 10-18) \u2014 new positions keep leaning into the dip"
+    },
+    {
+      "dimension": "Leverage",
+      "now": "Rebuilding, funding positive",
+      "vs": "OI up WoW; funding positive (CoC 10-18) \u2014 liquidation fuel if $80k gives way, squeeze fuel if $84k breaks"
+    },
+    {
+      "dimension": "ETF demand",
+      "now": "Net selling, slowing; Mon print pending",
+      "vs": "Full week to Fri 10-16: BTC ETFs about \u2212$228M vs about \u2212$679M the week before (Farside); Monday US session print not out yet"
+    },
+    {
+      "dimension": "USD pressure",
+      "now": "Restrictive, hike odds up (Estimated)",
+      "vs": "Dollar slightly lower over five sessions, higher MoM; 10Y last close 10-16. Estimated FedWatch ~65% October hike (GMT Eight citing CME, 10-19) vs ~18% on the 10-16 carry"
+    },
+    {
+      "dimension": "On-chain cycle",
+      "now": "32 Bearish \u00b7 4/16 (BlockHorizon \u00b7 Oct 15, carried)",
+      "vs": "BlockHorizon carried from the Oct 15 page (no live read today). CheckOnChain live (10-18): price well above short-term holder cost (~$74.5k), SOPR just above 1, MVRV ~1.51 \u2014 modest profit-taking, no capitulation. See on-chain card."
+    },
+    {
+      "dimension": "RSDH",
+      "now": "BULL \u00b7 SOL95/BTC5",
+      "vs": "Fresh bar: still fully invested; slow recovered 343\u2192345, fast eased again 23\u219221 (fifth soft read). Final\u00d7 trail 0.12 (1.19 vs 1.31) \u2014 behind BTC WoW (trail 0.06 on 10-12: 1.27 vs 1.33) and behind MoM (trail 0.08 on 09-18: 1.12 vs 1.20); SOL's own trend is still softening on the fast score"
+    }
+  ],
+  "probs_note": "Held: Monday open is calmer on oil and BTC WoW flipped positive as last week's losses rolled off, but Estimated FedWatch hike odds jumped sharply, leverage is still Leveraged Sell-Off, and Hormuz risk remains live \u2014 not enough to move either horizon after Saturday's shift. 1M held: the Oct 27\u201328 FOMC remains the swing event."
+}
