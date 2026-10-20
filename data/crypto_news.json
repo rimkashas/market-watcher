@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-19 04:15:58 Vilnius (UTC+3)",
-  "items": [
-    {
-      "headline": "IRGC claims another tanker mine blast south of Hormuz on Monday",
-      "blurb": "Early Monday Iran's IRGC said a 'violating' oil tanker exploded after hitting a mine south of the Strait, with GPS/navigation off. Weekend claims of two mine-struck tankers still lack independent confirmation; the US says the strait remains open for commercial shipping.",
-      "why_matters": "Oil risk is still live into the week open \u2014 a fresh spike would feed inflation and hike fears just as BTC tests the upper half of its $80\u201386k range.",
-      "source": "Xinhua / IRGC Sepah News (state media)",
-      "url": "https://english.news.cn/20261019/6b4e05a1580a4af183318eeb0563ed2f/c.html"
-    },
-    {
-      "headline": "Oil slips on Monday open after Friday's spike; WTI still elevated WoW",
-      "blurb": "Reuters: Brent and WTI eased in early Asian trade after a Trump sanction waiver raised the chance of more Russian fuel supply. Our Yahoo print shows WTI near $97.6 on the Monday hist bar, still up about 3.6% over five sessions after last week's surge toward $100+.",
-      "why_matters": "Weekend Hormuz headlines did not force a fresh oil breakout on the open \u2014 inflation pressure is still high, but the immediate Monday spike risk cooled a notch.",
-      "source": "Reuters / Yahoo CL=F (datapack)",
-      "url": "https://au.investing.com/news/commodities-news/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies-4697138"
-    },
-    {
-      "headline": "Monday ETF print still pending; last week ended \u2212$228M BTC outflows",
-      "blurb": "Farside still ends at Fri 16 Oct (\u2212$82.4M that day). Full week Oct 12\u201316: bitcoin ETFs about \u2212$228M vs about \u2212$679M the week before; ether ETFs also lighter outflows. Monday's US session print lands after the close.",
-      "why_matters": "Week-open flows are the next tell after two outflow weeks \u2014 whether selling keeps slowing or re-accelerates into the Oct 27\u201328 FOMC.",
-      "source": "Farside Investors",
-      "url": "https://farside.co.uk/btc/"
-    },
-    {
-      "headline": "FedWatch hike odds jump into the Oct 27\u201328 FOMC (Estimated)",
-      "blurb": "GMT Eight, citing CME FedWatch on Monday, put a ~65% chance on a 25bp October hike vs ~35% hold \u2014 a sharp re-pricing from the ~18% hike odds carried from the 10-16 CNBC/CME read. CME's own page remains JS-only and was not parsed directly.",
-      "why_matters": "Higher near-term hike odds tighten the macro backdrop for risk assets into next week's FOMC; treat as Estimated until a major desk confirms.",
-      "source": "GMT Eight citing CME FedWatch",
-      "url": "https://www.gmt8press.com/flash/detail/1532255"
-    },
-    {
-      "headline": "BTC opens the week near $82.4k; WoW flips positive as prior losses roll off",
-      "blurb": "Coinbase/Yahoo show BTC around $82.4k early Monday \u2014 about +0.8% WoW and +1.4% MoM as last week's mid-week flush drops out of the seven-day window. Dominance near 60%. Nasdaq still \u22124.5% over five sessions from Friday's close.",
-      "why_matters": "A calmer week-open tape after Hormuz weekend risk, but AI/tech damage and rebuilding leverage mean $80k and ~$84k still frame the range.",
-      "source": "Coinbase / Yahoo (datapack)",
-      "url": "https://www.coinbase.com/price/bitcoin"
-    }
-  ]
+ "updated_at": "2026-10-20 04:20 Vilnius (UTC+3)",
+ "items": [
+  {
+   "headline": "Tech bounces, bitcoin doesn't: BTC rejected near $83.1k as the Nasdaq rebounds",
+   "blurb": "Monday's chip-led rebound clawed back part of the Nasdaq's worst week since June. Bitcoin poked above $83,000 early in Europe, was sold back within the hour and ended the US session near $81.8k \u2014 about 2% lower WoW and still below last week's ~$84k ceiling.",
+   "why_matters": "BTC is lagging a risk-on bounce \u2014 a sign spot demand is thin; a close through ~$84k is the first sign equities are pulling crypto with them.",
+   "source": "CoinDesk / CryptoWatchDesk (2026-10-19)",
+   "url": "https://cryptowatchdesk.com/news/market-read-19-oct-us-close-nasdaq-bounces-bitcoin-stalls-83100"
+  },
+  {
+   "headline": "October hike odds settle back near 16\u201320%; December hike still priced (Estimated)",
+   "blurb": "CME FedWatch, as quoted by FXBus on 10-19, shows ~16% odds of a 25bp hike on Oct 28 vs ~84% hold; a ZQ-futures replica early 10-20 shows ~20%. A December hike is ~92% priced. Yesterday's ~65% quote was not confirmed by any other CME-citing source. FedWatch Advisors' Ben Emons argues October is underpriced.",
+   "why_matters": "An October hold is the base case, so next week's FOMC is less of a cliff than Monday's outlier implied \u2014 but the path is still tightening, and Warsh's press conference is the swing event.",
+   "source": "FXBus citing CME FedWatch; TraderKnows (Emons)",
+   "url": "https://www.fxbus.com/en/news/20261019060048987251.html"
+  },
+  {
+   "headline": "10-year yield climbs back to ~5.14% as bond desks brace for a hike",
+   "blurb": "Treasury yields rose on Monday as traders priced energy-driven inflation; the 10-year ended near 5.135% and the 2-year near 4.76%. That is still slightly below a week ago but well above mid-September. The expiring November WTI contract settled at $103.66.",
+   "why_matters": "Higher long yields and oil above $100 keep real-rate pressure on risk assets; the dollar is softer WoW but still up MoM.",
+   "source": "MarketWatch / WSJ (2026-10-19)",
+   "url": "https://www.marketwatch.com/story/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-f4e363f0"
+  },
+  {
+   "headline": "US issues security alerts across 12 Middle East locations; oil reverses early drop",
+   "blurb": "The US warned citizens in 12 locations including Saudi Arabia, the UAE, Iran and Israel of possible flight cancellations and airspace closures, stoking fears of fresh strikes on Iran and more Hormuz disruption. WTI bounced off its Asian-session low.",
+   "why_matters": "Hormuz is still the main inflation wildcard \u2014 an oil spike feeds hike fears right before the Oct 27\u201328 FOMC.",
+   "source": "CoinDesk live updates (2026-10-19)",
+   "url": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound"
+  },
+  {
+   "headline": "Bitcoin ETFs shed ~$910M in two weeks; Monday's early print is negative again",
+   "blurb": "US spot bitcoin ETFs lost ~$228.6M in the week to Oct 16 after ~$681M the week before, leaving October about \u2212$615M. Farside's Monday 10-19 row shows \u2212$138.5M with IBIT not yet reported, so it is excluded until complete.",
+   "why_matters": "ETF demand is still the weak link \u2014 outflows are slowing week on week but have not turned, which caps rallies.",
+   "source": "Decrypt / SoSoValue; Farside Investors",
+   "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red"
+  }
+ ]
 }

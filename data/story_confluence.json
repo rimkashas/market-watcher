@@ -1,7 +1,7 @@
 {
   "schema": "market_watcher.story_confluence.v2",
-  "as_of_brief": "2026-10-19",
-  "built_at_vilnius": "2026-10-19 11:41:58 Vilnius (UTC+3)",
+  "as_of_brief": "2026-10-20",
+  "built_at_vilnius": "2026-10-20 04:17:45 Vilnius (UTC+3)",
   "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
   "aligned": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "label": "USD & yields: tailwind",
-      "detail": "Dollar and yields eased this week — looser conditions; equities soft.",
+      "detail": "Dollar and yields eased this week — looser conditions; equities flat.",
       "tone": "pos"
     }
   ],
@@ -33,13 +33,13 @@
     },
     {
       "label": "Leverage building",
-      "detail": "Futures OI +1.8% WoW: rally fuelled by new leverage — squeeze risk rises.",
+      "detail": "Futures OI +2.6% WoW: rally fuelled by new leverage — squeeze risk rises.",
       "tone": "watch"
     },
     {
-      "label": "RSDH BULL · Lagging BTC",
-      "detail": "Trailed BTC by 4.9 pp this week (Final× basis).",
-      "tone": "neg"
+      "label": "RSDH BULL · In line with BTC",
+      "detail": "Tracked BTC closely this week.",
+      "tone": "neutral"
     },
     {
       "label": "On-chain Cycle 32 · Bearish · breadth 4/16 weak",

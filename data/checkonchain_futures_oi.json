@@ -1,37 +1,37 @@
 {
   "schema": "market_watcher.checkonchain.futures_oi.v1",
-  "fetched_at_vilnius": "2026-10-19 11:41:57 Vilnius (UTC+3)",
+  "fetched_at_vilnius": "2026-10-20 04:17:43 Vilnius (UTC+3)",
   "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
   "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
   "as_of": "2026-10-19",
   "series": {
     "Aggregate Total": {
-      "last": 52736504213.81806,
+      "last": 52813409205.12509,
       "n": 2420,
       "as_of": "2026-10-19"
     },
     "Binance": {
-      "last": 11067692979.21316,
+      "last": 11017459503.82716,
       "n": 2420,
       "as_of": "2026-10-19"
     },
     "CME": {
-      "last": 9276129480.96,
+      "last": 9205992197.65,
       "n": 2420,
       "as_of": "2026-10-19"
     },
     "Bybit": {
-      "last": 5523296395.48,
+      "last": 5549570258.6,
       "n": 2420,
       "as_of": "2026-10-19"
     },
     "Price": {
-      "last": 82634.3,
+      "last": 82023.5,
       "n": 2420,
       "as_of": "2026-10-19"
     }
   },
   "available": true,
-  "aggregate_oi_usd": 52736504213.81806,
-  "aggregate_oi_b": 52.737
+  "aggregate_oi_usd": 52813409205.12509,
+  "aggregate_oi_b": 52.813
 }
