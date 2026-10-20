@@ -1,5 +1,5 @@
 {
-  "generated_at_vilnius": "2026-10-20 04:17:43 Vilnius (UTC+3)",
+  "generated_at_vilnius": "2026-10-20 04:24:01 Vilnius (UTC+3)",
   "brief_folder": "brief-2026-10-20",
   "brief_path": "/workspace/brief-2026-10-20",
   "edition": "Daily refresh 2026-10-20 (DEEP Tuesday)",
@@ -86,8 +86,8 @@
     },
     {
       "dimension": "On-chain cycle",
-      "now": "32 Bearish · 4/16 (BlockHorizon · Oct 15, carried)",
-      "vs": "BlockHorizon carried from the Oct 15 page (no new read today). CheckOnChain live (10-19): price well above short-term holder cost (~$74.6k), SOPR just above 1 (mild profit-taking), MVRV ~1.52 — mid-cycle, no capitulation"
+      "now": "32 Bearish · 4/16 · momentum rolled over (BlockHorizon · Oct 19)",
+      "vs": "Live BlockHorizon read (Oct 19 page): level and breadth unchanged vs the Oct 15 page, but MoM the 30d momentum rolled over — 1 rising / 9 flat / 6 falling of 16 (Oct 15: 15 / 1 / 0). Supply in Profit signal −10 over 30d; NUPL short-term holders flipped Bearish Oct 19 while long-term holders stay Bullish. CheckOnChain live (10-19): price well above short-term holder cost (~$74.6k), SOPR just above 1 (mild profit-taking), MVRV ~1.52 — mid-cycle, no capitulation"
     },
     {
       "dimension": "RSDH",
@@ -107,8 +107,8 @@
       }
     },
     "1m": {
-      "Base": 45,
-      "Bull": 15,
+      "Base": 50,
+      "Bull": 10,
       "Bear": 40,
       "btc_targets": {
         "Base": "$78–92k",
@@ -756,175 +756,175 @@
   },
   "blockhorizon": {
     "previous_read": {
-      "page_date": "2026-10-08",
+      "page_date": "2026-10-15",
       "cycle_index": 32,
       "consensus_bullish": 4,
       "consensus_total": 16,
-      "source": "/workspace/brief-2026-10-09/blockhorizon/kpis.json",
-      "btc_card_price_usd": 81676,
+      "source": "/workspace/brief-2026-10-16/blockhorizon/kpis.json",
+      "btc_card_price_usd": 82131,
       "momentum_30d": {
-        "rising": 11,
-        "flat": 4,
-        "falling": 1
+        "rising": 15,
+        "flat": 1,
+        "falling": 0
       }
     },
     "signal_highlights": [
       {
         "label": "30d momentum",
-        "value": "15↑ · 1→ · 0↓",
-        "signal": "Broadening",
-        "tone": "pos",
-        "meaning": "Month-over-month recovery broadened vs Oct 8 (11 rising, 1 falling) — 15 of 16 rising, none falling."
+        "value": "1↑ · 9→ · 6↓",
+        "signal": "Rolled over",
+        "tone": "neg",
+        "meaning": "Month-over-month recovery has stalled: Oct 15 page had 15 rising / 0 falling; now 1 rising / 6 falling."
+      },
+      {
+        "label": "NUPL STS vs LTS",
+        "value": "STS Bearish · LTS Bullish (Oct 19 flips)",
+        "signal": "Split",
+        "tone": "watch",
+        "meaning": "Short-term holder profit gauge flipped Bearish (−5 30d) while the long-term holder gauge is Bullish — newer buyers souring, long-term holders steady."
       },
       {
         "label": "Supply in Profit signal",
-        "value": "31 · +1 7d · +17 30d",
+        "value": "31 · +2 7d · −10 30d",
         "signal": "Bearish",
-        "tone": "watch",
-        "meaning": "Still Bearish on score, but the +17 30d lift is the largest on the board — month improving."
-      },
-      {
-        "label": "UTXOs / Thermocap / NUPL LTS",
-        "value": "Bullish flips noted Oct 15 page",
-        "signal": "Bullish",
-        "tone": "pos",
-        "meaning": "Holder/valuation gauges in Bullish — early confirmation, not a cycle flip (still 32 Bearish / 4/16)."
+        "tone": "neg",
+        "meaning": "Largest monthly fall on the board (Oct 15 page: +17 over 30d) — the profit cushion built in late September is fading."
       }
     ],
     "explorer_signals": [
       {
-        "signal": "NUPL (Net Unrealized Profit Loss)",
-        "value": 57,
-        "d7": 1,
-        "d30": 5,
-        "d90": null,
-        "d1y": null,
-        "phase": "Bullish"
-      },
-      {
         "signal": "UTXOs in Profit (%)",
         "value": 56,
         "d7": 0,
-        "d30": 11,
-        "d90": null,
-        "d1y": null,
+        "d30": -3,
+        "d90": 36,
+        "d1y": -25,
+        "phase": "Bullish"
+      },
+      {
+        "signal": "NUPL (Net Unrealized Profit Loss)",
+        "value": 56,
+        "d7": 0,
+        "d30": -1,
+        "d90": 13,
+        "d1y": -15,
         "phase": "Bullish"
       },
       {
         "signal": "Market Cap to Thermocap Ratio",
         "value": 52,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 10,
+        "d1y": -30,
         "phase": "Bullish"
       },
       {
         "signal": "NUPL Long Term Supply (LTS)",
         "value": 50,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 1,
+        "d90": 13,
+        "d1y": -22,
         "phase": "Bullish"
       },
       {
         "signal": "NUPL Short Term Supply (STS)",
-        "value": 49,
-        "d7": 1,
-        "d30": 6,
-        "d90": null,
-        "d1y": null,
+        "value": 48,
+        "d7": 0,
+        "d30": -5,
+        "d90": 19,
+        "d1y": 22,
         "phase": "Bearish"
       },
       {
         "signal": "Realized Price - Short Term Supply (STS)",
-        "value": 42,
-        "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "value": 41,
+        "d7": -1,
+        "d30": -3,
+        "d90": 10,
+        "d1y": 11,
         "phase": "Bearish"
       },
       {
         "signal": "Delta Price",
         "value": 35,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 11,
+        "d1y": -10,
         "phase": "Bearish"
       },
       {
         "signal": "Realized Price",
         "value": 32,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 9,
+        "d1y": -15,
         "phase": "Bearish"
       },
       {
         "signal": "MVRV (Market Value to Realized Value Ratio)",
         "value": 32,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 9,
+        "d1y": -15,
         "phase": "Bearish"
       },
       {
         "signal": "Supply in Profit (%)",
         "value": 31,
-        "d7": 1,
-        "d30": 17,
-        "d90": null,
-        "d1y": null,
+        "d7": 2,
+        "d30": -10,
+        "d90": 31,
+        "d1y": -43,
         "phase": "Bearish"
       },
       {
         "signal": "MVRV Short Term Supply (STS)",
         "value": 31,
         "d7": 0,
-        "d30": 3,
-        "d90": null,
-        "d1y": null,
+        "d30": -2,
+        "d90": 10,
+        "d1y": 11,
         "phase": "Bearish"
       },
       {
         "signal": "Balanced Price",
         "value": 31,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 10,
+        "d1y": -12,
         "phase": "Bearish"
       },
       {
         "signal": "MVRV Z-Score",
         "value": 19,
         "d7": 0,
-        "d30": 4,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 10,
+        "d1y": -20,
         "phase": "Bottom"
       },
       {
         "signal": "Top Price",
         "value": 18,
         "d7": 0,
-        "d30": 1,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 3,
+        "d1y": -11,
         "phase": "Bottom"
       },
       {
         "signal": "MVRV Long Term Supply (LTS)",
         "value": 13,
         "d7": 0,
-        "d30": 1,
-        "d90": null,
-        "d1y": null,
+        "d30": 0,
+        "d90": 3,
+        "d1y": -10,
         "phase": "Bottom"
       },
       {
@@ -932,45 +932,63 @@
         "value": 8,
         "d7": 0,
         "d30": 0,
-        "d90": null,
-        "d1y": null,
+        "d90": 1,
+        "d1y": -7,
         "phase": "Bottom"
       }
     ],
     "phase_flips": [
       {
-        "date": "2026-10-15",
-        "signal": "Supply in Profit",
-        "from": "Bottom",
+        "date": "2026-10-19",
+        "signal": "NUPL STS",
+        "from": "Bullish",
         "to": "Bearish"
       },
       {
-        "date": "2026-10-15",
+        "date": "2026-10-19",
         "signal": "NUPL LTS",
         "from": "Bearish",
         "to": "Bullish"
       },
       {
-        "date": "2026-10-15",
+        "date": "2026-09-19",
+        "signal": "Supply in Profit",
+        "from": "Bottom",
+        "to": "Bearish"
+      },
+      {
+        "date": "2026-09-19",
+        "signal": "NUPL STS",
+        "from": "Bearish",
+        "to": "Bullish"
+      },
+      {
+        "date": "2026-09-19",
         "signal": "Market Cap to Thermocap Ratio",
         "from": "Bearish",
         "to": "Bullish"
       },
       {
-        "date": "2026-10-15",
+        "date": "2026-09-19",
         "signal": "UTXOs in Profit",
         "from": "Bearish",
         "to": "Bullish"
+      },
+      {
+        "date": "2026-08-20",
+        "signal": "Balanced Price",
+        "from": "Bottom",
+        "to": "Bearish"
       }
     ],
     "sip_signal": 31,
-    "label_short": "BlockHorizon · 10-15",
-    "bh_tag": "BlockHorizon · carried from Oct 15 read",
+    "label_short": "BlockHorizon · 10-19",
+    "bh_tag": "BlockHorizon · Oct 19",
     "available": true,
-    "source_path": "/workspace/brief-2026-10-19/blockhorizon/kpis.json",
-    "freshness": "Carried from Oct 15 read (no live read Oct 20)",
-    "page_data_date": "2026-10-15",
-    "edition": "DEEP Friday 2026-10-16 — live browser read of public Signal Explorer (page Oct 15; logged out; public data)",
+    "source_path": "/workspace/brief-2026-10-20/blockhorizon/kpis.json",
+    "freshness": "Live (Signal Explorer page date Oct 19)",
+    "page_data_date": "2026-10-19",
+    "edition": "DEEP Tuesday 2026-10-20 — live browser read of public Signal Explorer (page Oct 19; logged out; public data)",
     "source": "https://charts.blockhorizon.io/signals",
     "cycle_index": 32,
     "cycle_phase": "Bearish",
@@ -985,11 +1003,11 @@
       "Top": 0
     },
     "momentum_30d": {
-      "rising": 15,
-      "flat": 1,
-      "falling": 0
+      "rising": 1,
+      "flat": 9,
+      "falling": 6
     },
-    "btc_card_price_usd": 82131,
+    "btc_card_price_usd": 81840,
     "category_pills": {
       "Valuation": {
         "score": 29,
@@ -1021,38 +1039,36 @@
         "score": 29,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-15",
+        "page_date": "2026-10-19",
         "members": 4,
-        "d30": "+4"
+        "d30": null
       },
       "MVRV Family": {
         "score": 25,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-15",
+        "page_date": "2026-10-19",
         "members": 3,
-        "d30": "+2"
+        "d30": "-1"
       },
       "Holder Behavior": {
         "score": 45,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-15",
+        "page_date": "2026-10-19",
         "members": 5,
-        "d30": "+5"
+        "d30": "-1"
       },
       "Profit & Loss": {
         "score": 38,
         "phase": "Bearish",
         "streak_days": null,
-        "page_date": "2026-10-15",
+        "page_date": "2026-10-19",
         "members": 5,
-        "d30": "+5"
+        "d30": "-1"
       }
     },
-    "carried": true,
-    "carried_from": "2026-10-15",
-    "carry_note": "BlockHorizon carried from Oct 15 read — no live read Oct 20."
+    "carried": false
   },
   "hard_gaps": [
     "Weekly WALCL/TGA/RRP now from H.4.1 Wed 2026-10-14 (release 2026-10-15). Daily RRPONTSYD/TGA refreshed via FRED/FiscalData.",
@@ -1676,7 +1692,7 @@
   "checkonchain": {
     "scatter": {
       "schema": "market_watcher.futures_oi_scatter.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:43 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:01 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html",
       "trace": "Today",
@@ -1695,7 +1711,7 @@
     },
     "funding": {
       "schema": "market_watcher.checkonchain.funding.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:43 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:01 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_fundingrate/derivatives_futures_fundingrate_dark.html",
       "as_of": "2026-10-19",
@@ -1728,7 +1744,7 @@
     },
     "futures_oi": {
       "schema": "market_watcher.checkonchain.futures_oi.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:43 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:01 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/derivatives/derivatives_futures_oi_byexchange_0/derivatives_futures_oi_byexchange_0_dark.html",
       "as_of": "2026-10-19",
@@ -1765,7 +1781,7 @@
     },
     "mvrv": {
       "schema": "market_watcher.checkonchain.mvrv.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:02 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all/mvrv_all_dark.html",
       "as_of": "2026-10-19",
@@ -1794,7 +1810,7 @@
     },
     "mvrv_z": {
       "schema": "market_watcher.checkonchain.mvrv_z.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:02 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/mvrv_all_zscore/mvrv_all_zscore_dark.html",
       "as_of": "2026-10-19",
@@ -1820,7 +1836,7 @@
     },
     "sopr": {
       "schema": "market_watcher.checkonchain.sopr.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:44 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:02 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/realised/sopr/sopr_dark.html",
       "as_of": "2026-10-19",
@@ -1847,7 +1863,7 @@
     },
     "supply_profit": {
       "schema": "market_watcher.checkonchain.supply_profit.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:45 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:02 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/unrealised/pctsupplyinprofit_all/pctsupplyinprofit_all_dark.html",
       "as_of": "2026-10-19",
@@ -1868,7 +1884,7 @@
     },
     "cost_basis": {
       "schema": "market_watcher.checkonchain.cost_basis.v1",
-      "fetched_at_vilnius": "2026-10-20 04:17:45 Vilnius (UTC+3)",
+      "fetched_at_vilnius": "2026-10-20 04:24:03 Vilnius (UTC+3)",
       "source_page": "https://charts.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
       "source_cdn": "https://charts-cdn.checkonchain.com/btconchain/pricing/pricing_costbasisoriginals/pricing_costbasisoriginals_dark.html",
       "as_of": "2026-10-19",
@@ -1918,22 +1934,17 @@
       "Neutral"
     ],
     "as_of_brief": "2026-10-20",
-    "built_at_vilnius": "2026-10-20 04:17:45 Vilnius (UTC+3)"
+    "built_at_vilnius": "2026-10-20 04:24:03 Vilnius (UTC+3)"
   },
   "story_confluence": {
     "schema": "market_watcher.story_confluence.v2",
     "as_of_brief": "2026-10-20",
-    "built_at_vilnius": "2026-10-20 04:17:45 Vilnius (UTC+3)",
-    "main_story": "Cautious: caution signals outnumber supports (6 vs 3).",
+    "built_at_vilnius": "2026-10-20 04:24:03 Vilnius (UTC+3)",
+    "main_story": "Cautious: caution signals outnumber supports (7 vs 2).",
     "aligned": [
       {
         "label": "Fed liquidity ↑ improving · Wed 10-14",
         "detail": "Fed balance sheet net of TGA/RRP rose in the weekly print (Wed 10-14); up over 4 weeks.",
-        "tone": "pos"
-      },
-      {
-        "label": "On-chain momentum rising",
-        "detail": "30d signals improving — early recovery",
         "tone": "pos"
       },
       {
@@ -1965,8 +1976,13 @@
       },
       {
         "label": "On-chain Cycle 32 · Bearish · breadth 4/16 weak",
-        "detail": "On-chain cycle not yet supportive; 30d momentum turning up (15/16 rising).",
+        "detail": "On-chain cycle not yet supportive; 30d momentum rolled over MoM (1 of 16 rising, 6 falling; Oct 15 page had 15 rising).",
         "tone": "neg"
+      },
+      {
+        "label": "Holder split: short-term vs long-term",
+        "detail": "BH NUPL STS Bearish vs LTS Bullish (Oct 19 flip) — newer buyers' profit gauge souring while long-term holders hold up.",
+        "tone": "watch"
       },
       {
         "label": "BTC range-bound",
@@ -2077,9 +2093,9 @@
       "breadth_word": "weak",
       "breadth_line": "breadth 4/16 weak",
       "tone": "neg",
-      "mom_up": true,
+      "mom_up": false,
       "signal": "Bearish",
-      "meaning": "On-chain cycle not yet supportive; 30d momentum turning up (15/16 rising).",
+      "meaning": "On-chain cycle not yet supportive; 30d momentum rolled over MoM (1 of 16 rising, 6 falling; Oct 15 page had 15 rising).",
       "line": "Cycle 32 · Bearish · breadth 4/16 weak"
     },
     "rsdh": {
@@ -2106,8 +2122,8 @@
   "daily_headline": "Cautious — October hike scare fades, but BTC can't join the tech bounce while leverage rebuilds and ETF money keeps leaving.",
   "daily_focus": {
     "tone": "watch",
-    "text": "Deep Tuesday lens: Monday's ~65% October-hike quote was an outlier — CME-citing sources and a ZQ-futures replica put it back at ~16–20% (Estimated), with a December hike still ~92% priced. That should help risk, yet BTC was sold at ~$83.1k while the Nasdaq rebounded, and sits ~2% lower WoW. Futures flipped to Leveraged Rally (7d OI +2.6% vs price +0.3%, CoC 10-19) with funding climbing — longs are crowding in without price follow-through. ETF week to Fri 10-16 was −$229M (smaller than the prior week), and Monday's early print is negative again. ~$80.6k below and ~$84k above still frame the week."
+    "text": "Deep Tuesday lens: Monday's ~65% October-hike quote was an outlier — CME-citing sources and a ZQ-futures replica put it back at ~16–20% (Estimated), with a December hike still ~92% priced. That should help risk, yet BTC was sold at ~$83.1k while the Nasdaq rebounded, and sits ~2% lower WoW. Futures flipped to Leveraged Rally (7d OI +2.6% vs price +0.3%, CoC 10-19) with funding climbing — longs are crowding in without price follow-through. ETF week to Fri 10-16 was −$229M (smaller than the prior week), and Monday's early print is negative again. ~$80.6k below and ~$84k above still frame the week. On-chain, the live BlockHorizon page (Oct 19) keeps the cycle at 32 Bearish with 4/16 bullish, but the month-long recovery has stalled: 30d momentum is now 1 rising / 6 falling (15 / 0 on the Oct 15 page) and the short-term holder NUPL gauge flipped Bearish."
   },
-  "scorecard_as_of": "DEEP 2026-10-20 · BlockHorizon carried (Oct 15 page) · CheckOnChain live (10-19) · H.4.1 Wed 10-14 (next 10-22) · ETFs through Fri 10-16 (Mon partial excluded) · FedWatch Estimated 10-19/20",
-  "probs_note": "7D: Bear 35→30, Base 50→55 — Monday's ~65% October-hike quote proved an outlier (major CME-citing reads ~16–20%), and the ~$80.6k weekend low held. Bull stays 15: BTC lagged the tech bounce, leverage is rebuilding without price follow-through and ETF flows are still negative. 1M held at 45/15/40: a December hike is ~92% priced and the Oct 27–28 FOMC remains the swing event."
+  "scorecard_as_of": "DEEP 2026-10-20 · BlockHorizon live (Oct 19 page) · CheckOnChain live (10-19) · H.4.1 Wed 10-14 (next 10-22) · ETFs through Fri 10-16 (Mon partial excluded) · FedWatch Estimated 10-19/20",
+  "probs_note": "7D 55/15/30 (Bear 35→30, Base 50→55): the ~65% October-hike quote proved an outlier (CME-citing reads ~16–20%) and the ~$80.6k weekend low held; Bull stays 15 because BTC lagged the tech bounce, leverage is rebuilding without price follow-through and ETF flows are still negative. 1M Bull 15→10, Base 45→50, Bear held 40: the live BlockHorizon read (Oct 19 page) shows the month-long on-chain recovery has stalled — 30d momentum went from 15 rising / 0 falling to 1 rising / 6 falling, Supply in Profit fell over 30d and the short-term holder NUPL gauge flipped Bearish — so a breakout above $92k within a month has lost its on-chain support. Bear not raised: cycle level and breadth are unchanged (32, 4/16) and CheckOnChain still has price well above short-term holder cost (~$74.6k) with SOPR above 1. The Oct 27–28 FOMC remains the swing event."
 }
