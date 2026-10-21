@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Market Watcher — 2026-10-21</title>
+<link rel="icon" href="data:,">
+<title>Market Watcher</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
 <style>
@@ -72,6 +73,13 @@ h1 { font-family: Newsreader, serif; font-weight: 500; font-size: 28px; margin: 
 .pulse-item .takeaway { font-weight: 500; }
 .pulse-item .signal { font-size: 12px; margin-top: 4px; }
 .quiet { color: var(--muted); font-size: 13px; }
+.pulse-item a { color: inherit; }
+.pulse-item .meaning { font-size: 14px; margin-top: 4px; }
+.pulse-item .why { font-size: 13px; margin-top: 6px; }
+.sub-h { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 18px 0 8px; }
+.curve svg { display: block; width: 100%; height: auto; margin-top: 8px; }
+.legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 5px; }
 footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
 </style>
 </head>
@@ -84,7 +92,7 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
   <a href="#pulse">X Pulse</a>
   <a href="#news">News</a>
 </nav>
-<p class="kicker">Daily brief · 2026-10-21</p>
+<p class="kicker" id="kicker">Daily brief</p>
 <h1>Market Watcher</h1>
 <p class="sub" id="edition-sub">Loading…</p>
 <div class="note" id="combined-note">Loading brief…</div>
@@ -101,7 +109,7 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
 
 <div class="section" id="rsdh">
   <h2>RSDH curve</h2>
-  <div id="rsdh-card" class="cell">Loading equity curve…</div>
+  <div id="rsdh-card" class="cell curve">Loading equity curve…</div>
 </div>
 
 <div class="section" id="pulse">
@@ -110,11 +118,13 @@ footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
 </div>
 
 <div class="section" id="news">
-  <h2>Key changes</h2>
+  <h2>News</h2>
+  <div id="story-list"></div>
+  <p class="sub-h">Key changes</p>
   <div id="news-list"></div>
 </div>
 
-<footer>Market Watcher · paper desk · data unchanged</footer>
+<footer id="footer"></footer>
 </div>
 
 <script>
@@ -125,7 +135,12 @@ async function load() {
       fetch("./x-pulse.json").then(r => r.json()).catch(() => ({items:[]})),
       fetch("./equity-curve.json").then(r => r.json()).catch(() => null)
     ]);
-    document.getElementById("edition-sub").textContent = latest.edition || "2026-10-21";
+    // Strings bound via innerHTML are HTML-escaped by export_paper_desk.py.
+    const day = latest.date || "";
+    document.title = day ? `Market Watcher — ${day}` : "Market Watcher";
+    document.getElementById("kicker").textContent = day ? `Daily brief · ${day}` : "Daily brief";
+    document.getElementById("footer").textContent = day ? `Snapshot · ${day}` : "";
+    document.getElementById("edition-sub").textContent = latest.edition || day;
     document.getElementById("combined-note").textContent = latest.combined_note || "";
 
     const tape = document.getElementById("tape-grid");
@@ -144,15 +159,44 @@ async function load() {
       row.innerHTML = `<div class="bar-label">${p.label}</div><div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div><div class="bar-pct">${pct}%</div>`;
       bars.appendChild(row);
     });
+    (latest.outlook_ranges || []).forEach(t => {
+      const el = document.createElement("div");
+      el.className = "quiet";
+      el.innerHTML = t;
+      bars.appendChild(el);
+    });
 
     const rsdh = document.getElementById("rsdh-card");
-    if (curve && curve.points) {
-      rsdh.innerHTML = `<div class="label">Equity curve</div><div class="value">${curve.points.length} points</div><div class="meaning">Stub — full chart preserved in source data</div>`;
+    const pts = ((curve && curve.points) || []).filter(p => p.strat_final_x != null && p.btc_final_x != null);
+    if (pts.length > 1) {
+      const W = 640, H = 200, P = 28, PL = 48, last = pts[pts.length - 1];
+      const ys = pts.flatMap(p => [p.strat_final_x, p.btc_final_x]);
+      const lo = Math.min(...ys), hi = Math.max(...ys), span = (hi - lo) || 1;
+      const X = i => PL + i * (W - PL - P) / (pts.length - 1);
+      const Y = v => H - P - (v - lo) * (H - 2 * P) / span;
+      const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round" points="${pts.map((p, i) => X(i).toFixed(1) + "," + Y(p[k]).toFixed(1)).join(" ")}"/>`;
+      const txt = (x, y, t, a) => `<text x="${x}" y="${y}" font-size="11" fill="#6b6560" text-anchor="${a}">${t}</text>`;
+      const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="RSDH vs BTC equity">`
+        + `<line x1="${PL}" x2="${W - P}" y1="${Y(hi)}" y2="${Y(hi)}" stroke="#e6e2da"/><line x1="${PL}" x2="${W - P}" y1="${Y(lo)}" y2="${Y(lo)}" stroke="#e6e2da"/>`
+        + (lo < 1 && hi > 1 ? `<line x1="${PL}" x2="${W - P}" y1="${Y(1)}" y2="${Y(1)}" stroke="#e6e2da" stroke-dasharray="3 3"/>` : "")
+        + txt(PL - 6, Y(hi) + 4, hi.toFixed(2) + "×", "end") + txt(PL - 6, Y(lo) + 4, lo.toFixed(2) + "×", "end")
+        + line("btc_final_x", "#6b6560") + line("strat_final_x", "#b45309")
+        + txt(PL, H - 8, pts[0].date, "start") + txt(W - P, H - 8, last.date, "end")
+        + `</svg>`;
+      const s = last.strat_final_x, b = last.btc_final_x;
+      const tone = s > b ? "up" : (s < b ? "down" : "quiet");
+      rsdh.className = "cell curve tone-" + tone;
+      rsdh.innerHTML = `<div class="label">Final× since ${curve.start_label || "start"}</div>`
+        + `<div class="value">RSDH ${s.toFixed(2)}× · BTC ${b.toFixed(2)}×</div>`
+        + svg
+        + `<div class="legend"><span><i style="background:#b45309"></i>RSDH</span><span><i style="background:#6b6560"></i>BTC</span></div>`
+        + `<div class="meaning">${curve.meaning || ""}</div>`;
     } else {
       rsdh.innerHTML = `<div class="label">Equity curve</div><div class="quiet">No curve data</div>`;
     }
 
     const plist = document.getElementById("pulse-list");
+    if (pulse.crowd) plist.insertAdjacentHTML("beforeend", `<p class="quiet" style="margin:0 0 8px">${pulse.crowd}</p>`);
     (pulse.items || []).forEach(p => {
       const el = document.createElement("div");
       el.className = "pulse-item";
@@ -160,6 +204,18 @@ async function load() {
       plist.appendChild(el);
     });
     if (!(pulse.items || []).length) plist.innerHTML = `<div class="quiet">No pulse items</div>`;
+
+    const slist = document.getElementById("story-list");
+    (latest.news || []).forEach(n => {
+      const el = document.createElement("div");
+      el.className = "pulse-item";
+      const head = n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.headline}</a>` : n.headline;
+      el.innerHTML = `<div class="takeaway">${head}</div><div class="meaning">${n.blurb || ""}</div>`
+        + (n.why ? `<div class="why"><span class="quiet">Why it matters:</span> ${n.why}</div>` : "")
+        + (n.source ? `<div class="signal quiet">${n.source}</div>` : "");
+      slist.appendChild(el);
+    });
+    if (!(latest.news || []).length) slist.innerHTML = `<div class="quiet">No news today</div>`;
 
     const nlist = document.getElementById("news-list");
     (latest.key_changes || []).forEach(c => {
