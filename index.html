@@ -6,230 +6,81 @@
 <link rel="icon" href="data:,">
 <title>Market Watcher</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
-<style>
-:root {
-  --bg: #f6f4ef;
-  --surface: #ffffff;
-  --ink: #1a1917;
-  --muted: #6b6560;
-  --line: #e6e2da;
-  --accent: #b45309;
-  --up: #15803d;
-  --down: #b91c1c;
-  --warn: #b45309;
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
-nav {
-  position: sticky; top: 0; z-index: 10;
-  background: rgba(246,244,239,.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--line);
-  padding: 8px 0;
-  margin: -24px -16px 20px;
-  padding-left: 16px; padding-right: 16px;
-}
-nav a {
-  display: inline-block; margin-right: 14px;
-  font-size: 13px; color: var(--muted); text-decoration: none;
-  padding: 4px 0; border-bottom: 2px solid transparent;
-}
-nav a:hover, nav a.active { color: var(--ink); border-bottom-color: var(--accent); }
-.kicker { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
-h1 { font-family: Newsreader, serif; font-weight: 500; font-size: 28px; margin: 0 0 6px; letter-spacing: -.01em; }
-.sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
-.note { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 24px; font-size: 14.5px; }
-.section { margin-bottom: 32px; }
-.section h2 { font-family: Newsreader, serif; font-weight: 500; font-size: 20px; margin: 0 0 12px; }
-.tape { display: grid; grid-template-columns: 1fr; gap: 8px; }
-@media (min-width: 640px) { .tape { grid-template-columns: 1fr 1fr; } }
-.cell {
-  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
-  padding: 12px 14px; display: flex; flex-direction: column; gap: 2px;
-}
-.cell .label { font-size: 12px; color: var(--muted); }
-.cell .value { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 16px; }
-.cell .meaning { font-size: 13px; color: var(--muted); margin-top: 4px; }
-.tone-up .value { color: var(--up); }
-.tone-down .value { color: var(--down); }
-.tone-warn .value { color: var(--warn); }
-.outlook { display: flex; flex-direction: column; gap: 10px; }
-.bar-row { display: flex; align-items: center; gap: 10px; }
-.bar-label { width: 90px; font-size: 13px; color: var(--muted); }
-.bar-track { flex: 1; height: 8px; background: #eeeae3; border-radius: 4px; overflow: hidden; }
-.bar-fill { height: 100%; background: var(--accent); border-radius: 4px; }
-.bar-pct { width: 42px; text-align: right; font-variant-numeric: tabular-nums; font-size: 13px; font-weight: 600; }
-.pulse-item { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
-.pulse-item .takeaway { font-weight: 500; }
-.pulse-item .signal { font-size: 12px; margin-top: 4px; }
-.quiet { color: var(--muted); font-size: 13px; }
-.pulse-item a { color: inherit; }
-.pulse-item .meaning { font-size: 14px; margin-top: 4px; }
-.pulse-item .why { font-size: 13px; margin-top: 6px; }
-.sub-h { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 18px 0 8px; }
-.curve svg { display: block; width: 100%; height: auto; margin-top: 8px; }
-.legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 4px; }
-.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 5px; }
-footer { margin-top: 40px; font-size: 12px; color: var(--muted); }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/paper.css">
 </head>
 <body>
 <div class="wrap">
-<nav>
-  <a href="#tape">Tape</a>
-  <a href="#outlook">Outlook</a>
-  <a href="#rsdh">RSDH</a>
-  <a href="#pulse">X Pulse</a>
-  <a href="#news">News</a>
-</nav>
-<p class="kicker" id="kicker">Daily brief</p>
-<h1>Market Watcher</h1>
-<p class="sub" id="edition-sub">Loading…</p>
-<div class="note" id="combined-note">Loading brief…</div>
-
-<div class="section" id="tape">
-  <h2>Tape</h2>
-  <div class="tape" id="tape-grid"></div>
+<header class="desk-head">
+  <div>
+    <p class="desk-brand">Market Watcher</p>
+    <p class="desk-date" id="desk-date">&nbsp;</p>
+  </div>
+  <div class="desk-upd" id="desk-upd"></div>
+</header>
+<nav class="desk-nav" id="desk-nav" aria-label="Sections"></nav>
+<main id="desk-main"><p class="desk-load">Loading…</p></main>
+<footer class="desk-foot" id="desk-foot"></footer>
 </div>
-
-<div class="section" id="outlook">
-  <h2>Outlook</h2>
-  <div class="outlook" id="outlook-bars"></div>
-</div>
-
-<div class="section" id="rsdh">
-  <h2>RSDH curve</h2>
-  <div id="rsdh-card" class="cell curve">Loading equity curve…</div>
-</div>
-
-<div class="section" id="pulse">
-  <h2>X Pulse</h2>
-  <div id="pulse-list"></div>
-</div>
-
-<div class="section" id="news">
-  <h2>News</h2>
-  <div id="story-list"></div>
-  <p class="sub-h">Key changes</p>
-  <div id="news-list"></div>
-</div>
-
-<footer id="footer"></footer>
-</div>
-
 <script>
-async function load() {
+// Static shell: everything day-specific comes from ./latest.json (export_paper_desk.py).
+(async function () {
+  const main = document.getElementById("desk-main");
+  let d;
   try {
-    const [latest, pulse, curve] = await Promise.all([
-      fetch("./latest.json").then(r => r.json()),
-      fetch("./x-pulse.json").then(r => r.json()).catch(() => ({items:[]})),
-      fetch("./equity-curve.json").then(r => r.json()).catch(() => null)
-    ]);
-    // Strings bound via innerHTML are HTML-escaped by export_paper_desk.py.
-    const day = latest.date || "";
-    document.title = day ? `Market Watcher — ${day}` : "Market Watcher";
-    document.getElementById("kicker").textContent = day ? `Daily brief · ${day}` : "Daily brief";
-    document.getElementById("footer").textContent = day ? `Snapshot · ${day}` : "";
-    document.getElementById("edition-sub").textContent = latest.edition || day;
-    document.getElementById("combined-note").textContent = latest.combined_note || "";
-
-    const tape = document.getElementById("tape-grid");
-    (latest.story_metrics || []).forEach(m => {
-      const el = document.createElement("div");
-      el.className = "cell tone-" + (m.tone || "quiet");
-      el.innerHTML = `<div class="label">${m.label}</div><div class="value">${m.value}</div><div class="meaning">${m.meaning || ""}</div>`;
-      tape.appendChild(el);
-    });
-
-    const bars = document.getElementById("outlook-bars");
-    (latest.probs || []).forEach(p => {
-      const row = document.createElement("div");
-      row.className = "bar-row";
-      const pct = Math.round((p.prob || 0) * 100);
-      row.innerHTML = `<div class="bar-label">${p.label}</div><div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div><div class="bar-pct">${pct}%</div>`;
-      bars.appendChild(row);
-    });
-    (latest.outlook_ranges || []).forEach(t => {
-      const el = document.createElement("div");
-      el.className = "quiet";
-      el.innerHTML = t;
-      bars.appendChild(el);
-    });
-
-    const rsdh = document.getElementById("rsdh-card");
-    const pts = ((curve && curve.points) || []).filter(p => p.strat_final_x != null && p.btc_final_x != null);
-    if (pts.length > 1) {
-      const W = 640, H = 200, P = 28, PL = 48, last = pts[pts.length - 1];
-      const ys = pts.flatMap(p => [p.strat_final_x, p.btc_final_x]);
-      const lo = Math.min(...ys), hi = Math.max(...ys), span = (hi - lo) || 1;
-      const X = i => PL + i * (W - PL - P) / (pts.length - 1);
-      const Y = v => H - P - (v - lo) * (H - 2 * P) / span;
-      const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round" points="${pts.map((p, i) => X(i).toFixed(1) + "," + Y(p[k]).toFixed(1)).join(" ")}"/>`;
-      const txt = (x, y, t, a) => `<text x="${x}" y="${y}" font-size="11" fill="#6b6560" text-anchor="${a}">${t}</text>`;
-      const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="RSDH vs BTC equity">`
-        + `<line x1="${PL}" x2="${W - P}" y1="${Y(hi)}" y2="${Y(hi)}" stroke="#e6e2da"/><line x1="${PL}" x2="${W - P}" y1="${Y(lo)}" y2="${Y(lo)}" stroke="#e6e2da"/>`
-        + (lo < 1 && hi > 1 ? `<line x1="${PL}" x2="${W - P}" y1="${Y(1)}" y2="${Y(1)}" stroke="#e6e2da" stroke-dasharray="3 3"/>` : "")
-        + txt(PL - 6, Y(hi) + 4, hi.toFixed(2) + "×", "end") + txt(PL - 6, Y(lo) + 4, lo.toFixed(2) + "×", "end")
-        + line("btc_final_x", "#6b6560") + line("strat_final_x", "#b45309")
-        + txt(PL, H - 8, pts[0].date, "start") + txt(W - P, H - 8, last.date, "end")
-        + `</svg>`;
-      const s = last.strat_final_x, b = last.btc_final_x;
-      const tone = s > b ? "up" : (s < b ? "down" : "quiet");
-      rsdh.className = "cell curve tone-" + tone;
-      rsdh.innerHTML = `<div class="label">Final× since ${curve.start_label || "start"}</div>`
-        + `<div class="value">RSDH ${s.toFixed(2)}× · BTC ${b.toFixed(2)}×</div>`
-        + svg
-        + `<div class="legend"><span><i style="background:#b45309"></i>RSDH</span><span><i style="background:#6b6560"></i>BTC</span></div>`
-        + `<div class="meaning">${curve.meaning || ""}</div>`;
-    } else {
-      rsdh.innerHTML = `<div class="label">Equity curve</div><div class="quiet">No curve data</div>`;
-    }
-
-    const plist = document.getElementById("pulse-list");
-    if (pulse.crowd) plist.insertAdjacentHTML("beforeend", `<p class="quiet" style="margin:0 0 8px">${pulse.crowd}</p>`);
-    (pulse.items || []).forEach(p => {
-      const el = document.createElement("div");
-      el.className = "pulse-item";
-      el.innerHTML = `<div class="takeaway">${p.takeaway || p.text || ""}</div><div class="signal">${p.signal || ""}</div>`;
-      plist.appendChild(el);
-    });
-    if (!(pulse.items || []).length) plist.innerHTML = `<div class="quiet">No pulse items</div>`;
-
-    const slist = document.getElementById("story-list");
-    (latest.news || []).forEach(n => {
-      const el = document.createElement("div");
-      el.className = "pulse-item";
-      const head = n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.headline}</a>` : n.headline;
-      el.innerHTML = `<div class="takeaway">${head}</div><div class="meaning">${n.blurb || ""}</div>`
-        + (n.why ? `<div class="why"><span class="quiet">Why it matters:</span> ${n.why}</div>` : "")
-        + (n.source ? `<div class="signal quiet">${n.source}</div>` : "");
-      slist.appendChild(el);
-    });
-    if (!(latest.news || []).length) slist.innerHTML = `<div class="quiet">No news today</div>`;
-
-    const nlist = document.getElementById("news-list");
-    (latest.key_changes || []).forEach(c => {
-      const el = document.createElement("div");
-      el.className = "pulse-item";
-      el.innerHTML = `<div class="takeaway">${c}</div>`;
-      nlist.appendChild(el);
-    });
-    if (!(latest.key_changes || []).length) nlist.innerHTML = `<div class="quiet">No key changes listed</div>`;
+    const r = await fetch("./latest.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    d = await r.json();
   } catch (e) {
-    document.body.insertAdjacentHTML("beforeend", `<p class="note" style="margin-top:20px">Failed to load data: ${e.message}</p>`);
+    main.innerHTML = `<p class="desk-load">Data unavailable (${String(e.message).replace(/[<>&]/g, "")}).</p>`;
+    return;
   }
-}
-load();
+  const t = s => String(s == null ? "" : s);
+  document.title = d.date ? `Market Watcher · ${d.date}` : "Market Watcher";
+  const dateEl = document.getElementById("desk-date");
+  dateEl.textContent = t(d.date);
+  if (d.regime) {
+    const rg = document.createElement("span");
+    rg.className = "rg " + t(d.regime_class);
+    rg.textContent = d.regime;
+    dateEl.append(" · ", rg);
+  }
+  document.getElementById("desk-upd").textContent = d.updated ? `Updated ${d.updated}` : "";
+  document.getElementById("desk-foot").textContent = d.date ? `Snapshot · ${d.date}` : "";
+
+  const nav = document.getElementById("desk-nav");
+  main.innerHTML = "";
+  (d.sections || []).forEach(s => {
+    const sec = document.createElement("div");
+    sec.className = "desk-sec";
+    sec.id = s.id;
+    sec.innerHTML = s.html;          // rendered + escaped server-side by the exporter
+    main.appendChild(sec);
+    const a = document.createElement("a");
+    a.href = "#" + s.id;
+    a.textContent = s.nav;
+    nav.appendChild(a);
+  });
+
+  // Scroll-spy: highlight the last section whose top has passed under the sticky nav.
+  const links = [...nav.querySelectorAll("a")];
+  const secs = links.map(a => document.getElementById(a.hash.slice(1)));
+  function spy() {
+    const y = nav.getBoundingClientRect().bottom + 12;
+    let idx = 0;
+    secs.forEach((s, i) => { if (s.getBoundingClientRect().top <= y) idx = i; });
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) idx = secs.length - 1;
+    links.forEach((a, i) => a.classList.toggle("active", i === idx));
+    const act = links[idx];
+    if (act && (act.offsetLeft < nav.scrollLeft || act.offsetLeft + act.offsetWidth > nav.scrollLeft + nav.clientWidth))
+      nav.scrollLeft = act.offsetLeft - 16;
+  }
+  window.addEventListener("scroll", spy, { passive: true });
+  window.addEventListener("resize", spy);
+  spy();
+  if (location.hash && document.getElementById(location.hash.slice(1)))
+    document.getElementById(location.hash.slice(1)).scrollIntoView();
+})();
 </script>
 </body>
 </html>
