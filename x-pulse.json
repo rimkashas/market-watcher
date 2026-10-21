@@ -1,0 +1,32 @@
+{
+ "schema": "market_watcher.paper_desk.x_pulse.v1",
+ "date": "2026-10-21",
+ "stale": false,
+ "crowd": "Analysts lean defensive: 1 bullish · 2 neutral · 3 bearish",
+ "items": [
+  {
+   "takeaway": "The Coinbase premium is at its most negative since the early-July bottom, so US spot buyers are lagging offshore markets.",
+   "signal": "Bearish · Velo · Oct 20 · <a href=\"https://x.com/velo_xyz/status/2112643449208078479\" target=\"_blank\" rel=\"noopener\">post</a>"
+  },
+  {
+   "takeaway": "USDT supply shrank by nearly $1 billion, and if stablecoin supply keeps falling while BTC stalls, the recovery could fade before demand rebuilds.",
+   "signal": "Bearish · CryptoQuant.com · Oct 20 · <a href=\"https://x.com/cryptoquant_com/status/2112606500153647524\" target=\"_blank\" rel=\"noopener\">post</a>"
+  },
+  {
+   "takeaway": "US spot bitcoin ETFs took in $663M in one day, all into IBIT, wiping out October's net outflows; follow-through is what would confirm demand is back.",
+   "signal": "Bullish · glassnode · Oct 20 · <a href=\"https://x.com/glassnode/status/2112549461016928439\" target=\"_blank\" rel=\"noopener\">post</a>"
+  },
+  {
+   "takeaway": "Supply in profit slipped back to 53.8% after briefly topping 60%, a normal late-bear 'period of doubt' around the 50% line while confidence rebuilds.",
+   "signal": "Neutral · Darkfost · Oct 20 · <a href=\"https://x.com/Darkfost_Coc/status/2112527906337354222\" target=\"_blank\" rel=\"noopener\">post</a>"
+  },
+  {
+   "takeaway": "Scoring of FOMC minutes shows the Fed's tone turning more hawkish since March, with most participants expecting another hike before year-end.",
+   "signal": "Bearish · ecoinometrics · Oct 18 · <a href=\"https://x.com/ecoinometrics/status/2111810524220670378\" target=\"_blank\" rel=\"noopener\">post</a>"
+  },
+  {
+   "takeaway": "After a rejection near $87,000, BTC's MVRV fell back below its 30th percentile, a zone it has spent only about 25% of its time in and consistent with accumulation.",
+   "signal": "Neutral · Darkfost · Oct 18 · <a href=\"https://x.com/Darkfost_Coc/status/2111725402498421088\" target=\"_blank\" rel=\"noopener\">post</a>"
+  }
+ ]
+}
