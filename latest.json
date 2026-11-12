@@ -9,54 +9,2047 @@
   {
    "id": "summary",
    "nav": "Summary",
-   "html": "<section class=\"hero\"><p class=\"desk-edition\">Daily refresh 2026-11-12 (SHORT Thursday)</p><div class=\"hero-top\"><span class=\"hero-kicker\">Daily Summary</span><span class=\"badge cautious hero-regime\">Cautious</span></div><p class=\"headline\">Cautious — <abbr class=\"gl\" title=\"The Investorius rotation model (SOL/BTC allocation).\" tabindex=\"0\">RSDH</abbr> rotates into BNB as recent buyers start capitulating.</p><ul class=\"hero-story\"><li class=\"watch\"><span class=\"st-dot\">🟡</span><span class=\"st-text\"><span class=\"st-lead\">Watch</span>on-chain cycle Bearish; dollar and yields rising.</span></li></ul><div class=\"hero-metrics\"><div class=\"hm sig-neg\"><div class=\"lbl\">BTC</div><div class=\"val\">$73,691</div><div class=\"chg\">7d -3.0% · 30d -11.3%</div><span class=\"sig neg\">🔴 Downtrend</span><div class=\"mean\">Weekly losses extend the monthly decline.</div></div><div class=\"hm sig-watch\"><div class=\"lbl\">ETH</div><div class=\"val\">$2,052</div><div class=\"chg\">7d -8.2% · 30d -17.8%</div><span class=\"sig watch\">🟡 Lagging BTC</span><div class=\"mean\">ETH behind BTC this week.</div></div><div class=\"hm sig-pos\"><div class=\"lbl\">Fed liquidity</div><div class=\"val word\">↑ Improving</div><div class=\"chg\">4w improving</div><span class=\"sig pos\">🟢 Supportive</span></div><div class=\"hm sig-watch\"><div class=\"lbl\">Treasury cash</div><div class=\"val word\">→ Flat</div><div class=\"chg\">7d flat · 4w rebuilding</div><span class=\"sig watch\">🟡 Neutral</span><div class=\"mean\">Treasury cash balance little changed this week.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">Stablecoins</div><div class=\"val word\">↓ Contracting</div><div class=\"chg\">7d -1.5% · 30d -4.9%</div><span class=\"sig neg\">🔴 Capital leaving</span><div class=\"mean\">Buying power shrinking.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">Leverage</div><div class=\"val word\">Leveraged Sell-Off</div><div class=\"chg\"><abbr class=\"gl\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\" tabindex=\"0\">OI</abbr> 7d +3.7%</div><span class=\"sig neg\">🔴 Shorts pressing</span><div class=\"mean\">Futures OI +3.7% WoW: new leverage behind the decline.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">USD &amp; yields</div><div class=\"val word\">USD ↑ · 10Y ↑</div><div class=\"chg\"><abbr class=\"gl\" title=\"US dollar index.\" tabindex=\"0\">DXY</abbr> 7d +0.7%</div><span class=\"sig neg\">🔴 Headwind</span><div class=\"mean\">Dollar and 10Y yields rose this week.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">RSDH model</div><div class=\"val word\">BULL</div><span class=\"sig neg\">🔴 Lagging BTC</span><div class=\"mean\">Trailed BTC by 2.3 pp this week.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">On-chain cycle</div><div class=\"val word\">Cycle 29 · Bearish</div><span class=\"sig neg\">🔴 Bearish</span><div class=\"mean\">Cycle slipped deeper into Bearish with the price drop.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">BTC ETF flows</div><div class=\"val neg\">−$1.28B</div><div class=\"chg\">week 2–6 Nov</div><span class=\"sig neg\">🔴 Outflows</span><div class=\"mean\">Net selling.</div></div></div><div class=\"legend\"><span class=\"lg-item\"><i class=\"lg-dot pos\"></i>Supportive</span><span class=\"lg-item\"><i class=\"lg-dot watch\"></i>Watch / mixed</span><span class=\"lg-item\"><i class=\"lg-dot neg\"></i>Caution</span><span class=\"lg-note\">WoW / MoM changes · liquidity as direction only.</span></div></section>"
+   "html": "<style>\n.mw-changes{border-left:3px solid var(--accent)!important}\n.mw-changes h2{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}\n.mw-chg-list{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}\n.mw-chg-list li{display:flex;gap:8px;align-items:flex-start;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface-2);font-size:13px;line-height:1.38}\n.mw-chg-list li.pos{background:var(--pos-dim);border-color:var(--pos-border)}\n.mw-chg-list li.neg{background:var(--neg-dim);border-color:var(--neg-border)}\n.mw-chg-list li.warn{background:var(--warn-dim);border-color:rgba(180,83,9,.28)}\n.mw-chg-list li.acc{background:var(--accent-dim);border-color:var(--accent-border)}\n.mw-ar{flex:none;font-weight:700;width:1em;text-align:center}\nli.pos .mw-ar{color:var(--pos)} li.neg .mw-ar{color:var(--neg)} li.warn .mw-ar{color:var(--warn)} li.acc .mw-ar{color:var(--accent)}\n.mw-k{font-weight:600;color:var(--text)}\n.mw-v{color:var(--text-soft);font-variant-numeric:tabular-nums}\n.mw-quiet{margin:10px 0 0;font-size:12px;color:var(--dim)}\n.mw-legend{display:inline-flex;flex-wrap:wrap;gap:4px 10px;font-size:11.5px;color:var(--muted);font-family:var(--font);font-weight:400}\n.mw-legend .pos{color:var(--pos)} .mw-legend .neg{color:var(--neg)} .mw-legend .warn{color:var(--warn)} .mw-legend .acc{color:var(--accent)}\n.roc{display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:5px;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}\n.roc .r{white-space:nowrap}\n.roc .r b{font-weight:500;color:var(--dim);margin-right:3px}\n.r.pos{color:var(--pos)} .r.neg{color:var(--neg)} .r.acc{color:var(--accent)} .r.flat{color:var(--dim)} .r.na{color:var(--dim);opacity:.75}\n.roc .r.na i{font-style:normal}\n.roc-k{display:block;width:100%;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}\n.hm.mw-hit{box-shadow:inset 3px 0 0 var(--warn)!important;border-color:rgba(180,83,9,.35)!important}\n.hm.mw-hit.mw-pos{box-shadow:inset 3px 0 0 var(--pos)!important;border-color:var(--pos-border)!important}\n.hm.mw-hit.mw-neg{box-shadow:inset 3px 0 0 var(--neg)!important;border-color:var(--neg-border)!important}\n.hm.mw-hit.mw-acc{box-shadow:inset 3px 0 0 var(--accent)!important;border-color:var(--accent-border)!important}\n.mw-badge{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:10.5px;font-weight:600;letter-spacing:.02em;line-height:1.5;white-space:nowrap;vertical-align:1px;text-transform:none;font-family:var(--font)}\n.mw-badge.pos{color:var(--pos);background:var(--pos-dim);border:1px solid var(--pos-border)}\n.mw-badge.neg{color:var(--neg);background:var(--neg-dim);border:1px solid var(--neg-border)}\n.mw-badge.warn{color:var(--warn);background:var(--warn-dim);border:1px solid rgba(180,83,9,.28)}\n.mw-badge.acc{color:var(--accent);background:var(--accent-dim);border:1px solid var(--accent-border)}\n.mw-was{font-size:.7rem;color:var(--dim);margin-top:4px}\n.mw-pd{display:inline-block;min-width:2.6em;margin-left:6px;font-size:11px;font-weight:600;text-align:right;font-variant-numeric:tabular-nums}\n.mw-pd.pos{color:var(--pos)} .mw-pd.neg{color:var(--neg)} .mw-pd.acc{color:var(--accent)} .mw-pd.flat{color:var(--dim);font-weight:400}\n.mw-alloc-chg{margin-top:8px;padding:6px 10px;border-radius:8px;background:var(--warn-dim);border:1px solid rgba(180,83,9,.28);font-size:12.5px;color:var(--text-soft)}\n.mw-alloc-chg b{color:var(--warn)}\ntable.data tr.mw-row-chg td{background:rgba(180,83,9,.06)}\ntable.data tr.mw-row-chg td:first-child{box-shadow:inset 3px 0 0 var(--warn)}\ntable.data tr.mw-row-chg.mw-pos td{background:var(--pos-dim)} table.data tr.mw-row-chg.mw-pos td:first-child{box-shadow:inset 3px 0 0 var(--pos)}\ntable.data tr.mw-row-chg.mw-neg td{background:var(--neg-dim)} table.data tr.mw-row-chg.mw-neg td:first-child{box-shadow:inset 3px 0 0 var(--neg)}\ntable.data tr.mw-row-chg.mw-acc td{background:var(--accent-dim)} table.data tr.mw-row-chg.mw-acc td:first-child{box-shadow:inset 3px 0 0 var(--accent)}\n.mw-roc-table td.num,.mw-roc-table th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}\n.mw-roc-table td.pos{color:var(--pos)} .mw-roc-table td.neg{color:var(--neg)} .mw-roc-table td.acc{color:var(--accent)} .mw-roc-table td.flat{color:var(--dim)}\n.mw-roc-table td.na{color:var(--dim);font-size:11.5px}\n.mw-roc-table tr.mw-grp td{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--surface-3);font-weight:600;padding-top:7px;padding-bottom:7px}\n.mw-roc-table td.src{font-size:11.5px;color:var(--dim)}\n.mw-roc-wrap{overflow-x:auto}\n.prob-card .bar-row.mw-has-pd{grid-template-columns:48px minmax(78px,.85fr) 1fr 42px 34px}\n.prob-card .bar-row .mw-pd{margin-left:0;min-width:0}\n@media(max-width:640px){.mw-chg-list{grid-template-columns:1fr}.mw-roc-table td.src,.mw-roc-table th:last-child{display:none}}\n.oc-hero .roc{justify-content:flex-start;margin:4px 0 6px}\n</style><section class=\"block card mw-changes\"><h2>What changed since Nov 11<span class=\"tag\">Nov 12 vs Nov 11</span><span class=\"mw-legend\"><span class=\"pos\">↑↓ improving</span><span class=\"neg\">↑↓ deteriorating</span><span class=\"acc\">↑↓ neutral move</span><span class=\"warn\">↻ category changed</span></span></h2><ul class=\"mw-chg-list\"><li class=\"warn\"><span class=\"mw-ar\">⇄</span><span><span class=\"mw-k\">RSDH allocation</span> <span class=\"mw-v\">BTC 85% → 39% · BNB 0% → 46% · CASH 15% (=)</span></span></li><li class=\"warn\"><span class=\"mw-ar\">↻</span><span><span class=\"mw-k\">Market structure</span> <span class=\"mw-v\">Trending down → Neutral</span></span></li><li class=\"warn\"><span class=\"mw-ar\">↻</span><span><span class=\"mw-k\">Short-term valuation</span> <span class=\"mw-v\">Undervalued → Fair</span></span></li><li class=\"warn\"><span class=\"mw-ar\">↻</span><span><span class=\"mw-k\">On-chain · LTH-SOPR</span> <span class=\"mw-v\">Loss selling → Modest profits (+0.022 1d → 1.007)</span></span></li><li class=\"warn\"><span class=\"mw-ar\">↻</span><span><span class=\"mw-k\">Funding</span> <span class=\"mw-v\">Warm → Calm (−2.6 pp 1d → +7.8%)</span></span></li><li class=\"pos\"><span class=\"mw-ar\">↑</span><span><span class=\"mw-k\">STH supply in profit</span> <span class=\"mw-v\">+4.3 pp 1d → 31.4%</span></span></li><li class=\"neg\"><span class=\"mw-ar\">↓</span><span><span class=\"mw-k\">Stablecoin supply</span> <span class=\"mw-v\">−0.69% 1d → $289.0B</span></span></li><li class=\"acc\"><span class=\"mw-ar\">↓</span><span><span class=\"mw-k\">Puell Multiple</span> <span class=\"mw-v\">−0.04 1d → 0.87</span></span></li><li class=\"acc\"><span class=\"mw-ar\">↓</span><span><span class=\"mw-k\">RHODL Ratio</span> <span class=\"mw-v\">−5.8% 1d → 0.0865</span></span></li><li class=\"neg\"><span class=\"mw-ar\">↑</span><span><span class=\"mw-k\">DXY</span> <span class=\"mw-v\">+0.74% 1d → 103.03</span></span></li><li class=\"pos\"><span class=\"mw-ar\">↑</span><span><span class=\"mw-k\">Nasdaq</span> <span class=\"mw-v\">+1.6% 1d → 25,466</span></span></li><li class=\"warn\"><span class=\"mw-ar\">↻</span><span><span class=\"mw-k\">Scorecards</span> <span class=\"mw-v\">Leverage: Funding firm → Funding cooling; On-chain cycle: STH underwater → STH capitulating; RSDH: BULL · BTC85/CASH15 → BULL · BTC39/BNB46/CASH15; Risk appetite: Fragile → Split; +1 more</span></span></li></ul><p class=\"mw-quiet\">40 other metrics moved less than their daily threshold and are left unmarked · rate of change for every metric in <a href=\"#roc\">RoC</a>.</p></section><section class=\"hero\"><p class=\"desk-edition\">Daily refresh 2026-11-12 (SHORT Thursday)</p><div class=\"hero-top\"><span class=\"hero-kicker\">Daily Summary</span><span class=\"badge cautious hero-regime\">Cautious</span></div><p class=\"headline\">Cautious — <abbr class=\"gl\" tabindex=\"0\" title=\"The Investorius rotation model (SOL/BTC allocation).\">RSDH</abbr> rotates into BNB as recent buyers start capitulating.</p><ul class=\"hero-story\"><li class=\"watch\"><span class=\"st-dot\">🟡</span><span class=\"st-text\"><span class=\"st-lead\">Watch</span>on-chain cycle Bearish; dollar and yields rising.</span></li></ul><div class=\"hero-metrics\"><div class=\"hm sig-neg\"><div class=\"lbl\">BTC</div><div class=\"val\">$73,691</div><div class=\"roc\"><span class=\"r flat\" title=\"source 24h change\"><b>24h</b>+0.30%</span><span class=\"r neg\" title=\"source 7-day change\"><b>7d</b>−3.0%</span><span class=\"r neg\" title=\"source 30-day change\"><b>30d</b>−11.3%</span></div><span class=\"sig neg\">🔴 Downtrend</span><div class=\"mean\">Weekly losses extend the monthly decline.</div></div><div class=\"hm sig-watch\"><div class=\"lbl\">ETH</div><div class=\"val\">$2,052</div><div class=\"roc\"><span class=\"r flat\" title=\"source 24h change\"><b>24h</b>−0.22%</span><span class=\"r neg\" title=\"source 7-day change\"><b>7d</b>−8.2%</span><span class=\"r neg\" title=\"source 30-day change\"><b>30d</b>−17.8%</span></div><span class=\"sig watch\">🟡 Lagging BTC</span><div class=\"mean\">ETH behind BTC this week.</div></div><div class=\"hm sig-pos\"><div class=\"lbl\">Fed liquidity</div><div class=\"val word\">↑ Improving</div><div class=\"chg\">4w improving</div><span class=\"sig pos\">🟢 Supportive</span></div><div class=\"hm sig-watch\"><div class=\"lbl\">Treasury cash</div><div class=\"val word\">→ Flat</div><div class=\"chg\">7d flat · 4w rebuilding</div><span class=\"sig watch\">🟡 Neutral</span><div class=\"mean\">Treasury cash balance little changed this week.</div></div><div class=\"hm sig-neg mw-hit mw-neg\"><div class=\"lbl\">Stablecoins <span class=\"mw-badge neg\" title=\"since Nov 11\">↓ −0.69% 1d</span></div><div class=\"val word\">↓ Contracting</div><div class=\"roc\"><span class=\"r neg\" title=\"vs run 2026-11-11 (run history)\"><b>1d</b>−0.69%</span><span class=\"r neg\" title=\"DefiLlama\"><b>7d</b>−1.5%</span><span class=\"r neg\" title=\"DefiLlama\"><b>30d</b>−4.9%</span></div><span class=\"sig neg\">🔴 Capital leaving</span><div class=\"mean\">Buying power shrinking.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">Leverage</div><div class=\"val word\">Leveraged Sell-Off</div><div class=\"chg\"><abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> 7d +3.7%</div><div class=\"roc\"><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>1d</b><i>…</i></span><span class=\"r acc\" title=\"CheckOnChain 7-day change\"><b>7d</b>+3.7%</span><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>30d</b><i>…</i></span></div><span class=\"sig neg\">🔴 Shorts pressing</span><div class=\"mean\">Futures OI +3.7% WoW: new leverage behind the decline.</div></div><div class=\"hm sig-neg mw-hit mw-neg\"><div class=\"lbl\">USD &amp; yields <span class=\"mw-badge neg\" title=\"since Nov 11\">↑ +0.74% 1d</span></div><div class=\"val word\">USD ↑ · 10Y ↑</div><div class=\"chg\"><abbr class=\"gl\" tabindex=\"0\" title=\"US dollar index.\">DXY</abbr> 7d +0.7%</div><div class=\"roc\"><span class=\"roc-k\">DXY</span><span class=\"r neg\" title=\"vs run 2026-11-11 (run history)\"><b>1d</b>+0.74%</span><span class=\"r neg\" title=\"5 trading sessions (Yahoo)\"><b>5s</b>+0.71%</span><span class=\"r neg\" title=\"1 month (Yahoo)\"><b>1m</b>+0.83%</span></div><div class=\"roc\"><span class=\"roc-k\">U.S. 10Y yield</span><span class=\"r neg\" title=\"vs run 2026-11-11 (run history)\"><b>1d</b>+2 bp</span><span class=\"r neg\" title=\"5 trading sessions (Yahoo)\"><b>5s</b>+14 bp</span><span class=\"r pos\" title=\"1 month (Yahoo)\"><b>1m</b>−24 bp</span></div><span class=\"sig neg\">🔴 Headwind</span><div class=\"mean\">Dollar and 10Y yields rose this week.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">RSDH model</div><div class=\"val word\">BULL</div><div class=\"roc\"><span class=\"r pos\" title=\"vs run 2026-11-11 (run history)\"><b>1d</b>+2</span><span class=\"r neg\" title=\"vs run 2026-11-06 (run history)\"><b>7d</b>−22</span><span class=\"r neg\" title=\"vs run 2026-10-12 (run history)\"><b>30d</b>−138</span></div><span class=\"sig neg\">🔴 Lagging BTC</span><div class=\"mean\">Trailed BTC by 2.3 pp this week.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">On-chain cycle</div><div class=\"val word\">Cycle 29 · Bearish</div><span class=\"sig neg\">🔴 Bearish</span><div class=\"mean\">Cycle slipped deeper into Bearish with the price drop.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">BTC ETF flows</div><div class=\"val neg\">−$1.28B</div><div class=\"chg\">week 2–6 Nov</div><div class=\"roc\"><span class=\"r na\" title=\"weekly ETF total unchanged since 2026-11-11\"><b>1d</b><i>carried</i></span><span class=\"r neg\" title=\"vs run 2026-11-05 (run history)\"><b>7d</b>−$282M</span><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>30d</b><i>…</i></span></div><span class=\"sig neg\">🔴 Outflows</span><div class=\"mean\">Net selling.</div></div></div><div class=\"legend\"><span class=\"lg-item\"><i class=\"lg-dot pos\"></i>Supportive</span><span class=\"lg-item\"><i class=\"lg-dot watch\"></i>Watch / mixed</span><span class=\"lg-item\"><i class=\"lg-dot neg\"></i>Caution</span><span class=\"lg-note\">WoW / MoM changes · liquidity as direction only.</span></div></section>"
+  },
+  {
+   "id": "roc",
+   "nav": "RoC",
+   "html": "<section class=\"block card mw-roc\"><h2>Rate of change <span class=\"tag\">1d · 7d · 30d</span><span class=\"tag soft\">highlighted rows moved materially since Nov 11</span></h2><div class=\"mw-roc-wrap\"><table class=\"data mw-roc-table\"><thead><tr><th>Metric</th><th class=\"num\">Level</th><th class=\"num\">1d</th><th class=\"num\">7d</th><th class=\"num\">30d</th><th>Window · source</th></tr></thead><tbody><tr class=\"mw-grp\"><td colspan=\"6\">Crypto</td></tr><tr><td>BTC price</td><td class=\"num\">$73,691</td><td class=\"num flat\" title=\"source 24h change\">→ +0.30% <small>(24h)</small></td><td class=\"num neg\" title=\"source 7-day change\">↓ −3.0%</td><td class=\"num neg\" title=\"source 30-day change\">↓ −11.3%</td><td class=\"src\">source series</td></tr><tr><td>ETH price</td><td class=\"num\">$2,052.05</td><td class=\"num flat\" title=\"source 24h change\">→ −0.22% <small>(24h)</small></td><td class=\"num neg\" title=\"source 7-day change\">↓ −8.2%</td><td class=\"num neg\" title=\"source 30-day change\">↓ −17.8%</td><td class=\"src\">source series</td></tr><tr><td>ETH / BTC</td><td class=\"num\">0.0278</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↓ −0.51%</td><td class=\"num acc\" title=\"vs run 2026-11-05 (run history)\">↓ −7.5%</td><td class=\"num acc\" title=\"vs run 2026-10-13 (run history)\">↓ −7.8%</td><td class=\"src\">run history</td></tr><tr><td>BTC dominance</td><td class=\"num\">60.6%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↑ +0.2 pp</td><td class=\"num acc\" title=\"vs run 2026-11-05 (run history)\">↑ +0.4 pp</td><td class=\"num acc\" title=\"vs run 2026-10-13 (run history)\">↑ +0.8 pp</td><td class=\"src\">run history</td></tr><tr><td>Total crypto market cap</td><td class=\"num\">$2,448.3B</td><td class=\"num flat\" title=\"source 24h change\">→ −0.30% <small>(24h)</small></td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↓ −8.9%</td><td class=\"num neg\" title=\"vs run 2026-10-13 (run history)\">↓ −12.9%</td><td class=\"src\">run history + source series</td></tr><tr class=\"mw-row-chg mw-neg\"><td>Stablecoin supply</td><td class=\"num\">$289.0B</td><td class=\"num neg\" title=\"vs run 2026-11-11 (run history)\">↓ −0.69%</td><td class=\"num neg\" title=\"DefiLlama\">↓ −1.5%</td><td class=\"num neg\" title=\"DefiLlama\">↓ −4.9%</td><td class=\"src\">run history + source series · as of Nov 12</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Leverage</td></tr><tr><td>BTC futures OI (all venues)</td><td class=\"num\">$50.7B</td><td class=\"num na\" title=\"history building from 2026-11-12\">building</td><td class=\"num acc\" title=\"CheckOnChain 7-day change\">↑ +3.7%</td><td class=\"num na\" title=\"history building from 2026-11-12\">building</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-acc\"><td>BTC funding (ann., CheckOnChain)</td><td class=\"num\">+7.8%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↓ −2.6 pp</td><td class=\"num flat\" title=\"vs run 2026-11-05 (run history)\">→ −0.1 pp</td><td class=\"num na\" title=\"history building from 2026-11-12\">building</td><td class=\"src\">run history · as of Nov 11</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Flows</td></tr><tr><td>BTC ETF net flow, latest week</td><td class=\"num\">−$1,282M</td><td class=\"num na\" title=\"weekly ETF total unchanged since 2026-11-11\">carried</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↓ −$282M</td><td class=\"num na\" title=\"history building from 2026-11-12\">building</td><td class=\"src\">run history · 2–6 Nov</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Macro</td></tr><tr class=\"mw-row-chg mw-neg\"><td>DXY</td><td class=\"num\">103.03</td><td class=\"num neg\" title=\"vs run 2026-11-11 (run history)\">↑ +0.74%</td><td class=\"num neg\" title=\"5 trading sessions (Yahoo)\">↑ +0.71% <small>(5s)</small></td><td class=\"num neg\" title=\"1 month (Yahoo)\">↑ +0.83% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 12</td></tr><tr><td>U.S. 10Y yield</td><td class=\"num\">5.00%</td><td class=\"num neg\" title=\"vs run 2026-11-11 (run history)\">↑ +2 bp</td><td class=\"num neg\" title=\"5 trading sessions (Yahoo)\">↑ +14 bp <small>(5s)</small></td><td class=\"num pos\" title=\"1 month (Yahoo)\">↓ −24 bp <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>S&amp;P 500</td><td class=\"num\">7,619</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↑ +1.3%</td><td class=\"num pos\" title=\"5 trading sessions (Yahoo)\">↑ +3.3% <small>(5s)</small></td><td class=\"num neg\" title=\"1 month (Yahoo)\">↓ −2.4% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>Nasdaq</td><td class=\"num\">25,466</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↑ +1.6%</td><td class=\"num pos\" title=\"5 trading sessions (Yahoo)\">↑ +3.6% <small>(5s)</small></td><td class=\"num neg\" title=\"1 month (Yahoo)\">↓ −6.5% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>VIX</td><td class=\"num\">17.5</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↓ −10.1%</td><td class=\"num pos\" title=\"5 trading sessions (Yahoo)\">↓ −31.8% <small>(5s)</small></td><td class=\"num neg\" title=\"1 month (Yahoo)\">↑ +15.0% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-acc\"><td>Gold</td><td class=\"num\">$3,984</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↓ −1.8%</td><td class=\"num acc\" title=\"5 trading sessions (Yahoo)\">↓ −2.2% <small>(5s)</small></td><td class=\"num acc\" title=\"1 month (Yahoo)\">↓ −4.6% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 12</td></tr><tr><td>WTI oil</td><td class=\"num\">$85.50</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↓ −1.3%</td><td class=\"num acc\" title=\"5 trading sessions (Yahoo)\">↓ −5.9% <small>(5s)</small></td><td class=\"num acc\" title=\"1 month (Yahoo)\">↓ −9.2% <small>(1m)</small></td><td class=\"src\">run history + source series · as of Nov 12</td></tr><tr><td>U.S. 2Y yield (Treasury)</td><td class=\"num\">4.73%</td><td class=\"num na\" title=\"source not updated since 2026-11-10\">carried</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↑ +15 bp</td><td class=\"num pos\" title=\"vs run 2026-10-13 (run history)\">↓ −7 bp</td><td class=\"src\">run history · as of Nov 10</td></tr><tr><td>2s10s spread</td><td class=\"num\">0.25%</td><td class=\"num na\" title=\"source not updated since 2026-11-10\">carried</td><td class=\"num acc\" title=\"vs run 2026-11-05 (run history)\">↓ −7 bp</td><td class=\"num acc\" title=\"vs run 2026-10-13 (run history)\">↓ −19 bp</td><td class=\"src\">run history · as of Nov 10</td></tr><tr><td>10Y real yield (TIPS)</td><td class=\"num\">2.66%</td><td class=\"num na\" title=\"source not updated since 2026-11-09\">carried</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↑ +4 bp</td><td class=\"num pos\" title=\"vs run 2026-10-13 (run history)\">↓ −21 bp</td><td class=\"src\">run history · as of Nov 9</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Outlook odds</td></tr><tr class=\"mw-row-chg mw-acc\"><td>7-day odds · Base</td><td class=\"num\">42%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↑ +2 pts</td><td class=\"num acc\" title=\"vs run 2026-11-05 (run history)\">↓ −8 pts</td><td class=\"num acc\" title=\"vs run 2026-10-13 (run history)\">↓ −8 pts</td><td class=\"src\">run history</td></tr><tr><td>7-day odds · Bull</td><td class=\"num\">12%</td><td class=\"num flat\" title=\"vs run 2026-11-11 (run history)\">→ ±0 pts</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↓ −4 pts</td><td class=\"num neg\" title=\"vs run 2026-10-13 (run history)\">↓ −8 pts</td><td class=\"src\">run history</td></tr><tr class=\"mw-row-chg mw-pos\"><td>7-day odds · Bear</td><td class=\"num\">46%</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↓ −2 pts</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↑ +12 pts</td><td class=\"num neg\" title=\"vs run 2026-10-13 (run history)\">↑ +16 pts</td><td class=\"src\">run history</td></tr><tr><td>1-month odds · Base</td><td class=\"num\">44%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↑ +1 pt</td><td class=\"num acc\" title=\"vs run 2026-11-05 (run history)\">↓ −3 pts</td><td class=\"num acc\" title=\"vs run 2026-10-13 (run history)\">↓ −1 pt</td><td class=\"src\">run history</td></tr><tr><td>1-month odds · Bull</td><td class=\"num\">13%</td><td class=\"num flat\" title=\"vs run 2026-11-11 (run history)\">→ ±0 pts</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↓ −4 pts</td><td class=\"num neg\" title=\"vs run 2026-10-13 (run history)\">↓ −7 pts</td><td class=\"src\">run history</td></tr><tr><td>1-month odds · Bear</td><td class=\"num\">43%</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↓ −1 pt</td><td class=\"num neg\" title=\"vs run 2026-11-05 (run history)\">↑ +7 pts</td><td class=\"num neg\" title=\"vs run 2026-10-13 (run history)\">↑ +8 pts</td><td class=\"src\">run history</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">RSDH</td></tr><tr><td>RSDH slow (macro) score</td><td class=\"num\">221</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">↑ +2</td><td class=\"num neg\" title=\"vs run 2026-11-06 (run history)\">↓ −22</td><td class=\"num neg\" title=\"vs run 2026-10-12 (run history)\">↓ −138</td><td class=\"src\">run history</td></tr><tr><td>RSDH fast score</td><td class=\"num\">−49</td><td class=\"num neg\" title=\"vs run 2026-11-11 (run history)\">↓ −2</td><td class=\"num neg\" title=\"vs run 2026-11-06 (run history)\">↓ −32</td><td class=\"num neg\" title=\"vs run 2026-10-12 (run history)\">↓ −88</td><td class=\"src\">run history</td></tr><tr class=\"mw-row-chg mw-acc\"><td>RSDH weight · BTC</td><td class=\"num\">39%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↓ −46 pp</td><td class=\"num acc\" title=\"vs run 2026-11-06 (run history)\">↓ −12 pp</td><td class=\"num acc\" title=\"vs run 2026-10-12 (run history)\">↑ +34 pp</td><td class=\"src\">run history</td></tr><tr class=\"mw-row-chg mw-acc\"><td>RSDH weight · BNB</td><td class=\"num\">46%</td><td class=\"num acc\" title=\"vs run 2026-11-11 (run history)\">↑ +46 pp</td><td class=\"num acc\" title=\"vs run 2026-11-06 (run history)\">↑ +46 pp</td><td class=\"num acc\" title=\"vs run 2026-10-12 (run history)\">↑ +46 pp</td><td class=\"src\">run history</td></tr><tr><td>RSDH weight · SOL</td><td class=\"num\">0%</td><td class=\"num flat\" title=\"vs run 2026-11-11 (run history)\">→ ±0 pp</td><td class=\"num acc\" title=\"vs run 2026-11-06 (run history)\">↓ −49 pp</td><td class=\"num acc\" title=\"vs run 2026-10-12 (run history)\">↓ −95 pp</td><td class=\"src\">run history</td></tr><tr><td>RSDH weight · Cash</td><td class=\"num\">15%</td><td class=\"num flat\" title=\"vs run 2026-11-11 (run history)\">→ ±0 pp</td><td class=\"num acc\" title=\"vs run 2026-11-06 (run history)\">↑ +15 pp</td><td class=\"num acc\" title=\"vs run 2026-10-12 (run history)\">↑ +15 pp</td><td class=\"src\">run history</td></tr><tr><td>RSDH growth of $1 · since Sep 7</td><td class=\"num\">0.85</td><td class=\"num flat\" title=\"equity curve vs 2026-11-11\">→ ±0.00%</td><td class=\"num neg\" title=\"equity curve vs 2026-11-05\">↓ −9.9%</td><td class=\"num neg\" title=\"equity curve vs 2026-10-13\">↓ −17.4%</td><td class=\"src\">source series · as of Nov 12</td></tr><tr><td>BTC hold growth of $1 · since Sep 7</td><td class=\"num\">0.93</td><td class=\"num acc\" title=\"equity curve vs 2026-11-11\">↑ +0.85%</td><td class=\"num acc\" title=\"equity curve vs 2026-11-05\">↓ −7.8%</td><td class=\"num acc\" title=\"equity curve vs 2026-10-13\">↓ −9.2%</td><td class=\"src\">source series · as of Nov 12</td></tr><tr><td>RSDH vs BTC (relative)</td><td class=\"num\">0.920</td><td class=\"num neg\" title=\"equity curve vs 2026-11-11\">↓ −0.85%</td><td class=\"num neg\" title=\"equity curve vs 2026-11-05\">↓ −2.3%</td><td class=\"num neg\" title=\"equity curve vs 2026-10-13\">↓ −9.0%</td><td class=\"src\">source series · as of Nov 12</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Valuation</td></tr><tr><td>Short-term valuation score</td><td class=\"num\">−0.18</td><td class=\"num acc\" title=\"recomputed for 2026-11-10, same method\">↑ +0.04</td><td class=\"num acc\" title=\"recomputed for 2026-11-04, same method\">↓ −0.37</td><td class=\"num acc\" title=\"recomputed for 2026-10-12, same method\">↓ −0.61</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>Long-term valuation score</td><td class=\"num\">−0.51</td><td class=\"num flat\" title=\"recomputed for 2026-11-10, same method\">→ ±0.00</td><td class=\"num acc\" title=\"recomputed for 2026-11-04, same method\">↓ −0.27</td><td class=\"num acc\" title=\"recomputed for 2026-10-12, same method\">↓ −0.33</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">On-chain · short-term holders</td></tr><tr><td>STH cost basis</td><td class=\"num\">$75,618</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-10\">↓ −0.13%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.45%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-10-12\">↑ +1.8%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>STH-MVRV</td><td class=\"num\">0.98</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.01</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.08</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.12</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>STH-MVRV Z</td><td class=\"num\">−0.40</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.09</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.60</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.95</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>STH-SOPR</td><td class=\"num\">0.991</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-10\">↓ −0.001</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.009</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.012</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>STH-NUPL</td><td class=\"num\">−0.019</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.012</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.074</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.113</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>STH supply in profit</td><td class=\"num\">31.4%</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +4.3 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −31.4 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −35.8 pp</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">On-chain · long-term holders</td></tr><tr><td>LTH cost basis</td><td class=\"num\">$48,753</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ −0.01%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.27%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-10-12\">↓ −1.2%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>LTH-MVRV</td><td class=\"num\">1.52</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.02</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.12</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.14</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>LTH-MVRV Z</td><td class=\"num\">−0.65</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ +0.01</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.09</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.10</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>LTH-SOPR</td><td class=\"num\">1.007</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.022</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.031</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.229</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>LTH-NUPL</td><td class=\"num\">0.343</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.007</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.049</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.055</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>LTH supply in profit</td><td class=\"num\">65.4%</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.3 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −3.1 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −2.5 pp</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">On-chain · market-wide</td></tr><tr><td>MVRV</td><td class=\"num\">1.38</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.02</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.11</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.15</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>MVRV Z-Score</td><td class=\"num\">−0.50</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.03</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.20</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.26</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>Realized price</td><td class=\"num\">$53,880</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ −0.03%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.20%</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-10-12\">→ +0.09%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>True market mean</td><td class=\"num\">$77,438</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ −0.03%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.24%</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-10-12\">→ −0.04%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>NUPL</td><td class=\"num\">0.274</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.008</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.055</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.069</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>SOPR</td><td class=\"num\">0.991</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +0.004</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.018</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.016</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>SOPR 7d EMA</td><td class=\"num\">0.993</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ ±0.000</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.006</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.019</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-pos\"><td>Supply in profit</td><td class=\"num\">59.0%</td><td class=\"num pos\" title=\"CheckOnChain series vs 2026-11-10\">↑ +1.1 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −8.5 pp</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −8.9 pp</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-acc\"><td>Puell Multiple</td><td class=\"num\">0.87</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-10\">↓ −0.04</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.17</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.25</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>Reserve Risk</td><td class=\"num\">0.0012</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ +0.3%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −8.3%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-10-12\">↓ −10.6%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-row-chg mw-acc\"><td>RHODL Ratio</td><td class=\"num\">0.0865</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-10\">↓ −5.8%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-11-04\">↓ −38.0%</td><td class=\"num acc\" title=\"CheckOnChain series vs 2026-10-12\">↓ −31.1%</td><td class=\"src\">source series · as of Nov 11</td></tr><tr><td>Mayer Multiple</td><td class=\"num\">1.01</td><td class=\"num flat\" title=\"CheckOnChain series vs 2026-11-10\">→ ±0.00</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-11-04\">↓ −0.09</td><td class=\"num neg\" title=\"CheckOnChain series vs 2026-10-12\">↓ −0.12</td><td class=\"src\">source series · as of Nov 11</td></tr><tr class=\"mw-grp\"><td colspan=\"6\">Liquidity (direction only)</td></tr><tr><td>Fed liquidity (weekly)</td><td class=\"num\">↑ Improving</td><td class=\"num na\">weekly</td><td class=\"num\">↑ WoW</td><td class=\"num\">↑ 4w</td><td class=\"src\">direction only · obs Wed 11-04 · next Thu 11-12</td></tr><tr><td>Treasury cash</td><td class=\"num\">→ Flat</td><td class=\"num na\">—</td><td class=\"num\">→ 7d</td><td class=\"num\">↑ 4w</td><td class=\"src\">direction only · as of Nov 9</td></tr></tbody></table></div><p class=\"table-note\">1d = vs previous run Nov 11 unless the source gives its own window (24h); 5s = 5 trading sessions, 1m = 1 month (Yahoo); on-chain and valuation use the CheckOnChain daily series at each metric's own date. \"building\" = not enough stored runs yet (history started from the brief folders); \"carried\" = source not updated since the last run.</p></section>"
   },
   {
    "id": "outlook",
    "nav": "Outlook",
-   "html": "<section class=\"block card\"><h2>Outlook probabilities</h2><p class=\"sec-story\">Base case is a range ($70–77k) at 42%; downside slightly more likely than upside (46% vs 12%).</p><div class=\"probs\"><div class=\"card prob-card\"><h3>7-day</h3><div class=\"bar-row\"><span class=\"scen\">Base</span><span class=\"btc-tgt\">$70–77k</span><div class=\"bar-track\"><div class=\"bar-fill base\" style=\"width:42%\"></div></div><span class=\"pct\">42%</span></div><div class=\"bar-row\"><span class=\"scen\">Bull</span><span class=\"btc-tgt\">&gt;$77k</span><div class=\"bar-track\"><div class=\"bar-fill bull\" style=\"width:12%\"></div></div><span class=\"pct\">12%</span></div><div class=\"bar-row\"><span class=\"scen\">Bear</span><span class=\"btc-tgt na\">—</span><div class=\"bar-track\"><div class=\"bar-fill bear\" style=\"width:46%\"></div></div><span class=\"pct\">46%</span></div></div><div class=\"card prob-card\"><h3>1-month</h3><div class=\"bar-row\"><span class=\"scen\">Base</span><span class=\"btc-tgt\">$66–82k</span><div class=\"bar-track\"><div class=\"bar-fill base\" style=\"width:44%\"></div></div><span class=\"pct\">44%</span></div><div class=\"bar-row\"><span class=\"scen\">Bull</span><span class=\"btc-tgt\">&gt;$82k</span><div class=\"bar-track\"><div class=\"bar-fill bull\" style=\"width:13%\"></div></div><span class=\"pct\">13%</span></div><div class=\"bar-row\"><span class=\"scen\">Bear</span><span class=\"btc-tgt na\">—</span><div class=\"bar-track\"><div class=\"bar-fill bear\" style=\"width:43%\"></div></div><span class=\"pct\">43%</span></div></div></div></section>"
+   "html": "<section class=\"block card\"><h2>Outlook probabilities</h2><p class=\"sec-story\">Base case is a range ($70–77k) at 42%; downside slightly more likely than upside (46% vs 12%).</p><div class=\"probs\"><div class=\"card prob-card\"><h3>7-day <span class=\"tag soft\">Δ vs Nov 11</span></h3><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Base</span><span class=\"btc-tgt\">$70–77k</span><div class=\"bar-track\"><div class=\"bar-fill base\" style=\"width:42%\"></div></div><span class=\"pct\">42%</span><span class=\"mw-pd acc\" title=\"1d vs Nov 11 · pts\">↑2</span></div><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Bull</span><span class=\"btc-tgt\">&gt;$77k</span><div class=\"bar-track\"><div class=\"bar-fill bull\" style=\"width:12%\"></div></div><span class=\"pct\">12%</span><span class=\"mw-pd flat\" title=\"1d vs Nov 11 · pts\">=</span></div><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Bear</span><span class=\"btc-tgt na\">—</span><div class=\"bar-track\"><div class=\"bar-fill bear\" style=\"width:46%\"></div></div><span class=\"pct\">46%</span><span class=\"mw-pd pos\" title=\"1d vs Nov 11 · pts\">↓2</span></div></div><div class=\"card prob-card\"><h3>1-month <span class=\"tag soft\">Δ vs Nov 11</span></h3><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Base</span><span class=\"btc-tgt\">$66–82k</span><div class=\"bar-track\"><div class=\"bar-fill base\" style=\"width:44%\"></div></div><span class=\"pct\">44%</span><span class=\"mw-pd acc\" title=\"1d vs Nov 11 · pts\">↑1</span></div><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Bull</span><span class=\"btc-tgt\">&gt;$82k</span><div class=\"bar-track\"><div class=\"bar-fill bull\" style=\"width:13%\"></div></div><span class=\"pct\">13%</span><span class=\"mw-pd flat\" title=\"1d vs Nov 11 · pts\">=</span></div><div class=\"bar-row mw-has-pd\"><span class=\"scen\">Bear</span><span class=\"btc-tgt na\">—</span><div class=\"bar-track\"><div class=\"bar-fill bear\" style=\"width:43%\"></div></div><span class=\"pct\">43%</span><span class=\"mw-pd pos\" title=\"1d vs Nov 11 · pts\">↓1</span></div></div></div></section>"
   },
   {
    "id": "signals",
    "nav": "Signals",
-   "html": "<section aria-label=\"Story confluence\" class=\"story-confluence\"><div class=\"cf-top\"><span class=\"cf-kicker\">Story confluence</span></div><p class=\"cf-main\">Cautious: caution signals outnumber supports (8 vs 1).</p><div class=\"cf-block\"><div class=\"cf-label aligned-label\">Aligned</div><div class=\"cf-row cf-aligned\"><span class=\"cf-chip pos\" title=\"Fed balance sheet net of TGA/RRP rose in the weekly print (Wed 11-04); up over 4 weeks.\"><span class=\"cf-chip-label\">Fed liquidity ↑ improving</span></span></div></div><div class=\"cf-block\"><div class=\"cf-label watch-label\">Watch / diverging</div><div class=\"cf-row cf-watch\"><span class=\"cf-chip watch\" title=\"Neutral · WoW, 4w rebuilding\"><span class=\"cf-chip-label\">Treasury cash flat</span><span class=\"cf-detail\">Neutral · WoW, 4w rebuilding.</span></span><span class=\"cf-chip neg\" title=\"Futures OI +3.7% WoW: new leverage behind the decline.\"><span class=\"cf-chip-label\">Shorts pressing</span><span class=\"cf-detail\">Futures <abbr class=\"gl\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\" tabindex=\"0\">OI</abbr> +3.7% WoW: new leverage behind the decline.</span></span><span class=\"cf-chip neg\" title=\"Capital leaving\"><span class=\"cf-chip-label\">Stablecoins contracting</span><span class=\"cf-detail\">Capital leaving.</span></span><span class=\"cf-chip neg\" title=\"Trailed BTC by 2.3 pp this week.\"><span class=\"cf-chip-label\"><abbr class=\"gl\" title=\"The Investorius rotation model (SOL/BTC allocation).\" tabindex=\"0\">RSDH</abbr> BULL · Lagging BTC</span><span class=\"cf-detail\">Trailed BTC by 2.3 pp this week.</span></span><span class=\"cf-chip neg\" title=\"Cycle slipped deeper into Bearish with the price drop; 30d momentum weak (0/16 rising).\"><span class=\"cf-chip-label\">On-chain Cycle 29 · Bearish · breadth 1/16 weak</span><span class=\"cf-detail\">Cycle slipped deeper into Bearish with the price drop.</span></span><span class=\"cf-chip neg\" title=\"Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.\"><span class=\"cf-chip-label\">USD &amp; yields: headwind</span><span class=\"cf-detail\">Dollar and 10Y yields rose this week.</span></span><span class=\"cf-chip neg\" title=\"Weekly losses extend the monthly decline.\"><span class=\"cf-chip-label\">BTC downtrend</span><span class=\"cf-detail\">Weekly losses extend the monthly decline.</span></span><span class=\"cf-chip neg\" title=\"−$1.28B week 2–6 Nov\"><span class=\"cf-chip-label\">ETF outflows</span><span class=\"cf-detail\">−$1.28B week 2–6 Nov.</span></span></div></div></section>"
+   "html": "<section aria-label=\"Story confluence\" class=\"story-confluence\"><div class=\"cf-top\"><span class=\"cf-kicker\">Story confluence</span></div><p class=\"cf-main\">Cautious: caution signals outnumber supports (8 vs 1).</p><div class=\"cf-block\"><div class=\"cf-label aligned-label\">Aligned</div><div class=\"cf-row cf-aligned\"><span class=\"cf-chip pos\" title=\"Fed balance sheet net of TGA/RRP rose in the weekly print (Wed 11-04); up over 4 weeks.\"><span class=\"cf-chip-label\">Fed liquidity ↑ improving</span></span></div></div><div class=\"cf-block\"><div class=\"cf-label watch-label\">Watch / diverging</div><div class=\"cf-row cf-watch\"><span class=\"cf-chip watch\" title=\"Neutral · WoW, 4w rebuilding\"><span class=\"cf-chip-label\">Treasury cash flat</span><span class=\"cf-detail\">Neutral · WoW, 4w rebuilding.</span></span><span class=\"cf-chip neg\" title=\"Futures OI +3.7% WoW: new leverage behind the decline.\"><span class=\"cf-chip-label\">Shorts pressing</span><span class=\"cf-detail\">Futures <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> +3.7% WoW: new leverage behind the decline.</span></span><span class=\"cf-chip neg\" title=\"Capital leaving\"><span class=\"cf-chip-label\">Stablecoins contracting</span><span class=\"cf-detail\">Capital leaving.</span></span><span class=\"cf-chip neg\" title=\"Trailed BTC by 2.3 pp this week.\"><span class=\"cf-chip-label\"><abbr class=\"gl\" tabindex=\"0\" title=\"The Investorius rotation model (SOL/BTC allocation).\">RSDH</abbr> BULL · Lagging BTC</span><span class=\"cf-detail\">Trailed BTC by 2.3 pp this week.</span></span><span class=\"cf-chip neg\" title=\"Cycle slipped deeper into Bearish with the price drop; 30d momentum weak (0/16 rising).\"><span class=\"cf-chip-label\">On-chain Cycle 29 · Bearish · breadth 1/16 weak</span><span class=\"cf-detail\">Cycle slipped deeper into Bearish with the price drop.</span></span><span class=\"cf-chip neg\" title=\"Dollar and 10Y yields rose this week — tighter conditions; equities firm, volatility calm.\"><span class=\"cf-chip-label\">USD &amp; yields: headwind</span><span class=\"cf-detail\">Dollar and 10Y yields rose this week.</span></span><span class=\"cf-chip neg\" title=\"Weekly losses extend the monthly decline.\"><span class=\"cf-chip-label\">BTC downtrend</span><span class=\"cf-detail\">Weekly losses extend the monthly decline.</span></span><span class=\"cf-chip neg\" title=\"−$1.28B week 2–6 Nov\"><span class=\"cf-chip-label\">ETF outflows</span><span class=\"cf-detail\">−$1.28B week 2–6 Nov.</span></span></div></div></section>"
   },
   {
    "id": "week",
    "nav": "Week",
-   "html": "<div class=\"two-col\"><section class=\"block card\"><h2>Week &amp; month in review <span class=\"tag\">WoW · MoM</span></h2><ul class=\"chg-list\"><li class=\"down\"><span class=\"clabel\">BTC <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-3.0% WoW · -11.3% MoM → Downtrend</span></li><li class=\"warn\"><span class=\"clabel\">ETH <span class=\"delta-chip warn\">↓</span></span><span class=\"cdetail\">-8.2% WoW · -17.8% MoM → Lagging BTC</span></li><li class=\"up\"><span class=\"clabel\">Fed liquidity<span class=\"delta-chip up\">↑</span></span><span class=\"cdetail\">Improving WoW · improving over 4w → Supportive</span></li><li class=\"warn\"><span class=\"clabel\">Treasury cash <span class=\"delta-chip warn\">→</span></span><span class=\"cdetail\">Flat WoW · rebuilding over 4w → Neutral</span></li><li class=\"down\"><span class=\"clabel\">Stablecoins <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-1.5% 7d · -4.9% 30d → Capital leaving</span></li><li class=\"down\"><span class=\"clabel\">Futures <abbr class=\"gl\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\" tabindex=\"0\">OI</abbr> <span class=\"delta-chip down\">↑</span></span><span class=\"cdetail\">+3.7% WoW → Shorts pressing</span></li><li class=\"down\"><span class=\"clabel\">USD &amp; yields <span class=\"delta-chip down\">↑</span></span><span class=\"cdetail\"><abbr class=\"gl\" title=\"US dollar index.\" tabindex=\"0\">DXY</abbr> +0.7% WoW · 10Y up WoW → Headwind</span></li><li class=\"down\"><span class=\"clabel\">BTC ETFs <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">−$1.28B week 2–6 Nov → Outflows</span></li></ul></section><section class=\"block card\"><h2><abbr class=\"gl\" title=\"The Investorius rotation model (SOL/BTC allocation).\" tabindex=\"0\">RSDH</abbr> this week <span class=\"tag\">WoW</span></h2><ul class=\"chg-list\"><li class=\"down\"><span class=\"clabel\">Edge vs BTC <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-2.3 pp WoW → Lagging BTC</span></li><li class=\"warn\"><span class=\"clabel\">Allocation <span class=\"delta-chip warn\">!</span></span><span class=\"cdetail\">BTC 51% · SOL 49% → BNB 46% · BTC 39% · CASH 15%</span></li><li class=\"up\"><span class=\"clabel\">Model regime <span class=\"delta-chip up\">↑</span></span><span class=\"cdetail\">BULL all week → risk-on filter</span></li><li class=\"down\"><span class=\"clabel\">Since 09-07 <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">0.85× vs BTC 0.93× → Behind BTC</span></li></ul></section></div>"
+   "html": "<div class=\"two-col\"><section class=\"block card\"><h2>Week &amp; month in review <span class=\"tag\">WoW · MoM</span></h2><ul class=\"chg-list\"><li class=\"down\"><span class=\"clabel\">BTC <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-3.0% WoW · -11.3% MoM → Downtrend</span></li><li class=\"warn\"><span class=\"clabel\">ETH <span class=\"delta-chip warn\">↓</span></span><span class=\"cdetail\">-8.2% WoW · -17.8% MoM → Lagging BTC</span></li><li class=\"up\"><span class=\"clabel\">Fed liquidity<span class=\"delta-chip up\">↑</span></span><span class=\"cdetail\">Improving WoW · improving over 4w → Supportive</span></li><li class=\"warn\"><span class=\"clabel\">Treasury cash <span class=\"delta-chip warn\">→</span></span><span class=\"cdetail\">Flat WoW · rebuilding over 4w → Neutral</span></li><li class=\"down\"><span class=\"clabel\">Stablecoins <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-1.5% 7d · -4.9% 30d → Capital leaving</span></li><li class=\"down\"><span class=\"clabel\">Futures <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> <span class=\"delta-chip down\">↑</span></span><span class=\"cdetail\">+3.7% WoW → Shorts pressing</span></li><li class=\"down\"><span class=\"clabel\">USD &amp; yields <span class=\"delta-chip down\">↑</span></span><span class=\"cdetail\"><abbr class=\"gl\" tabindex=\"0\" title=\"US dollar index.\">DXY</abbr> +0.7% WoW · 10Y up WoW → Headwind</span></li><li class=\"down\"><span class=\"clabel\">BTC ETFs <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">−$1.28B week 2–6 Nov → Outflows</span></li></ul></section><section class=\"block card\"><h2><abbr class=\"gl\" tabindex=\"0\" title=\"The Investorius rotation model (SOL/BTC allocation).\">RSDH</abbr> this week <span class=\"tag\">WoW</span></h2><ul class=\"chg-list\"><li class=\"down\"><span class=\"clabel\">Edge vs BTC <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">-2.3 pp WoW → Lagging BTC</span></li><li class=\"warn\"><span class=\"clabel\">Allocation <span class=\"delta-chip warn\">!</span></span><span class=\"cdetail\">BTC 51% · SOL 49% → BNB 46% · BTC 39% · CASH 15%</span></li><li class=\"up\"><span class=\"clabel\">Model regime <span class=\"delta-chip up\">↑</span></span><span class=\"cdetail\">BULL all week → risk-on filter</span></li><li class=\"down\"><span class=\"clabel\">Since 09-07 <span class=\"delta-chip down\">↓</span></span><span class=\"cdetail\">0.85× vs BTC 0.93× → Behind BTC</span></li></ul></section></div>"
   },
   {
    "id": "rsdh",
    "nav": "RSDH",
-   "html": "<section class=\"block card rsdh-card\"><h2><abbr class=\"gl\" title=\"The Investorius rotation model (SOL/BTC allocation).\" tabindex=\"0\">RSDH</abbr> model <span class=\"tag\">RSDH v12.4</span></h2><p class=\"sec-story\">Trailed BTC by 2.3 pp this week.</p><div class=\"meta-row\"><span class=\"meta-chip\"><em>Model regime</em> <strong>BULL</strong> <span class=\"sig pos sm\">🟢 Risk-on filter</span></span><span class=\"meta-chip\"><em>As of</em> <strong>2026-11-12</strong></span><span class=\"meta-chip\"><em>Window</em> <strong>2026-09-07</strong></span><a class=\"meta-chip link\" href=\"https://www.tradingview.com/chart/CiYlQE0T/\" rel=\"noopener\" target=\"_blank\">TV chart</a></div><div class=\"two-col\" style=\"margin-top:10px\"><div><strong style=\"font-size:.78rem;color:var(--dim)\">Display allocation</strong><div class=\"alloc-stack-wrap\"><div class=\"alloc-stack\"><div class=\"alloc-seg btc\" style=\"width:39.0%\" title=\"BTC 39.0%\">BTC 39%</div><div class=\"alloc-seg bnb\" style=\"width:46.0%\" title=\"BNB 46.0%\">BNB 46%</div><div class=\"alloc-seg cash\" style=\"width:15.0%\" title=\"CASH 15.0%\">CASH 15%</div></div><div class=\"alloc-legend\"><span class=\"al btc\"><i></i>BTC <span class=\"pct\">39.0%</span></span><span class=\"al bnb\"><i></i>BNB <span class=\"pct\">46.0%</span></span><span class=\"al cash\"><i></i>CASH <span class=\"pct\">15.0%</span></span></div></div></div><div class=\"sig-grid\"><div class=\"hm sig-neg\"><div class=\"lbl\">Growth of $1 · since 09-07</div><div class=\"val word\">0.85× vs 0.93×</div><span class=\"sig neg\">🔴 Behind BTC</span><div class=\"mean\">Strategy vs holding BTC since 09-07.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">Worst drawdown · since 09-07, daily</div><div class=\"val word\">28.6% vs 15.2%</div><span class=\"sig neg\">🔴 Deeper than BTC</span><div class=\"mean\">Bigger swings than holding BTC.</div></div><div class=\"hm sig-watch\"><div class=\"lbl\">Sharpe · since 09-07, daily</div><div class=\"val word\">-1.11 vs -0.93</div><span class=\"sig watch\">🟡 Not better than BTC</span><div class=\"mean\">Return earned per unit of volatility.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">This week</div><div class=\"val word\">-2.3 pp vs BTC</div><span class=\"sig neg\">🔴 Lagging BTC</span><div class=\"mean\">Change in the strategy's lead over BTC.</div></div></div></div></section><section class=\"block card eq-section rsdh-card\"><h2>Growth of $1 since 2026-09-07 (first logged)</h2><div class=\"eq-legend\"><span class=\"lg rsdh\"><i></i>RSDH</span><span class=\"lg btc\"><i></i>BTC</span><span class=\"lg dim\">RSDH behind BTC since 2026-09-07 · WoW edge -2.3 pp</span></div><svg aria-label=\"RSDH vs BTC Final× since 2026-09-07\" class=\"eq-svg\" role=\"img\" viewbox=\"0 0 900 340\"><defs><lineargradient id=\"eqGradRsdh\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#1e3a5f\" stop-opacity=\"0.28\"></stop><stop offset=\"100%\" stop-color=\"#1e3a5f\" stop-opacity=\"0.01\"></stop></lineargradient><lineargradient id=\"eqGradBtc\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#8a847c\" stop-opacity=\"0.18\"></stop><stop offset=\"100%\" stop-color=\"#8a847c\" stop-opacity=\"0.01\"></stop></lineargradient></defs><rect class=\"eq-bg\" height=\"340\" rx=\"10\" width=\"900\" x=\"0\" y=\"0\"></rect><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"298.0\" y2=\"298.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"301.5\">0.82×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"231.0\" y2=\"231.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"234.5\">0.92×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"164.0\" y2=\"164.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"167.5\">1.03×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"97.0\" y2=\"97.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"100.5\">1.13×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"30.0\" y2=\"30.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"33.5\">1.23×</text><path class=\"eq-area-btc\" d=\"M54.00,180.75 C55.89,182.46 61.58,188.47 65.36,191.04 C69.15,193.61 72.94,194.47 76.73,196.18 C80.52,197.90 84.30,198.75 88.09,201.32 C91.88,203.90 95.67,210.75 99.45,211.61 C103.24,212.47 107.03,207.33 110.82,206.47 C114.61,205.61 118.39,205.61 122.18,206.47 C125.97,207.33 129.76,212.47 133.55,211.61 C137.33,210.75 141.12,199.61 144.91,201.32 C148.70,203.04 152.48,219.33 156.27,221.90 C160.06,224.47 163.85,217.61 167.64,216.76 C171.42,215.90 175.21,222.76 179.00,216.76 C182.79,210.75 186.58,187.61 190.36,180.75 C194.15,173.89 197.94,176.46 201.73,175.61 C205.52,174.75 209.30,182.46 213.09,175.61 C216.88,168.75 220.67,142.17 224.45,134.46 C228.24,126.74 232.03,127.60 235.82,129.31 C239.61,131.03 243.39,141.31 247.18,144.74 C250.97,148.17 254.76,148.17 258.55,149.89 C262.33,151.60 266.12,155.03 269.91,155.03 C273.70,155.03 277.48,150.75 281.27,149.89 C285.06,149.03 288.85,148.17 292.64,149.89 C296.42,151.60 300.21,159.32 304.00,160.18 C307.79,161.03 311.58,155.89 315.36,155.03 C319.15,154.17 322.94,156.75 326.73,155.03 C330.52,153.32 334.30,145.60 338.09,144.74 C341.88,143.89 345.67,150.75 349.45,149.89 C353.24,149.03 357.03,143.89 360.82,139.60 C364.61,135.31 368.39,125.88 372.18,124.17 C375.97,122.45 379.76,127.60 383.55,129.31 C387.33,131.03 391.12,131.03 394.91,134.46 C398.70,137.89 402.48,144.74 406.27,149.89 C410.06,155.03 413.85,164.46 417.64,165.32 C421.42,166.18 425.21,156.75 429.00,155.03 C432.79,153.32 436.58,155.89 440.36,155.03 C444.15,154.17 447.94,148.17 451.73,149.89 C455.52,151.60 459.30,164.46 463.09,165.32 C466.88,166.18 470.67,155.03 474.45,155.03 C478.24,155.03 482.03,164.46 485.82,165.32 C489.61,166.18 493.39,160.18 497.18,160.18 C500.97,160.18 504.76,164.46 508.55,165.32 C512.33,166.18 516.12,166.18 519.91,165.32 C523.70,164.46 527.48,160.18 531.27,160.18 C535.06,160.18 538.85,166.18 542.64,165.32 C546.42,164.46 550.21,158.46 554.00,155.03 C557.79,151.60 561.58,143.03 565.36,144.74 C569.15,146.46 572.94,161.03 576.73,165.32 C580.52,169.61 584.30,169.61 588.09,170.46 C591.88,171.32 595.67,169.61 599.45,170.46 C603.24,171.32 607.03,174.75 610.82,175.61 C614.61,176.46 618.39,176.46 622.18,175.61 C625.97,174.75 629.76,171.32 633.55,170.46 C637.33,169.61 641.12,166.18 644.91,170.46 C648.70,174.75 652.48,191.04 656.27,196.18 C660.06,201.32 663.85,200.47 667.64,201.32 C671.42,202.18 675.21,203.04 679.00,201.32 C682.79,199.61 686.58,190.18 690.36,191.04 C694.15,191.89 697.94,204.75 701.73,206.47 C705.52,208.18 709.30,206.47 713.09,201.32 C716.88,196.18 720.67,173.89 724.45,175.61 C728.24,177.32 732.03,205.61 735.82,211.61 C739.61,217.61 743.39,211.61 747.18,211.61 C750.97,211.61 754.76,209.90 758.55,211.61 C762.33,213.33 766.12,221.04 769.91,221.90 C773.70,222.76 777.48,215.04 781.27,216.76 C785.06,218.47 788.85,230.47 792.64,232.19 C796.42,233.90 802.11,227.90 804.00,227.04 L804.00,298.00 L54.00,298.00 Z\"></path><path class=\"eq-area-rsdh\" d=\"M54.00,180.75 C55.89,183.54 61.58,194.71 65.36,197.50 C69.15,200.29 72.94,195.64 76.73,197.50 C80.52,199.36 84.30,204.94 88.09,208.67 C91.88,212.39 95.67,220.76 99.45,219.83 C103.24,218.90 107.03,205.88 110.82,203.08 C114.61,200.29 118.39,200.29 122.18,203.08 C125.97,205.88 129.76,219.83 133.55,219.83 C137.33,219.83 141.12,200.29 144.91,203.08 C148.70,205.88 152.48,235.65 156.27,236.58 C160.06,237.51 163.85,213.32 167.64,208.67 C171.42,204.01 175.21,226.35 179.00,208.67 C182.79,190.99 186.58,119.33 190.36,102.58 C194.15,85.83 197.94,107.24 201.73,108.17 C205.52,109.10 209.30,116.54 213.09,108.17 C216.88,99.79 220.67,63.50 224.45,57.92 C228.24,52.33 232.03,68.15 235.82,74.67 C239.61,81.18 243.39,95.14 247.18,97.00 C250.97,98.86 254.76,93.28 258.55,85.83 C262.33,78.39 266.12,56.99 269.91,52.33 C273.70,47.68 277.48,57.92 281.27,57.92 C285.06,57.92 288.85,49.54 292.64,52.33 C296.42,55.13 300.21,70.94 304.00,74.67 C307.79,78.39 311.58,73.74 315.36,74.67 C319.15,75.60 322.94,80.25 326.73,80.25 C330.52,80.25 334.30,75.60 338.09,74.67 C341.88,73.74 345.67,74.67 349.45,74.67 C353.24,74.67 357.03,76.53 360.82,74.67 C364.61,72.81 368.39,64.43 372.18,63.50 C375.97,62.57 379.76,68.15 383.55,69.08 C387.33,70.01 391.12,64.43 394.91,69.08 C398.70,73.74 402.48,85.83 406.27,97.00 C410.06,108.17 413.85,128.64 417.64,136.08 C421.42,143.53 425.21,141.67 429.00,141.67 C432.79,141.67 436.58,138.88 440.36,136.08 C444.15,133.29 447.94,121.19 451.73,124.92 C455.52,128.64 459.30,153.76 463.09,158.42 C466.88,163.07 470.67,150.97 474.45,152.83 C478.24,154.69 482.03,167.72 485.82,169.58 C489.61,171.44 493.39,164.00 497.18,164.00 C500.97,164.00 504.76,167.72 508.55,169.58 C512.33,171.44 516.12,175.17 519.91,175.17 C523.70,175.17 527.48,171.44 531.27,169.58 C535.06,167.72 538.85,166.79 542.64,164.00 C546.42,161.21 550.21,154.69 554.00,152.83 C557.79,150.97 561.58,149.11 565.36,152.83 C569.15,156.56 572.94,170.51 576.73,175.17 C580.52,179.82 584.30,179.82 588.09,180.75 C591.88,181.68 595.67,179.82 599.45,180.75 C603.24,181.68 607.03,184.47 610.82,186.33 C614.61,188.19 618.39,191.92 622.18,191.92 C625.97,191.92 629.76,188.19 633.55,186.33 C637.33,184.47 641.12,174.24 644.91,180.75 C648.70,187.26 652.48,217.97 656.27,225.42 C660.06,232.86 663.85,225.42 667.64,225.42 C671.42,225.42 675.21,225.42 679.00,225.42 C682.79,225.42 686.58,222.62 690.36,225.42 C694.15,228.21 697.94,240.31 701.73,242.17 C705.52,244.03 709.30,241.24 713.09,236.58 C716.88,231.93 720.67,211.46 724.45,214.25 C728.24,217.04 732.03,247.75 735.82,253.33 C739.61,258.92 743.39,247.75 747.18,247.75 C750.97,247.75 754.76,250.54 758.55,253.33 C762.33,256.12 766.12,262.64 769.91,264.50 C773.70,266.36 777.48,262.64 781.27,264.50 C785.06,266.36 788.85,273.81 792.64,275.67 C796.42,277.53 802.11,275.67 804.00,275.67 L804.00,298.00 L54.00,298.00 Z\"></path><path class=\"eq-line-btc\" d=\"M54.00,180.75 C55.89,182.46 61.58,188.47 65.36,191.04 C69.15,193.61 72.94,194.47 76.73,196.18 C80.52,197.90 84.30,198.75 88.09,201.32 C91.88,203.90 95.67,210.75 99.45,211.61 C103.24,212.47 107.03,207.33 110.82,206.47 C114.61,205.61 118.39,205.61 122.18,206.47 C125.97,207.33 129.76,212.47 133.55,211.61 C137.33,210.75 141.12,199.61 144.91,201.32 C148.70,203.04 152.48,219.33 156.27,221.90 C160.06,224.47 163.85,217.61 167.64,216.76 C171.42,215.90 175.21,222.76 179.00,216.76 C182.79,210.75 186.58,187.61 190.36,180.75 C194.15,173.89 197.94,176.46 201.73,175.61 C205.52,174.75 209.30,182.46 213.09,175.61 C216.88,168.75 220.67,142.17 224.45,134.46 C228.24,126.74 232.03,127.60 235.82,129.31 C239.61,131.03 243.39,141.31 247.18,144.74 C250.97,148.17 254.76,148.17 258.55,149.89 C262.33,151.60 266.12,155.03 269.91,155.03 C273.70,155.03 277.48,150.75 281.27,149.89 C285.06,149.03 288.85,148.17 292.64,149.89 C296.42,151.60 300.21,159.32 304.00,160.18 C307.79,161.03 311.58,155.89 315.36,155.03 C319.15,154.17 322.94,156.75 326.73,155.03 C330.52,153.32 334.30,145.60 338.09,144.74 C341.88,143.89 345.67,150.75 349.45,149.89 C353.24,149.03 357.03,143.89 360.82,139.60 C364.61,135.31 368.39,125.88 372.18,124.17 C375.97,122.45 379.76,127.60 383.55,129.31 C387.33,131.03 391.12,131.03 394.91,134.46 C398.70,137.89 402.48,144.74 406.27,149.89 C410.06,155.03 413.85,164.46 417.64,165.32 C421.42,166.18 425.21,156.75 429.00,155.03 C432.79,153.32 436.58,155.89 440.36,155.03 C444.15,154.17 447.94,148.17 451.73,149.89 C455.52,151.60 459.30,164.46 463.09,165.32 C466.88,166.18 470.67,155.03 474.45,155.03 C478.24,155.03 482.03,164.46 485.82,165.32 C489.61,166.18 493.39,160.18 497.18,160.18 C500.97,160.18 504.76,164.46 508.55,165.32 C512.33,166.18 516.12,166.18 519.91,165.32 C523.70,164.46 527.48,160.18 531.27,160.18 C535.06,160.18 538.85,166.18 542.64,165.32 C546.42,164.46 550.21,158.46 554.00,155.03 C557.79,151.60 561.58,143.03 565.36,144.74 C569.15,146.46 572.94,161.03 576.73,165.32 C580.52,169.61 584.30,169.61 588.09,170.46 C591.88,171.32 595.67,169.61 599.45,170.46 C603.24,171.32 607.03,174.75 610.82,175.61 C614.61,176.46 618.39,176.46 622.18,175.61 C625.97,174.75 629.76,171.32 633.55,170.46 C637.33,169.61 641.12,166.18 644.91,170.46 C648.70,174.75 652.48,191.04 656.27,196.18 C660.06,201.32 663.85,200.47 667.64,201.32 C671.42,202.18 675.21,203.04 679.00,201.32 C682.79,199.61 686.58,190.18 690.36,191.04 C694.15,191.89 697.94,204.75 701.73,206.47 C705.52,208.18 709.30,206.47 713.09,201.32 C716.88,196.18 720.67,173.89 724.45,175.61 C728.24,177.32 732.03,205.61 735.82,211.61 C739.61,217.61 743.39,211.61 747.18,211.61 C750.97,211.61 754.76,209.90 758.55,211.61 C762.33,213.33 766.12,221.04 769.91,221.90 C773.70,222.76 777.48,215.04 781.27,216.76 C785.06,218.47 788.85,230.47 792.64,232.19 C796.42,233.90 802.11,227.90 804.00,227.04\" stroke-width=\"2.2\"></path><path class=\"eq-line-rsdh\" d=\"M54.00,180.75 C55.89,183.54 61.58,194.71 65.36,197.50 C69.15,200.29 72.94,195.64 76.73,197.50 C80.52,199.36 84.30,204.94 88.09,208.67 C91.88,212.39 95.67,220.76 99.45,219.83 C103.24,218.90 107.03,205.88 110.82,203.08 C114.61,200.29 118.39,200.29 122.18,203.08 C125.97,205.88 129.76,219.83 133.55,219.83 C137.33,219.83 141.12,200.29 144.91,203.08 C148.70,205.88 152.48,235.65 156.27,236.58 C160.06,237.51 163.85,213.32 167.64,208.67 C171.42,204.01 175.21,226.35 179.00,208.67 C182.79,190.99 186.58,119.33 190.36,102.58 C194.15,85.83 197.94,107.24 201.73,108.17 C205.52,109.10 209.30,116.54 213.09,108.17 C216.88,99.79 220.67,63.50 224.45,57.92 C228.24,52.33 232.03,68.15 235.82,74.67 C239.61,81.18 243.39,95.14 247.18,97.00 C250.97,98.86 254.76,93.28 258.55,85.83 C262.33,78.39 266.12,56.99 269.91,52.33 C273.70,47.68 277.48,57.92 281.27,57.92 C285.06,57.92 288.85,49.54 292.64,52.33 C296.42,55.13 300.21,70.94 304.00,74.67 C307.79,78.39 311.58,73.74 315.36,74.67 C319.15,75.60 322.94,80.25 326.73,80.25 C330.52,80.25 334.30,75.60 338.09,74.67 C341.88,73.74 345.67,74.67 349.45,74.67 C353.24,74.67 357.03,76.53 360.82,74.67 C364.61,72.81 368.39,64.43 372.18,63.50 C375.97,62.57 379.76,68.15 383.55,69.08 C387.33,70.01 391.12,64.43 394.91,69.08 C398.70,73.74 402.48,85.83 406.27,97.00 C410.06,108.17 413.85,128.64 417.64,136.08 C421.42,143.53 425.21,141.67 429.00,141.67 C432.79,141.67 436.58,138.88 440.36,136.08 C444.15,133.29 447.94,121.19 451.73,124.92 C455.52,128.64 459.30,153.76 463.09,158.42 C466.88,163.07 470.67,150.97 474.45,152.83 C478.24,154.69 482.03,167.72 485.82,169.58 C489.61,171.44 493.39,164.00 497.18,164.00 C500.97,164.00 504.76,167.72 508.55,169.58 C512.33,171.44 516.12,175.17 519.91,175.17 C523.70,175.17 527.48,171.44 531.27,169.58 C535.06,167.72 538.85,166.79 542.64,164.00 C546.42,161.21 550.21,154.69 554.00,152.83 C557.79,150.97 561.58,149.11 565.36,152.83 C569.15,156.56 572.94,170.51 576.73,175.17 C580.52,179.82 584.30,179.82 588.09,180.75 C591.88,181.68 595.67,179.82 599.45,180.75 C603.24,181.68 607.03,184.47 610.82,186.33 C614.61,188.19 618.39,191.92 622.18,191.92 C625.97,191.92 629.76,188.19 633.55,186.33 C637.33,184.47 641.12,174.24 644.91,180.75 C648.70,187.26 652.48,217.97 656.27,225.42 C660.06,232.86 663.85,225.42 667.64,225.42 C671.42,225.42 675.21,225.42 679.00,225.42 C682.79,225.42 686.58,222.62 690.36,225.42 C694.15,228.21 697.94,240.31 701.73,242.17 C705.52,244.03 709.30,241.24 713.09,236.58 C716.88,231.93 720.67,211.46 724.45,214.25 C728.24,217.04 732.03,247.75 735.82,253.33 C739.61,258.92 743.39,247.75 747.18,247.75 C750.97,247.75 754.76,250.54 758.55,253.33 C762.33,256.12 766.12,262.64 769.91,264.50 C773.70,266.36 777.48,262.64 781.27,264.50 C785.06,266.36 788.85,273.81 792.64,275.67 C796.42,277.53 802.11,275.67 804.00,275.67\" stroke-width=\"2.6\"></path><text class=\"eq-tick\" text-anchor=\"middle\" x=\"54.0\" y=\"326\">09-07</text><text class=\"eq-tick\" text-anchor=\"middle\" x=\"429.0\" y=\"326\">10-10</text><text class=\"eq-tick\" text-anchor=\"middle\" x=\"804.0\" y=\"326\">11-12</text><circle class=\"eq-dot-rsdh\" cx=\"804.0\" cy=\"275.7\" r=\"4.5\"></circle><text class=\"eq-end rsdh\" x=\"814.0\" y=\"279.2\">RSDH 0.85×</text><circle class=\"eq-dot-btc\" cx=\"804.0\" cy=\"227.0\" r=\"4.5\"></circle><text class=\"eq-end btc\" x=\"814.0\" y=\"230.5\">BTC 0.93×</text></svg></section>"
+   "html": "<section class=\"block card rsdh-card\"><h2><abbr class=\"gl\" tabindex=\"0\" title=\"The Investorius rotation model (SOL/BTC allocation).\">RSDH</abbr> model <span class=\"tag\">RSDH v12.4</span></h2><p class=\"sec-story\">Trailed BTC by 2.3 pp this week.</p><div class=\"meta-row\"><span class=\"meta-chip\"><em>Model regime</em> <strong>BULL</strong> <span class=\"sig pos sm\">🟢 Risk-on filter</span></span><span class=\"meta-chip\"><em>As of</em> <strong>2026-11-12</strong></span><span class=\"meta-chip\"><em>Window</em> <strong>2026-09-07</strong></span><a class=\"meta-chip link\" href=\"https://www.tradingview.com/chart/CiYlQE0T/\" rel=\"noopener\" target=\"_blank\">TV chart</a></div><div class=\"two-col\" style=\"margin-top:10px\"><div><strong style=\"font-size:.78rem;color:var(--dim)\">Display allocation</strong><div class=\"alloc-stack-wrap\"><div class=\"alloc-stack\"><div class=\"alloc-seg btc\" style=\"width:39.0%\" title=\"BTC 39.0%\">BTC 39%</div><div class=\"alloc-seg bnb\" style=\"width:46.0%\" title=\"BNB 46.0%\">BNB 46%</div><div class=\"alloc-seg cash\" style=\"width:15.0%\" title=\"CASH 15.0%\">CASH 15%</div></div><div class=\"alloc-legend\"><span class=\"al btc\"><i></i>BTC <span class=\"pct\">39.0%</span></span><span class=\"al bnb\"><i></i>BNB <span class=\"pct\">46.0%</span></span><span class=\"al cash\"><i></i>CASH <span class=\"pct\">15.0%</span></span></div></div><div class=\"mw-alloc-chg\"><b>⇄ Changed since Nov 11:</b> BTC 85% → 39% · BNB 0% → 46% · CASH 15% (=)</div></div><div class=\"sig-grid\"><div class=\"hm sig-neg\"><div class=\"lbl\">Growth of $1 · since 09-07</div><div class=\"val word\">0.85× vs 0.93×</div><div class=\"roc\"><span class=\"r flat\" title=\"equity curve vs 2026-11-11\"><b>1d</b>±0.00%</span><span class=\"r neg\" title=\"equity curve vs 2026-11-05\"><b>7d</b>−9.9%</span><span class=\"r neg\" title=\"equity curve vs 2026-10-13\"><b>30d</b>−17.4%</span></div><span class=\"sig neg\">🔴 Behind BTC</span><div class=\"mean\">Strategy vs holding BTC since 09-07.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">Worst drawdown · since 09-07, daily</div><div class=\"val word\">28.6% vs 15.2%</div><span class=\"sig neg\">🔴 Deeper than BTC</span><div class=\"mean\">Bigger swings than holding BTC.</div></div><div class=\"hm sig-watch\"><div class=\"lbl\">Sharpe · since 09-07, daily</div><div class=\"val word\">-1.11 vs -0.93</div><span class=\"sig watch\">🟡 Not better than BTC</span><div class=\"mean\">Return earned per unit of volatility.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\">This week</div><div class=\"val word\">-2.3 pp vs BTC</div><div class=\"roc\"><span class=\"r neg\" title=\"equity curve vs 2026-11-11\"><b>1d</b>−0.85%</span><span class=\"r neg\" title=\"equity curve vs 2026-11-05\"><b>7d</b>−2.3%</span><span class=\"r neg\" title=\"equity curve vs 2026-10-13\"><b>30d</b>−9.0%</span></div><span class=\"sig neg\">🔴 Lagging BTC</span><div class=\"mean\">Change in the strategy's lead over BTC.</div></div></div></div></section><section class=\"block card eq-section rsdh-card\"><h2>Growth of $1 since 2026-09-07 (first logged)</h2><div class=\"eq-legend\"><span class=\"lg rsdh\"><i></i>RSDH</span><span class=\"lg btc\"><i></i>BTC</span><span class=\"lg dim\">RSDH behind BTC since 2026-09-07 · WoW edge -2.3 pp</span></div><svg aria-label=\"RSDH vs BTC Final× since 2026-09-07\" class=\"eq-svg\" role=\"img\" viewbox=\"0 0 900 340\"><defs><lineargradient id=\"eqGradRsdh\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#1e3a5f\" stop-opacity=\"0.28\"></stop><stop offset=\"100%\" stop-color=\"#1e3a5f\" stop-opacity=\"0.01\"></stop></lineargradient><lineargradient id=\"eqGradBtc\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#8a847c\" stop-opacity=\"0.18\"></stop><stop offset=\"100%\" stop-color=\"#8a847c\" stop-opacity=\"0.01\"></stop></lineargradient></defs><rect class=\"eq-bg\" height=\"340\" rx=\"10\" width=\"900\" x=\"0\" y=\"0\"></rect><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"298.0\" y2=\"298.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"301.5\">0.82×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"231.0\" y2=\"231.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"234.5\">0.92×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"164.0\" y2=\"164.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"167.5\">1.03×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"97.0\" y2=\"97.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"100.5\">1.13×</text><line class=\"eq-grid\" x1=\"54\" x2=\"804\" y1=\"30.0\" y2=\"30.0\"></line><text class=\"eq-tick\" text-anchor=\"end\" x=\"46\" y=\"33.5\">1.23×</text><path class=\"eq-area-btc\" d=\"M54.00,180.75 C55.89,182.46 61.58,188.47 65.36,191.04 C69.15,193.61 72.94,194.47 76.73,196.18 C80.52,197.90 84.30,198.75 88.09,201.32 C91.88,203.90 95.67,210.75 99.45,211.61 C103.24,212.47 107.03,207.33 110.82,206.47 C114.61,205.61 118.39,205.61 122.18,206.47 C125.97,207.33 129.76,212.47 133.55,211.61 C137.33,210.75 141.12,199.61 144.91,201.32 C148.70,203.04 152.48,219.33 156.27,221.90 C160.06,224.47 163.85,217.61 167.64,216.76 C171.42,215.90 175.21,222.76 179.00,216.76 C182.79,210.75 186.58,187.61 190.36,180.75 C194.15,173.89 197.94,176.46 201.73,175.61 C205.52,174.75 209.30,182.46 213.09,175.61 C216.88,168.75 220.67,142.17 224.45,134.46 C228.24,126.74 232.03,127.60 235.82,129.31 C239.61,131.03 243.39,141.31 247.18,144.74 C250.97,148.17 254.76,148.17 258.55,149.89 C262.33,151.60 266.12,155.03 269.91,155.03 C273.70,155.03 277.48,150.75 281.27,149.89 C285.06,149.03 288.85,148.17 292.64,149.89 C296.42,151.60 300.21,159.32 304.00,160.18 C307.79,161.03 311.58,155.89 315.36,155.03 C319.15,154.17 322.94,156.75 326.73,155.03 C330.52,153.32 334.30,145.60 338.09,144.74 C341.88,143.89 345.67,150.75 349.45,149.89 C353.24,149.03 357.03,143.89 360.82,139.60 C364.61,135.31 368.39,125.88 372.18,124.17 C375.97,122.45 379.76,127.60 383.55,129.31 C387.33,131.03 391.12,131.03 394.91,134.46 C398.70,137.89 402.48,144.74 406.27,149.89 C410.06,155.03 413.85,164.46 417.64,165.32 C421.42,166.18 425.21,156.75 429.00,155.03 C432.79,153.32 436.58,155.89 440.36,155.03 C444.15,154.17 447.94,148.17 451.73,149.89 C455.52,151.60 459.30,164.46 463.09,165.32 C466.88,166.18 470.67,155.03 474.45,155.03 C478.24,155.03 482.03,164.46 485.82,165.32 C489.61,166.18 493.39,160.18 497.18,160.18 C500.97,160.18 504.76,164.46 508.55,165.32 C512.33,166.18 516.12,166.18 519.91,165.32 C523.70,164.46 527.48,160.18 531.27,160.18 C535.06,160.18 538.85,166.18 542.64,165.32 C546.42,164.46 550.21,158.46 554.00,155.03 C557.79,151.60 561.58,143.03 565.36,144.74 C569.15,146.46 572.94,161.03 576.73,165.32 C580.52,169.61 584.30,169.61 588.09,170.46 C591.88,171.32 595.67,169.61 599.45,170.46 C603.24,171.32 607.03,174.75 610.82,175.61 C614.61,176.46 618.39,176.46 622.18,175.61 C625.97,174.75 629.76,171.32 633.55,170.46 C637.33,169.61 641.12,166.18 644.91,170.46 C648.70,174.75 652.48,191.04 656.27,196.18 C660.06,201.32 663.85,200.47 667.64,201.32 C671.42,202.18 675.21,203.04 679.00,201.32 C682.79,199.61 686.58,190.18 690.36,191.04 C694.15,191.89 697.94,204.75 701.73,206.47 C705.52,208.18 709.30,206.47 713.09,201.32 C716.88,196.18 720.67,173.89 724.45,175.61 C728.24,177.32 732.03,205.61 735.82,211.61 C739.61,217.61 743.39,211.61 747.18,211.61 C750.97,211.61 754.76,209.90 758.55,211.61 C762.33,213.33 766.12,221.04 769.91,221.90 C773.70,222.76 777.48,215.04 781.27,216.76 C785.06,218.47 788.85,230.47 792.64,232.19 C796.42,233.90 802.11,227.90 804.00,227.04 L804.00,298.00 L54.00,298.00 Z\"></path><path class=\"eq-area-rsdh\" d=\"M54.00,180.75 C55.89,183.54 61.58,194.71 65.36,197.50 C69.15,200.29 72.94,195.64 76.73,197.50 C80.52,199.36 84.30,204.94 88.09,208.67 C91.88,212.39 95.67,220.76 99.45,219.83 C103.24,218.90 107.03,205.88 110.82,203.08 C114.61,200.29 118.39,200.29 122.18,203.08 C125.97,205.88 129.76,219.83 133.55,219.83 C137.33,219.83 141.12,200.29 144.91,203.08 C148.70,205.88 152.48,235.65 156.27,236.58 C160.06,237.51 163.85,213.32 167.64,208.67 C171.42,204.01 175.21,226.35 179.00,208.67 C182.79,190.99 186.58,119.33 190.36,102.58 C194.15,85.83 197.94,107.24 201.73,108.17 C205.52,109.10 209.30,116.54 213.09,108.17 C216.88,99.79 220.67,63.50 224.45,57.92 C228.24,52.33 232.03,68.15 235.82,74.67 C239.61,81.18 243.39,95.14 247.18,97.00 C250.97,98.86 254.76,93.28 258.55,85.83 C262.33,78.39 266.12,56.99 269.91,52.33 C273.70,47.68 277.48,57.92 281.27,57.92 C285.06,57.92 288.85,49.54 292.64,52.33 C296.42,55.13 300.21,70.94 304.00,74.67 C307.79,78.39 311.58,73.74 315.36,74.67 C319.15,75.60 322.94,80.25 326.73,80.25 C330.52,80.25 334.30,75.60 338.09,74.67 C341.88,73.74 345.67,74.67 349.45,74.67 C353.24,74.67 357.03,76.53 360.82,74.67 C364.61,72.81 368.39,64.43 372.18,63.50 C375.97,62.57 379.76,68.15 383.55,69.08 C387.33,70.01 391.12,64.43 394.91,69.08 C398.70,73.74 402.48,85.83 406.27,97.00 C410.06,108.17 413.85,128.64 417.64,136.08 C421.42,143.53 425.21,141.67 429.00,141.67 C432.79,141.67 436.58,138.88 440.36,136.08 C444.15,133.29 447.94,121.19 451.73,124.92 C455.52,128.64 459.30,153.76 463.09,158.42 C466.88,163.07 470.67,150.97 474.45,152.83 C478.24,154.69 482.03,167.72 485.82,169.58 C489.61,171.44 493.39,164.00 497.18,164.00 C500.97,164.00 504.76,167.72 508.55,169.58 C512.33,171.44 516.12,175.17 519.91,175.17 C523.70,175.17 527.48,171.44 531.27,169.58 C535.06,167.72 538.85,166.79 542.64,164.00 C546.42,161.21 550.21,154.69 554.00,152.83 C557.79,150.97 561.58,149.11 565.36,152.83 C569.15,156.56 572.94,170.51 576.73,175.17 C580.52,179.82 584.30,179.82 588.09,180.75 C591.88,181.68 595.67,179.82 599.45,180.75 C603.24,181.68 607.03,184.47 610.82,186.33 C614.61,188.19 618.39,191.92 622.18,191.92 C625.97,191.92 629.76,188.19 633.55,186.33 C637.33,184.47 641.12,174.24 644.91,180.75 C648.70,187.26 652.48,217.97 656.27,225.42 C660.06,232.86 663.85,225.42 667.64,225.42 C671.42,225.42 675.21,225.42 679.00,225.42 C682.79,225.42 686.58,222.62 690.36,225.42 C694.15,228.21 697.94,240.31 701.73,242.17 C705.52,244.03 709.30,241.24 713.09,236.58 C716.88,231.93 720.67,211.46 724.45,214.25 C728.24,217.04 732.03,247.75 735.82,253.33 C739.61,258.92 743.39,247.75 747.18,247.75 C750.97,247.75 754.76,250.54 758.55,253.33 C762.33,256.12 766.12,262.64 769.91,264.50 C773.70,266.36 777.48,262.64 781.27,264.50 C785.06,266.36 788.85,273.81 792.64,275.67 C796.42,277.53 802.11,275.67 804.00,275.67 L804.00,298.00 L54.00,298.00 Z\"></path><path class=\"eq-line-btc\" d=\"M54.00,180.75 C55.89,182.46 61.58,188.47 65.36,191.04 C69.15,193.61 72.94,194.47 76.73,196.18 C80.52,197.90 84.30,198.75 88.09,201.32 C91.88,203.90 95.67,210.75 99.45,211.61 C103.24,212.47 107.03,207.33 110.82,206.47 C114.61,205.61 118.39,205.61 122.18,206.47 C125.97,207.33 129.76,212.47 133.55,211.61 C137.33,210.75 141.12,199.61 144.91,201.32 C148.70,203.04 152.48,219.33 156.27,221.90 C160.06,224.47 163.85,217.61 167.64,216.76 C171.42,215.90 175.21,222.76 179.00,216.76 C182.79,210.75 186.58,187.61 190.36,180.75 C194.15,173.89 197.94,176.46 201.73,175.61 C205.52,174.75 209.30,182.46 213.09,175.61 C216.88,168.75 220.67,142.17 224.45,134.46 C228.24,126.74 232.03,127.60 235.82,129.31 C239.61,131.03 243.39,141.31 247.18,144.74 C250.97,148.17 254.76,148.17 258.55,149.89 C262.33,151.60 266.12,155.03 269.91,155.03 C273.70,155.03 277.48,150.75 281.27,149.89 C285.06,149.03 288.85,148.17 292.64,149.89 C296.42,151.60 300.21,159.32 304.00,160.18 C307.79,161.03 311.58,155.89 315.36,155.03 C319.15,154.17 322.94,156.75 326.73,155.03 C330.52,153.32 334.30,145.60 338.09,144.74 C341.88,143.89 345.67,150.75 349.45,149.89 C353.24,149.03 357.03,143.89 360.82,139.60 C364.61,135.31 368.39,125.88 372.18,124.17 C375.97,122.45 379.76,127.60 383.55,129.31 C387.33,131.03 391.12,131.03 394.91,134.46 C398.70,137.89 402.48,144.74 406.27,149.89 C410.06,155.03 413.85,164.46 417.64,165.32 C421.42,166.18 425.21,156.75 429.00,155.03 C432.79,153.32 436.58,155.89 440.36,155.03 C444.15,154.17 447.94,148.17 451.73,149.89 C455.52,151.60 459.30,164.46 463.09,165.32 C466.88,166.18 470.67,155.03 474.45,155.03 C478.24,155.03 482.03,164.46 485.82,165.32 C489.61,166.18 493.39,160.18 497.18,160.18 C500.97,160.18 504.76,164.46 508.55,165.32 C512.33,166.18 516.12,166.18 519.91,165.32 C523.70,164.46 527.48,160.18 531.27,160.18 C535.06,160.18 538.85,166.18 542.64,165.32 C546.42,164.46 550.21,158.46 554.00,155.03 C557.79,151.60 561.58,143.03 565.36,144.74 C569.15,146.46 572.94,161.03 576.73,165.32 C580.52,169.61 584.30,169.61 588.09,170.46 C591.88,171.32 595.67,169.61 599.45,170.46 C603.24,171.32 607.03,174.75 610.82,175.61 C614.61,176.46 618.39,176.46 622.18,175.61 C625.97,174.75 629.76,171.32 633.55,170.46 C637.33,169.61 641.12,166.18 644.91,170.46 C648.70,174.75 652.48,191.04 656.27,196.18 C660.06,201.32 663.85,200.47 667.64,201.32 C671.42,202.18 675.21,203.04 679.00,201.32 C682.79,199.61 686.58,190.18 690.36,191.04 C694.15,191.89 697.94,204.75 701.73,206.47 C705.52,208.18 709.30,206.47 713.09,201.32 C716.88,196.18 720.67,173.89 724.45,175.61 C728.24,177.32 732.03,205.61 735.82,211.61 C739.61,217.61 743.39,211.61 747.18,211.61 C750.97,211.61 754.76,209.90 758.55,211.61 C762.33,213.33 766.12,221.04 769.91,221.90 C773.70,222.76 777.48,215.04 781.27,216.76 C785.06,218.47 788.85,230.47 792.64,232.19 C796.42,233.90 802.11,227.90 804.00,227.04\" stroke-width=\"2.2\"></path><path class=\"eq-line-rsdh\" d=\"M54.00,180.75 C55.89,183.54 61.58,194.71 65.36,197.50 C69.15,200.29 72.94,195.64 76.73,197.50 C80.52,199.36 84.30,204.94 88.09,208.67 C91.88,212.39 95.67,220.76 99.45,219.83 C103.24,218.90 107.03,205.88 110.82,203.08 C114.61,200.29 118.39,200.29 122.18,203.08 C125.97,205.88 129.76,219.83 133.55,219.83 C137.33,219.83 141.12,200.29 144.91,203.08 C148.70,205.88 152.48,235.65 156.27,236.58 C160.06,237.51 163.85,213.32 167.64,208.67 C171.42,204.01 175.21,226.35 179.00,208.67 C182.79,190.99 186.58,119.33 190.36,102.58 C194.15,85.83 197.94,107.24 201.73,108.17 C205.52,109.10 209.30,116.54 213.09,108.17 C216.88,99.79 220.67,63.50 224.45,57.92 C228.24,52.33 232.03,68.15 235.82,74.67 C239.61,81.18 243.39,95.14 247.18,97.00 C250.97,98.86 254.76,93.28 258.55,85.83 C262.33,78.39 266.12,56.99 269.91,52.33 C273.70,47.68 277.48,57.92 281.27,57.92 C285.06,57.92 288.85,49.54 292.64,52.33 C296.42,55.13 300.21,70.94 304.00,74.67 C307.79,78.39 311.58,73.74 315.36,74.67 C319.15,75.60 322.94,80.25 326.73,80.25 C330.52,80.25 334.30,75.60 338.09,74.67 C341.88,73.74 345.67,74.67 349.45,74.67 C353.24,74.67 357.03,76.53 360.82,74.67 C364.61,72.81 368.39,64.43 372.18,63.50 C375.97,62.57 379.76,68.15 383.55,69.08 C387.33,70.01 391.12,64.43 394.91,69.08 C398.70,73.74 402.48,85.83 406.27,97.00 C410.06,108.17 413.85,128.64 417.64,136.08 C421.42,143.53 425.21,141.67 429.00,141.67 C432.79,141.67 436.58,138.88 440.36,136.08 C444.15,133.29 447.94,121.19 451.73,124.92 C455.52,128.64 459.30,153.76 463.09,158.42 C466.88,163.07 470.67,150.97 474.45,152.83 C478.24,154.69 482.03,167.72 485.82,169.58 C489.61,171.44 493.39,164.00 497.18,164.00 C500.97,164.00 504.76,167.72 508.55,169.58 C512.33,171.44 516.12,175.17 519.91,175.17 C523.70,175.17 527.48,171.44 531.27,169.58 C535.06,167.72 538.85,166.79 542.64,164.00 C546.42,161.21 550.21,154.69 554.00,152.83 C557.79,150.97 561.58,149.11 565.36,152.83 C569.15,156.56 572.94,170.51 576.73,175.17 C580.52,179.82 584.30,179.82 588.09,180.75 C591.88,181.68 595.67,179.82 599.45,180.75 C603.24,181.68 607.03,184.47 610.82,186.33 C614.61,188.19 618.39,191.92 622.18,191.92 C625.97,191.92 629.76,188.19 633.55,186.33 C637.33,184.47 641.12,174.24 644.91,180.75 C648.70,187.26 652.48,217.97 656.27,225.42 C660.06,232.86 663.85,225.42 667.64,225.42 C671.42,225.42 675.21,225.42 679.00,225.42 C682.79,225.42 686.58,222.62 690.36,225.42 C694.15,228.21 697.94,240.31 701.73,242.17 C705.52,244.03 709.30,241.24 713.09,236.58 C716.88,231.93 720.67,211.46 724.45,214.25 C728.24,217.04 732.03,247.75 735.82,253.33 C739.61,258.92 743.39,247.75 747.18,247.75 C750.97,247.75 754.76,250.54 758.55,253.33 C762.33,256.12 766.12,262.64 769.91,264.50 C773.70,266.36 777.48,262.64 781.27,264.50 C785.06,266.36 788.85,273.81 792.64,275.67 C796.42,277.53 802.11,275.67 804.00,275.67\" stroke-width=\"2.6\"></path><text class=\"eq-tick\" text-anchor=\"middle\" x=\"54.0\" y=\"326\">09-07</text><text class=\"eq-tick\" text-anchor=\"middle\" x=\"429.0\" y=\"326\">10-10</text><text class=\"eq-tick\" text-anchor=\"middle\" x=\"804.0\" y=\"326\">11-12</text><circle class=\"eq-dot-rsdh\" cx=\"804.0\" cy=\"275.7\" r=\"4.5\"></circle><text class=\"eq-end rsdh\" x=\"814.0\" y=\"279.2\">RSDH 0.85×</text><circle class=\"eq-dot-btc\" cx=\"804.0\" cy=\"227.0\" r=\"4.5\"></circle><text class=\"eq-end btc\" x=\"814.0\" y=\"230.5\">BTC 0.93×</text></svg></section>"
   },
   {
    "id": "onchain",
    "nav": "On-chain",
-   "html": "<section class=\"block card onchain-card\"><h2>On-chain <span class=\"tag\">CheckOnChain</span><span class=\"tag soft\">as of Nov 11</span></h2><p class=\"sec-story\">Short-term valuation −0.18 Fair, long-term −0.51 Undervalued, price 2% below <abbr class=\"gl\" title=\"Short-term holders: coins held under ~155 days.\" tabindex=\"0\">STH</abbr> cost basis.</p><div class=\"oc-hero\"><div class=\"oc-cycle\"><div class=\"label\">Short-term valuation · Nov 11</div><div class=\"value\">−0.18</div><span class=\"sig neutral\">⚪ Fair</span><p class=\"table-note\">30d −0.61 · each metric ranked vs its own 2y history; −1 deep value · 0 fair · +1 overheated</p><table class=\"data\"><thead><tr><th>Component</th><th class=\"num\">Value</th><th class=\"num\">Score</th></tr></thead><tbody><tr><td>STH-<abbr class=\"gl\" title=\"Market value vs. realized value: price compared with the average cost basis of all coins. Above 1 = holders in profit on average.\" tabindex=\"0\">MVRV</abbr></td><td class=\"num\">0.98</td><td class=\"num\"><span class=\"sig neutral\">−0.08</span></td></tr><tr><td>STH-<abbr class=\"gl\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\" tabindex=\"0\">SOPR</abbr> (7d avg)</td><td class=\"num\">0.995</td><td class=\"num\"><span class=\"sig pos\">−0.38</span></td></tr><tr><td>STH-<abbr class=\"gl\" title=\"Net unrealized profit/loss: share of market value that is paper profit. Higher = more euphoria.\" tabindex=\"0\">NUPL</abbr></td><td class=\"num\">-0.019</td><td class=\"num\"><span class=\"sig neutral\">−0.08</span></td></tr><tr><td>Mayer Multiple</td><td class=\"num\">1.01</td><td class=\"num\"><span class=\"sig neutral\">−0.07</span></td></tr><tr><td>STH supply in profit</td><td class=\"num\">31.4%</td><td class=\"num\"><span class=\"sig pos\">−0.31</span></td></tr></tbody></table></div><div class=\"oc-breadth\"><div class=\"label\">Long-term valuation · Nov 11</div><div class=\"value\">−0.51</div><span class=\"sig pos\">🟢 Undervalued</span><p class=\"table-note\">30d −0.33 · each metric ranked vs its own 4y history; −1 deep value · 0 fair · +1 overheated</p><table class=\"data\"><thead><tr><th>Component</th><th class=\"num\">Value</th><th class=\"num\">Score</th></tr></thead><tbody><tr><td>MVRV Z-Score</td><td class=\"num\">-0.50</td><td class=\"num\"><span class=\"sig pos\">−0.54</span></td></tr><tr><td>Price / realized price (MVRV)</td><td class=\"num\">1.38</td><td class=\"num\"><span class=\"sig pos\">−0.47</span></td></tr><tr><td>NUPL</td><td class=\"num\">0.274</td><td class=\"num\"><span class=\"sig pos\">−0.47</span></td></tr><tr><td><abbr class=\"gl\" title=\"Long-term holders: coins held over ~155 days.\" tabindex=\"0\">LTH</abbr>-MVRV</td><td class=\"num\">1.52</td><td class=\"num\"><span class=\"sig pos\">−0.51</span></td></tr><tr><td>Puell Multiple</td><td class=\"num\">0.87</td><td class=\"num\"><span class=\"sig pos\">−0.34</span></td></tr><tr><td>Reserve Risk</td><td class=\"num\">0.0012</td><td class=\"num\"><span class=\"sig pos\">−0.61</span></td></tr><tr><td>RHODL Ratio</td><td class=\"num\">0.0865</td><td class=\"num\"><span class=\"sig pos\">−0.67</span></td></tr></tbody></table></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Short-term holders</div><div class=\"sig-grid\"><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">STH cost basis <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$75,618</div><div class=\"chg\">30d +1.8%</div><span class=\"sig neg\">🔴 Price -2.2%</span><div class=\"mean\">Price below this cost basis.</div></div><div class=\"hm sig-neutral oc-metric-tile\"><div class=\"lbl\">STH-MVRV Z <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">-0.40</div><div class=\"chg\">30d -0.95</div><span class=\"sig neutral\">⚪ Normal</span><div class=\"mean\">Within the usual STH range.</div></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Long-term holders</div><div class=\"sig-grid\"><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH cost basis <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$48,753</div><div class=\"chg\">30d -1.2%</div><span class=\"sig pos\">🟢 Price +51.7%</span><div class=\"mean\">Price holds above this cost basis.</div></div><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH-MVRV Z <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">-0.65</div><div class=\"chg\">30d -0.10</div><span class=\"sig pos\">🟢 Below mean</span><div class=\"mean\">Under the long-run LTH average.</div></div><div class=\"hm sig-neutral oc-metric-tile\"><div class=\"lbl\">LTH-SOPR <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">1.007</div><div class=\"chg\">30d -0.229</div><span class=\"sig neutral\">⚪ Modest profits</span><div class=\"mean\">Light long-term profit-taking.</div></div><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH-NUPL <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.343</div><div class=\"chg\">30d -0.055</div><span class=\"sig pos\">🟢 Optimism</span><div class=\"mean\">Moderate unrealised LTH profit.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">LTH supply in profit <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">65.4%</div><div class=\"chg\">30d -2.5 pp</div><span class=\"sig neg\">🔴 Stress</span><div class=\"mean\">Unusually low for long-term holders.</div></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Market-wide</div><div class=\"sig-grid\"><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">Realized price <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$53,880</div><div class=\"chg\">30d +0.1%</div><span class=\"sig pos\">🟢 Price +37.3%</span><div class=\"mean\">Price holds above this cost basis.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">True market mean <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$77,438</div><div class=\"chg\">30d -0.0%</div><span class=\"sig neg\">🔴 Price -4.5%</span><div class=\"mean\">Price below this cost basis.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">SOPR <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.991</div><div class=\"chg\">30d -0.016</div><span class=\"sig neg\">🔴 Loss selling</span><div class=\"mean\">Coins moving at a loss.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">SOPR 7d EMA <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.993</div><div class=\"chg\">30d -0.019</div><span class=\"sig neg\">🔴 Loss trend</span><div class=\"mean\">Weekly spending at a loss.</div></div><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">Supply in profit <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">59.0%</div><div class=\"chg\">30d -8.9 pp</div><span class=\"sig pos\">🟢 Majority in profit</span><div class=\"mean\">Most coins above cost.</div></div></div></section>"
+   "html": "<section class=\"block card onchain-card\"><h2>On-chain <span class=\"tag\">CheckOnChain</span><span class=\"tag soft\">as of Nov 11</span></h2><p class=\"sec-story\">Short-term valuation −0.18 Fair, long-term −0.51 Undervalued, price 2% below <abbr class=\"gl\" tabindex=\"0\" title=\"Short-term holders: coins held under ~155 days.\">STH</abbr> cost basis.</p><div class=\"oc-hero\"><div class=\"oc-cycle\"><div class=\"label\">Short-term valuation · Nov 11 <span class=\"mw-badge warn\" title=\"since Nov 11\">↻ Undervalued → Fair</span></div><div class=\"value\">−0.18</div><div class=\"roc\"><span class=\"r acc\" title=\"recomputed for 2026-11-10, same method\"><b>1d</b>+0.04</span><span class=\"r acc\" title=\"recomputed for 2026-11-04, same method\"><b>7d</b>−0.37</span><span class=\"r acc\" title=\"recomputed for 2026-10-12, same method\"><b>30d</b>−0.61</span></div><span class=\"sig neutral\">⚪ Fair</span><p class=\"table-note\">30d −0.61 · each metric ranked vs its own 2y history; −1 deep value · 0 fair · +1 overheated</p><table class=\"data\"><thead><tr><th>Component</th><th class=\"num\">Value</th><th class=\"num\">Score</th></tr></thead><tbody><tr><td>STH-<abbr class=\"gl\" tabindex=\"0\" title=\"Market value vs. realized value: price compared with the average cost basis of all coins. Above 1 = holders in profit on average.\">MVRV</abbr></td><td class=\"num\">0.98</td><td class=\"num\"><span class=\"sig neutral\">−0.08</span></td></tr><tr><td>STH-<abbr class=\"gl\" tabindex=\"0\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\">SOPR</abbr> (7d avg)</td><td class=\"num\">0.995</td><td class=\"num\"><span class=\"sig pos\">−0.38</span></td></tr><tr><td>STH-<abbr class=\"gl\" tabindex=\"0\" title=\"Net unrealized profit/loss: share of market value that is paper profit. Higher = more euphoria.\">NUPL</abbr></td><td class=\"num\">-0.019</td><td class=\"num\"><span class=\"sig neutral\">−0.08</span></td></tr><tr><td>Mayer Multiple</td><td class=\"num\">1.01</td><td class=\"num\"><span class=\"sig neutral\">−0.07</span></td></tr><tr><td>STH supply in profit</td><td class=\"num\">31.4%</td><td class=\"num\"><span class=\"sig pos\">−0.31</span></td></tr></tbody></table></div><div class=\"oc-breadth\"><div class=\"label\">Long-term valuation · Nov 11</div><div class=\"value\">−0.51</div><div class=\"roc\"><span class=\"r flat\" title=\"recomputed for 2026-11-10, same method\"><b>1d</b>±0.00</span><span class=\"r acc\" title=\"recomputed for 2026-11-04, same method\"><b>7d</b>−0.27</span><span class=\"r acc\" title=\"recomputed for 2026-10-12, same method\"><b>30d</b>−0.33</span></div><span class=\"sig pos\">🟢 Undervalued</span><p class=\"table-note\">30d −0.33 · each metric ranked vs its own 4y history; −1 deep value · 0 fair · +1 overheated</p><table class=\"data\"><thead><tr><th>Component</th><th class=\"num\">Value</th><th class=\"num\">Score</th></tr></thead><tbody><tr><td>MVRV Z-Score</td><td class=\"num\">-0.50</td><td class=\"num\"><span class=\"sig pos\">−0.54</span></td></tr><tr><td>Price / realized price (MVRV)</td><td class=\"num\">1.38</td><td class=\"num\"><span class=\"sig pos\">−0.47</span></td></tr><tr><td>NUPL</td><td class=\"num\">0.274</td><td class=\"num\"><span class=\"sig pos\">−0.47</span></td></tr><tr><td><abbr class=\"gl\" tabindex=\"0\" title=\"Long-term holders: coins held over ~155 days.\">LTH</abbr>-MVRV</td><td class=\"num\">1.52</td><td class=\"num\"><span class=\"sig pos\">−0.51</span></td></tr><tr><td>Puell Multiple</td><td class=\"num\">0.87</td><td class=\"num\"><span class=\"sig pos\">−0.34</span></td></tr><tr><td>Reserve Risk</td><td class=\"num\">0.0012</td><td class=\"num\"><span class=\"sig pos\">−0.61</span></td></tr><tr><td>RHODL Ratio</td><td class=\"num\">0.0865</td><td class=\"num\"><span class=\"sig pos\">−0.67</span></td></tr></tbody></table></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Short-term holders</div><div class=\"sig-grid\"><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">STH cost basis <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$75,618</div><div class=\"roc\"><span class=\"r acc\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>−0.13%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.45%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>+1.8%</span></div><span class=\"sig neg\">🔴 Price -2.2%</span><div class=\"mean\">Price below this cost basis.</div></div><div class=\"hm sig-neutral oc-metric-tile\"><div class=\"lbl\">STH-MVRV Z <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">-0.40</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.09</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.60</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.95</span></div><span class=\"sig neutral\">⚪ Normal</span><div class=\"mean\">Within the usual STH range.</div></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Long-term holders</div><div class=\"sig-grid\"><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH cost basis <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$48,753</div><div class=\"roc\"><span class=\"r flat\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>−0.01%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.27%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−1.2%</span></div><span class=\"sig pos\">🟢 Price +51.7%</span><div class=\"mean\">Price holds above this cost basis.</div></div><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH-MVRV Z <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">-0.65</div><div class=\"roc\"><span class=\"r flat\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.01</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.09</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.10</span></div><span class=\"sig pos\">🟢 Below mean</span><div class=\"mean\">Under the long-run LTH average.</div></div><div class=\"hm sig-neutral oc-metric-tile mw-hit mw-warn\"><div class=\"lbl\">LTH-SOPR <span class=\"src-chip single\">Nov 11</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">↻ changed</span></div><div class=\"val word\">1.007</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.022</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.031</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.229</span></div><span class=\"sig neutral\">⚪ Modest profits</span><div class=\"mw-was\">was: Loss selling (Nov 11)</div><div class=\"mean\">Light long-term profit-taking.</div></div><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">LTH-NUPL <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.343</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.007</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.049</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.055</span></div><span class=\"sig pos\">🟢 Optimism</span><div class=\"mean\">Moderate unrealised LTH profit.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">LTH supply in profit <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">65.4%</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.3 pp</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−3.1 pp</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−2.5 pp</span></div><span class=\"sig neg\">🔴 Stress</span><div class=\"mean\">Unusually low for long-term holders.</div></div></div><div class=\"oc-pills-lbl\" style=\"display:block;margin:14px 0 8px\">Market-wide</div><div class=\"sig-grid\"><div class=\"hm sig-pos oc-metric-tile\"><div class=\"lbl\">Realized price <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$53,880</div><div class=\"roc\"><span class=\"r flat\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>−0.03%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.20%</span><span class=\"r flat\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>+0.09%</span></div><span class=\"sig pos\">🟢 Price +37.3%</span><div class=\"mean\">Price holds above this cost basis.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">True market mean <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">$77,438</div><div class=\"roc\"><span class=\"r flat\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>−0.03%</span><span class=\"r acc\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.24%</span><span class=\"r flat\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.04%</span></div><span class=\"sig neg\">🔴 Price -4.5%</span><div class=\"mean\">Price below this cost basis.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">SOPR <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.991</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.004</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.018</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.016</span></div><span class=\"sig neg\">🔴 Loss selling</span><div class=\"mean\">Coins moving at a loss.</div></div><div class=\"hm sig-neg oc-metric-tile\"><div class=\"lbl\">SOPR 7d EMA <span class=\"src-chip single\">Nov 11</span></div><div class=\"val word\">0.993</div><div class=\"roc\"><span class=\"r flat\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>±0.000</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.006</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.019</span></div><span class=\"sig neg\">🔴 Loss trend</span><div class=\"mean\">Weekly spending at a loss.</div></div><div class=\"hm sig-pos oc-metric-tile mw-hit mw-pos\"><div class=\"lbl\">Supply in profit <span class=\"src-chip single\">Nov 11</span> <span class=\"mw-badge pos\" title=\"since Nov 11\">↑ +1.1 pp 1d</span></div><div class=\"val word\">59.0%</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+1.1 pp</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−8.5 pp</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−8.9 pp</span></div><span class=\"sig pos\">🟢 Majority in profit</span><div class=\"mean\">Most coins above cost.</div></div></div></section>"
   },
   {
    "id": "structure",
    "nav": "Structure",
-   "html": "<section class=\"block card structure-card\"><h2>Market structure &amp; leverage <span class=\"tag\">rule-of-thumb</span></h2><p class=\"sec-story\">Structure neutral: no clear weekly trend — range-bound.</p><div class=\"struct-grid\"><div class=\"struct-col\"><div class=\"label\">Crypto market structure</div><div class=\"struct-chip neutral\">Neutral</div><div class=\"chg\">BTC 7d -3.0% · 30d -11.3%</div><div class=\"mean\">No clear weekly trend.</div></div><div class=\"struct-col\"><div class=\"label\">Futures <abbr class=\"gl\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\" tabindex=\"0\">OI</abbr> vs price</div><div class=\"quad-grid\"><div class=\"quad-cell\"><span class=\"q-name\">Spot Rally</span><span class=\"q-hint\">OI↓ price↑ · healthy</span></div><div class=\"quad-cell\"><span class=\"q-name\">Leveraged Rally</span><span class=\"q-hint\">OI↑ price↑ · fragile</span></div><div class=\"quad-cell\"><span class=\"q-name\">Deleveraging Sell-Off</span><span class=\"q-hint\">OI↓ price↓ · flush</span></div><div class=\"quad-cell active\"><span class=\"q-name\">Leveraged Sell-Off</span><span class=\"q-hint\">OI↑ price↓ · pressure</span></div></div><div class=\"src-link\"><a href=\"https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html\" rel=\"noopener\" target=\"_blank\">CheckOnChain · Futures OI vs Price</a></div></div></div><div class=\"sig-grid\" style=\"margin-top:14px\"><div class=\"hm sig-neg\"><div class=\"lbl\">Futures positioning</div><div class=\"val word\">Leveraged Sell-Off</div><div class=\"chg\">OI 7d +3.7%</div><span class=\"sig neg\">🔴 Shorts pressing</span><div class=\"mean\">Futures OI +3.7% WoW: new leverage behind the decline.</div></div><div class=\"hm sig-pos\"><div class=\"lbl\">Funding</div><div class=\"val word\">+7.8% ann.</div><span class=\"sig pos\">🟢 Calm</span><div class=\"mean\">Normal, mild long bias.</div></div><div class=\"hm sig-pos\"><div class=\"lbl\"><abbr class=\"gl\" title=\"Market value vs. realized value: price compared with the average cost basis of all coins. Above 1 = holders in profit on average.\" tabindex=\"0\">MVRV</abbr></div><div class=\"val word\">1.38</div><span class=\"sig pos\">🟢 Moderate profit</span><div class=\"mean\">Holders in profit but not overheated.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\"><abbr class=\"gl\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\" tabindex=\"0\">SOPR</abbr></div><div class=\"val word\">0.991</div><span class=\"sig neg\">🔴 Selling at a loss</span><div class=\"mean\">Coins moving below cost.</div></div></div></section>"
+   "html": "<section class=\"block card structure-card\"><h2>Market structure &amp; leverage <span class=\"tag\">rule-of-thumb</span></h2><p class=\"sec-story\">Structure neutral: no clear weekly trend — range-bound.</p><div class=\"struct-grid\"><div class=\"struct-col\"><div class=\"label\">Crypto market structure</div><div class=\"struct-chip neutral\">Neutral</div> <span class=\"mw-badge warn\" title=\"since Nov 11\">↻ was Trending down</span><div class=\"chg\">BTC 7d -3.0% · 30d -11.3%</div><div class=\"mean\">No clear weekly trend.</div></div><div class=\"struct-col\"><div class=\"label\">Futures <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> vs price</div><div class=\"quad-grid\"><div class=\"quad-cell\"><span class=\"q-name\">Spot Rally</span><span class=\"q-hint\">OI↓ price↑ · healthy</span></div><div class=\"quad-cell\"><span class=\"q-name\">Leveraged Rally</span><span class=\"q-hint\">OI↑ price↑ · fragile</span></div><div class=\"quad-cell\"><span class=\"q-name\">Deleveraging Sell-Off</span><span class=\"q-hint\">OI↓ price↓ · flush</span></div><div class=\"quad-cell active\"><span class=\"q-name\">Leveraged Sell-Off</span><span class=\"q-hint\">OI↑ price↓ · pressure</span></div></div><div class=\"src-link\"><a href=\"https://charts.checkonchain.com/btconchain/derivatives/derivatives_futuresoi_vs_price_scatter/derivatives_futuresoi_vs_price_scatter_dark.html\" rel=\"noopener\" target=\"_blank\">CheckOnChain · Futures OI vs Price</a></div></div></div><div class=\"sig-grid\" style=\"margin-top:14px\"><div class=\"hm sig-neg\"><div class=\"lbl\">Futures positioning</div><div class=\"val word\">Leveraged Sell-Off</div><div class=\"chg\">OI 7d +3.7%</div><div class=\"roc\"><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>1d</b><i>…</i></span><span class=\"r acc\" title=\"CheckOnChain 7-day change\"><b>7d</b>+3.7%</span><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>30d</b><i>…</i></span></div><span class=\"sig neg\">🔴 Shorts pressing</span><div class=\"mean\">Futures OI +3.7% WoW: new leverage behind the decline.</div></div><div class=\"hm sig-pos mw-hit mw-warn\"><div class=\"lbl\">Funding <span class=\"mw-badge warn\" title=\"since Nov 11\">↻ changed</span></div><div class=\"val word\">+7.8% ann.</div><div class=\"roc\"><span class=\"r acc\" title=\"vs run 2026-11-11 (run history)\"><b>1d</b>−2.6 pp</span><span class=\"r flat\" title=\"vs run 2026-11-05 (run history)\"><b>7d</b>−0.1 pp</span><span class=\"r na\" title=\"history building: first run stored 2026-11-12\"><b>30d</b><i>…</i></span></div><span class=\"sig pos\">🟢 Calm</span><div class=\"mw-was\">was: Warm (Nov 11)</div><div class=\"mean\">Normal, mild long bias.</div></div><div class=\"hm sig-pos\"><div class=\"lbl\"><abbr class=\"gl\" tabindex=\"0\" title=\"Market value vs. realized value: price compared with the average cost basis of all coins. Above 1 = holders in profit on average.\">MVRV</abbr></div><div class=\"val word\">1.38</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.02</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.11</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.15</span></div><span class=\"sig pos\">🟢 Moderate profit</span><div class=\"mean\">Holders in profit but not overheated.</div></div><div class=\"hm sig-neg\"><div class=\"lbl\"><abbr class=\"gl\" tabindex=\"0\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\">SOPR</abbr></div><div class=\"val word\">0.991</div><div class=\"roc\"><span class=\"r pos\" title=\"CheckOnChain series vs 2026-11-10\"><b>1d</b>+0.004</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-11-04\"><b>7d</b>−0.018</span><span class=\"r neg\" title=\"CheckOnChain series vs 2026-10-12\"><b>30d</b>−0.016</span></div><span class=\"sig neg\">🔴 Selling at a loss</span><div class=\"mean\">Coins moving below cost.</div></div></div></section>"
   },
   {
    "id": "scorecard",
    "nav": "Scorecard",
-   "html": "<div class=\"two-col\"><section class=\"block card\"><h2>1-minute scoreboard</h2><table class=\"data\"><thead><tr><th>Lens</th><th>Signal</th><th>What it means</th></tr></thead><tbody><tr><td class=\"dim-name\">Liquidity</td><td><span class=\"sig watch\">🟡 Mixed</span></td><td class=\"mean-cell\">Fed ↑ improving · Treasury cash flat.</td></tr><tr><td class=\"dim-name\">Flows</td><td><span class=\"sig neg\">🔴 Outflows</span></td><td class=\"mean-cell\">stablecoins contracting · ETFs −$1.28B last week.</td></tr><tr><td class=\"dim-name\">Spot vs leverage</td><td><span class=\"sig neg\">🔴 Shorts pressing</span></td><td class=\"mean-cell\">Futures <abbr class=\"gl\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\" tabindex=\"0\">OI</abbr> +3.7% WoW: new leverage behind the decline.</td></tr><tr><td class=\"dim-name\">Macro</td><td><span class=\"sig neg\">🔴 Headwind</span></td><td class=\"mean-cell\">Dollar and 10Y yields rose this week.</td></tr><tr><td class=\"dim-name\">On-chain</td><td><span class=\"sig neg\">🔴 Bearish cycle</span></td><td class=\"mean-cell\">Cycle 29 · Bearish · breadth 1/16 weak.</td></tr><tr><td class=\"dim-name\">7-day outlook</td><td><span class=\"sig watch\">🟡 Downside skew</span></td><td class=\"mean-cell\">Base case most likely (42%).</td></tr></tbody></table></section><section class=\"block card\"><h2>Regime scorecard <span class=\"tag soft\">as of 2026-11-12</span></h2><table class=\"data\"><thead><tr><th>Dimension</th><th>Signal</th><th>What it means</th></tr></thead><tbody><tr><td class=\"dim-name\">Crypto positioning</td><td><span class=\"sig watch\">🟡 Leveraged Sell-Off</span></td><td class=\"mean-cell\">Leverage-driven.</td></tr><tr><td class=\"dim-name\">Leverage</td><td><span class=\"sig neutral\">⚪ Funding cooling</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Liquidations</td><td><span class=\"sig neutral\">⚪ Carried</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">On-chain cycle</td><td><span class=\"sig neutral\">⚪ <abbr class=\"gl\" title=\"Short-term holders: coins held under ~155 days.\" tabindex=\"0\">STH</abbr> capitulating</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Valuation</td><td><span class=\"sig neutral\">⚪ Short Fair · Long Undervalued</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Spot demand</td><td><span class=\"sig neutral\">⚪ Thin, still shrinking</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Liquidity</td><td><span class=\"sig pos\">🟢 Improving</span></td><td class=\"mean-cell\">Net Fed liquidity rising.</td></tr><tr><td class=\"dim-name\">Liquidity momentum</td><td><span class=\"sig pos\">🟢 Up on 1w and 4w</span></td><td class=\"mean-cell\">Supportive for risk assets.</td></tr><tr><td class=\"dim-name\">Crypto trend</td><td><span class=\"sig watch\">🟡 Under STH cost and true mean</span></td><td class=\"mean-cell\">Choppy.</td></tr><tr><td class=\"dim-name\">USD pressure</td><td><span class=\"sig neutral\">⚪ Tightening</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Risk appetite</td><td><span class=\"sig neutral\">⚪ Split</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">ETF demand</td><td><span class=\"sig neg\">🔴 Outflows, lagging</span></td><td class=\"mean-cell\">Institutions selling.</td></tr><tr><td class=\"dim-name\"><abbr class=\"gl\" title=\"The Investorius rotation model (SOL/BTC allocation).\" tabindex=\"0\">RSDH</abbr></td><td><span class=\"sig pos\">🟢 BULL · BTC39/BNB46/CASH15</span></td><td class=\"mean-cell\">Supportive for risk assets.</td></tr></tbody></table></section></div><section class=\"block card\"><h2>Market snapshot <span class=\"tag\">WoW · MoM</span></h2><table class=\"data\"><thead><tr><th>Indicator</th><th class=\"num\">Level</th><th class=\"num\">WoW</th><th class=\"num\">MoM</th><th>Signal</th></tr></thead><tbody><tr><td class=\"dim-name\">BTC</td><td class=\"num\">$73,691</td><td class=\"num neg\" title=\"7d\">-2.96%</td><td class=\"num neg\">-11.31%</td><td><span class=\"sig neg sm\">🔴 Downtrend</span></td></tr><tr><td class=\"dim-name\">ETH</td><td class=\"num\">$2,052.05</td><td class=\"num neg\" title=\"7d\">-8.15%</td><td class=\"num neg\">-17.80%</td><td><span class=\"sig neg sm\">🔴 Downtrend</span></td></tr><tr><td class=\"dim-name\"><abbr class=\"gl\" title=\"US dollar index.\" tabindex=\"0\">DXY</abbr></td><td class=\"num\">103.03</td><td class=\"num pos\" title=\"5 sessions\">+0.71%</td><td class=\"num pos\">+0.83%</td><td><span class=\"sig neg sm\">🔴 Firming</span></td></tr><tr><td class=\"dim-name\">U.S. 10Y</td><td class=\"num\">5.00%</td><td class=\"num pos\" title=\"5 sessions\">+14 bp</td><td class=\"num neg\">-24 bp</td><td><span class=\"sig neg sm\">🔴 Yields rising</span></td></tr><tr><td class=\"dim-name\">S&amp;P 500</td><td class=\"num\">7,619</td><td class=\"num pos\" title=\"5 sessions\">+3.29%</td><td class=\"num neg\">-2.41%</td><td><span class=\"sig watch sm\">🟡 Bouncing</span></td></tr><tr><td class=\"dim-name\">Nasdaq</td><td class=\"num\">25,466</td><td class=\"num pos\" title=\"5 sessions\">+3.61%</td><td class=\"num neg\">-6.53%</td><td><span class=\"sig watch sm\">🟡 Bouncing</span></td></tr><tr><td class=\"dim-name\">VIX</td><td class=\"num\">17.5</td><td class=\"num neg\" title=\"5 sessions\">-31.79%</td><td class=\"num pos\">+14.99%</td><td><span class=\"sig pos sm\">🟢 Calm</span></td></tr></tbody></table><p class=\"table-note\">WoW = 7 days (crypto) / 5 sessions (markets) · MoM = 1 month.</p></section>"
+   "html": "<div class=\"two-col\"><section class=\"block card\"><h2>1-minute scoreboard</h2><table class=\"data\"><thead><tr><th>Lens</th><th>Signal</th><th>What it means</th></tr></thead><tbody><tr><td class=\"dim-name\">Liquidity</td><td><span class=\"sig watch\">🟡 Mixed</span></td><td class=\"mean-cell\">Fed ↑ improving · Treasury cash flat.</td></tr><tr><td class=\"dim-name\">Flows</td><td><span class=\"sig neg\">🔴 Outflows</span></td><td class=\"mean-cell\">stablecoins contracting · ETFs −$1.28B last week.</td></tr><tr><td class=\"dim-name\">Spot vs leverage</td><td><span class=\"sig neg\">🔴 Shorts pressing</span></td><td class=\"mean-cell\">Futures <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> +3.7% WoW: new leverage behind the decline.</td></tr><tr><td class=\"dim-name\">Macro</td><td><span class=\"sig neg\">🔴 Headwind</span></td><td class=\"mean-cell\">Dollar and 10Y yields rose this week.</td></tr><tr><td class=\"dim-name\">On-chain</td><td><span class=\"sig neg\">🔴 Bearish cycle</span></td><td class=\"mean-cell\">Cycle 29 · Bearish · breadth 1/16 weak.</td></tr><tr><td class=\"dim-name\">7-day outlook</td><td><span class=\"sig watch\">🟡 Downside skew</span></td><td class=\"mean-cell\">Base case most likely (42%).</td></tr></tbody></table></section><section class=\"block card\"><h2>Regime scorecard <span class=\"tag soft\">as of 2026-11-12</span></h2><table class=\"data\"><thead><tr><th>Dimension</th><th>Signal</th><th>What it means</th></tr></thead><tbody><tr><td class=\"dim-name\">Crypto positioning</td><td><span class=\"sig watch\">🟡 Leveraged Sell-Off</span></td><td class=\"mean-cell\">Leverage-driven.</td></tr><tr class=\"mw-row-chg\"><td class=\"dim-name\">Leverage</td><td><span class=\"sig neutral\">⚪ Funding cooling</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">was Funding firm</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Liquidations</td><td><span class=\"sig neutral\">⚪ Carried</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr class=\"mw-row-chg\"><td class=\"dim-name\">On-chain cycle</td><td><span class=\"sig neutral\">⚪ <abbr class=\"gl\" tabindex=\"0\" title=\"Short-term holders: coins held under ~155 days.\">STH</abbr> capitulating</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">was STH underwater</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr class=\"mw-row-chg\"><td class=\"dim-name\">Valuation</td><td><span class=\"sig neutral\">⚪ Short Fair · Long Undervalued</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">was Short Undervalued · Long Undervalued</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Spot demand</td><td><span class=\"sig neutral\">⚪ Thin, still shrinking</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">Liquidity</td><td><span class=\"sig pos\">🟢 Improving</span></td><td class=\"mean-cell\">Net Fed liquidity rising.</td></tr><tr><td class=\"dim-name\">Liquidity momentum</td><td><span class=\"sig pos\">🟢 Up on 1w and 4w</span></td><td class=\"mean-cell\">Supportive for risk assets.</td></tr><tr><td class=\"dim-name\">Crypto trend</td><td><span class=\"sig watch\">🟡 Under STH cost and true mean</span></td><td class=\"mean-cell\">Choppy.</td></tr><tr><td class=\"dim-name\">USD pressure</td><td><span class=\"sig neutral\">⚪ Tightening</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr class=\"mw-row-chg\"><td class=\"dim-name\">Risk appetite</td><td><span class=\"sig neutral\">⚪ Split</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">was Fragile</span></td><td class=\"mean-cell\">No strong push either way.</td></tr><tr><td class=\"dim-name\">ETF demand</td><td><span class=\"sig neg\">🔴 Outflows, lagging</span></td><td class=\"mean-cell\">Institutions selling.</td></tr><tr class=\"mw-row-chg\"><td class=\"dim-name\"><abbr class=\"gl\" tabindex=\"0\" title=\"The Investorius rotation model (SOL/BTC allocation).\">RSDH</abbr></td><td><span class=\"sig pos\">🟢 BULL · BTC39/BNB46/CASH15</span> <span class=\"mw-badge warn\" title=\"since Nov 11\">was BULL · BTC85/CASH15</span></td><td class=\"mean-cell\">Supportive for risk assets.</td></tr></tbody></table></section></div><section class=\"block card\"><h2>Market snapshot <span class=\"tag\">1d · WoW · MoM</span></h2><table class=\"data\"><thead><tr><th>Indicator</th><th class=\"num\">Level</th><th class=\"num\" title=\"BTC/ETH: source 24h · others: vs previous run\">1d</th><th class=\"num\">WoW</th><th class=\"num\">MoM</th><th>Signal</th></tr></thead><tbody><tr><td class=\"dim-name\">BTC</td><td class=\"num\">$73,691</td><td class=\"num pos\" title=\"source 24h change\">+0.30%</td><td class=\"num neg\" title=\"7d\">-2.96%</td><td class=\"num neg\">-11.31%</td><td><span class=\"sig neg sm\">🔴 Downtrend</span></td></tr><tr><td class=\"dim-name\">ETH</td><td class=\"num\">$2,052.05</td><td class=\"num neg\" title=\"source 24h change\">−0.22%</td><td class=\"num neg\" title=\"7d\">-8.15%</td><td class=\"num neg\">-17.80%</td><td><span class=\"sig neg sm\">🔴 Downtrend</span></td></tr><tr class=\"mw-row-chg mw-neg\"><td class=\"dim-name\"><abbr class=\"gl\" tabindex=\"0\" title=\"US dollar index.\">DXY</abbr></td><td class=\"num\">103.03</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">+0.74%</td><td class=\"num pos\" title=\"5 sessions\">+0.71%</td><td class=\"num pos\">+0.83%</td><td><span class=\"sig neg sm\">🔴 Firming</span></td></tr><tr><td class=\"dim-name\">U.S. 10Y</td><td class=\"num\">5.00%</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">+2 bp</td><td class=\"num pos\" title=\"5 sessions\">+14 bp</td><td class=\"num neg\">-24 bp</td><td><span class=\"sig neg sm\">🔴 Yields rising</span></td></tr><tr class=\"mw-row-chg mw-pos\"><td class=\"dim-name\">S&amp;P 500</td><td class=\"num\">7,619</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">+1.3%</td><td class=\"num pos\" title=\"5 sessions\">+3.29%</td><td class=\"num neg\">-2.41%</td><td><span class=\"sig watch sm\">🟡 Bouncing</span></td></tr><tr class=\"mw-row-chg mw-pos\"><td class=\"dim-name\">Nasdaq</td><td class=\"num\">25,466</td><td class=\"num pos\" title=\"vs run 2026-11-11 (run history)\">+1.6%</td><td class=\"num pos\" title=\"5 sessions\">+3.61%</td><td class=\"num neg\">-6.53%</td><td><span class=\"sig watch sm\">🟡 Bouncing</span></td></tr><tr class=\"mw-row-chg mw-pos\"><td class=\"dim-name\">VIX</td><td class=\"num\">17.5</td><td class=\"num neg\" title=\"vs run 2026-11-11 (run history)\">−10.1%</td><td class=\"num neg\" title=\"5 sessions\">-31.79%</td><td class=\"num pos\">+14.99%</td><td><span class=\"sig pos sm\">🟢 Calm</span></td></tr></tbody></table><p class=\"table-note\">1d = BTC/ETH 24h (source), others vs previous daily run · WoW = 7 days (crypto) / 5 sessions (markets) · MoM = 1 month.</p></section>"
   },
   {
    "id": "pulse",
    "nav": "Pulse",
-   "html": "<section class=\"block card xpulse-card\"><h2>X analyst pulse <span class=\"tag\">X · Nov 12</span></h2><div class=\"xp-verdict neg\"><div class=\"xp-verdict-main\"><span class=\"xp-verdict-lbl\">Crowd read</span><span class=\"xp-verdict-txt\">Analysts lean <strong>defensive</strong></span></div><div class=\"xp-verdict-meta\"><span class=\"xp-count pos\">0 bullish</span><span class=\"xp-count warn\">2 neutral</span><span class=\"xp-count neg\">4 bearish</span><span class=\"src-chip diverge\">Diverges with our Cautious regime</span></div></div><ul class=\"xp-list\"><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @glassnode\" loading=\"lazy\" src=\"assets/x/2120594927889293619.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig warn\">Neutral</span><span class=\"xp-topic\">derivatives</span></div><p class=\"xp-take\">Glassnode says the biggest Bitcoin liquidation cluster sits near $60k, longs opened near the bottom that price has not tested since August.</p><div class=\"xp-src\"><a href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\">@glassnode</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @glassnode\" loading=\"lazy\" src=\"assets/x/2120517834262642766.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">flows</span></div><p class=\"xp-take\">Glassnode reports total stablecoin supply fell $14.2B in 30 days, the fastest contraction since June 2022.</p><div class=\"xp-src\"><a href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">@glassnode</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @AxelAdlerJr\" loading=\"lazy\" src=\"assets/x/2120501801011319179.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig warn\">Neutral</span><span class=\"xp-topic\">on-chain</span></div><p class=\"xp-take\">Axel Adler notes 58% of BTC supply is still in profit, just 8 percentage points above the stress threshold.</p><div class=\"xp-src\"><a href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\">@AxelAdlerJr</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @Darkfost_Coc\" loading=\"lazy\" src=\"assets/x/2120480906016116930.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">on-chain</span></div><p class=\"xp-take\">Darkfost says short-term holder <abbr class=\"gl\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\" tabindex=\"0\">SOPR</abbr> has dropped below break-even.</p><div class=\"xp-src\"><a href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\">@Darkfost_Coc</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @cryptoquant_com\" loading=\"lazy\" src=\"assets/x/2120476372435157142.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">flows</span></div><p class=\"xp-take\">CryptoQuant's Analyst Consensus Index dropped from -1.0σ to -1.8σ in 7 days as bitcoin fell toward $73K.</p><div class=\"xp-src\"><a href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\">@cryptoquant_com</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @AxelAdlerJr\" loading=\"lazy\" src=\"assets/x/2120429398713077862.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">macro</span></div><p class=\"xp-take\">Axel Adler notes October <abbr class=\"gl\" title=\"Consumer price index: US inflation report.\" tabindex=\"0\">CPI</abbr> rose 0.4% and core 0.3% against forecasts of 0.3% and 0.2%.</p><div class=\"xp-src\"><a href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">@AxelAdlerJr</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li></ul><p class=\"xp-note\">Curated data-first analysts only · paraphrased, not advice</p></section>"
+   "html": "<section class=\"block card xpulse-card\"><h2>X analyst pulse <span class=\"tag\">X · Nov 12</span></h2><div class=\"xp-verdict neg\"><div class=\"xp-verdict-main\"><span class=\"xp-verdict-lbl\">Crowd read</span><span class=\"xp-verdict-txt\">Analysts lean <strong>defensive</strong></span></div><div class=\"xp-verdict-meta\"><span class=\"xp-count pos\">0 bullish</span><span class=\"xp-count warn\">2 neutral</span><span class=\"xp-count neg\">4 bearish</span><span class=\"src-chip diverge\">Diverges with our Cautious regime</span></div></div><ul class=\"xp-list\"><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @glassnode\" loading=\"lazy\" src=\"assets/x/2120594927889293619.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig warn\">Neutral</span><span class=\"xp-topic\">derivatives</span></div><p class=\"xp-take\">Glassnode says the biggest Bitcoin liquidation cluster sits near $60k, longs opened near the bottom that price has not tested since August.</p><div class=\"xp-src\"><a href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\">@glassnode</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/glassnode/status/2120594927889293619\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @glassnode\" loading=\"lazy\" src=\"assets/x/2120517834262642766.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">flows</span></div><p class=\"xp-take\">Glassnode reports total stablecoin supply fell $14.2B in 30 days, the fastest contraction since June 2022.</p><div class=\"xp-src\"><a href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">@glassnode</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @AxelAdlerJr\" loading=\"lazy\" src=\"assets/x/2120501801011319179.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig warn\">Neutral</span><span class=\"xp-topic\">on-chain</span></div><p class=\"xp-take\">Axel Adler notes 58% of BTC supply is still in profit, just 8 percentage points above the stress threshold.</p><div class=\"xp-src\"><a href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\">@AxelAdlerJr</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/AxelAdlerJr/status/2120501801011319179\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @Darkfost_Coc\" loading=\"lazy\" src=\"assets/x/2120480906016116930.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">on-chain</span></div><p class=\"xp-take\">Darkfost says short-term holder <abbr class=\"gl\" tabindex=\"0\" title=\"Spent output profit ratio: are coins being sold at a profit (&gt;1) or loss (&lt;1)?\">SOPR</abbr> has dropped below break-even.</p><div class=\"xp-src\"><a href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\">@Darkfost_Coc</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/Darkfost_Coc/status/2120480906016116930\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @cryptoquant_com\" loading=\"lazy\" src=\"assets/x/2120476372435157142.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">flows</span></div><p class=\"xp-take\">CryptoQuant's Analyst Consensus Index dropped from -1.0σ to -1.8σ in 7 days as bitcoin fell toward $73K.</p><div class=\"xp-src\"><a href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\">@cryptoquant_com</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/cryptoquant_com/status/2120476372435157142\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li><li class=\"xp-item\"><a class=\"xp-thumb\" href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\"><img alt=\"Chart posted by @AxelAdlerJr\" loading=\"lazy\" src=\"assets/x/2120429398713077862.jpg\"/></a><div class=\"xp-body\"><div class=\"xp-chips\"><span class=\"xp-sig neg\">Bearish</span><span class=\"xp-topic\">macro</span></div><p class=\"xp-take\">Axel Adler notes October <abbr class=\"gl\" tabindex=\"0\" title=\"Consumer price index: US inflation report.\">CPI</abbr> rose 0.4% and core 0.3% against forecasts of 0.3% and 0.2%.</p><div class=\"xp-src\"><a href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">@AxelAdlerJr</a><span class=\"xp-date\">Nov 11</span><a class=\"xp-open\" href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">View post ↗</a></div></div></li></ul><p class=\"xp-note\">Curated data-first analysts only · paraphrased, not advice</p></section>"
   },
   {
    "id": "news",
    "nav": "News",
-   "html": "<section class=\"block card news-card\"><h2>Biggest crypto news <span class=\"tag soft\">2026-11-12 06:30 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">October <abbr class=\"gl\" title=\"Consumer price index: US inflation report.\" tabindex=\"0\">CPI</abbr> ran hot; a December hike is now fully priced</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> A hawkish Fed and a firmer dollar remove the macro tailwind just as crypto's…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Open interest keeps rising into a falling price</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Fresh positions added into weakness are fuel for another forced move.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Recent buyers are now selling at a loss</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Loss-taking by recent buyers is how corrections exhaust.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">Stablecoins post the fastest 30-day drop since June 2022</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Stablecoins are the market's dry powder.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://swolecharts.com/liquidations/daily/2026-11-08\" rel=\"noopener\" target=\"_blank\">Sunday's long flush was the biggest on record: ~$773M</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> A third long flush in a week cleared weak leverage.</div></li></ul></section>"
+   "html": "<section class=\"block card news-card\"><h2>Biggest crypto news <span class=\"tag soft\">2026-11-12 06:30 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://x.com/AxelAdlerJr/status/2120429398713077862\" rel=\"noopener\" target=\"_blank\">October <abbr class=\"gl\" tabindex=\"0\" title=\"Consumer price index: US inflation report.\">CPI</abbr> ran hot; a December hike is now fully priced</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> A hawkish Fed and a firmer dollar remove the macro tailwind just as crypto's…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Open interest keeps rising into a falling price</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Fresh positions added into weakness are fuel for another forced move.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Recent buyers are now selling at a loss</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Loss-taking by recent buyers is how corrections exhaust.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://x.com/glassnode/status/2120517834262642766\" rel=\"noopener\" target=\"_blank\">Stablecoins post the fastest 30-day drop since June 2022</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> Stablecoins are the market's dry powder.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://swolecharts.com/liquidations/daily/2026-11-08\" rel=\"noopener\" target=\"_blank\">Sunday's long flush was the biggest on record: ~$773M</a></div><div class=\"news-blurb\"><span class=\"why\">Why it matters</span> A third long flush in a week cleared weak leverage.</div></li></ul></section>"
   }
  ],
+ "changes": {
+  "schema": "market_watcher.changes.v1",
+  "today": "2026-11-12",
+  "vs_date": "2026-11-11",
+  "n_tracked": 62,
+  "n_material": 15,
+  "items": [
+   {
+    "tone": "warn",
+    "arrow": "⇄",
+    "key": "RSDH allocation",
+    "text": "BTC 85% → 39% · BNB 0% → 46% · CASH 15% (=)"
+   },
+   {
+    "tone": "warn",
+    "arrow": "↻",
+    "key": "Market structure",
+    "text": "Trending down → Neutral"
+   },
+   {
+    "tone": "warn",
+    "arrow": "↻",
+    "key": "Short-term valuation",
+    "text": "Undervalued → Fair"
+   },
+   {
+    "tone": "warn",
+    "arrow": "↻",
+    "key": "On-chain · LTH-SOPR",
+    "text": "Loss selling → Modest profits (+0.022 1d → 1.007)"
+   },
+   {
+    "tone": "warn",
+    "arrow": "↻",
+    "key": "Funding",
+    "text": "Warm → Calm (−2.6 pp 1d → +7.8%)"
+   },
+   {
+    "tone": "pos",
+    "arrow": "↑",
+    "key": "STH supply in profit",
+    "text": "+4.3 pp 1d → 31.4%",
+    "metric": "oc_sth_supply_profit"
+   },
+   {
+    "tone": "neg",
+    "arrow": "↓",
+    "key": "Stablecoin supply",
+    "text": "−0.69% 1d → $289.0B",
+    "metric": "stables"
+   },
+   {
+    "tone": "acc",
+    "arrow": "↓",
+    "key": "Puell Multiple",
+    "text": "−0.04 1d → 0.87",
+    "metric": "oc_puell"
+   },
+   {
+    "tone": "acc",
+    "arrow": "↓",
+    "key": "RHODL Ratio",
+    "text": "−5.8% 1d → 0.0865",
+    "metric": "oc_rhodl"
+   },
+   {
+    "tone": "neg",
+    "arrow": "↑",
+    "key": "DXY",
+    "text": "+0.74% 1d → 103.03",
+    "metric": "dxy"
+   },
+   {
+    "tone": "pos",
+    "arrow": "↑",
+    "key": "Nasdaq",
+    "text": "+1.6% 1d → 25,466",
+    "metric": "nasdaq"
+   },
+   {
+    "tone": "warn",
+    "arrow": "↻",
+    "key": "Scorecards",
+    "text": "Leverage: Funding firm → Funding cooling; On-chain cycle: STH underwater → STH capitulating; RSDH: BULL · BTC85/CASH15 → BULL · BTC39/BNB46/CASH15; Risk appetite: Fragile → Split; +1 more"
+   }
+  ],
+  "roc": {
+   "btc": {
+    "label": "BTC price",
+    "group": "Crypto",
+    "value": 73691.445,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "24h",
+      "d": 0.303,
+      "txt": "+0.30%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -2.961,
+      "txt": "−3.0%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -11.315,
+      "txt": "−11.3%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "eth": {
+    "label": "ETH price",
+    "group": "Crypto",
+    "value": 2052.045,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "24h",
+      "d": -0.219,
+      "txt": "−0.22%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -8.153,
+      "txt": "−8.2%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -17.797,
+      "txt": "−17.8%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "eth_btc": {
+    "label": "ETH / BTC",
+    "group": "Crypto",
+    "value": 0.027846448118909867,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.5145,
+      "txt": "−0.51%",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -7.4695,
+      "txt": "−7.5%",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -7.8385,
+      "txt": "−7.8%",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "btc_dom": {
+    "label": "BTC dominance",
+    "group": "Crypto",
+    "value": 60.569014086126,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.1584,
+      "txt": "+0.2 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 0.4077,
+      "txt": "+0.4 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 0.8162,
+      "txt": "+0.8 pp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "mcap": {
+    "label": "Total crypto market cap",
+    "group": "Crypto",
+    "value": 2448.336976369233,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "24h",
+      "d": -0.3016,
+      "txt": "−0.30%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -8.8754,
+      "txt": "−8.9%",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -12.8629,
+      "txt": "−12.9%",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "stables": {
+    "label": "Stablecoin supply",
+    "group": "Crypto",
+    "value": 289.04,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.694,
+      "txt": "−0.69%",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -1.466,
+      "txt": "−1.5%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -4.901,
+      "txt": "−4.9%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "dxy": {
+    "label": "DXY",
+    "group": "Macro",
+    "value": 103.025,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.7442,
+      "txt": "+0.74%",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": 0.709,
+      "txt": "+0.71%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": 0.827,
+      "txt": "+0.83%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "us10y": {
+    "label": "U.S. 10Y yield",
+    "group": "Macro",
+    "value": 4.998,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 1.5,
+      "txt": "+2 bp",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": 13.9016,
+      "txt": "+14 bp",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": -24.1982,
+      "txt": "−24 bp",
+      "tone": "pos",
+      "src": "source"
+     }
+    ]
+   },
+   "spx": {
+    "label": "S&P 500",
+    "group": "Macro",
+    "value": 7619.38,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 1.309,
+      "txt": "+1.3%",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": 3.288,
+      "txt": "+3.3%",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": -2.406,
+      "txt": "−2.4%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "nasdaq": {
+    "label": "Nasdaq",
+    "group": "Macro",
+    "value": 25466.19,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 1.5971,
+      "txt": "+1.6%",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": 3.608,
+      "txt": "+3.6%",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": -6.532,
+      "txt": "−6.5%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "vix": {
+    "label": "VIX",
+    "group": "Macro",
+    "value": 17.49,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -10.1233,
+      "txt": "−10.1%",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": -31.786,
+      "txt": "−31.8%",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": 14.99,
+      "txt": "+15.0%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "gold": {
+    "label": "Gold",
+    "group": "Macro",
+    "value": 3984.1,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -1.7654,
+      "txt": "−1.8%",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": -2.228,
+      "txt": "−2.2%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": -4.625,
+      "txt": "−4.6%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oil": {
+    "label": "WTI oil",
+    "group": "Macro",
+    "value": 85.5,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -1.3158,
+      "txt": "−1.3%",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "5s",
+      "d": -5.868,
+      "txt": "−5.9%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "1m",
+      "d": -9.178,
+      "txt": "−9.2%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "us2y": {
+    "label": "U.S. 2Y yield (Treasury)",
+    "group": "Macro",
+    "value": 4.73,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": null
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 15.0,
+      "txt": "+15 bp",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -7.0,
+      "txt": "−7 bp",
+      "tone": "pos",
+      "src": "history"
+     }
+    ]
+   },
+   "spread_2s10s": {
+    "label": "2s10s spread",
+    "group": "Macro",
+    "value": 0.25,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": null
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -7.0,
+      "txt": "−7 bp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -19.0,
+      "txt": "−19 bp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "real10y": {
+    "label": "10Y real yield (TIPS)",
+    "group": "Macro",
+    "value": 2.66,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": null
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 4.0,
+      "txt": "+4 bp",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -21.0,
+      "txt": "−21 bp",
+      "tone": "pos",
+      "src": "history"
+     }
+    ]
+   },
+   "p7_base": {
+    "label": "7-day odds · Base",
+    "group": "Outlook odds",
+    "value": 42.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 2.0,
+      "txt": "+2 pts",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -8.0,
+      "txt": "−8 pts",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -8.0,
+      "txt": "−8 pts",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "p7_bull": {
+    "label": "7-day odds · Bull",
+    "group": "Outlook odds",
+    "value": 12.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pts",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -4.0,
+      "txt": "−4 pts",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -8.0,
+      "txt": "−8 pts",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "p7_bear": {
+    "label": "7-day odds · Bear",
+    "group": "Outlook odds",
+    "value": 46.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -2.0,
+      "txt": "−2 pts",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 12.0,
+      "txt": "+12 pts",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 16.0,
+      "txt": "+16 pts",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "p1m_base": {
+    "label": "1-month odds · Base",
+    "group": "Outlook odds",
+    "value": 44.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 1.0,
+      "txt": "+1 pt",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -3.0,
+      "txt": "−3 pts",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -1.0,
+      "txt": "−1 pt",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "p1m_bull": {
+    "label": "1-month odds · Bull",
+    "group": "Outlook odds",
+    "value": 13.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pts",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -4.0,
+      "txt": "−4 pts",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -7.0,
+      "txt": "−7 pts",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "p1m_bear": {
+    "label": "1-month odds · Bear",
+    "group": "Outlook odds",
+    "value": 43.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -1.0,
+      "txt": "−1 pt",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 7.0,
+      "txt": "+7 pts",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 8.0,
+      "txt": "+8 pts",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "rsdh_slow": {
+    "label": "RSDH slow (macro) score",
+    "group": "RSDH",
+    "value": 221.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 2.0,
+      "txt": "+2",
+      "tone": "pos",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -22.0,
+      "txt": "−22",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -138.0,
+      "txt": "−138",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "rsdh_fast": {
+    "label": "RSDH fast score",
+    "group": "RSDH",
+    "value": -49.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -2.0,
+      "txt": "−2",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -32.0,
+      "txt": "−32",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -88.0,
+      "txt": "−88",
+      "tone": "neg",
+      "src": "history"
+     }
+    ]
+   },
+   "w_btc": {
+    "label": "RSDH weight · BTC",
+    "group": "RSDH",
+    "value": 39.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -46.0,
+      "txt": "−46 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -12.0,
+      "txt": "−12 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 34.0,
+      "txt": "+34 pp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "w_eth": {
+    "label": "RSDH weight · ETH",
+    "group": "RSDH",
+    "value": 0.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     }
+    ]
+   },
+   "w_bnb": {
+    "label": "RSDH weight · BNB",
+    "group": "RSDH",
+    "value": 46.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 46.0,
+      "txt": "+46 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 46.0,
+      "txt": "+46 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 46.0,
+      "txt": "+46 pp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "w_xrp": {
+    "label": "RSDH weight · XRP",
+    "group": "RSDH",
+    "value": 0.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     }
+    ]
+   },
+   "w_sol": {
+    "label": "RSDH weight · SOL",
+    "group": "RSDH",
+    "value": 0.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -49.0,
+      "txt": "−49 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -95.0,
+      "txt": "−95 pp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "w_cash": {
+    "label": "RSDH weight · Cash",
+    "group": "RSDH",
+    "value": 15.0,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 15.0,
+      "txt": "+15 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 15.0,
+      "txt": "+15 pp",
+      "tone": "acc",
+      "src": "history"
+     }
+    ]
+   },
+   "oi_agg": {
+    "label": "BTC futures OI (all venues)",
+    "group": "Leverage",
+    "value": 50.722,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": null
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": 3.7074,
+      "txt": "+3.7%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": null
+     }
+    ]
+   },
+   "funding": {
+    "label": "BTC funding (ann., CheckOnChain)",
+    "group": "Leverage",
+    "value": 7.8325,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -2.5675,
+      "txt": "−2.6 pp",
+      "tone": "acc",
+      "src": "history"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0675,
+      "txt": "−0.1 pp",
+      "tone": "flat",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": null
+     }
+    ]
+   },
+   "etf_week": {
+    "label": "BTC ETF net flow, latest week",
+    "group": "Flows",
+    "value": -1281.7,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": null
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -281.7,
+      "txt": "−$282M",
+      "tone": "neg",
+      "src": "history"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": null
+     }
+    ]
+   },
+   "rsdh_strat": {
+    "label": "RSDH growth of $1 · since Sep 7",
+    "group": "RSDH",
+    "value": 0.8547008547008548,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0,
+      "txt": "±0.00%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -9.9099,
+      "txt": "−9.9%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -17.3554,
+      "txt": "−17.4%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "rsdh_btcx": {
+    "label": "BTC hold growth of $1 · since Sep 7",
+    "group": "RSDH",
+    "value": 0.9291338582677164,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.8547,
+      "txt": "+0.85%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -7.8125,
+      "txt": "−7.8%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -9.2308,
+      "txt": "−9.2%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "rsdh_edge": {
+    "label": "RSDH vs BTC (relative)",
+    "group": "RSDH",
+    "value": 0.9198899029407506,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.8475,
+      "txt": "−0.85%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -2.2752,
+      "txt": "−2.3%",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -8.9508,
+      "txt": "−9.0%",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_realized_price": {
+    "label": "STH cost basis",
+    "group": "On-chain · short-term holders",
+    "value": 75617.7,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.1306,
+      "txt": "−0.13%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.4519,
+      "txt": "−0.45%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 1.7842,
+      "txt": "+1.8%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_mvrv": {
+    "label": "STH-MVRV",
+    "group": "On-chain · short-term holders",
+    "value": 0.981148,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0117,
+      "txt": "+0.01",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0769,
+      "txt": "−0.08",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1221,
+      "txt": "−0.12",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_mvrv_z": {
+    "label": "STH-MVRV Z",
+    "group": "On-chain · short-term holders",
+    "value": -0.40284884895351686,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0944,
+      "txt": "+0.09",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.6023,
+      "txt": "−0.60",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.9462,
+      "txt": "−0.95",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_sopr": {
+    "label": "STH-SOPR",
+    "group": "On-chain · short-term holders",
+    "value": 0.990925698667391,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0011,
+      "txt": "−0.001",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.009,
+      "txt": "−0.009",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.012,
+      "txt": "−0.012",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_nupl": {
+    "label": "STH-NUPL",
+    "group": "On-chain · short-term holders",
+    "value": -0.019214159555403,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0124,
+      "txt": "+0.012",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0741,
+      "txt": "−0.074",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1128,
+      "txt": "−0.113",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sth_supply_profit": {
+    "label": "STH supply in profit",
+    "group": "On-chain · short-term holders",
+    "value": 0.3144855825397997,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 4.2896,
+      "txt": "+4.3 pp",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -31.4383,
+      "txt": "−31.4 pp",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -35.8033,
+      "txt": "−35.8 pp",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_realized_price": {
+    "label": "LTH cost basis",
+    "group": "On-chain · long-term holders",
+    "value": 48753.27,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0131,
+      "txt": "−0.01%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.2739,
+      "txt": "−0.27%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -1.2196,
+      "txt": "−1.2%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_mvrv": {
+    "label": "LTH-MVRV",
+    "group": "On-chain · long-term holders",
+    "value": 1.521788,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0164,
+      "txt": "+0.02",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.1223,
+      "txt": "−0.12",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1389,
+      "txt": "−0.14",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_mvrv_z": {
+    "label": "LTH-MVRV Z",
+    "group": "On-chain · long-term holders",
+    "value": -0.6511920456907531,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0129,
+      "txt": "+0.01",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0902,
+      "txt": "−0.09",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1003,
+      "txt": "−0.10",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_sopr": {
+    "label": "LTH-SOPR",
+    "group": "On-chain · long-term holders",
+    "value": 1.0070333530337248,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.022,
+      "txt": "+0.022",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0311,
+      "txt": "−0.031",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.2295,
+      "txt": "−0.229",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_nupl": {
+    "label": "LTH-NUPL",
+    "group": "On-chain · long-term holders",
+    "value": 0.3428784119508046,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0072,
+      "txt": "+0.007",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0489,
+      "txt": "−0.049",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.055,
+      "txt": "−0.055",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_lth_supply_profit": {
+    "label": "LTH supply in profit",
+    "group": "On-chain · long-term holders",
+    "value": 0.65447932443514,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.3411,
+      "txt": "+0.3 pp",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -3.0507,
+      "txt": "−3.1 pp",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -2.538,
+      "txt": "−2.5 pp",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_mvrv": {
+    "label": "MVRV",
+    "group": "On-chain · market-wide",
+    "value": 1.377,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0151,
+      "txt": "+0.02",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.1117,
+      "txt": "−0.11",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1456,
+      "txt": "−0.15",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_mvrv_z": {
+    "label": "MVRV Z-Score",
+    "group": "On-chain · market-wide",
+    "value": -0.5010776399166108,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0288,
+      "txt": "+0.03",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.2035,
+      "txt": "−0.20",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.2615,
+      "txt": "−0.26",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_realized_price": {
+    "label": "Realized price",
+    "group": "On-chain · market-wide",
+    "value": 53879.55,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0266,
+      "txt": "−0.03%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.1998,
+      "txt": "−0.20%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": 0.0921,
+      "txt": "+0.09%",
+      "tone": "flat",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_true_market_mean": {
+    "label": "True market mean",
+    "group": "On-chain · market-wide",
+    "value": 77437.77,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0336,
+      "txt": "−0.03%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.2439,
+      "txt": "−0.24%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.0385,
+      "txt": "−0.04%",
+      "tone": "flat",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_nupl": {
+    "label": "NUPL",
+    "group": "On-chain · market-wide",
+    "value": 0.2737837798495151,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.008,
+      "txt": "+0.008",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0545,
+      "txt": "−0.055",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.0695,
+      "txt": "−0.069",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sopr": {
+    "label": "SOPR",
+    "group": "On-chain · market-wide",
+    "value": 0.9909936,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.004,
+      "txt": "+0.004",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.018,
+      "txt": "−0.018",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.0156,
+      "txt": "−0.016",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_sopr_7d_ema": {
+    "label": "SOPR 7d EMA",
+    "group": "On-chain · market-wide",
+    "value": 0.9932280593287371,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0003,
+      "txt": "±0.000",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0065,
+      "txt": "−0.006",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.0191,
+      "txt": "−0.019",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_supply_profit": {
+    "label": "Supply in profit",
+    "group": "On-chain · market-wide",
+    "value": 0.5896015565754975,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 1.0809,
+      "txt": "+1.1 pp",
+      "tone": "pos",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -8.4813,
+      "txt": "−8.5 pp",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -8.894,
+      "txt": "−8.9 pp",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_puell": {
+    "label": "Puell Multiple",
+    "group": "On-chain · market-wide",
+    "value": 0.8655570108669811,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.0442,
+      "txt": "−0.04",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.1719,
+      "txt": "−0.17",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.2459,
+      "txt": "−0.25",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_reserve_risk": {
+    "label": "Reserve Risk",
+    "group": "On-chain · market-wide",
+    "value": 0.0011763917207117448,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.3121,
+      "txt": "+0.3%",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -8.283,
+      "txt": "−8.3%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -10.5808,
+      "txt": "−10.6%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_rhodl": {
+    "label": "RHODL Ratio",
+    "group": "On-chain · market-wide",
+    "value": 0.0864705970514749,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -5.7565,
+      "txt": "−5.8%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -38.0119,
+      "txt": "−38.0%",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -31.1405,
+      "txt": "−31.1%",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "oc_mayer": {
+    "label": "Mayer Multiple",
+    "group": "On-chain · market-wide",
+    "value": 1.0112173196174337,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.0038,
+      "txt": "±0.00",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.0876,
+      "txt": "−0.09",
+      "tone": "neg",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.1232,
+      "txt": "−0.12",
+      "tone": "neg",
+      "src": "source"
+     }
+    ]
+   },
+   "val_short": {
+    "label": "Short-term valuation score",
+    "group": "Valuation",
+    "value": -0.185,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": 0.038,
+      "txt": "+0.04",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.373,
+      "txt": "−0.37",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.615,
+      "txt": "−0.61",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   },
+   "val_long": {
+    "label": "Long-term valuation score",
+    "group": "Valuation",
+    "value": -0.514,
+    "windows": [
+     {
+      "slot": "1d",
+      "label": "1d",
+      "d": -0.004,
+      "txt": "±0.00",
+      "tone": "flat",
+      "src": "source"
+     },
+     {
+      "slot": "7d",
+      "label": "7d",
+      "d": -0.268,
+      "txt": "−0.27",
+      "tone": "acc",
+      "src": "source"
+     },
+     {
+      "slot": "30d",
+      "label": "30d",
+      "d": -0.334,
+      "txt": "−0.33",
+      "tone": "acc",
+      "src": "source"
+     }
+    ]
+   }
+  },
+  "history_building": []
+ },
  "assets": [
   "assets/x/2120429398713077862.jpg",
   "assets/x/2120476372435157142.jpg",
