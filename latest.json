@@ -49,7 +49,7 @@
   {
    "id": "news",
    "nav": "News",
-   "html": "<section class=\"block card news-card\"><h2>Top news <span class=\"tag soft\">2026-11-17 05:55 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://swolecharts.com/liquidations/daily/2026-11-16\" rel=\"noopener\" target=\"_blank\">Liquidations fall to ~$156M as shorts lead</a></div><div class=\"news-blurb\"> Forced selling has faded.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://fxnews.ai/news/eur-usd-nineteen-month-low-fed-hike-pricing-nov16/\" rel=\"noopener\" target=\"_blank\">December hike ~93% priced, 50bp odds ease</a></div><div class=\"news-blurb\"> Tighter policy keeps the dollar and real yields firm, a headwind for BTC.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Futures traders keep cutting exposure: <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> −7% in a week</a></div><div class=\"news-blurb\"> Less leverage lowers the risk of another cascade.</div></li></ul></section>"
+   "html": "<section class=\"block card news-card\"><h2>Top news <span class=\"tag soft\">2026-11-19 05:55 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Short-term holders capitulate: ~4% of <abbr class=\"gl\" tabindex=\"0\" title=\"Short-term holders: coins held under ~155 days.\">STH</abbr> supply in profit</a></div><div class=\"news-blurb\"> Recent buyers are almost all under water.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://swolecharts.com/liquidations/daily/2026-11-18\" rel=\"noopener\" target=\"_blank\">Liquidations ~$198M, longs hit for a 2nd day</a></div><div class=\"news-blurb\"> Long liquidations are steady but small.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://charts.checkonchain.com/\" rel=\"noopener\" target=\"_blank\">Futures unwind slows: <abbr class=\"gl\" tabindex=\"0\" title=\"Open interest: total value of open futures positions. Falling OI = leverage being cleared out.\">OI</abbr> −3.5% in a week</a></div><div class=\"news-blurb\"> Less forced selling ahead.</div></li></ul></section>"
   },
   {
    "id": "roc",
@@ -2749,23 +2749,23 @@
    },
    "calibrated_odds": {
     "7d": {
-     "Base": 52,
+     "Base": 51,
      "Bull": 8,
-     "Bear": 40
+     "Bear": 41
     },
     "1m": {
-     "Base": 43,
-     "Bull": 10,
+     "Base": 42,
+     "Bull": 11,
      "Bear": 47
     }
    },
    "gate": {
     "7d": {
-     "n": 42,
-     "n_live": 0,
+     "n": 43,
+     "n_live": 1,
      "n_backtest": 42,
-     "brier_raw": 0.4808,
-     "brier_cal": 0.5088,
+     "brier_raw": 0.4809,
+     "brier_cal": 0.5116,
      "min_n": 20,
      "pass": false,
      "shown": "raw",
@@ -2804,12 +2804,12 @@
    },
    "per_horizon": {
     "7d": {
-     "n": 48,
+     "n": 49,
      "w": 0.35,
      "freq": {
-      "Base": 60.8,
-      "Bull": 2.0,
-      "Bear": 37.3
+      "Base": 59.6,
+      "Bull": 1.9,
+      "Bear": 38.5
      },
      "raw": {
       "Base": 47,
@@ -2817,18 +2817,18 @@
       "Bear": 42
      },
      "cal": {
-      "Base": 52,
+      "Base": 51,
       "Bull": 8,
-      "Bear": 40
+      "Bear": 41
      }
     },
     "1m": {
-     "n": 28,
-     "w": 0.318,
+     "n": 29,
+     "w": 0.326,
      "freq": {
-      "Base": 35.5,
-      "Bull": 3.2,
-      "Bear": 61.3
+      "Base": 34.4,
+      "Bull": 3.1,
+      "Bear": 62.5
      },
      "raw": {
       "Base": 46,
@@ -2836,26 +2836,26 @@
       "Bear": 40
      },
      "cal": {
-      "Base": 43,
-      "Bull": 10,
+      "Base": 42,
+      "Bull": 11,
       "Bear": 47
      }
     }
    },
    "backtest": {
     "7d": {
-     "n": 48,
-     "n_adjusted": 42,
+     "n": 49,
+     "n_adjusted": 43,
      "brier_raw": 0.4814,
-     "brier_cal": 0.5059,
-     "brier_raw_adjusted_only": 0.4808,
-     "brier_cal_adjusted_only": 0.5088
+     "brier_cal": 0.5084,
+     "brier_raw_adjusted_only": 0.4809,
+     "brier_cal_adjusted_only": 0.5116
     },
     "1m": {
-     "n": 28,
+     "n": 29,
      "n_adjusted": 0,
-     "brier_raw": 0.6011,
-     "brier_cal": 0.6011,
+     "brier_raw": 0.6005,
+     "brier_cal": 0.6005,
      "brier_raw_adjusted_only": null,
      "brier_cal_adjusted_only": null
     }
