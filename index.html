@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" href="data:,">
 <title>Market Watcher</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/paper.css">
+<link rel="stylesheet" href="assets/desk.css?v=20261121">
 </head>
 <body>
-<div class="wrap">
-<header class="desk-head">
-  <div>
-    <p class="desk-brand">Market Watcher</p>
-    <p class="desk-date" id="desk-date">&nbsp;</p>
+<header class="mh">
+  <div class="mh-in">
+    <div class="mh-brand"><span class="mh-mark"></span>Market Watcher<span class="mh-sub">Crypto research desk</span></div>
+    <div class="mh-meta"><span id="mh-date"></span><span id="mh-regime" class="mh-rg"></span><span id="mh-upd" class="mh-upd"></span></div>
   </div>
-  <div class="desk-upd" id="desk-upd"></div>
+  <nav class="mn" id="mn" aria-label="Sections"></nav>
 </header>
-<nav class="desk-nav" id="desk-nav" aria-label="Sections"></nav>
-<main id="desk-main"><p class="desk-load">Loading…</p></main>
-<footer class="desk-foot" id="desk-foot"></footer>
-</div>
+<main class="wrap" id="desk-main"><p class="desk-load">Loading…</p></main>
+<footer class="mf" id="mf"></footer>
 <script>
-// Static shell: everything day-specific comes from ./latest.json (export_paper_desk.py).
+// Static shell: everything day-specific comes from ./latest.json (export_paper_desk.py, daily 06:00 pipeline).
 (async function () {
   const main = document.getElementById("desk-main");
   let d;
@@ -37,22 +37,18 @@
   }
   const t = s => String(s == null ? "" : s);
   document.title = d.date ? `Market Watcher · ${d.date}` : "Market Watcher";
-  const dateEl = document.getElementById("desk-date");
-  dateEl.textContent = t(d.date);
-  if (d.regime) {
-    const rg = document.createElement("span");
-    rg.className = "rg " + t(d.regime_class);
-    rg.textContent = d.regime;
-    dateEl.append(" · ", rg);
-  }
-  document.getElementById("desk-upd").textContent = d.updated ? `Updated ${d.updated}` : "";
-  document.getElementById("desk-foot").textContent = d.date ? `Snapshot · ${d.date}` : "";
+  const dt = d.date ? new Date(d.date + "T12:00:00") : null;
+  document.getElementById("mh-date").textContent = dt ? dt.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" }) : "";
+  const rg = document.getElementById("mh-regime");
+  if (d.regime) { rg.textContent = d.regime; rg.classList.add(t(d.regime_class)); } else rg.remove();
+  document.getElementById("mh-upd").textContent = d.updated ? t(d.updated).replace(/^\d{4}-\d{2}-\d{2}\s*/, "") : "";
+  document.getElementById("mf").textContent = d.date ? `Market Watcher · ${d.date}` : "";
 
-  const nav = document.getElementById("desk-nav");
+  const nav = document.getElementById("mn");
   main.innerHTML = "";
-  (d.sections || []).forEach(s => {
-    const sec = document.createElement("div");
-    sec.className = "desk-sec";
+  (d.sections || []).forEach((s, i) => {
+    const sec = document.createElement("section");
+    sec.className = "ds ds-" + s.id + (i > 1 ? " ds-detail" : "");
     sec.id = s.id;
     sec.innerHTML = s.html;          // rendered + escaped server-side by the exporter
     main.appendChild(sec);
@@ -62,11 +58,10 @@
     nav.appendChild(a);
   });
 
-  // Scroll-spy: highlight the last section whose top has passed under the sticky nav.
   const links = [...nav.querySelectorAll("a")];
   const secs = links.map(a => document.getElementById(a.hash.slice(1)));
   function spy() {
-    const y = nav.getBoundingClientRect().bottom + 12;
+    const y = nav.getBoundingClientRect().bottom + 16;
     let idx = 0;
     secs.forEach((s, i) => { if (s.getBoundingClientRect().top <= y) idx = i; });
     if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) idx = secs.length - 1;
