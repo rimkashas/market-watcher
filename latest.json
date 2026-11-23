@@ -9,7 +9,7 @@
   {
    "id": "top",
    "nav": "Today",
-   "html": "<section class=\"tp\"><div class=\"tp-a\"><p class=\"tp-kick\">Crypto risk stance</p><div class=\"sc-scale\" role=\"img\" aria-label=\"Crypto risk stance: Defensive\"><span class=\"sc-seg s0 on\"><i class=\"sc-mk\">▼</i>Defensive</span><span class=\"sc-seg s1 \">Selective</span><span class=\"sc-seg s2 \">Constructive</span><span class=\"sc-seg s3 \">Aggressive</span></div><h1 class=\"tp-thesis\">BTC holds the bounce at ~$61.2k with liquidations down 79% and put skew easing sharply, while RSDH stays 100% CASH (0.80× vs BTC 0.77× on the Sep 7 basis).</h1></div><div class=\"tp-b\"><p class=\"tp-kick\">Bitcoin</p><p class=\"tp-px\">$61,158</p><p class=\"tp-w\"><span class=\"pos\"><b>24h</b>+3.3%</span><span class=\"neg\"><b>7d</b>−5.8%</span><span class=\"neg\"><b>30d</b>−24.4%</span></p></div><div class=\"tp-c\"><p class=\"tp-kick\">Odds · BTC range</p><div class=\"tp-odds\"><div class=\"od\"><h4>7 days</h4><div class=\"od-row\"><div class=\"od-c bull\"><span class=\"od-k\">Bull</span><span class=\"od-p\">18<small>%</small><i class=\"up\">▲4</i></span><span class=\"od-t\">&gt;$66k</span></div><div class=\"od-c base\"><span class=\"od-k\">Base</span><span class=\"od-p\">49<small>%</small><i class=\"up\">▲2</i></span><span class=\"od-t\">$55–66k</span></div><div class=\"od-c bear\"><span class=\"od-k\">Bear</span><span class=\"od-p\">33<small>%</small><i class=\"dn\">▼6</i></span><span class=\"od-t\">&lt;$55k</span></div></div></div><div class=\"od\"><h4>1 month</h4><div class=\"od-row\"><div class=\"od-c bull\"><span class=\"od-k\">Bull</span><span class=\"od-p\">20<small>%</small><i class=\"up\">▲3</i></span><span class=\"od-t\">&gt;$70k</span></div><div class=\"od-c base\"><span class=\"od-k\">Base</span><span class=\"od-p\">43<small>%</small><i class=\"dn\">▼1</i></span><span class=\"od-t\">$49–70k</span></div><div class=\"od-c bear\"><span class=\"od-k\">Bear</span><span class=\"od-p\">37<small>%</small><i class=\"dn\">▼2</i></span><span class=\"od-t\">&lt;$49k</span></div></div></div></div></div><div class=\"tp-d\"><p class=\"tp-kick\">Top changes · vs 2026-11-22</p><table class=\"tp-chg\"><tr class=\"cat\"><td class=\"k\">Futures positioning</td><td class=\"v\">Leveraged Sell-Off<small>was Deleveraging Sell-Off</small></td><td class=\"n d \"></td></tr><tr class=\"\"><td class=\"k\">RSDH slow (macro) score</td><td class=\"v\">−123</td><td class=\"n d pos\">↑ +88</td></tr><tr class=\"\"><td class=\"k\">SOPR</td><td class=\"v\">0.992</td><td class=\"n d pos\">↑ +0.037</td></tr></table></div></section>"
+   "html": "<section class=\"tp\"><div class=\"tp-a\"><p class=\"tp-kick\">Crypto risk stance</p><div class=\"sc-scale\" role=\"img\" aria-label=\"Crypto risk stance: Defensive\"><span class=\"sc-seg s0 on\"><i class=\"sc-mk\">▼</i>Defensive</span><span class=\"sc-seg s1 \">Selective</span><span class=\"sc-seg s2 \">Constructive</span><span class=\"sc-seg s3 \">Aggressive</span></div><h1 class=\"tp-thesis\">BTC holds the bounce at ~$61.2k with liquidations down 79% and put skew easing sharply, while RSDH stays 100% CASH (0.79× vs BTC 0.76× on the Sep 7 basis).</h1></div><div class=\"tp-b\"><p class=\"tp-kick\">Bitcoin</p><p class=\"tp-px\">$61,158</p><p class=\"tp-w\"><span class=\"pos\"><b>24h</b>+3.3%</span><span class=\"neg\"><b>7d</b>−5.8%</span><span class=\"neg\"><b>30d</b>−24.4%</span></p></div><div class=\"tp-c\"><p class=\"tp-kick\">Odds · BTC range</p><div class=\"tp-odds\"><div class=\"od\"><h4>7 days</h4><div class=\"od-row\"><div class=\"od-c bull\"><span class=\"od-k\">Bull</span><span class=\"od-p\">18<small>%</small><i class=\"up\">▲4</i></span><span class=\"od-t\">&gt;$66k</span></div><div class=\"od-c base\"><span class=\"od-k\">Base</span><span class=\"od-p\">49<small>%</small><i class=\"up\">▲2</i></span><span class=\"od-t\">$55–66k</span></div><div class=\"od-c bear\"><span class=\"od-k\">Bear</span><span class=\"od-p\">33<small>%</small><i class=\"dn\">▼6</i></span><span class=\"od-t\">&lt;$55k</span></div></div></div><div class=\"od\"><h4>1 month</h4><div class=\"od-row\"><div class=\"od-c bull\"><span class=\"od-k\">Bull</span><span class=\"od-p\">20<small>%</small><i class=\"up\">▲3</i></span><span class=\"od-t\">&gt;$70k</span></div><div class=\"od-c base\"><span class=\"od-k\">Base</span><span class=\"od-p\">43<small>%</small><i class=\"dn\">▼1</i></span><span class=\"od-t\">$49–70k</span></div><div class=\"od-c bear\"><span class=\"od-k\">Bear</span><span class=\"od-p\">37<small>%</small><i class=\"dn\">▼2</i></span><span class=\"od-t\">&lt;$49k</span></div></div></div></div></div><div class=\"tp-d\"><p class=\"tp-kick\">Top changes · vs 2026-11-22</p><table class=\"tp-chg\"><tr class=\"cat\"><td class=\"k\">Futures positioning</td><td class=\"v\">Leveraged Sell-Off<small>was Deleveraging Sell-Off</small></td><td class=\"n d \"></td></tr><tr class=\"\"><td class=\"k\">RSDH slow (macro) score</td><td class=\"v\">−123</td><td class=\"n d pos\">↑ +88</td></tr><tr class=\"\"><td class=\"k\">SOPR</td><td class=\"v\">0.992</td><td class=\"n d pos\">↑ +0.037</td></tr></table></div></section>"
   },
   {
    "id": "view",
@@ -29,7 +29,7 @@
   {
    "id": "news",
    "nav": "News",
-   "html": "<section class=\"block card news-card\"><h2>Top news <span class=\"tag soft\">2026-11-23 05:54 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession\" rel=\"noopener\" target=\"_blank\">Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December</a></div><div class=\"news-blurb\"> Markets and economists widely expect the US Federal Reserve to raise interest rates by…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges\" rel=\"noopener\" target=\"_blank\">Half of wallets on Trump’s dinner list got tokens from non-US exchanges</a></div><div class=\"news-blurb\"> Public Citizen traced 66 of 130 qualifying wallets to exchanges that restrict US users.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838\" rel=\"noopener\" target=\"_blank\">A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge</a></div><div class=\"news-blurb\"> One trader managed to turn about $50 into nearly $17.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828\" rel=\"noopener\" target=\"_blank\">Trump to host second memecoin dinner tonight with TRUMP down 99% from peak</a></div><div class=\"news-blurb\"> Boxer Floyd Mayweather, \"Shark Tank\" investor Kevin O'Leary and NBA champion Tristan Thompson are…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.coindesk.com/\" rel=\"noopener\" target=\"_blank\">More on the pending oversight hearings: State of Crypto</a></div><div class=\"news-blurb\"> New letters show the widening range of Congressional committees that will be probing the…</div></li></ul></section>"
+   "html": "<section class=\"block card news-card\"><h2>Top news <span class=\"tag soft\">2026-11-23 05:55 Vilnius (UTC+2)</span></h2><ul class=\"news-list\"><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession\" rel=\"noopener\" target=\"_blank\">Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December</a></div><div class=\"news-blurb\"> Markets and economists widely expect the US Federal Reserve to raise interest rates by…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges\" rel=\"noopener\" target=\"_blank\">Half of wallets on Trump’s dinner list got tokens from non-US exchanges</a></div><div class=\"news-blurb\"> Public Citizen traced 66 of 130 qualifying wallets to exchanges that restrict US users.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838\" rel=\"noopener\" target=\"_blank\">A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge</a></div><div class=\"news-blurb\"> One trader managed to turn about $50 into nearly $17.</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828\" rel=\"noopener\" target=\"_blank\">Trump to host second memecoin dinner tonight with TRUMP down 99% from peak</a></div><div class=\"news-blurb\"> Boxer Floyd Mayweather, \"Shark Tank\" investor Kevin O'Leary and NBA champion Tristan Thompson are…</div></li><li class=\"news-item\"><div class=\"news-head\"><a href=\"https://www.coindesk.com/\" rel=\"noopener\" target=\"_blank\">More on the pending oversight hearings: State of Crypto</a></div><div class=\"news-blurb\"> New letters show the widening range of Congressional committees that will be probing the…</div></li></ul></section>"
   },
   {
    "id": "rsdh",
@@ -2729,9 +2729,9 @@
    },
    "calibrated_odds": {
     "7d": {
-     "Base": 52,
+     "Base": 53,
      "Bull": 12,
-     "Bear": 36
+     "Bear": 35
     },
     "1m": {
      "Base": 39,
@@ -2741,26 +2741,26 @@
    },
    "gate": {
     "7d": {
-     "n": 46,
-     "n_live": 4,
+     "n": 47,
+     "n_live": 5,
      "n_backtest": 42,
-     "brier_raw": 0.483,
-     "brier_cal": 0.515,
+     "brier_raw": 0.4826,
+     "brier_cal": 0.512,
      "min_n": 20,
      "pass": false,
      "shown": "raw",
      "reason": "calibrated not yet better than raw"
     },
     "1m": {
-     "n": 2,
+     "n": 3,
      "n_live": 0,
-     "n_backtest": 2,
+     "n_backtest": 3,
      "brier_raw": 0.62,
-     "brier_cal": 0.62,
+     "brier_cal": 0.6274,
      "min_n": 20,
      "pass": false,
      "shown": "raw",
-     "reason": "only 2 of 20 matured calibrated calls"
+     "reason": "only 3 of 20 matured calibrated calls"
     }
    },
    "shown": {
@@ -2784,12 +2784,12 @@
    },
    "per_horizon": {
     "7d": {
-     "n": 52,
+     "n": 53,
      "w": 0.35,
      "freq": {
-      "Base": 58.2,
+      "Base": 58.9,
       "Bull": 1.8,
-      "Bear": 40.0
+      "Bear": 39.3
      },
      "raw": {
       "Base": 49,
@@ -2797,18 +2797,18 @@
       "Bear": 33
      },
      "cal": {
-      "Base": 52,
+      "Base": 53,
       "Bull": 12,
-      "Bear": 36
+      "Bear": 35
      }
     },
     "1m": {
-     "n": 32,
-     "w": 0.348,
+     "n": 33,
+     "w": 0.35,
      "freq": {
-      "Base": 31.4,
-      "Bull": 2.9,
-      "Bear": 65.7
+      "Base": 30.6,
+      "Bull": 2.8,
+      "Bear": 66.7
      },
      "raw": {
       "Base": 43,
@@ -2824,20 +2824,20 @@
    },
    "backtest": {
     "7d": {
-     "n": 52,
-     "n_adjusted": 46,
-     "brier_raw": 0.4832,
-     "brier_cal": 0.5114,
-     "brier_raw_adjusted_only": 0.483,
-     "brier_cal_adjusted_only": 0.5149
+     "n": 53,
+     "n_adjusted": 47,
+     "brier_raw": 0.4828,
+     "brier_cal": 0.5089,
+     "brier_raw_adjusted_only": 0.4826,
+     "brier_cal_adjusted_only": 0.512
     },
     "1m": {
-     "n": 32,
-     "n_adjusted": 2,
-     "brier_raw": 0.6023,
-     "brier_cal": 0.6023,
+     "n": 33,
+     "n_adjusted": 3,
+     "brier_raw": 0.6029,
+     "brier_cal": 0.6036,
      "brier_raw_adjusted_only": 0.62,
-     "brier_cal_adjusted_only": 0.62
+     "brier_cal_adjusted_only": 0.6274
     }
    },
    "error": null
