@@ -135,7 +135,7 @@ table.tp-chg td.pos{color:var(--pos)} table.tp-chg td.neg{color:var(--neg)} tabl
 .vs-col li:last-child{border-bottom:0}
 .vs-col .k{color:var(--text-soft)} .vs-col .v{font-weight:600;white-space:nowrap}
 .vs-col .v.pos{color:var(--pos)} .vs-col .v.neg{color:var(--neg)}
-.og-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 38px;align-items:start}
+.og-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 38px;align-items:start}
 .og h3{font-family:var(--serif)!important;font-size:19px!important;font-weight:400!important;letter-spacing:-.01em!important;text-transform:none!important;color:var(--text)!important;margin:0 0 4px!important}
 table.og-t{width:100%;border-collapse:collapse;table-layout:fixed}
 table.og-t thead th{font-size:10.5px;font-weight:500;color:var(--dim);padding:6px 0 7px;border-bottom:1px solid var(--border-strong)}
@@ -242,3 +242,16 @@ table.wk-trig td:nth-child(3),table.wk-trig td:nth-child(4){font-weight:600;colo
   .wk-asof{margin-left:0;width:100%} .wk-state b{font-size:18px} table.wk-t th{letter-spacing:.04em}
   table.wk-trig th:nth-child(2),table.wk-trig td:nth-child(2){display:none}}
 .wk-i{white-space:nowrap;display:inline-flex;align-items:baseline;gap:8px}
+
+
+/* ── valuation strip (2026-11-27): ST / LT scores in [-1, +1] ── */
+.wk-val{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--text);margin:0 0 18px}
+.wk-val-i{padding:8px 20px 10px 0;min-width:0}
+.wk-val-i + .wk-val-i{padding-left:20px;border-left:1px solid var(--border)}
+.wk-val .wk-k{margin-left:0}
+.wk-val .wk-score{font-family:var(--serif);font-weight:500;font-size:28px;letter-spacing:-.02em;line-height:1.1;margin:2px 0 4px;display:block}
+.wk-val .wk-score.pos{color:var(--pos)} .wk-val .wk-score.neg{color:var(--neg)} .wk-val .wk-score.neutral{color:var(--text)}
+.wk-val .wk-meta{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;font-size:12.5px}
+.wk-val .wk-wow{color:var(--muted);font-variant-numeric:tabular-nums}
+.wk-val .wk-wow.pos{color:var(--pos)} .wk-val .wk-wow.neg{color:var(--neg)}
+@media (max-width:560px){.wk-val{grid-template-columns:1fr}.wk-val-i + .wk-val-i{border-left:0;padding-left:0;border-top:1px solid var(--border);padding-top:10px;margin-top:4px}.wk-val .wk-score{font-size:24px}}
